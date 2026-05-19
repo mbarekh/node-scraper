@@ -1,0 +1,32 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc",
+    "start": "npm run build && npm run dev",
+    "test": "node --test ./src/tests/*.spec.ts"
+  },
+  "keywords": [],
+  "author": "hazem",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@zenrows/browser-sdk": "^1.1.0",
+    "cheerio": "^1.2.0",
+    "dotenv": "^17.3.1",
+    "html-entities": "^2.6.0",
+    "html-to-text": "^9.0.5",
+    "openai": "^6.22.0",
+    "playwright": "^1.58.2",
+    "serpapi": "^2.2.1"
+  },
+  "devDependencies": {
+    "@types/html-to-text": "^9.0.4",
+    "@types/node": "^25.3.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}

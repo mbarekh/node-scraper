@@ -1,0 +1,202 @@
+[
+  {
+    "name": "Example Company",
+    "website": "",
+    "companySize": null,
+    "foundedYear": null,
+    "industry": "Retail",
+    "technology": "API",
+    "customerTypes": [
+      "B2B",
+      "B2C"
+    ],
+    "description": [
+      "Example Company focuses on providing integrated, omnichannel solutions designed to support online selling, inventory management, and customer engagement. Its core product includes an API that enables seamless integration of sales channels, payment options like buy now, pay later through Afterpay, and appointment booking functionalities. The company's primary customers are retail businesses seeking to streamline operations and enhance customer experience, with a particular emphasis on flexible payment options and multichannel sales strategies."
+    ],
+    "linkedinId": "joinsquare",
+    "linkedinUrl": "https://linkedin.com/company/joinsquare",
+    "followers": 687000
+  },
+  {
+    "name": "Tangent",
+    "website": "",
+    "companySize": "51-200",
+    "foundedYear": 2001,
+    "industry": "Software",
+    "technology": "DevTools",
+    "customerTypes": [
+      "B2B"
+    ],
+    "description": [
+      "The digital landscape demands innovative solutions to enhance user engagement and operational efficiency, prompting companies to adopt advanced software development practices.",
+      "Tangent is a London-based digital consultancy founded in 2001, specializing in software development to help organizations create future-ready digital experiences, products, and capabilities with a focus on People, Planet & Purpose.",
+      "Utilizing a team of 51–200 employees across the UK, Spain, and South Africa, Tangent leverages DevTools to deliver tailored software solutions that meet diverse client needs.",
+      "Serving enterprise clients globally, Tangent's expertise in software development enables organizations to innovate, improve customer experiences, and achieve sustainable growth in a competitive market."
+    ],
+    "linkedinId": "thisistangent",
+    "linkedinUrl": "https://linkedin.com/company/thisistangent",
+    "followers": 21200
+  },
+  {
+    "name": "Keystone Recruitment",
+    "website": "",
+    "foundedYear": null,
+    "companySize": "11-50",
+    "industry": "Recruitment",
+    "technology": "CRM",
+    "customerTypes": [
+      "B2B"
+    ],
+    "description": [
+      "Keystone Recruitment specializes in talent acquisition, focusing on long-term placements and cultural fit, utilizing CRM technology to streamline the recruitment process and enhance candidate matching.",
+      "The company's approach involves leveraging CRM systems to identify and connect with suitable candidates efficiently, setting it apart through personalized and culturally aligned recruitment strategies.",
+      "Serving UK-based businesses, Keystone Recruitment positions itself as a key player in the recruitment industry, emphasizing quality placements and long-term client relationships within the B2B market."
+    ],
+    "linkedinId": "keystone-recruitmentt",
+    "linkedinUrl": "https://linkedin.com/company/keystone-recruitmentt",
+    "followers": 90400
+  },
+  {
+    "name": "Citi",
+    "website": "",
+    "companySize": "10001+",
+    "foundedYear": 1998,
+    "industry": "Finance",
+    "technology": "CRM",
+    "customerTypes": [
+      "B2B"
+    ],
+    "description": [
+      "Citi is a financial services corporation with a mission to connect individuals and businesses across the globe. Its core product involves the use of CRM technology to manage client relationships and streamline banking operations. The company primarily serves corporate clients and financial institutions, leveraging its extensive network and history dating back to 1812. Citi's market relevance is underscored by its long-standing heritage and global reach, facilitating international financial transactions and services."
+    ],
+    "linkedinId": "citi",
+    "linkedinUrl": "https://linkedin.com/company/citi",
+    "followers": 5200000
+  },
+  {
+    "name": "Cars Commerce",
+    "website": "",
+    "companySize": "1001-5000",
+    "foundedYear": 1998,
+    "industry": "Automotive",
+    "technology": "API",
+    "customerTypes": [
+      "B2B"
+    ],
+    "description": [
+      "Cars Commerce is an automotive-focused technology company that aims to streamline the process of buying and selling vehicles through its carscommerce.inc platform. The company develops digital marketplace solutions that connect automotive dealers and consumers, facilitating transactions and inventory management. Its primary market segment includes automotive dealerships and related businesses, with a focus on enhancing operational efficiency and customer engagement through API-driven integrations."
+    ],
+    "linkedinId": "cars-commerce",
+    "linkedinUrl": "https://linkedin.com/company/cars-commerce",
+    "followers": 46400
+  },
+  {
+    "name": "DataAnnotation",
+    "website": "",
+    "companySize": "5001-10000",
+    "foundedYear": 2021,
+    "industry": "AI",
+    "technology": "Data Analytics",
+    "customerTypes": [
+      "B2B"
+    ],
+    "description": [
+      "DataAnnotation is a New York-based AI-training platform founded in 2021, employing a remote, contractor-based model to provide data labeling and AI training services, aiming to enhance machine learning models for various industries.",
+      "The company's core technology involves data annotation and AI training tasks, serving clients seeking to improve AI accuracy and efficiency. Its flexible work model attracts a diverse workforce and influences AI development.",
+      "DataAnnotation's mission is to support AI advancements through high-quality data labeling. It positions itself as a key player in AI training, impacting industries that rely on machine learning. The company emphasizes remote work and flexible hours to attract talent."
+    ],
+    "linkedinId": "dataannotationtech",
+    "linkedinUrl": "https://linkedin.com/company/dataannotationtech",
+    "followers": 311200
+  },
+  {
+    "name": "Apple",
+    "website": "",
+    "companySize": "10001+",
+    "foundedYear": 1976,
+    "industry": "Technology",
+    "technology": "Artificial Intelligence",
+    "customerTypes": [
+      "B2C"
+    ],
+    "description": [
+      "Apple is a global technology company dedicated to designing innovative products and services that enhance user experience and foster digital transformation across various sectors.",
+      "Its core technology, artificial intelligence, underpins many of its devices and platforms, enabling personalized and efficient user interactions. The company's products influence millions of consumers worldwide.",
+      "Apple's mission emphasizes innovation and quality, targeting individual consumers and businesses alike. Its technological advancements set industry standards and drive market trends. The company continues to expand its ecosystem, impacting the future of technology."
+    ],
+    "linkedinId": "apple",
+    "linkedinUrl": "https://linkedin.com/company/apple",
+    "followers": 18200000
+  },
+  {
+    "name": "Dice",
+    "website": "",
+    "companySize": "201-500",
+    "foundedYear": 1990,
+    "industry": "Technology",
+    "technology": "API",
+    "customerTypes": [
+      "B2B"
+    ],
+    "description": [
+      "Dice is a technology recruitment platform established in 1990, focusing on connecting tech professionals with relevant job opportunities. Its core service involves facilitating job postings through an API that enables seamless integration with various job boards and platforms. The primary customers are employers seeking qualified candidates and tech professionals seeking employment. The company's market relevance stems from its specialized focus on the technology sector and its extensive network within the industry."
+    ],
+    "linkedinId": "jobs-via-dice",
+    "linkedinUrl": "https://linkedin.com/company/jobs-via-dice",
+    "followers": 72500
+  },
+  {
+    "name": "Optimum",
+    "website": "",
+    "companySize": "5001-10000",
+    "foundedYear": 1973,
+    "industry": "Telecom",
+    "technology": "Networkings",
+    "customerTypes": [
+      "B2B",
+      "B2C"
+    ],
+    "description": [
+      "Optimum, a telecommunications company under Altice USA, aims to provide reliable connectivity through internet, mobile, TV, and phone services to residential and business customers. Its core product involves operating extensive network infrastructure to deliver high-speed services. The company primarily serves individual consumers and enterprises, with a focus on maintaining service quality and coverage in its market segment."
+    ],
+    "linkedinId": "optimum",
+    "linkedinUrl": "https://linkedin.com/company/optimum",
+    "followers": 24600
+  },
+  {
+    "name": "Blink",
+    "website": "",
+    "companySize": null,
+    "foundedYear": null,
+    "industry": "Software",
+    "technology": "API",
+    "customerTypes": [
+      "B2B"
+    ],
+    "description": [
+      "Blink is a mobile-first employee experience platform designed to unify people, systems, and culture within a single application. Its core product integrates various organizational tools through APIs, enabling seamless communication and engagement for corporate clients. The platform primarily serves B2B customers seeking to enhance internal connectivity and digital integration, with a focus on bridging the digital divide to improve employee interactions and organizational cohesion."
+    ],
+    "linkedinId": "blinkexp",
+    "linkedinUrl": "https://linkedin.com/company/blinkexp",
+    "followers": 25000
+  },
+  {
+    "name": "Templeton & Partners",
+    "website": "",
+    "companySize": "51-200",
+    "foundedYear": 1996,
+    "industry": "Technology",
+    "technology": "Recruitment",
+    "customerTypes": [
+      "B2B"
+    ],
+    "description": [
+      "Templeton & Partners is a London-based recruitment firm founded in 1996 that specializes in providing technology and digital transformation services, aiming to connect clients with skilled IT contractors, executives, and tech teams through Statement of Work solutions.",
+      "The company leverages its expertise in technology recruitment to serve organizations seeking digital transformation and IT staffing solutions. Its focus is on delivering tailored staffing services to meet client needs.",
+      "With a workforce of 51–200 employees, Templeton & Partners maintains a strong presence in the tech recruitment industry. The firm is committed to supporting digital innovation and growth for its clients worldwide."
+    ],
+    "linkedinId": "templeton-recruitment",
+    "linkedinUrl": "https://linkedin.com/company/templeton-recruitment",
+    "followers": 129500
+  }
+]

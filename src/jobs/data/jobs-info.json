@@ -1,0 +1,1556 @@
+[
+  {
+    "url": "https://www.pandadoc.com/careers/middle-devops-engineer-eu/",
+    "title": "Middle DevOps Engineer",
+    "employmentType": "fulltime",
+    "publishedAt": null,
+    "salaryRange": {
+      "min": 17400,
+      "max": 26000,
+      "interval": "month",
+      "currency": "PLN",
+      "bonus": true,
+      "equity": true
+    },
+    "skills": ["kubernetes", "terraform", "jenkins", "bash", "python", "go", "aws", "postgresql", "kafka"],
+    "description": [
+      "We are seeking a proactive and self-sufficient DevOps Engineer to join our team.",
+      "You will be instrumental in the design, construction, and maintenance of our core infrastructure.",
+      "Your focus will be on enhancing the entire developer experience by owning the shared infrastructure tools, services, and environments that enable speed, reliability, and security across the organization.",
+      "Infrastructure Evolution: Driving the IaC 2.0 initiative – modernizing our Terragrunt-based repositories, eliminating configuration drift, and ensuring 100% IaC coverage. You will explore and implement AI-driven tools for configuration reviews and impact analysis, reducing human error and support burden.",
+      "GitOps Evaluation: Leading the evaluation of GitOps for three strategic use-cases: simplifying K8s cluster configurations, managing Staging environment states, and potentially replacing current CD implementations for our products.",
+      "Platform Reliability: Enhancing EKS control plane observability and experimenting with nftables adoption to improve network performance and stability.",
+      "Platform & IaC Ownership: Analyze and implement infrastructure designs for services and shared components, managing them as Infrastructure as Code (IaC) using tools like Terraform and Helm within our cloud environment (AWS).",
+      "Delivery Lifecycle Management: Design and implement robust CI/CD pipelines and own the full delivery lifecycle of infrastructure tools, services, and components from development testing through to production rollout.",
+      "Developer Enablement: Actively participate in regular support cadences to provide hands-on technical assistance and expertise to development teams regarding platform adoption and usage.",
+      "Reliability Integration: Integrate and maintain monitoring, logging, and alerting components for platform services, and participate in the team's on-call rotation for immediate incident mitigation within the platform ownership scope.",
+      "Security & Compliance: Collaborate closely with the Security team to embed DevSecOps best practices and guardrails, ensuring the security and compliance of the platform and delivery process.",
+      "Process Improvement: Drive continuous improvements in platform tooling usability, deployment efficiency, and environment stability."
+    ],
+    "requirements": [
+      "Education: While a degree in Computer Science or IT is a nice-to-have, we’re most interested in your technical skills and real-world expertise. Certifications (Bonus): Certified Kubernetes Administrator (CKA) is highly desirable, as well as relevant certifications from major cloud providers (e.g., AWS Certified SysOps Administrator).",
+      "Experience: Minimum of 4 years of professional experience in a DevOps, Platform, or SRE role, with a focus on operating and troubleshooting production environments built on AWS and Kubernetes (EKS). Proven experience contributing to the design and maintenance of CI/CD pipelines and IaC infrastructure for large-scale microservice architectures.",
+      "Technical Skills: Proficiency in Kubernetes and Terraform for provisioning cloud resources (AWS) and managing infrastructure as code (IaC). Deep understanding of CI/CD principles and tooling (e.g., GitLab/GitHub, Jenkins). Strong scripting skills (Bash, Python/Go) for automation. Strong grasp of Networking fundamentals (VPC, DNS, Load Balancing). Familiarity with AI/ML-related services (e.g., AWS Bedrock, SageMaker) is a plus.",
+      "Domain Knowledge: Solid understanding of Observability, DevSecOps, and basic FinOps (cloud cost estimation) practices.",
+      "Soft Skills: Excellent communication and collaboration skills, with the ability to clearly articulate complex issues to both technical and non-technical stakeholders. Candidates must demonstrate strong analytical and problem-solving skills, taking full ownership of tasks and managing multiple priorities in a fast-paced environment."
+    ],
+    "benefits": [
+      "Remote work available (Spain, Ukraine, Portugal, Poland).",
+      "Competitive salary (Poland: 17,400 PLN to 26,000 PLN monthly gross).",
+      "Healthcare coverage via LuxMed (individual or family plan).",
+      "UNUM life insurance (individual or family plan).",
+      "Multisport Card for fitness and wellness (individual or family plan).",
+      "Onboarding allowance for necessary work equipment and setup.",
+      "Six self-care days beyond standard Polish vacation entitlements.",
+      "Wellness, learning and development budgets.",
+      "Employees may be able to purchase company stock or receive annual bonuses."
+    ],
+    "overview": "Middle DevOps Engineer responsible for designing and maintaining core infrastructure using AWS, EKS, Terraform, and Kubernetes. Focuses on platform reliability, IaC coverage, GitOps evaluation, and developer enablement for a high-availability B2B document workflow product.",
+    "seniority": "mid",
+    "category": "devops",
+    "locations": [
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "spain"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "ukraine"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "portugal"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "poland"
+      }
+    ],
+    "companyId": "pandadoc",
+    "workplaceTypes": ["remote"],
+    "remoteLocationTokens": [
+      "businessRegion:emea",
+      "continent:europe",
+      "country:spain",
+      "country:ukraine",
+      "country:portugal",
+      "country:poland"
+    ],
+    "onsiteOrHybrifLocationTokens": []
+  },
+  {
+    "url": "https://www.pandadoc.com/careers/middle-python-engineer-document-app-eu/",
+    "title": "Middle Python Engineer, Document App",
+    "employmentType": "fulltime",
+    "publishedAt": null,
+    "salaryRange": null,
+    "skills": [
+      "python",
+      "django",
+      "postgresql",
+      "redis",
+      "memcached",
+      "aws",
+      "docker",
+      "kubernetes",
+      "kafka",
+      "nats",
+      "rabbitmq",
+      "asyncio",
+      "grafana",
+      "microservices"
+    ],
+    "description": [
+      "The role is part of the Document Domain team, which owns one of the most critical components of our platform - the document itself.",
+      "This team is responsible for the core functionality that powers document creation, editing, and management across the product.",
+      "The responsibilities include improving reliability, maintaining high quality standards, and enhancing developer experience while evolving the document platform to support new product capabilities.",
+      "You will also have a chance to contribute to the long term domain excellence strategy.",
+      "Contribute to the vision and the architecture of the key component of the application - Document domain",
+      "Face and overcome multiple scale-related technical challenges",
+      "Finding and addressing systematic issues to maintain low time-to-change for other developers with a high change-confidence level"
+    ],
+    "requirements": [
+      "At least 3+ years of development experience with Python",
+      "Experience with any relational databases (SQL queries, migrations, optimization)",
+      "Experience with message queues (e.g. RabbitMQ, NATS, Kafka)",
+      "Understanding of event-based systems and basics of DDD",
+      "Strong understanding and experience in AsyncIO",
+      "Good understanding of the development cycle from requirements analysis and deployment to application monitoring",
+      "Hands-on experience in developing applications within both monolithic and microservice architectures",
+      "Communicate effectively in English, both orally and in writing"
+    ],
+    "benefits": [
+      "Competitive salary.",
+      "Remote-first approach with the option for hybrid work from offices in Kyiv, Warsaw, and Lisbon.",
+      "Flexible contract types (employment, employment of record, or B2B) with contract terms and benefits that vary by location.",
+      "Work schedule aligned with EU time zones.",
+      "Honest, open culture that values constructive feedback.",
+      "Professional and personal development within a collaborative, supportive team.",
+      "Stable, growing SaaS product offering an agile environment, ownership, start-up energy, and strong technical challenges.",
+      "Work-life balance, kind co-workers, and creative virtual team-bonding events."
+    ],
+    "overview": "Middle Python Engineer responsible for the Document domain, building core document creation and editing services using Python and Django. You’ll improve reliability, scalability, and developer experience across PandaDoc’s global SaaS document platform.",
+    "seniority": "mid",
+    "category": "backend",
+    "locations": [
+      {
+        "scope": "continent",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "poland"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "ukraine"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "portugal"
+      },
+      {
+        "scope": "city",
+        "workplaceType": "hybrid",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "poland",
+        "city": "warsaw"
+      },
+      {
+        "scope": "city",
+        "workplaceType": "hybrid",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "portugal",
+        "city": "lisbon"
+      },
+      {
+        "scope": "city",
+        "workplaceType": "hybrid",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "ukraine",
+        "city": "kyiv"
+      }
+    ],
+    "companyId": "pandadoc",
+    "workplaceTypes": ["remote", "hybrid"],
+    "remoteLocationTokens": [
+      "businessRegion:emea",
+      "continent:europe",
+      "country:poland",
+      "country:ukraine",
+      "country:portugal"
+    ],
+    "onsiteOrHybrifLocationTokens": [
+      "businessRegion:emea",
+      "continent:europe",
+      "country:poland",
+      "city:warsaw",
+      "country:portugal",
+      "city:lisbon",
+      "country:ukraine",
+      "city:kyiv"
+    ]
+  },
+  {
+    "url": "https://www.pandadoc.com/careers/mobile-team-lead-stack-react-native-react-js-ts-eu/",
+    "title": "Mobile Team Lead (Stack: React Native, React, JS, TS)",
+    "employmentType": "fulltime",
+    "publishedAt": null,
+    "salaryRange": null,
+    "skills": ["react-native", "react", "typescript", "javascript", "ios", "android", "ci_cd"],
+    "description": [
+      "Own and evolve the architecture of PandaDoc’s mobile applications across different platforms (iOS, Android) on React Native",
+      "Drive technical decisions and set standards for code quality, testing, performance, and cross-team integrations.",
+      "Develop shared infrastructure, libraries, and components to be used across multiple teams.",
+      "Improve developer experience, tooling, workflows, and CI/CD pipelines for mobile development.",
+      "Collaborate with product managers, designers, and other engineering leads to translate product strategy into actionable engineering roadmaps.",
+      "Balance tech debt and new feature development while maintaining high reliability and performance.",
+      "Lead and mentor a team of engineers, providing guidance on career growth, skill development, and technical challenges.",
+      "Establish effective processes for team delivery, collaboration, and knowledge sharing.",
+      "Set ambitious goals and help your team achieve them.",
+      "Recruit, onboard, and retain top mobile engineering talent.",
+      "Work closely with track leadership to contribute to company- and track-wide initiatives.",
+      "Partner with product, design, and QA teams to ensure the mobile experience aligns with PandaDoc’s strategy and customer needs.",
+      "Drive continuous improvement across mobile engineering practices, ensuring efficiency and predictability."
+    ],
+    "requirements": [
+      "8+ years of engineering experience, with significant experience in mobile development and hands-on coding.",
+      "Proven experience leading mobile architecture and cross-platform solutions (React Native, iOS, Android).",
+      "Strong knowledge of React, TypeScript, modern JavaScript, and mobile development best practices.",
+      "Experience building shared libraries, UI components, navigation frameworks, or developer tooling.",
+      "Previously contributed to delivery processes and improving engineering efficiency.",
+      "Strong interpersonal and communication skills; able to influence and mentor engineers.",
+      "Experienced in working in a product organization, balancing business and technical priorities.",
+      "Self-starter who thrives in a fast-changing environment and is customer- and product-focused.",
+      "Hands-on problem solver who can balance technical execution with team leadership responsibilities."
+    ],
+    "benefits": [
+      "Competitive salary and benefits.",
+      "Six self-care days per year.",
+      "Remote-friendly with flexible work location.",
+      "Professional growth and development opportunities.",
+      "Emphasis on work-life balance, integrity, and transparency.",
+      "Creative team bonding and a collaborative, inclusive environment."
+    ],
+    "overview": "Mobile Team Lead responsible for architecture and building PandaDoc mobile apps with React Native, React, JavaScript and TypeScript. Lead engineers, set technical direction, and deliver scalable cross-platform mobile experiences.",
+    "seniority": "lead",
+    "category": "frontend",
+    "locations": [
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "poland"
+      },
+      {
+        "scope": "continent",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "ukraine"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "portugal"
+      }
+    ],
+    "companyId": "pandadoc",
+    "workplaceTypes": ["remote"],
+    "remoteLocationTokens": [
+      "businessRegion:emea",
+      "continent:europe",
+      "country:poland",
+      "country:ukraine",
+      "country:portugal"
+    ],
+    "onsiteOrHybrifLocationTokens": []
+  },
+  {
+    "url": "https://www.pandadoc.com/careers/senior-python-engineer-document-app-eu/",
+    "title": "Senior Python Engineer, Document App",
+    "employmentType": "fulltime",
+    "publishedAt": null,
+    "salaryRange": null,
+    "skills": [
+      "python",
+      "django",
+      "postgresql",
+      "redis",
+      "memcached",
+      "aws",
+      "docker",
+      "kubernetes",
+      "kafka",
+      "nats",
+      "asyncio",
+      "microservices"
+    ],
+    "description": [
+      "Contribute to the vision and the architecture of the key component of the application - Document domain",
+      "Face and overcome multiple scale-related technical challenges",
+      "Finding and addressing systematic issues to maintain low time-to-change for other developers with a high change-confidence level",
+      "Improving reliability, maintaining high quality standards, and enhancing developer experience while evolving the document platform to support new product capabilities",
+      "Contribute to the long term domain excellence strategy"
+    ],
+    "requirements": [
+      "At least 5+ years of development experience with Python",
+      "Experience with any relational databases (SQL queries, migrations, optimization)",
+      "Solid experience with message queues (e.g. RabbitMQ, NATS, Kafka)",
+      "Understanding of event-based systems and basics of DDD",
+      "Strong understanding and experience in AsyncIO",
+      "Good understanding of the development cycle from requirements analysis and deployment to application monitoring",
+      "Extensive hands-on experience in developing applications within both monolithic and microservice architectures",
+      "Communicate effectively in English, both orally and in writing"
+    ],
+    "benefits": [
+      "Competitive salary.",
+      "Remote-first approach with the option for hybrid work from offices in Kyiv, Warsaw, and Lisbon.",
+      "Flexible contract types (employment contract, employment of record, or B2B) with benefits varying by location.",
+      "Work schedule aligned with EU time zones.",
+      "Honest, open culture that values constructive feedback.",
+      "Professional and personal development within a collaborative, supportive team.",
+      "Stable yet growing SaaS product offering an agile environment, ownership, startup energy, and strong technical challenges."
+    ],
+    "overview": "Senior Python Engineer building the Document domain using Python, Django, AsyncIO and microservices. Improve reliability, scalability, and developer experience for a global SaaS document platform.",
+    "seniority": "mid",
+    "category": "backend",
+    "locations": [
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "portugal"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "ukraine"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "poland"
+      },
+      {
+        "scope": "continent",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe"
+      },
+      {
+        "scope": "city",
+        "workplaceType": "hybrid",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "poland",
+        "city": "warsaw"
+      },
+      {
+        "scope": "city",
+        "workplaceType": "hybrid",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "portugal",
+        "city": "lisbon"
+      },
+      {
+        "scope": "city",
+        "workplaceType": "hybrid",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "ukraine",
+        "city": "kyiv"
+      }
+    ],
+    "companyId": "pandadoc",
+    "workplaceTypes": ["remote", "hybrid"],
+    "remoteLocationTokens": [
+      "businessRegion:emea",
+      "continent:europe",
+      "country:portugal",
+      "country:ukraine",
+      "country:poland"
+    ],
+    "onsiteOrHybrifLocationTokens": [
+      "businessRegion:emea",
+      "continent:europe",
+      "country:poland",
+      "city:warsaw",
+      "country:portugal",
+      "city:lisbon",
+      "country:ukraine",
+      "city:kyiv"
+    ]
+  },
+  {
+    "url": "https://www.pandadoc.com/careers/senior-web-developer-us/",
+    "title": "Senior Web Developer",
+    "employmentType": "fulltime",
+    "publishedAt": null,
+    "salaryRange": {
+      "min": 150000,
+      "max": 150000,
+      "interval": "year",
+      "currency": "USD",
+      "bonus": true,
+      "equity": false
+    },
+    "skills": [
+      "nextjs",
+      "react",
+      "typescript",
+      "contentful",
+      "vercel",
+      "googleanalytics",
+      "segment",
+      "optimizely",
+      "vwo"
+    ],
+    "description": [
+      "Architect the future of pandadoc.com: Lead the full-stack development of our marketing site using Next.js, Vercel, and Contentful. You will own the codebase, ensuring it is performant, scalable, and maintainable.",
+      "Enable high-velocity experimentation: Build the technical foundation that allows the marketing team to accelerate learning through high-impact experimentation. Implement A/B testing frameworks and personalization logic to optimize conversion rates across the user journey.",
+      "Drive innovation on the web: In line with our product roadmap, find ways to embed intelligent experiences directly into the web journey, automating personalization and creating unique interactive experiences for visitors.",
+      "Scale our Content Operations: Manage and optimize our Contentful implementation. You will design flexible content models that empower the marketing team to ship campaigns and landing pages independently without constant developer intervention.",
+      "Optimize for Performance & SEO: Own the technical health of the website. Relentless focus on Core Web Vitals, page speed, and technical SEO implementation to ensure we capture maximum organic traffic.",
+      "Bridge the gap: Act as the technical translator between the Marketing and Product Engineering teams, ensuring our web stack aligns with the broader company technology vision while serving the specific agility needs of the marketing organization."
+    ],
+    "requirements": [
+      "8+ years of experience in Full Stack Web Development.",
+      "Deep expertise in the modern React ecosystem: Next.js (App Router experience is a plus), React, and TypeScript.",
+      "Proven experience scaling Contentful or similar Headless CMS platforms in a complex marketing environment.",
+      "Expert knowledge of Vercel for deployment, edge functions, and middleware.",
+      "Strong understanding of web performance, Core Web Vitals, and Technical SEO.",
+      "Experience integrating marketing tools (Google Analytics, Segment, A/B testing tools like Optimizely or VWO).",
+      "Bonus: Experience with AI/LLM integration in web applications.",
+      "You embody our EPIC values: You strive for Excellence in code quality, find Purpose in data-driven results, embrace Innovation by taking bold technical risks, and foster Collaboration across non-technical teams."
+    ],
+    "benefits": [
+      "This role is remote (USA).",
+      "Annual compensation around $150k OTE, which includes both base and variable pay.",
+      "Eligibility to purchase company stock or receive annual bonuses.",
+      "Medical, dental, and vision insurance available for employees and their families.",
+      "Short and long term disability, life insurance, FSA, and 401(k) plans.",
+      "Paid time off: 13.34+ hours of PTO per month, 6 self-care days, one birthday PTO day, and 12 company-paid holidays per year."
+    ],
+    "overview": "Senior Web Developer leading full-stack development of pandadoc.com using Next.js, React, TypeScript, Contentful, and Vercel. Focus on performance, A/B experimentation, technical SEO, and enabling marketing-driven growth.",
+    "seniority": "lead",
+    "category": "fullstack",
+    "locations": [
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "amer",
+        "continent": "northamerica",
+        "country": "unitedstates"
+      }
+    ],
+    "companyId": "pandadoc",
+    "workplaceTypes": ["remote"],
+    "remoteLocationTokens": ["businessRegion:amer", "continent:northamerica", "country:unitedstates"],
+    "onsiteOrHybrifLocationTokens": []
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/kraken.com/548d0ca7-c563-45ca-92c9-29da56d262c3",
+    "title": "Senior Software Engineer - React Native - Payments",
+    "employmentType": "fulltime",
+    "publishedAt": "2026-02-25",
+    "salaryRange": null,
+    "skills": ["javascript", "typescript", "react", "react-native", "nextjs", "websocket", "ios", "android"],
+    "description": [
+      "The Payments & Blockchain team is responsible for the first and last mile of every dollar (digital or fiat) that goes in our out of Kraken.",
+      "As a member of this team, your focus is on protecting client funds.",
+      "You will be responsible for building systems that communicate with various blockchains to enable the timely processing of client transactions, while also ensuring the safety and security of all funds on the exchange.",
+      "Design, develop, and maintain high-quality payment processing systems using React.js and other relevant technologies",
+      "Build and refine seamless transaction experiences that optimize fund transfers for speed, security, and reliability",
+      "Ensure an efficient and intuitive onboarding experience for users interacting with payment systems, reducing friction and improving trust",
+      "Develop innovative features that enhance engagement, retention, and loyalty within the payments ecosystem",
+      "Set the standard for high-quality, secure code and lead the development of complex financial software systems",
+      "Influence technical decisions, contribute to strategy discussions, and shape product/domain decisions with a deep understanding of financial systems and security best practices",
+      "Mentor engineers, foster a culture of technical excellence, and drive process improvements in financial software development",
+      "Design and implement scalable, maintainable, and fault-tolerant financial systems, ensuring compliance and security best practices"
+    ],
+    "requirements": [
+      "6+ years of experience in software development, with a focus on web and mobile applications",
+      "Deep understanding of JavaScript/TypeScript and proficiency with React Native frameworks",
+      "Strong experience of API design, security, and performance optimization",
+      "Experience with Next.js and WebSockets",
+      "Experience with frontend testing frameworks",
+      "Familiarity with modern front-end build pipelines and tooling",
+      "Strong understanding of UI/UX best practices and principles",
+      "Experience within a large technology organization or fast growing startup",
+      "Hands-on experience in consumer payments, crypto or fintech mobile applications",
+      "Strong written and verbal communication skills in English",
+      "Available in EU afternoons",
+      "Familiarity with native mobile app development (iOS/Android)",
+      "Knowledge of the cryptocurrency industry and blockchain technology"
+    ],
+    "benefits": [
+      "Fully remote work with colleagues across 70+ countries.",
+      "Equal opportunity employer with inclusive, merit-based hiring."
+    ],
+    "overview": "Senior Software Engineer building React Native and React.js payment processing systems using JavaScript/TypeScript. Join the Payments & Blockchain team to integrate payment providers and blockchain systems, securing and processing client transactions.",
+    "seniority": "senior",
+    "category": "frontend",
+    "locations": [
+      {
+        "scope": "continent",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "cyprus"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "czechrepublic"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "poland"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "romania"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "country": "Argentina"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "amer",
+        "continent": "southamerica",
+        "country": "brazil"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "country": "Mexico"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "slovenia"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "estonia"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "lithuania"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "country": "Chile"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "country": "Peru"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "country": "Costa Rica"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "country": "Paraguay"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "country": "Uruguay"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "hungary"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "bulgaria"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "slovakia"
+      }
+    ],
+    "companyId": "krakenfx",
+    "workplaceTypes": ["remote"],
+    "remoteLocationTokens": [
+      "businessRegion:emea",
+      "continent:europe",
+      "country:cyprus",
+      "country:czechrepublic",
+      "country:poland",
+      "country:romania",
+      "businessRegion:undefined",
+      "continent:undefined",
+      "country:Argentina",
+      "businessRegion:amer",
+      "continent:southamerica",
+      "country:brazil",
+      "country:Mexico",
+      "country:slovenia",
+      "country:estonia",
+      "country:lithuania",
+      "country:Chile",
+      "country:Peru",
+      "country:Costa Rica",
+      "country:Paraguay",
+      "country:Uruguay",
+      "country:hungary",
+      "country:bulgaria",
+      "country:slovakia"
+    ],
+    "onsiteOrHybrifLocationTokens": []
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/kraken.com/d62250a9-363c-43b0-b3de-958e3cc9f97b",
+    "title": "Senior Software Engineer – AI Infrastructure",
+    "employmentType": "fulltime",
+    "publishedAt": "2026-03-19",
+    "salaryRange": null,
+    "skills": ["rust", "distributedsystem"],
+    "description": [
+      "The AI Infrastructure team builds and operates the production systems that power intelligent agents at scale.",
+      "This team sits at the foundation of the agent platform, ensuring that model inference, orchestration, and execution layers are reliable, observable, and performant under real-world load.",
+      "Design and build the infrastructure layer powering AI agent systems in production",
+      "Develop high-performance Rust services that handle model inference, orchestration, and execution",
+      "Architect scalable systems capable of supporting millions of users and high request throughput",
+      "Build reliable ML infrastructure and MLOps patterns for model deployment, evaluation, and monitoring",
+      "Define guardrails, observability, and failure handling for agent-driven workflows",
+      "Optimize latency, throughput, and cost across inference and orchestration layers",
+      "Partner closely with the Agent Systems team to translate experimental prototypes into hardened production systems",
+      "Contribute to foundational infrastructure decisions in a high-scale, high-impact environment"
+    ],
+    "requirements": [
+      "5+ years of experience building and operating high-scale production systems",
+      "Strong proficiency in Rust and systems-level programming",
+      "Deep understanding of distributed systems, reliability engineering, and performance optimization",
+      "Experience operating services serving millions of users or high-throughput workloads",
+      "Familiarity with ML infrastructure, model serving, or MLOps in production environments",
+      "Experience designing observability, monitoring, and failure recovery systems",
+      "Strong collaboration skills working across infrastructure and applied engineering teams",
+      "High ownership mindset in high-stakes production environment",
+      "Experience building infrastructure for agent-based or LLM-powered systems",
+      "Background in high-performance networking, async systems, or low-latency architectures",
+      "Experience with container orchestration and cloud-native infrastructure",
+      "Familiarity with evaluation frameworks and model performance monitoring at scale",
+      "Experience working in fast-moving 0→1 or platform-building teams"
+    ],
+    "benefits": [
+      "Fully remote work (Krakenites distributed across 70+ countries).",
+      "Opportunity to work on large-scale, high-impact AI/ML infrastructure powering agent systems."
+    ],
+    "overview": "Senior Software Engineer for AI Infrastructure building high-performance Rust services for model inference, orchestration, and execution. Work on scalable ML infrastructure and agent systems at production scale focusing on reliability, latency, and observability.",
+    "seniority": "mid",
+    "category": "devops",
+    "locations": [
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "unitedkingdom"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "amer",
+        "continent": "northamerica",
+        "country": "canada"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "portugal"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "spain"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "poland"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "ireland"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "amer",
+        "continent": "southamerica",
+        "country": "brazil"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "romania"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "czechrepublic"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "cyprus"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "country": "Mexico"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "country": "Costa Rica"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "country": "Peru"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "country": "Panama"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "estonia"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "hungary"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "bulgaria"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "latvia"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "slovenia"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "country": "Argentina"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "country": "South Africa"
+      }
+    ],
+    "companyId": "krakenfx",
+    "workplaceTypes": ["remote"],
+    "remoteLocationTokens": [
+      "businessRegion:emea",
+      "continent:europe",
+      "country:unitedkingdom",
+      "businessRegion:amer",
+      "continent:northamerica",
+      "country:canada",
+      "country:portugal",
+      "country:spain",
+      "country:poland",
+      "country:ireland",
+      "continent:southamerica",
+      "country:brazil",
+      "country:romania",
+      "country:czechrepublic",
+      "country:cyprus",
+      "businessRegion:undefined",
+      "continent:undefined",
+      "country:Mexico",
+      "country:Costa Rica",
+      "country:Peru",
+      "country:Panama",
+      "country:estonia",
+      "country:hungary",
+      "country:bulgaria",
+      "country:latvia",
+      "country:slovenia",
+      "country:Argentina",
+      "country:South Africa"
+    ],
+    "onsiteOrHybrifLocationTokens": []
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/kraken.com/98a448fc-0102-4514-abf0-f03f77d226b0",
+    "title": "Software Engineer - Rust Blockchain Platform",
+    "employmentType": "fulltime",
+    "publishedAt": "2026-04-02",
+    "salaryRange": null,
+    "skills": ["rust", "typescript", "graphql", "grpc", "kafka", "docker", "kubernetes", "ci_cd", "distributedsystem"],
+    "description": [
+      "The Blockchain Platform team is the connective tissue of Kraken's engineering organization.",
+      "We own the systems that handle node interactions, block ingestion & parsing, balance tracking, and on-chain data at scale.",
+      "Design and implement high-throughput, low-latency services and libraries in Rust and TypeScript",
+      "Integrate our existing systems with exciting new blockchains",
+      "Build and maintain the systems that process over 1.2 billion operations daily across 120+ chains",
+      "Design data protection and access control systems where security is a first-class requirement",
+      "Collaborate closely with product and infrastructure teams to define and deliver on their blockchain data needs",
+      "Contribute to internal tooling, documentation, and standards that raise the bar for the whole org"
+    ],
+    "requirements": [
+      "5+ years of backend engineering experience",
+      "Strong proficiency in asynchronous Rust",
+      "Experience with high-volume, distributed systems",
+      "Familiarity with API design, including GraphQL and gRPC",
+      "Experience with Kafka or similar event streaming platforms",
+      "Comfortable with core DevOps tooling such as Docker, Kubernetes, CI/CD pipelines",
+      "Hands-on experience with multiple blockchain ecosystems",
+      "Experience working with or contributing to open-source blockchain clients",
+      "Familiarity with relational databases, logging & monitoring systems, and cloud-based infrastructure providers",
+      "Passionate about security, reliability, and performance",
+      "Considerate of tomorrow’s engineer: clean code, clear documentation, meaningful tests",
+      "Comfortable with ambiguity and able to drive alignment across teams with different priorities",
+      "Pragmatic – you know when to build the elegant solution and when to ship the working one"
+    ],
+    "benefits": ["Fully remote work across 70+ countries."],
+    "overview": "Software Engineer building high-throughput, low-latency services in Rust and TypeScript for Kraken's Blockchain Platform. You will process node interactions, block ingestion, balance tracking, and on-chain data across 120+ chains at scale.",
+    "seniority": "mid",
+    "category": "backend",
+    "locations": [
+      {
+        "scope": "continent",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "amer",
+        "continent": "northamerica",
+        "country": "canada"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "portugal"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "spain"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "poland"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "ireland"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "amer",
+        "continent": "southamerica",
+        "country": "brazil"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "romania"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "czechrepublic"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "cyprus"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "lithuania"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "country": "Mexico"
+      }
+    ],
+    "companyId": "krakenfx",
+    "workplaceTypes": ["remote"],
+    "remoteLocationTokens": [
+      "businessRegion:emea",
+      "continent:europe",
+      "businessRegion:amer",
+      "continent:northamerica",
+      "country:canada",
+      "country:portugal",
+      "country:spain",
+      "country:poland",
+      "country:ireland",
+      "continent:southamerica",
+      "country:brazil",
+      "country:romania",
+      "country:czechrepublic",
+      "country:cyprus",
+      "country:lithuania",
+      "businessRegion:undefined",
+      "continent:undefined",
+      "country:Mexico"
+    ],
+    "onsiteOrHybrifLocationTokens": []
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/kraken.com/95b0206c-8168-49d5-8e6c-e0c5ff885cf6",
+    "title": "Mobile UI/Design Engineer",
+    "employmentType": "fulltime",
+    "publishedAt": "2026-04-15",
+    "salaryRange": null,
+    "skills": ["react-native", "javascript", "swift", "kotlin"],
+    "description": [
+      "Own the craft layer of our React Native mobile experience — fluid, gesture-driven interactions and transitions that feel native, not web-in-a-wrapper",
+      "Push React Native beyond its defaults — Reanimated, Skia, native module bridges when the abstraction isn't enough",
+      "Partner closely with product designers, challenging and elevating motion and interaction design from concept through implementation",
+      "Establish animation primitives and interaction patterns within our design system that other engineers build on — your work becomes the quality floor for the team",
+      "Profile and optimise rendering performance, especially on lower-end Android devices where frame drops are unforgivable",
+      "Contribute to architectural decisions that affect UI responsiveness: state management, render cycles, and data flow into the view layer",
+      "Mentor engineers on interaction quality and raise the standard for what \"done\" looks like across the mobile org"
+    ],
+    "requirements": [
+      "Deep, demonstrable experience building polished mobile interfaces in React Native — you know Reanimated well, you've fought with gesture handlers, and you've profiled JS thread vs UI thread performance and won",
+      "A trained eye for interaction design — you notice when an easing curve is wrong, you have opinions about spring physics, and you understand that 60fps isn't a target, it's a constraint",
+      "A portfolio or demo reel of shipped work is a hard requirement — a personal site, video walkthrough, GitHub interaction demos, or screen captures of work you're proud of",
+      "Experience with modern AI development tooling (Cursor, Copilot, or similar) as a natural part of how you build — not as a novelty, but as a multiplier",
+      "Strong written and verbal communication skills in English",
+      "Experience with React Native Skia, custom shader work, or canvas-based rendering for non-standard UI (nice to have)",
+      "Some native platform knowledge (Swift/Kotlin) for when you need to drop below the RN abstraction — bridging, native modules, platform-specific behaviour (nice to have)",
+      "You've built interaction patterns that other engineers adopted — shared animation libraries, gesture primitives, motion design systems (nice to have)"
+    ],
+    "benefits": [
+      "Fully remote role within a distributed team (Krakenites in 70+ countries), enabling remote work from multiple countries."
+    ],
+    "overview": "Mobile UI/Design Engineer building polished, gesture-driven React Native interfaces using Reanimated and Skia. Join the Consumer Mobile team to improve interaction quality, performance, and design-system animation primitives for the Kraken app.",
+    "seniority": "senior",
+    "category": "frontend",
+    "locations": [
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "unitedkingdom"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "amer",
+        "continent": "northamerica",
+        "country": "canada"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "portugal"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "spain"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "poland"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "ireland"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "country": "United Arab Emirates"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "amer",
+        "continent": "southamerica",
+        "country": "brazil"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "romania"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "czechrepublic"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "cyprus"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "lithuania"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "switzerland"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "country": "Mexico"
+      }
+    ],
+    "companyId": "krakenfx",
+    "workplaceTypes": ["remote"],
+    "remoteLocationTokens": [
+      "businessRegion:emea",
+      "continent:europe",
+      "country:unitedkingdom",
+      "businessRegion:amer",
+      "continent:northamerica",
+      "country:canada",
+      "country:portugal",
+      "country:spain",
+      "country:poland",
+      "country:ireland",
+      "businessRegion:undefined",
+      "continent:undefined",
+      "country:United Arab Emirates",
+      "continent:southamerica",
+      "country:brazil",
+      "country:romania",
+      "country:czechrepublic",
+      "country:cyprus",
+      "country:lithuania",
+      "country:switzerland",
+      "country:Mexico"
+    ],
+    "onsiteOrHybrifLocationTokens": []
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/kraken.com/3e769962-edad-47c1-898a-662208902b1c",
+    "title": "Mobile UI/Design Engineer",
+    "employmentType": "fulltime",
+    "publishedAt": null,
+    "salaryRange": {
+      "min": 110400,
+      "max": 220800,
+      "interval": "year",
+      "currency": "USD",
+      "bonus": true,
+      "equity": true
+    },
+    "skills": ["react-native", "javascript", "swift", "kotlin"],
+    "description": [
+      "Own the craft layer of our React Native mobile experience — fluid, gesture-driven interactions and transitions that feel native, not web-in-a-wrapper",
+      "Push React Native beyond its defaults — Reanimated, Skia, native module bridges when the abstraction isn't enough",
+      "Partner closely with product designers, challenging and elevating motion and interaction design from concept through implementation",
+      "Establish animation primitives and interaction patterns within our design system that other engineers build on — your work becomes the quality floor for the team",
+      "Profile and optimise rendering performance, especially on lower-end Android devices where frame drops are unforgivable",
+      "Contribute to architectural decisions that affect UI responsiveness: state management, render cycles, and data flow into the view layer",
+      "Mentor engineers on interaction quality and raise the standard for what \"done\" looks like across the mobile org"
+    ],
+    "requirements": [
+      "Deep, demonstrable experience building polished mobile interfaces in React Native — you know Reanimated well, you've fought with gesture handlers, and you've profiled JS thread vs UI thread performance and won",
+      "A trained eye for interaction design — you notice when an easing curve is wrong, you have opinions about spring physics, and you understand that 60fps isn't a target, it's a constraint",
+      "A portfolio or demo reel of shipped work is a hard requirement — a personal site, video walkthrough, GitHub interaction demos, or screen captures of work you're proud of. If we can't see your craft, we can't evaluate it",
+      "Experience with modern AI development tooling (Cursor, Copilot, or similar) as a natural part of how you build — not as a novelty, but as a multiplier",
+      "Strong written and verbal communication skills in English",
+      "Experience with React Native Skia, custom shader work, or canvas-based rendering for non-standard UI (nice to have)",
+      "Some native platform knowledge (Swift/Kotlin) for when you need to drop below the RN abstraction — bridging, native modules, platform-specific behaviour (nice to have)",
+      "Experience in high-stakes product domains (fintech, health, trading) where UI precision affects user trust (nice to have)",
+      "Background in or affinity for visual/motion design — maybe you prototype in Figma or After Effects before you write code (nice to have)"
+    ],
+    "benefits": [
+      "Annual salary range: $110.4K - $220.8K (US), excluding bonus, equity, wellness allowance, and other benefits",
+      "Bonus program and Equity program available",
+      "Wellness allowance provided",
+      "Medical, dental, and vision insurance (US)",
+      "401(k) retirement plan (US)",
+      "Fully remote role with Krakenites in 70+ countries"
+    ],
+    "overview": "Mobile UI/Design Engineer building polished React Native interfaces with Reanimated and Skia. Join the Consumer Mobile team to craft fluid, gesture-driven experiences for the Kraken app.",
+    "seniority": "senior",
+    "category": "frontend",
+    "locations": [
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "amer",
+        "continent": "northamerica",
+        "country": "unitedstates"
+      }
+    ],
+    "companyId": "krakenfx",
+    "workplaceTypes": ["remote"],
+    "remoteLocationTokens": ["businessRegion:amer", "continent:northamerica", "country:unitedstates"],
+    "onsiteOrHybrifLocationTokens": []
+  },
+  {
+    "url": "https://careers.duolingo.com/jobs/8215862002?gh_jid=8215862002",
+    "title": "Senior Android Engineer",
+    "employmentType": "fulltime",
+    "publishedAt": "2026-04-30",
+    "salaryRange": {
+      "min": 177700,
+      "max": 240400,
+      "interval": "year",
+      "currency": "USD",
+      "bonus": false,
+      "equity": true
+    },
+    "skills": ["kotlin", "android"],
+    "description": [
+      "As an Android engineer on the Subscription Crossgrades Team, you’ll build features that help learners discover and subscribe to the Duolingo plan that best fits their goals.",
+      "Our team’s mission is to make subscription purchases convenient, compelling, and clear, so that learners can unlock Duolingo’s most powerful tools for long-term success.",
+      "As an Android engineer on the Current User Retention team, you will build and optimize features that help learners stick with their language goals day after day.",
+      "You will work on several high-profile features, including Streaks and Quests, that make it motivating and rewarding for learners to keep coming back to learn on Duolingo.",
+      "Collaborate on software projects with product design and backend aspects",
+      "Develop, release, and maintain native Android application features in Kotlin",
+      "Mentor and set technical direction for junior engineers on the team"
+    ],
+    "requirements": [
+      "A Bachelor’s degree in Computer Science or a related technical field",
+      "Programming experience in Kotlin on Android",
+      "The ability to communicate technical issues effectively to technical and non-technical stakeholders",
+      "Strong programming experience building reactive Android apps",
+      "Demonstrated self-direction, with a desire both to learn new techniques and mentor others",
+      "Experience designing clean and maintainable APIs",
+      "Experience writing unit tests and testable code"
+    ],
+    "benefits": [
+      "Salary range: $177,700—$240,400 USD.",
+      "This role is eligible for equity compensation and world-class benefits.",
+      "Duolingo posts a multi-level salary range for all roles and determines actual salary by factors such as skills, experience, education, and internal equity.",
+      "Interview accommodations are available; contact accommodations@duolingo.com for assistance."
+    ],
+    "overview": "Senior Android Engineer building native Android application features in Kotlin focused on subscription and retention experiences. You'll ship experiment-driven, user-centered features that increase conversions and learner retention across Duolingo's mobile app.",
+    "seniority": "senior",
+    "category": "frontend",
+    "locations": [
+      {
+        "scope": "city",
+        "city": "Pittsburgh, PA"
+      },
+      {
+        "scope": "country",
+        "businessRegion": "amer",
+        "continent": "northamerica",
+        "country": "unitedstates"
+      }
+    ],
+    "companyId": "duolingo",
+    "workplaceTypes": ["remote"],
+    "remoteLocationTokens": [],
+    "onsiteOrHybrifLocationTokens": [
+      "businessRegion:undefined",
+      "continent:undefined",
+      "country:undefined",
+      "city:Pittsburgh, PA",
+      "businessRegion:amer",
+      "continent:northamerica",
+      "country:unitedstates"
+    ]
+  },
+  {
+    "url": "https://careers.duolingo.com/jobs/8453396002?gh_jid=8453396002",
+    "title": "Senior Android Engineer, App Builds",
+    "employmentType": "fulltime",
+    "publishedAt": "2026-04-30",
+    "salaryRange": {
+      "min": 182800,
+      "max": 247300,
+      "interval": "year",
+      "currency": "USD",
+      "bonus": false,
+      "equity": true
+    },
+    "skills": ["android", "kotlin", "ci_cd"],
+    "description": [
+      "As an engineer on the App Builds team in our Client Platform area you’ll be responsible for evaluating and setting the direction for our Android builds.",
+      "Drive the modernization of our CI build and release pipelines with the migration to new Github Action workflows",
+      "Develop tooling and automation to accelerate the modularization of our Kotlin codebase",
+      "Design and evolve Android test infrastructure to improve developer velocity and test reliability",
+      "Proactively identify and implement improvements to our build performance, reliability, and developer workflows as the Android ecosystem evolves",
+      "Foster a culture of engineering excellence and mentor engineers of all experience levels"
+    ],
+    "requirements": [
+      "Experience supporting either Gradle-based projects or large Android builds",
+      "Proven ability to drive large-scale technical initiatives across multiple teams",
+      "Proficiency in Android development using standard tools and frameworks",
+      "Expertise working with CI/CD platforms like Github Actions",
+      "Experience with Gradle principles e.g., caching and task avoidance"
+    ],
+    "benefits": [
+      "Salary range: $182,800—$247,300 USD.",
+      "Role includes equity compensation and world-class benefits.",
+      "Interview accommodations are available; contact accommodations@duolingo.com."
+    ],
+    "overview": "Senior Android Engineer leading Android build systems, tooling, and CI for Kotlin apps using Gradle and GitHub Actions. Improve build performance, modularization, and test infrastructure across the App Builds team supporting 70+ Android developers.",
+    "seniority": "senior",
+    "category": "devops",
+    "locations": [
+      {
+        "scope": "city",
+        "businessRegion": "amer",
+        "continent": "northamerica",
+        "country": "unitedstates",
+        "city": "New York, NY"
+      },
+      {
+        "scope": "country",
+        "businessRegion": "amer",
+        "continent": "northamerica",
+        "country": "unitedstates"
+      }
+    ],
+    "companyId": "duolingo",
+    "workplaceTypes": ["remote"],
+    "remoteLocationTokens": [],
+    "onsiteOrHybrifLocationTokens": [
+      "businessRegion:amer",
+      "continent:northamerica",
+      "country:unitedstates",
+      "city:New York, NY"
+    ]
+  },
+  {
+    "url": "https://careers.duolingo.com/jobs/8512566002?gh_jid=8512566002",
+    "title": "Senior Software Engineer (Android)",
+    "employmentType": "fulltime",
+    "publishedAt": "2026-04-27",
+    "salaryRange": null,
+    "skills": ["kotlin", "android"],
+    "description": [
+      "Your role will be to rapidly expand our user base in India by delivering product features.",
+      "We’re looking for a Senior Software Engineer (Android) to join the India Growth team.",
+      "Quickly develop and maintain native Android application features in Kotlin",
+      "Collaborate on software projects with product manager",
+      "Perform experiment analysis on features and find opportunities for optimization",
+      "Shape growth strategies, identify and resolve retention and engagement problems for our learners in India who are mainly learning English"
+    ],
+    "requirements": [
+      "A minimum of 5 years of programming experience building reactive Android apps in Kotlin",
+      "Experience in developing world-class apps with stability, performance, and scalability in mind",
+      "The ability to communicate technical issues effectively to technical and non-technical stakeholders",
+      "A desire to make the world a better place through technology and education",
+      "Ability to apply user insights, data, and statistical analyses to inform decisions",
+      "A Bachelor’s degree in Computer Science or a related technical field",
+      "Ability to work from or relocate to Bangalore, India."
+    ],
+    "benefits": [
+      "Employee benefits supporting holistic well-being (details available on the company's benefits page)."
+    ],
+    "overview": "Senior Software Engineer (Android) building native Android features in Kotlin to grow Duolingo’s India user base. You will drive growth experiments and solve retention and engagement problems to increase DAU for English learners.",
+    "seniority": "mid",
+    "category": "frontend",
+    "locations": [
+      {
+        "scope": "city",
+        "workplaceType": "onsite",
+        "country": "India",
+        "city": "Bangalore"
+      }
+    ],
+    "companyId": "duolingo",
+    "workplaceTypes": ["onsite"],
+    "remoteLocationTokens": [],
+    "onsiteOrHybrifLocationTokens": [
+      "businessRegion:undefined",
+      "continent:undefined",
+      "country:India",
+      "city:Bangalore"
+    ]
+  },
+  {
+    "url": "https://careers.duolingo.com/jobs/8488912002?gh_jid=8488912002",
+    "title": "Senior Software Engineer",
+    "employmentType": "fulltime",
+    "publishedAt": "2026-04-27",
+    "salaryRange": null,
+    "skills": ["kotlin", "android"],
+    "description": [
+      "Your role will be to improve the Android user experience by leveraging your extensive experience to enhance the performance and efficiency of our Android app.",
+      "Quickly develop native Android application performance optimizations in Kotlin.",
+      "Collaborate closely with cross-functional teams to identify performance bottlenecks and implement solutions.",
+      "Perform experiment analysis on features and find opportunities for optimization."
+    ],
+    "requirements": [
+      "A minimum of 5 years of programming experience in Android development with a strong focus on performance optimization.",
+      "Experience in developing world-class apps with stability, performance, and scalability in mind.",
+      "Demonstrated ability to diagnose and resolve complex performance issues, including memory leaks, UI lag, and slow network responses.",
+      "The ability to communicate technical issues effectively to technical and non-technical stakeholders.",
+      "A desire to make the world a better place through technology and education.",
+      "Ability to apply user insights, data, and statistical analyses to inform decisions.",
+      "A Bachelor’s degree in Computer Science or a related technical field.",
+      "Ability to work from or relocate to Beijing, China."
+    ],
+    "benefits": [],
+    "overview": "Senior Software Engineer responsible for improving Android app performance using Kotlin. Join the Asia Growth team to drive performance initiatives that impact DAU and user retention worldwide.",
+    "seniority": "mid",
+    "category": "frontend",
+    "locations": [
+      {
+        "scope": "city",
+        "workplaceType": "onsite",
+        "country": "China",
+        "city": "Beijing"
+      }
+    ],
+    "companyId": "duolingo",
+    "workplaceTypes": ["onsite"],
+    "remoteLocationTokens": [],
+    "onsiteOrHybrifLocationTokens": ["businessRegion:undefined", "continent:undefined", "country:China", "city:Beijing"]
+  },
+  {
+    "url": "https://careers.duolingo.com/jobs/8526793002?gh_jid=8526793002",
+    "title": "Software Engineer I",
+    "employmentType": "fulltime",
+    "publishedAt": "2026-04-28",
+    "salaryRange": null,
+    "skills": ["java", "python", "kotlin", "swift"],
+    "description": [
+      "Build and ship features that drive user growth and deliver high-quality learning experiences to millions of learners in China.",
+      "Work closely with product managers, designers to create engaging, localized experiences tailored to this market.",
+      "Work across the stack (backend and client), running experiments, and collaborating cross-functionally to improve key metrics like daily active users (DAU).",
+      "Work with Government Relations (GR) and cross-functional partners to ensure product compliance in China.",
+      "Lead individual project priorities, deadlines, and deliverables.",
+      "Contribute to code reviews and collaborate across teams to ensure quality and scalability."
+    ],
+    "requirements": [
+      "Graduated or will graduate with a B.S. or M.S. degree in Computer Science or related technical field (i.e. math, physics, or data science) before summer 2026",
+      "0–1 years of experience programming in one or more of: Java, Python, Kotlin, or Swift",
+      "Dedication to our mission of universally available education",
+      "Relocation to Beijing, China. This position is based in Beijing.",
+      "A GPA of 3.6+",
+      "A Duolingo streak",
+      "Proficient in both spoken and written English."
+    ],
+    "benefits": [
+      "Comprehensive employee benefits supporting holistic well-being (details provided via company benefits link).",
+      "Interview accommodations are available; contact accommodations@duolingo.com for assistance."
+    ],
+    "overview": "Software Engineer I building features with Java, Python, Kotlin, or Swift to drive user growth and localized learning experiences in China. Work across backend and client, run experiments, and collaborate cross-functionally to improve DAU.",
+    "seniority": "entry",
+    "category": "fullstack",
+    "locations": [
+      {
+        "scope": "city",
+        "workplaceType": "onsite",
+        "country": "China",
+        "city": "Beijing"
+      }
+    ],
+    "companyId": "duolingo",
+    "workplaceTypes": ["onsite"],
+    "remoteLocationTokens": [],
+    "onsiteOrHybrifLocationTokens": ["businessRegion:undefined", "continent:undefined", "country:China", "city:Beijing"]
+  },
+  {
+    "url": "https://careers.duolingo.com/jobs/8489365002?gh_jid=8489365002",
+    "title": "Staff Software Engineer",
+    "employmentType": "fulltime",
+    "publishedAt": "2026-04-27",
+    "salaryRange": null,
+    "skills": ["kotlin", "android"],
+    "description": [
+      "Your role will be to improve the Android user experience by leveraging your extensive experience to enhance the performance and efficiency of our Android app.",
+      "Quickly develop native Android application performance optimizations in Kotlin.",
+      "Collaborate closely with cross-functional teams to identify performance bottlenecks and implement solutions.",
+      "Perform experiment analysis on features and find opportunities for optimization."
+    ],
+    "requirements": [
+      "A minimum of 5 years of programming experience in Android development with a strong focus on performance optimization.",
+      "Experience in developing world-class apps with stability, performance, and scalability in mind.",
+      "Demonstrated ability to diagnose and resolve complex performance issues, including memory leaks, UI lag, and slow network responses.",
+      "The ability to communicate technical issues effectively to technical and non-technical stakeholders.",
+      "A desire to make the world a better place through technology and education.",
+      "Ability to apply user insights, data, and statistical analyses to inform decisions.",
+      "A Bachelor’s degree in Computer Science or a related technical field.",
+      "Ability to work from or relocate to Beijing, China."
+    ],
+    "benefits": [
+      "Holistic well-being benefits provided by the company; details available on the Duolingo careers page."
+    ],
+    "overview": "Staff Software Engineer improving Android app performance using Kotlin and Android SDK. Work on the Asia Growth team to drive performance initiatives that increase DAU and user retention.",
+    "seniority": "mid",
+    "category": "frontend",
+    "locations": [
+      {
+        "scope": "city",
+        "workplaceType": "onsite",
+        "country": "China",
+        "city": "Beijing"
+      }
+    ],
+    "companyId": "duolingo",
+    "workplaceTypes": ["onsite"],
+    "remoteLocationTokens": [],
+    "onsiteOrHybrifLocationTokens": ["businessRegion:undefined", "continent:undefined", "country:China", "city:Beijing"]
+  }
+]

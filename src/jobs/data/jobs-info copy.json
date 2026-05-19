@@ -1,0 +1,1124 @@
+[
+  {
+    "url": "https://www.pandadoc.com/careers/middle-python-engineer-document-app-eu/",
+    "title": "Middle Python Engineer, Document App",
+    "employmentType": "fulltime",
+    "workplaceType": "remote",
+    "location": {
+      "scope": "continent",
+      "businessRegion": "emea",
+      "continent": "europe"
+    },
+    "publishedAt": null,
+    "salaryRange": {
+      "min": 208000,
+      "max": 312000,
+      "interval": "year",
+      "currency": "PLN"
+    },
+    "skills": ["python", "django", "postgresql", "redis", "aws", "docker", "kubernetes", "kafka", "nats", "asyncio"],
+    "description": [
+      "Contribute to the vision and the architecture of the key component of the application - Document domain",
+      "Face and overcome multiple scale-related technical challenges",
+      "Finding and addressing systematic issues to maintain low time-to-change for other developers with a high change-confidence level",
+      "Improve reliability, maintain high quality standards, and enhance developer experience while evolving the document platform to support new product capabilities",
+      "Join the Document Domain team which owns core functionality that powers document creation, editing, and management across the product"
+    ],
+    "requirements": [
+      "At least 3+ years of development experience with Python",
+      "Experience with any relational databases (SQL queries, migrations, optimization)",
+      "Experience with message queues (e.g. RabbitMQ, NATS, Kafka)",
+      "Understanding of event-based systems and basics of DDD",
+      "Strong understanding and experience in AsyncIO",
+      "Good understanding of the development cycle from requirements analysis and deployment to application monitoring",
+      "Hands-on experience in developing applications within both monolithic and microservice architectures",
+      "Communicate effectively in English, both orally and in writing"
+    ],
+    "benefits": [
+      "Competitive salary. If you're located in Poland, the salary range is 208000 - 312000 PLN annually.",
+      "Remote-first approach with the option for hybrid work from our offices in Kyiv, Warsaw, and Lisbon."
+    ],
+    "overview": "Middle Python Engineer building the Document domain with Python and Django. Work on document creation, editing, reliability, scalability, and developer experience across a microservice and monolithic platform.",
+    "seniority": "mid",
+    "category": "backend",
+    "companyId": "pandadoc",
+    "locationTokens": ["businessRegion:emea", "continent:europe"]
+  },
+  {
+    "url": "https://www.pandadoc.com/careers/mobile-team-lead-stack-react-native-react-js-ts-eu/",
+    "title": "Mobile Team Lead (React Native, React, JS, TS)",
+    "employmentType": "fulltime",
+    "workplaceType": "remote",
+    "location": {
+      "scope": "continent",
+      "businessRegion": "emea",
+      "continent": "europe"
+    },
+    "publishedAt": null,
+    "salaryRange": null,
+    "skills": ["react-native", "react", "javascript", "typescript", "ios", "android", "ci_cd"],
+    "description": [
+      "Own and evolve the architecture of PandaDoc’s mobile applications across  different platforms (iOS, Android) on React Native",
+      "Drive technical decisions and set standards for code quality, testing, performance, and cross-team integrations.",
+      "Develop shared infrastructure, libraries, and components to be used across multiple teams.",
+      "Improve developer experience, tooling, workflows, and CI/CD pipelines for mobile development.",
+      "Collaborate with product managers, designers, and other engineering leads to translate product strategy into actionable engineering roadmaps.",
+      "Balance tech debt and new feature development while maintaining high reliability and performance.",
+      "Lead and mentor a team of engineers, providing guidance on career growth, skill development, and technical challenges.",
+      "Establish effective processes for team delivery, collaboration, and knowledge sharing.",
+      "Recruit, onboard, and retain top mobile engineering talent.",
+      "Partner with product, design, and QA teams to ensure the mobile experience aligns with PandaDoc’s strategy and customer needs."
+    ],
+    "requirements": [
+      "8+ years of engineering experience, with significant experience in mobile development and hands-on coding.",
+      "Proven experience leading mobile architecture and cross-platform solutions (React Native, iOS, Android).",
+      "Strong knowledge of React, TypeScript, modern JavaScript, and mobile development best practices.",
+      "Experience building shared libraries, UI components, navigation frameworks, or developer tooling.",
+      "Previously contributed to delivery processes and improving engineering efficiency.",
+      "Strong interpersonal and communication skills; able to influence and mentor engineers.",
+      "Experienced in working in a product organization, balancing business and technical priorities.",
+      "Self-starter who thrives in a fast-changing environment and is customer- and product-focused.",
+      "Hands-on problem solver who can balance technical execution with team leadership responsibilities."
+    ],
+    "benefits": [
+      "Competitive salary and benefits",
+      "6 self-care days",
+      "Professional growth and development opportunities",
+      "Flexible work location",
+      "Remote-friendly, distributed worldwide"
+    ],
+    "overview": "Mobile Team Lead responsible for mobile architecture and hands-on development using React Native, React, JavaScript, and TypeScript. Lead a team to deliver scalable mobile apps, shared libraries, and improved CI/CD and developer tooling.",
+    "seniority": "lead",
+    "category": "frontend",
+    "companyId": "pandadoc",
+    "locationTokens": ["businessRegion:emea", "continent:europe"]
+  },
+  {
+    "url": "https://www.pandadoc.com/careers/senior-java-engineer-document-app-eu/",
+    "title": "Senior Java Engineer, Document App",
+    "employmentType": "fulltime",
+    "workplaceType": "remote",
+    "location": {
+      "scope": "continent",
+      "businessRegion": "emea",
+      "continent": "europe"
+    },
+    "publishedAt": null,
+    "salaryRange": null,
+    "skills": ["java", "springBoot", "postgresql", "kafka", "temporal", "junit", "aws", "docker", "kubernetes"],
+    "description": [
+      "Design, build, test, and deliver features to production as part of a 5-person team.",
+      "Keep production services stable (maintaining SLO), react to alerts and incidents.",
+      "Face and overcome multiple scale-related technical problems in distributed systems.",
+      "Find and address systematic issues to maintain low time-to-change with high change-confidence levels.",
+      "Work on integrating AI-powered features (e.g. automatic field detection), collaborating with dedicated AI teams.",
+      "Participate in team activities and rituals: code review, on-call rotation, planning, PBR, retro, daily standups,",
+      "Collaborate with the broader team (track level, consisting of 5 teams)"
+    ],
+    "requirements": [
+      "5+ years of experience as a Software Engineer.",
+      "Experience working with production systems, including on-call responsibilities.",
+      "Strong experience with Java and Spring Boot (Java 17/21, Spring Boot 3).",
+      "Solid understanding of microservices architecture, distributed systems, and asynchronous communication (Kafka).",
+      "Experience with relational databases (SQL, performance optimization), ideally PostgreSQL.",
+      "Good knowledge of testing practices (JUnit, automated testing).",
+      "Strong system design and problem-solving skills.",
+      "Experience across the full development lifecycle, from design to deployment and monitoring.",
+      "Ability to stay calm and effective during incident handling.",
+      "Strong communication skills and ability to collaborate in English (written and spoken)."
+    ],
+    "benefits": [
+      "Remote-first approach with the option for hybrid work from our offices in Kyiv, Warsaw, and Lisbon.",
+      "We value long-term collaboration, whether through typical employment contract, employment of record or B2B arrangements. Be aware that contract type and benefits vary by location - feel free to clarify with our recruiters.",
+      "Work schedule aligned with EU time zones.",
+      "Professional and personal development within a collaborative, supportive team."
+    ],
+    "overview": "Senior Java Engineer responsible for designing, building, testing, and maintaining backend document-processing services using Java, Spring Boot, PostgreSQL, Kafka, and Temporal. Work on mission-critical document import/export systems to ensure reliability, scalability, and integrate AI features.",
+    "seniority": "mid",
+    "category": "backend",
+    "companyId": "pandadoc",
+    "locationTokens": ["businessRegion:emea", "continent:europe"]
+  },
+  {
+    "url": "https://www.pandadoc.com/careers/senior-python-engineer-document-app-eu/",
+    "title": "Senior Python Engineer, Document App",
+    "employmentType": "fulltime",
+    "workplaceType": "remote",
+    "location": {
+      "scope": "continent",
+      "businessRegion": "emea",
+      "continent": "europe"
+    },
+    "publishedAt": null,
+    "salaryRange": {
+      "min": 275000,
+      "max": 413000,
+      "interval": "year",
+      "currency": "PLN"
+    },
+    "skills": [
+      "python",
+      "django",
+      "postgresql",
+      "redis",
+      "memcached",
+      "kafka",
+      "nats",
+      "asyncio",
+      "docker",
+      "kubernetes"
+    ],
+    "description": [
+      "Contribute to the vision and the architecture of the key component of the application - Document domain",
+      "Face and overcome multiple scale-related technical challenges",
+      "Finding and addressing systematic issues to maintain low time-to-change for other developers with a high change-confidence level",
+      "Improve reliability, maintaining high quality standards, and enhancing developer experience while evolving the document platform to support new product capabilities",
+      "Build core functionality that powers document creation, editing, and management across the product",
+      "Contribute to the long term domain excellence strategy"
+    ],
+    "requirements": [
+      "At least 5+ years of development experience with Python",
+      "Experience with any relational databases (SQL queries, migrations, optimization)",
+      "Solid experience with message queues (e.g. RabbitMQ, NATS, Kafka)",
+      "Understanding of event-based systems and basics of DDD",
+      "Strong understanding and experience in AsyncIO",
+      "Good understanding of the development cycle from requirements analysis and deployment to application monitoring",
+      "Extensive hands-on experience in developing applications within both monolithic and microservice architectures",
+      "Communicate effectively in English, both orally and in writing"
+    ],
+    "benefits": [
+      "Competitive salary. If you're located in Poland, the salary range is 275000 - 413000 PLN annually.",
+      "Remote-first approach with the option for hybrid work from our offices in Kyiv, Warsaw, and Lisbon.",
+      "Work schedule aligned with EU time zones."
+    ],
+    "overview": "Senior Python Engineer responsible for the Document domain, building core document creation, editing and management services using Python and Django. You will improve reliability, scalability, and developer experience across a hybrid monolith and microservice platform.",
+    "seniority": "mid",
+    "category": "backend",
+    "companyId": "pandadoc",
+    "locationTokens": ["businessRegion:emea", "continent:europe"]
+  },
+  {
+    "url": "https://www.pandadoc.com/careers/senior-web-developer-us/",
+    "title": "Senior Web Developer",
+    "employmentType": "fulltime",
+    "workplaceType": "remote",
+    "location": {
+      "scope": "country",
+      "businessRegion": "amer",
+      "continent": "northamerica",
+      "country": "unitedstates"
+    },
+    "publishedAt": null,
+    "salaryRange": {
+      "min": 150000,
+      "max": 150000,
+      "interval": "year",
+      "currency": "USD"
+    },
+    "skills": [
+      "nextjs",
+      "react",
+      "typescript",
+      "contentful",
+      "vercel",
+      "googleanalytics",
+      "segment",
+      "optimizely",
+      "vwo"
+    ],
+    "description": [
+      "Architect the future of pandadoc.com: Lead the full-stack development of our marketing site using Next.js, Vercel, and Contentful. You will own the codebase, ensuring it is performant, scalable, and maintainable.",
+      "Enable high-velocity experimentation: Build the technical foundation that allows the marketing team to accelerate learning through high-impact experimentation. Implement A/B testing frameworks and personalization logic to optimize conversion rates across the user journey.",
+      "Drive innovation on the web: In line with our product roadmap, find ways to embed intelligent experiences directly into the web journey, automating personalization and creating unique interactive experiences for visitors.",
+      "Scale our Content Operations: Manage and optimize our Contentful implementation. You will design flexible content models that empower the marketing team to ship campaigns and landing pages independently without constant developer intervention.",
+      "Optimize for Performance & SEO: Own the technical health of the website. Relentless focus on Core Web Vitals, page speed, and technical SEO implementation to ensure we capture maximum organic traffic.",
+      "Bridge the gap: Act as the technical translator between the Marketing and Product Engineering teams, ensuring our web stack aligns with the broader company technology vision while serving the specific agility needs of the marketing organization."
+    ],
+    "requirements": [
+      "8+ years of experience in Full Stack Web Development.",
+      "Deep expertise in the modern React ecosystem: Next.js (App Router experience is a plus), React, and TypeScript.",
+      "Proven experience scaling Contentful or similar Headless CMS platforms in a complex marketing environment.",
+      "Expert knowledge of Vercel for deployment, edge functions, and middleware.",
+      "Strong understanding of web performance, Core Web Vitals, and Technical SEO.",
+      "Experience integrating marketing tools (Google Analytics, Segment, A/B testing tools like Optimizely or VWO).",
+      "Bonus: Experience with AI/LLM integration in web applications."
+    ],
+    "benefits": [
+      "The annual range for this role is $150k OTE, which includes both base and variable pay.",
+      "Employees may be able to purchase company stock (or receive annual bonuses)",
+      "Employees (and their families) may enroll in the company's medical, dental, vision, short & long term disability, life insurance, FSA and 401k plans.",
+      "13.34+ hours of paid time off per month, 6 self care days, birthday PTO day, and 12 company paid holidays off per year.",
+      "Marketing Remote (USA)"
+    ],
+    "overview": "Senior Web Developer leading full-stack development of pandadoc.com with Next.js, React, TypeScript, Contentful, and Vercel. You will enable experimentation, optimize performance and SEO, and turn the marketing site into a revenue-driving acquisition engine.",
+    "seniority": "lead",
+    "category": "fullstack",
+    "companyId": "pandadoc",
+    "locationTokens": ["businessRegion:amer", "continent:northamerica", "country:unitedstates"]
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/kraken.com/705183dd-b651-4c54-a52e-3651dd3b9d40",
+    "title": "Engineering Manager - Site Reliability Engineering",
+    "employmentType": "fulltime",
+    "workplaceType": "remote",
+    "location": {
+      "scope": "businessRegion",
+      "businessRegion": "emea"
+    },
+    "publishedAt": "2026-04-24",
+    "salaryRange": null,
+    "skills": ["kubernetes", "ci_cd"],
+    "description": [
+      "Our product SRE teams are embedded inside Kraken's engineering organizations — close enough to the product to know when something matters before it becomes an incident, senior enough in infrastructure to do something about it.",
+      "Own the SRE roadmap end-to-end: set priorities independently, drive execution, and make the team's impact visible across the org",
+      "Be the infrastructure voice for your business unit — translate upstream roadmaps into product-specific plans and advocate your team's needs back upstream",
+      "Drive compliance, security, and infrastructure topics for your business unit — identify risks early, own the resolution before they escalate",
+      "Shape developer productivity: engage regularly with product EMs to surface pain points and lead the initiatives that remove them",
+      "Contribute technical credibility to architectural discussions — bring your reliability and operational experience, and carry decisions to completion",
+      "Own your business unit's workstream in a company-wide infrastructure migration. This is hands-on technical leadership, not just stakeholder management",
+      "Lead a 4–6-person generalist SRE team through 1:1s, performance cycles, and meaningful career development"
+    ],
+    "requirements": [
+      "Hands-on SRE or infrastructure engineering background — you contribute directly when the situation calls for it",
+      "Fluent with cloud-native infrastructure — Kubernetes, observability stacks, CI/CD pipelines",
+      "Prior experience managing or leading a small-to-mid-size engineering team, including full performance cycles",
+      "Built and owned an SRE or infrastructure roadmap — you set priorities without waiting to be told",
+      "Represents technical needs in cross-functional and leadership conversations, including at director level"
+    ],
+    "benefits": ["This is a fully remote position."],
+    "overview": "Engineering Manager, Site Reliability Engineering, to lead a 4–6-person SRE team and own infrastructure roadmaps using Kubernetes and CI/CD. The team is embedded in product orgs to drive reliability, developer productivity, compliance, and migrations.",
+    "seniority": "lead",
+    "category": "devops",
+    "companyId": "krakenfx",
+    "locationTokens": ["businessRegion:emea"]
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/kraken.com/f0c42602-2d2e-48a9-b30b-d5d062c0ef36",
+    "title": "Senior Software Engineer - Backend - Growth Platform",
+    "employmentType": "fulltime",
+    "workplaceType": "remote",
+    "location": {
+      "scope": "worldwide"
+    },
+    "publishedAt": "2025-11-10",
+    "salaryRange": null,
+    "skills": ["typescript", "go", "python", "rust", "ruby", "docker", "kubernetes", "terraform", "mysql", "redis"],
+    "description": [
+      "Architect, build, and maintain SDKs, CLIs, APIs, and shared services that enable rapid experimentation and delivery across Growth engineering teams.",
+      "Develop internal tools and frameworks that improve engineering workflows, automation, and deployment efficiency.",
+      "Design and evolve scalable backend systems and databases, ensuring performance, security, and resilience.",
+      "Write clear, maintainable technical documentation and onboarding materials for engineers using platform tools.",
+      "Partner with other engineers to understand pain points and translate them into intuitive, reliable internal systems.",
+      "Own reliability, observability, and performance improvements across core services.",
+      "Collaborate with infrastructure and platform teams across the company to align on standards, tooling, and best practices.",
+      "Mentor engineers and advocate for engineering excellence, automation, and maintainability."
+    ],
+    "requirements": [
+      "5+ years of software engineering experience, including building and maintaining backend systems or developer-facing tools.",
+      "Proficiency in building scalable applications and developer tooling using one of the following: TypeScript, Rust, Go, Python, or Ruby.",
+      "Experience designing and maintaining APIs, SDKs, or internal services consumed by other engineering teams.",
+      "Understanding of distributed systems, scalability, reliability, and secure software design.",
+      "Experience with infrastructure and tooling such as Docker, Kubernetes, Terraform, MySQL/MariaDB, Redis, or GitLab CI/CD.",
+      "Strong communication and documentation skills — you can make complex systems approachable to other developers.",
+      "Nice to have: familiarity with React or React Native, especially when building front-end SDKs or shared components.",
+      "Ability to operate autonomously in a globally distributed, remote-first environment.",
+      "Experience building internal developer platforms or frameworks used across multiple teams.",
+      "Background in observability, reliability engineering, or service instrumentation.",
+      "Experience driving technical design across large codebases or multi-team environments."
+    ],
+    "benefits": ["This is a fully remote, remote-first role."],
+    "overview": "Senior Software Engineer (Backend) building SDKs, CLIs, APIs and backend systems using TypeScript, Go, Python, Rust or Ruby. Drive developer tooling and scalable internal platforms to accelerate Growth Engineering serving millions of users globally.",
+    "seniority": "mid",
+    "category": "backend",
+    "companyId": "krakenfx",
+    "locationTokens": []
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/kraken.com/9d322024-6c50-4280-aa0f-f15d266b1d6a",
+    "title": "Senior Software Engineer - Full-stack - Growth Product",
+    "employmentType": "fulltime",
+    "workplaceType": "remote",
+    "location": {
+      "scope": "worldwide"
+    },
+    "publishedAt": "2025-11-11",
+    "salaryRange": null,
+    "skills": ["typescript", "rust", "go", "python", "ruby", "react", "react-native", "docker", "mysql", "redis"],
+    "description": [
+      "Take on complex, high-impact problems that blend product thinking and engineering excellence.",
+      "Work across web and mobile platforms, collaborating with design, data, and product teams to deliver features that drive measurable business outcomes.",
+      "Partner with product managers, designers, and analysts to identify growth opportunities and turn them into high-quality, data-driven engineering solutions.",
+      "Implement reusable services and components that power marketing campaigns, onboarding, KYC, and first-funding experiences across web and mobile.",
+      "Collaborate on distributed systems that handle large volumes of global traffic while maintaining high performance and reliability.",
+      "Participate in design and architecture discussions, balancing user impact, scalability, and maintainability.",
+      "Measure, experiment, and iterate — using data and experimentation frameworks to understand what drives user behavior.",
+      "Uphold and improve engineering standards, performance, and security practices across the stack."
+    ],
+    "requirements": [
+      "5+ years of software engineering experience, including building and maintaining production systems at scale.",
+      "Proficiency in building full-stack applications using one of the following: TypeScript, Rust, Go, Python, or Ruby, and React or React Native.",
+      "Understanding of distributed systems, performance optimization, debugging, and secure software design.",
+      "Familiarity with infrastructure and tooling such as Docker, Kubernetes, Terraform, MySQL/MariaDB, Redis, or GitLab CI/CD.",
+      "A product mindset — you care about how your work moves key metrics, not just about the code itself.",
+      "Ability to operate autonomously in a globally distributed, remote-first environment."
+    ],
+    "benefits": ["Fully remote work (remote-first, distributed team)."],
+    "overview": "Senior Full-stack Software Engineer building web and mobile growth features using TypeScript, React/React Native, Go, Rust, Python, or Ruby. You’ll deliver scalable onboarding and marketing systems that drive activation, retention, and monetization.",
+    "seniority": "senior",
+    "category": "fullstack",
+    "companyId": "krakenfx",
+    "locationTokens": []
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/kraken.com/c6bfad99-1516-45a5-88d4-b14005a467ad",
+    "title": "Staff Software Engineer – Growth",
+    "employmentType": "fulltime",
+    "workplaceType": "remote",
+    "location": {
+      "scope": "country",
+      "country": "United Kingdom,Canada,Portugal,Spain,Poland,Ireland,Brazil,Romania,Czech Republic,Cyprus,Lithuania,Mexico"
+    },
+    "publishedAt": "2025-11-20",
+    "salaryRange": null,
+    "skills": ["typescript", "rust", "go", "python", "ruby", "docker", "kubernetes", "terraform", "redis"],
+    "description": [
+      "As a Staff Engineer on the Growth team, you’ll lead complex, cross-cutting technical initiatives that directly impact user acquisition, activation, and retention.",
+      "You’ll drive architectural direction, mentor engineers, and ensure the systems we build are reliable, scalable, and measurable in their impact.",
+      "Lead the technical direction for key Growth initiatives, from experimentation platforms to global onboarding and engagement systems.",
+      "Design and evolve distributed, high-scale systems that power user acquisition and retention.",
+      "Partner with Product, Design, and Data teams to identify growth opportunities and translate them into reliable, measurable engineering solutions.",
+      "Mentor engineers across Product and Platform teams — guiding architecture, design, and execution.",
+      "Ensure high engineering standards across the stack: reliability, performance, security, and maintainability.",
+      "Collaborate across teams to align on architecture, tooling, and technical strategy."
+    ],
+    "requirements": [
+      "Proven experience leading large-scale technical projects or owning critical systems end to end.",
+      "Deep expertise in TypeScript or Rust, our core languages — and the versatility to work confidently across the full stack.",
+      "Experience with other languages such as Go, Python, or Ruby is a plus and demonstrates your ability to adapt quickly.",
+      "Broad technical range and curiosity — you’re comfortable diving into any layer of the stack, from front-end performance to backend architecture and infrastructure.",
+      "Strong understanding of distributed systems, scalability, reliability, and performance optimization.",
+      "Experience designing systems that balance experimentation velocity with long-term maintainability.",
+      "A product mindset — you think in terms of outcomes and user impact, not just code.",
+      "Excellent collaboration and communication skills across engineering, product, and design.",
+      "Experience operating autonomously in a distributed, remote-first environment.",
+      "You set the bar for technical excellence and embody the ownership, craftsmanship, and accountability we expect across the organization."
+    ],
+    "benefits": ["Fully remote work."],
+    "overview": "Staff Software Engineer leading Growth engineering, driving technical direction and building scalable systems using TypeScript or Rust. You'll shape onboarding, experimentation, and engagement systems to drive global user acquisition and retention.",
+    "seniority": "lead",
+    "category": "fullstack",
+    "companyId": "krakenfx",
+    "locationTokens": [
+      "country:United Kingdom,Canada,Portugal,Spain,Poland,Ireland,Brazil,Romania,Czech Republic,Cyprus,Lithuania,Mexico",
+      "continent:undefined"
+    ]
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/kraken.com/548d0ca7-c563-45ca-92c9-29da56d262c3",
+    "title": "Senior Software Engineer - React Native - Payments",
+    "employmentType": "fulltime",
+    "workplaceType": "remote",
+    "location": {
+      "scope": "worldwide"
+    },
+    "publishedAt": "2026-02-25",
+    "salaryRange": null,
+    "skills": ["javascript", "typescript", "react", "react-native", "nextjs", "websocket", "ios", "android"],
+    "description": [
+      "Design, develop, and maintain high-quality payment processing systems using React.js and other relevant technologies",
+      "Build and refine seamless transaction experiences that optimize fund transfers for speed, security, and reliability",
+      "Ensure an efficient and intuitive onboarding experience for users interacting with payment systems, reducing friction and improving trust",
+      "Develop innovative features that enhance engagement, retention, and loyalty within the payments ecosystem",
+      "Set the standard for high-quality, secure code and lead the development of complex financial software systems",
+      "Influence technical decisions, contribute to strategy discussions, and shape product/domain decisions with a deep understanding of financial systems and security best practices",
+      "Mentor engineers, foster a culture of technical excellence, and drive process improvements in financial software development",
+      "Design and implement scalable, maintainable, and fault-tolerant financial systems, ensuring compliance and security best practices",
+      "Build systems that communicate with various blockchains to enable the timely processing of client transactions while ensuring the safety and security of all funds on the exchange"
+    ],
+    "requirements": [
+      "6+ years of experience in software development, with a focus on web and mobile applications",
+      "Deep understanding of JavaScript/TypeScript and proficiency with React Native frameworks",
+      "Strong experience of API design, security, and performance optimization",
+      "Experience with Next.js and WebSockets",
+      "Experience with frontend testing frameworks",
+      "Familiarity with modern front-end build pipelines and tooling",
+      "Strong understanding of UI/UX best practices and principles",
+      "Experience within a large technology organization or fast growing startup",
+      "Hands-on experience in consumer payments, crypto or fintech mobile applications",
+      "Strong written and verbal communication skills in English",
+      "Available in EU afternoons",
+      "Familiarity with native mobile app development (iOS/Android)",
+      "Knowledge of the cryptocurrency industry and blockchain technology"
+    ],
+    "benefits": ["Fully remote work"],
+    "overview": "Senior Software Engineer focusing on payments systems using React Native, React.js, JavaScript/TypeScript and Next.js. You will build secure payment and blockchain integrations to process client transactions for Kraken's Payments & Blockchain team.",
+    "seniority": "senior",
+    "category": "frontend",
+    "companyId": "krakenfx",
+    "locationTokens": []
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/kraken.com/f29a3a8b-09b3-45b0-81fa-b53c1e591c74",
+    "title": "Senior Backend Engineer - Breakout Prop",
+    "employmentType": "fulltime",
+    "workplaceType": "remote",
+    "location": {
+      "scope": "country",
+      "country": "unitedstates"
+    },
+    "publishedAt": "2026-04-23",
+    "salaryRange": {
+      "min": 110400,
+      "max": 220800,
+      "interval": "year",
+      "currency": "USD"
+    },
+    "skills": ["csharp", "aspnet", "postgresql", "aws"],
+    "description": [
+      "As a Senior Backend Engineer at Breakout, you’ll design and implement the core services that power our trading platform, with a special focus on metrics, data pipelines, and performance monitoring.",
+      "You’ll architect solutions that ensure real-time visibility into trading activity, risk exposure, and financial performance, while also driving scalability and reliability across the stack.",
+      "You’ll collaborate closely with our CTO, engineering, operations, and data teams to ensure our systems deliver the speed, accuracy, and transparency needed in a live trading environment.",
+      "Designing, developing, and maintaining high-performance, low-latency, and scalable back-end services and RESTful APIs using C# and ASP.NET Core",
+      "Architecting solutions for real-time financial data processing, trade surveillance, and portfolio analysis",
+      "Building pipelines and data models to power metrics dashboards, risk reporting, and performance analytics",
+      "Managing and optimizing complex queries and schemas in PostgreSQL",
+      "Integrating APIs with third-party systems to ensure data integrity and reliability",
+      "Identifying and resolving performance bottlenecks to meet demanding uptime and latency requirements",
+      "Implementing security best practices, including authentication, authorization, and data encryption"
+    ],
+    "requirements": [
+      "You have 7+ years of backend engineering experience (at least 3+ years in financial, metrics-driven, or high-performance systems)",
+      "You are highly skilled with C#, ASP.NET http://ASP.NET Core, and PostgreSQL",
+      "You’re comfortable deploying and scaling applications in AWS",
+      "You’ve worked on API platforms, real-time data pipelines, or metrics systems",
+      "You understand or are curious about trading systems and cryptocurrency markets",
+      "You thrive on solving complex problems and building robust, scalable software"
+    ],
+    "benefits": ["Salary range: $110.4K – $220.8K.", "Offers equity.", "Offers bonus.", "Fully remote work."],
+    "overview": "Senior Backend Engineer designing and implementing high-performance C# and ASP.NET Core backend services and data pipelines for a crypto prop trading platform. Drive real-time metrics, risk monitoring, and scalability across trading systems.",
+    "seniority": "senior",
+    "category": "backend",
+    "companyId": "krakenfx",
+    "locationTokens": ["country:unitedstates", "continent:undefined"]
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/kraken.com/d18bc476-7456-4000-950e-c8b85769730b",
+    "title": "Senior Backend Engineer - Breakout Prop",
+    "employmentType": "fulltime",
+    "workplaceType": "remote",
+    "location": {
+      "scope": "businessRegion",
+      "businessRegion": "amer"
+    },
+    "publishedAt": "2026-04-23",
+    "salaryRange": null,
+    "skills": ["csharp", "aspnet", "postgresql", "aws"],
+    "description": [
+      "As a Senior Backend Engineer at Breakout, you’ll design and implement the core services that power our trading platform, with a special focus on metrics, data pipelines, and performance monitoring.",
+      "You’ll architect solutions that ensure real-time visibility into trading activity, risk exposure, and financial performance, while also driving scalability and reliability across the stack.",
+      "You’ll collaborate closely with our CTO, engineering, operations, and data teams to ensure our systems deliver the speed, accuracy, and transparency needed in a live trading environment.",
+      "Designing, developing, and maintaining high-performance, low-latency, and scalable back-end services and RESTful APIs using C# and ASP.NET Core.",
+      "Architecting solutions for real-time financial data processing, trade surveillance, and portfolio analysis.",
+      "Building pipelines and data models to power metrics dashboards, risk reporting, and performance analytics.",
+      "Managing and optimizing complex queries and schemas in PostgreSQL.",
+      "Integrating APIs with third-party systems to ensure data integrity and reliability.",
+      "Identifying and resolving performance bottlenecks to meet demanding uptime and latency requirements.",
+      "Implementing security best practices, including authentication, authorization, and data encryption."
+    ],
+    "requirements": [
+      "You have 7+ years of backend engineering experience (at least 3+ years in financial, metrics-driven, or high-performance systems)",
+      "You are highly skilled with C#, ASP.NET Core, and PostgreSQL",
+      "You’re comfortable deploying and scaling applications in AWS",
+      "You’ve worked on API platforms, real-time data pipelines, or metrics systems",
+      "You understand or are curious about trading systems and cryptocurrency markets",
+      "You thrive on solving complex problems and building robust, scalable software"
+    ],
+    "benefits": ["Fully remote work across 70+ countries."],
+    "overview": "Senior Backend Engineer building high-performance backend services and pipelines with C# and ASP.NET Core. Work on a crypto-native prop trading platform to provide real-time visibility into trading, risk, and performance.",
+    "seniority": "senior",
+    "category": "backend",
+    "companyId": "krakenfx",
+    "locationTokens": ["businessRegion:amer"]
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/kraken.com/d62250a9-363c-43b0-b3de-958e3cc9f97b",
+    "title": "Senior Software Engineer – AI Infrastructure",
+    "employmentType": "fulltime",
+    "workplaceType": "remote",
+    "location": {
+      "scope": "country",
+      "country": "United Kingdom,Canada,Portugal,Spain,Poland,Ireland,Germany,United Arab Emirates,Brazil,Romania,Czech Republic,Cyprus,Lithuania,Switzerland,Mexico"
+    },
+    "publishedAt": "2026-03-19",
+    "salaryRange": null,
+    "skills": ["rust"],
+    "description": [
+      "The AI Infrastructure team builds and operates the production systems that power intelligent agents at scale.",
+      "Design and build the infrastructure layer powering AI agent systems in production",
+      "Develop high-performance Rust services that handle model inference, orchestration, and execution",
+      "Architect scalable systems capable of supporting millions of users and high request throughput",
+      "Build reliable ML infrastructure and MLOps patterns for model deployment, evaluation, and monitoring",
+      "Define guardrails, observability, and failure handling for agent-driven workflows",
+      "Optimize latency, throughput, and cost across inference and orchestration layers",
+      "Partner closely with the Agent Systems team to translate experimental prototypes into hardened production systems",
+      "Contribute to foundational infrastructure decisions in a high-scale, high-impact environment"
+    ],
+    "requirements": [
+      "5+ years of experience building and operating high-scale production systems",
+      "Strong proficiency in Rust and systems-level programming",
+      "Deep understanding of distributed systems, reliability engineering, and performance optimization",
+      "Experience operating services serving millions of users or high-throughput workloads",
+      "Familiarity with ML infrastructure, model serving, or MLOps in production environments",
+      "Experience designing observability, monitoring, and failure recovery systems",
+      "Strong collaboration skills working across infrastructure and applied engineering teams",
+      "High ownership mindset in high-stakes production environment",
+      "Experience building infrastructure for agent-based or LLM-powered systems",
+      "Background in high-performance networking, async systems, or low-latency architectures",
+      "Experience with container orchestration and cloud-native infrastructure",
+      "Familiarity with evaluation frameworks and model performance monitoring at scale",
+      "Experience working in fast-moving 0→1 or platform-building teams"
+    ],
+    "benefits": ["Fully remote work"],
+    "overview": "Senior Software Engineer building AI infrastructure and high-performance Rust services for model inference, orchestration, and execution. Work on production-scale systems powering intelligent agents that serve millions of users with high reliability and low latency.",
+    "seniority": "mid",
+    "category": "backend",
+    "companyId": "krakenfx",
+    "locationTokens": [
+      "country:United Kingdom,Canada,Portugal,Spain,Poland,Ireland,Germany,United Arab Emirates,Brazil,Romania,Czech Republic,Cyprus,Lithuania,Switzerland,Mexico",
+      "continent:undefined"
+    ]
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/kraken.com/f70ffd00-7784-4915-9888-94c17070b0ee",
+    "title": "Senior Software Engineer - React Native - Growth",
+    "employmentType": "fulltime",
+    "workplaceType": "remote",
+    "location": {
+      "scope": "worldwide"
+    },
+    "publishedAt": "2026-01-20",
+    "salaryRange": null,
+    "skills": ["javascript", "typescript", "react-native", "nextjs", "websocket", "ios", "android"],
+    "description": [
+      "Design, develop, and maintain high-quality mobile applications using React Native",
+      "Design and execute onboarding experiences that captivate new users and streamline their journey.",
+      "Optimize the activation process to ensure users quickly realize the value of our platform.",
+      "Create and refine a first-time user experience that sets the gold standard in our industry.",
+      "Develop innovative features to incentivise engagement and loyalty.",
+      "Continuously test, learn, and improve strategies based on user behaviour and feedback.",
+      "Set the standard for high-quality code and lead complex software systems development",
+      "Significantly influence technical decisions, contribute to technical strategy discussions, and shape product/domain decisions with an expert understanding of engineering best practices",
+      "Mentor junior and senior engineers and provide constructive feedback",
+      "Design and implement scalable, maintainable, and fault-tolerant systems, with a deep understanding of complex software development architecture and design patterns",
+      "Lead and collaborate on complex initiatives, and drive feedback and growth across teams",
+      "Drive process improvements and lead by example with advanced experience in multiple software development processes"
+    ],
+    "requirements": [
+      "A strong understanding of user behaviour, onboarding best practices, and data-driven decision-making.",
+      "A creative mindset to design user experiences that stand out and leave a lasting impression.",
+      "6+ years of experience in software development, with a focus on web and mobile applications",
+      "Deep understanding of JavaScript/TypeScript and proficiency with React Native frameworks",
+      "Strong experience of API design, security, and performance optimization",
+      "Experience with Next.js and WebSockets",
+      "Experience with frontend testing frameworks",
+      "Familiarity with modern front-end build pipelines and tooling",
+      "Strong understanding of UI/UX best practices and principles",
+      "Experience within a large technology organization or fast growing startup",
+      "Hands-on experience in consumer payments, crypto or fintech mobile applications",
+      "Strong written and verbal communication skills in English",
+      "Familiarity with native mobile app development (iOS/Android) (nice to have)",
+      "Knowledge of the cryptocurrency industry and blockchain technology (nice to have)"
+    ],
+    "benefits": ["Fully remote work."],
+    "overview": "Senior Software Engineer building React Native mobile applications for user acquisition and activation. Work on the Growth team to design onboarding, optimize activation, and influence technical strategy.",
+    "seniority": "senior",
+    "category": "frontend",
+    "companyId": "krakenfx",
+    "locationTokens": []
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/kraken.com/afb1e171-b3c9-4a9e-bac1-2c28330152d6",
+    "title": "Software Engineer - Rust - Product Engineering",
+    "employmentType": "fulltime",
+    "workplaceType": "remote",
+    "location": {
+      "scope": "worldwide"
+    },
+    "publishedAt": "2026-02-20",
+    "salaryRange": null,
+    "skills": ["rust", "kafka"],
+    "description": [
+      "Design and implement robust Rust services and libraries that power trading, payments, and crypto experiences with a focus on reliability, performance, and user impact.",
+      "Write reusable, testable, and highly efficient code that scales across teams and supports revenue-critical systems without compromising safety or security.",
+      "Collaborate on large-scale distributed systems architecture, translating evolving product requirements into resilient, low-latency solutions.",
+      "Work alongside hundreds of experienced Rust engineers, contributing to a high-performance, product-driven engineering culture."
+    ],
+    "requirements": [
+      "3+ years of experience in software engineering, ideally building consumer facing products",
+      "Proficiency in writing network services or asynchronous code in Rust",
+      "Demonstrated commitment to a security-first mindset when designing systems",
+      "Capability to autonomously debug issues across the stack, including OS, network, and application layers",
+      "Familiarity with distributed systems and technologies, including RPC protocols, Kafka, and Event Driven Systems"
+    ],
+    "benefits": ["Fully remote work."],
+    "overview": "Software Engineer (Rust) to design and implement production Rust services powering trading and payments. You’ll work on distributed, revenue-critical crypto products focused on reliability and low-latency.",
+    "seniority": "mid",
+    "category": "backend",
+    "companyId": "krakenfx",
+    "locationTokens": []
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/kraken.com/99182c62-31c0-4e31-b028-5efc431c7eac",
+    "title": "Senior Software Engineer - Rust - Product Engineering",
+    "employmentType": "fulltime",
+    "workplaceType": "remote",
+    "location": {
+      "scope": "worldwide"
+    },
+    "publishedAt": "2026-02-20",
+    "salaryRange": null,
+    "skills": ["rust", "kafka"],
+    "description": [
+      "Design and implement robust Rust services and libraries that power trading, payments, and crypto experiences with a focus on reliability, performance, and user impact.",
+      "Write reusable, testable, and highly efficient code that scales across teams and supports revenue-critical systems without compromising safety or security.",
+      "Collaborate on large-scale distributed systems architecture, translating evolving product requirements into resilient, low-latency solutions.",
+      "Work alongside hundreds of experienced Rust engineers, contributing to a high-performance, product-driven engineering culture."
+    ],
+    "requirements": [
+      "7+ years of software engineering experience",
+      "Experience building customer focused products, ideally in the fintech or crypto space",
+      "Proficient in writing network services or asynchronous code in Rust",
+      "Have a security-first mindset during system design to ensure robustness",
+      "Demonstrate the ability to autonomously debug issues across the stack (OS, network, application)",
+      "Apply a solid understanding of distributed systems and technologies, including RPC protocols, Kafka, and Event-Driven Systems, to design scalable solutions",
+      "Collaborate effectively with product teams to gather requirements and constraints for designing appropriate systems",
+      "Take complete end-to-end ownership of systems and libraries",
+      "Provide mentorship to other engineers while contributing to defining the technical culture"
+    ],
+    "benefits": ["This is a fully remote role."],
+    "overview": "Senior Software Engineer building robust Rust services and libraries for trading, payments, and crypto experiences. Work on resilient, low-latency distributed systems that impact trader experience and revenue.",
+    "seniority": "senior",
+    "category": "backend",
+    "companyId": "krakenfx",
+    "locationTokens": []
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/kraken.com/6a7ec3ee-feda-42c7-a1d4-3baf1e3a0fc9",
+    "title": "Senior Software Engineer - Rust - Core Engineering",
+    "employmentType": "fulltime",
+    "workplaceType": "remote",
+    "location": {
+      "scope": "worldwide"
+    },
+    "publishedAt": "2026-02-20",
+    "salaryRange": null,
+    "skills": ["rust", "kafka"],
+    "description": [
+      "Design and implement robust Rust services and foundational libraries that power Kraken’s core infrastructure, prioritizing correctness, security, and long-term maintainability.",
+      "Write reusable, testable, and highly efficient code built for scale, observability, and operational resilience in production environments.",
+      "Collaborate on large-scale distributed systems architecture, shaping low-latency, fault-tolerant services that support global trading and internal platforms.",
+      "Work alongside hundreds of experienced Rust engineers, contributing to a high-bar engineering culture grounded in ownership, rigor, and craftsmanship."
+    ],
+    "requirements": [
+      "7+ years of software engineering experience",
+      "Experience building and scaling shared systems, internal platforms, and supporting multiple product roadmaps",
+      "Proficient in writing network services or asynchronous code in Rust",
+      "Have a security-first mindset during system design to ensure robustness",
+      "Demonstrate the ability to autonomously debug issues across the stack (OS, network, application)",
+      "Apply a solid understanding of distributed systems and technologies, including RPC protocols, Kafka, and Event-Driven Systems, to design scalable solutions",
+      "Collaborate effectively with product teams to gather requirements and constraints for designing appropriate systems",
+      "Take complete end-to-end ownership of systems and libraries"
+    ],
+    "benefits": ["Fully remote work"],
+    "overview": "Senior Software Engineer building and maintaining Rust services and libraries for Kraken's core infrastructure. Work on low-latency, fault-tolerant distributed systems with a security-first focus.",
+    "seniority": "senior",
+    "category": "backend",
+    "companyId": "krakenfx",
+    "locationTokens": []
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/kraken.com/7f9a1c08-126b-419a-8263-c4b6b129bf60",
+    "title": "Sr. Site Reliability Engineer - CIE",
+    "employmentType": "fulltime",
+    "workplaceType": "remote",
+    "location": {
+      "scope": "country",
+      "businessRegion": "amer",
+      "continent": "southamerica",
+      "country": "Brazil"
+    },
+    "publishedAt": "2026-02-17",
+    "salaryRange": null,
+    "skills": ["rust", "go", "python", "aws", "docker", "kubernetes", "terraform", "kafka", "redis"],
+    "description": [
+      "Keeping one of the fastest growing companies in the world up and available in a 24/7 environment.",
+      "Monitor and support staging and production environments, build tooling, CI/CD pipelines, deployment specifications and generally automate internal processes to empower developers and improve team efficiency.",
+      "Own and operate Kraken’s Core Infrastructure Platform, supporting a highly resilient, low-latency, distributed exchange environment across on-prem and cloud.",
+      "Deliver, monitor, and support staging and production systems in a 24/7 environment.",
+      "Participate in an on-call rotation to ensure the reliability and availability of mission-critical systems.",
+      "Design, build, and maintain infrastructure tooling, CI/CD pipelines, and self-service platforms to improve developer velocity and autonomy.",
+      "Lead migrations across cloud and on-prem environments and drive adoption of Infrastructure as Code (Terraform).",
+      "Manage container orchestration platforms (Kubernetes, Nomad) and service deployments.",
+      "Implement infrastructure security best practices to ensure availability, integrity, and compliance.",
+      "Operate and optimize distributed systems (Kafka, Redis, Elasticsearch, MariaDB) and ingress infrastructure (proxies, CDNs), troubleshooting performance and reliability issues in collaboration with cross-functional teams."
+    ],
+    "requirements": [
+      "5+ years in SRE, DevOps, or backend infrastructure engineering roles.",
+      "3+ years programming in Rust, Golang, or Python.",
+      "Strong expertise in AWS and cloud infrastructure architecture.",
+      "Deep experience with Docker and orchestration platforms (Kubernetes or Nomad).",
+      "Hands-on experience with Infrastructure as Code (Terraform) and related tooling (e.g., Vault, Consul, Salt).",
+      "Strong monitoring and observability experience (Grafana, VictoriaMetrics, Splunk, AlertManager).",
+      "Solid Linux systems knowledge, networking fundamentals, and advanced debugging skills.",
+      "Experience implementing secure, scalable CI/CD pipelines and Git-based workflows.",
+      "Strong security mindset with experience applying best practices in complex environments.",
+      "Strong background in distributed systems and advanced networking concepts.",
+      "Experience with Cloudflare (WAF, caching, Workers) and edge infrastructure."
+    ],
+    "benefits": ["This is a fully remote role; LATAM applicants will be considered."],
+    "overview": "Senior SRE owning Kraken’s core infrastructure, ensuring uptime for cloud and on‑prem systems using AWS, Kubernetes/Nomad and Terraform. Support low‑latency distributed exchange production and staging in a 24/7 on‑call environment.",
+    "seniority": "senior",
+    "category": "devops",
+    "companyId": "krakenfx",
+    "locationTokens": ["businessRegion:amer", "continent:southamerica", "country:Brazil"]
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/kraken.com/62d3b1c1-10e7-452b-b045-ea0c6dd80108",
+    "title": "Software Engineer - Rust - Core Engineering",
+    "employmentType": "fulltime",
+    "workplaceType": "remote",
+    "location": {
+      "scope": "worldwide"
+    },
+    "publishedAt": "2026-02-20",
+    "salaryRange": null,
+    "skills": ["rust", "kafka"],
+    "description": [
+      "Our Platform and Core Engineering teams build the systems that make Kraken secure, resilient, and scalable.",
+      "Design and implement robust Rust services and foundational libraries that power Kraken’s core infrastructure, prioritizing correctness, security, and long-term maintainability.",
+      "Write reusable, testable, and highly efficient code built for scale, observability, and operational resilience in production environments.",
+      "Collaborate on large-scale distributed systems architecture, shaping low-latency, fault-tolerant services that support global trading and internal platforms.",
+      "Work alongside hundreds of experienced Rust engineers, contributing to a high-bar engineering culture grounded in ownership, rigor, and craftsmanship."
+    ],
+    "requirements": [
+      "3+ years of experience in software engineering, ideally building and scaling shared systems, internal platforms, and supporting multiple product roadmaps",
+      "Proficiency in writing network services or asynchronous code in Rust",
+      "Demonstrated commitment to a security-first mindset when designing systems",
+      "Capability to autonomously debug issues across the stack, including OS, network, and application layers",
+      "Familiarity with distributed systems and technologies, including RPC protocols, Kafka, and Event Driven Systems"
+    ],
+    "benefits": ["Fully remote work."],
+    "overview": "Software Engineer building and maintaining core infrastructure services in Rust for high-scale, distributed systems (Kafka, RPC). Join Platform and Core Engineering to improve security, resilience, and scalability across Kraken's backend systems.",
+    "seniority": "mid",
+    "category": "backend",
+    "companyId": "krakenfx",
+    "locationTokens": []
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/kraken.com/1ef252be-b664-42eb-abc5-6b02b54114ff",
+    "title": "Senior Software Engineer – AI Infrastructure",
+    "employmentType": "fulltime",
+    "workplaceType": "remote",
+    "location": {
+      "scope": "country",
+      "businessRegion": "amer",
+      "continent": "northamerica",
+      "country": "unitedstates"
+    },
+    "publishedAt": "2026-03-05",
+    "salaryRange": {
+      "min": 110400,
+      "max": 220800,
+      "interval": "year",
+      "currency": "USD"
+    },
+    "skills": ["rust"],
+    "description": [
+      "Design and build the infrastructure layer powering AI agent systems in production",
+      "Develop high-performance Rust services that handle model inference, orchestration, and execution",
+      "Architect scalable systems capable of supporting millions of users and high request throughput",
+      "Build reliable ML infrastructure and MLOps patterns for model deployment, evaluation, and monitoring",
+      "Define guardrails, observability, and failure handling for agent-driven workflows",
+      "Optimize latency, throughput, and cost across inference and orchestration layers",
+      "Partner closely with the Agent Systems team to translate experimental prototypes into hardened production systems",
+      "Contribute to foundational infrastructure decisions in a high-scale, high-impact environment"
+    ],
+    "requirements": [
+      "5+ years of experience building and operating high-scale production systems",
+      "Strong proficiency in Rust and systems-level programming",
+      "Deep understanding of distributed systems, reliability engineering, and performance optimization",
+      "Experience operating services serving millions of users or high-throughput workloads",
+      "Familiarity with ML infrastructure, model serving, or MLOps in production environments",
+      "Experience designing observability, monitoring, and failure recovery systems",
+      "Strong collaboration skills working across infrastructure and applied engineering teams",
+      "High ownership mindset in high-stakes production environment",
+      "Experience building infrastructure for agent-based or LLM-powered systems",
+      "Background in high-performance networking, async systems, or low-latency architectures",
+      "Experience with container orchestration and cloud-native infrastructure",
+      "Familiarity with evaluation frameworks and model performance monitoring at scale",
+      "Experience working in fast-moving 0→1 or platform-building teams"
+    ],
+    "benefits": ["Salary range: $110.4K – $220.8K.", "Fully remote work (company is fully remote)."],
+    "overview": "Senior Software Engineer building high-performance Rust services for model inference, orchestration, and execution. Work on scalable, reliable ML infrastructure powering agent systems that serve millions of users.",
+    "seniority": "mid",
+    "category": "devops",
+    "companyId": "krakenfx",
+    "locationTokens": ["businessRegion:amer", "continent:northamerica", "country:unitedstates"]
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/kraken.com/98a448fc-0102-4514-abf0-f03f77d226b0",
+    "title": "Software Engineer - Rust Blockchain Platform",
+    "employmentType": "fulltime",
+    "workplaceType": "remote",
+    "location": {
+      "scope": "worldwide"
+    },
+    "publishedAt": "2026-04-02",
+    "salaryRange": null,
+    "skills": ["rust", "typescript", "graphql", "grpc", "kafka", "docker", "kubernetes", "ci_cd"],
+    "description": [
+      "We own the systems that handle node interactions, block ingestion & parsing, balance tracking, and on-chain data at scale.",
+      "Design and implement high-throughput, low-latency services and libraries in Rust and TypeScript",
+      "Integrate our existing systems with exciting new blockchains",
+      "Build and maintain the systems that process over 1.2 billion operations daily across 120+ chains",
+      "Design data protection and access control systems where security is a first-class requirement",
+      "Collaborate closely with product and infrastructure teams to define and deliver on their blockchain data needs",
+      "Contribute to internal tooling, documentation, and standards that raise the bar for the whole org"
+    ],
+    "requirements": [
+      "5+ years of backend engineering experience",
+      "Strong proficiency in asynchronous Rust",
+      "Experience with high-volume, distributed systems",
+      "Familiarity with API design, including GraphQL and gRPC",
+      "Experience with Kafka or similar event streaming platforms",
+      "Comfortable with core DevOps tooling such as Docker, Kubernetes, CI/CD pipelines",
+      "Hands-on experience with multiple blockchain ecosystems",
+      "Experience working with or contributing to open-source blockchain clients",
+      "Familiarity with relational databases, logging & monitoring systems, and cloud-based infrastructure providers",
+      "Passionate about security, reliability, and performance",
+      "Considerate of tomorrow’s engineer: clean code, clear documentation, meaningful tests",
+      "Comfortable with ambiguity and able to drive alignment across teams with different priorities",
+      "Pragmatic – you know when to build the elegant solution and when to ship the working one"
+    ],
+    "benefits": ["Fully remote work."],
+    "overview": "Software Engineer building high-throughput Rust and TypeScript services for Kraken's blockchain platform. Work on node interactions, block ingestion, balance tracking and on-chain data across 120+ chains.",
+    "seniority": "mid",
+    "category": "backend",
+    "companyId": "krakenfx",
+    "locationTokens": []
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/kraken.com/9892344e-fadc-49e1-bb02-1e276f42e918",
+    "title": "Software Engineer - Rust - Crypto Back Office",
+    "employmentType": "fulltime",
+    "workplaceType": "remote",
+    "location": {
+      "scope": "worldwide"
+    },
+    "publishedAt": "2026-04-07",
+    "salaryRange": null,
+    "skills": ["rust", "typescript", "grpc", "kafka", "docker", "kubernetes", "ci_cd"],
+    "description": [
+      "Design and implement high-throughput, low-latency services and libraries in Rust and TypeScript",
+      "Manage the full lifecycle of on-chain wallets across blockchains - from derivation to ownership, at the scale of a global exchange",
+      "Build and maintain the systems that ensure liquidity for clients while maintaining strict compliance with regulatory requirements",
+      "Own the core services that give the rest of the exchange visibility into on-chain state",
+      "Design and implement integrations with third-party providers to move funds efficiently across chains",
+      "Collaborate closely with stakeholders to deliver first-class treasury management tools",
+      "Contribute to internal tooling, documentation, and standards that raise the bar for the whole org"
+    ],
+    "requirements": [
+      "5+ years of backend engineering experience",
+      "Strong proficiency in asynchronous Rust",
+      "Experience with high-volume, distributed systems",
+      "Familiarity with API design and gRPC",
+      "Experience with Kafka or similar event streaming platforms",
+      "Comfortable with core DevOps tooling such as Docker, Kubernetes, CI/CD pipelines",
+      "Hands-on experience with multiple blockchain ecosystems",
+      "Experience working with or contributing to open-source blockchain clients",
+      "Familiarity with relational databases, logging & monitoring systems, and cloud-based infrastructure providers",
+      "Passionate about security, reliability, and performance",
+      "Considerate of tomorrow’s engineer: clean code, clear documentation, meaningful tests",
+      "Comfortable with ambiguity and able to drive alignment across teams with different priorities",
+      "Pragmatic – you know when to build the elegant solution and when to ship the working one"
+    ],
+    "benefits": ["Fully remote work."],
+    "overview": "Software Engineer building high-throughput Rust and TypeScript services for Kraken's Crypto Back Office. You will manage on-chain wallets, liquidity, compliance and integrations across 120+ chains.",
+    "seniority": "mid",
+    "category": "backend",
+    "companyId": "krakenfx",
+    "locationTokens": []
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/kraken.com/c31b2703-b654-449f-83ce-8fe81720cf97",
+    "title": "Software Engineer - EVM - Blockchain Platform",
+    "employmentType": "fulltime",
+    "workplaceType": "remote",
+    "location": {
+      "scope": "worldwide"
+    },
+    "publishedAt": "2026-03-25",
+    "salaryRange": null,
+    "skills": ["solidity", "typescript", "nodejs", "rust", "solidity", "docker", "kubernetes", "linux"],
+    "description": [
+      "Join our Crypto team to help integrate Kraken’s systems with an ever-expanding universe of cryptocurrencies and blockchains.",
+      "As a member of this team, your focus is on protecting client funds.",
+      "You will be responsible for building systems that communicate with various blockchains to enable the timely processing of client transactions, while also ensuring the safety and security of all funds on the exchange.",
+      "Integrate our existing systems with exciting new blockchains.",
+      "Design and implement low-latency, high-availability, super secure applications and data protection systems.",
+      "Write highly scalable, high volume services.",
+      "Write reusable, testable, and efficient code.",
+      "Design and optimize database schemas.",
+      "Own, develop and maintain existing crypto services."
+    ],
+    "requirements": [
+      "At least 4 years of backend development experience",
+      "Solid expertise in the Ethereum stack, with hands-on experience in smart contract development using Solidity",
+      "Strong backend development skills with Typescript (Node.js) and/or Rust",
+      "Understanding of cryptographic principles and security best practices for EVM-based systems",
+      "Familiarity with Docker, Kubernetes, and GNU/Linux environments",
+      "Proficiency with Git and testing frameworks for automated testing and unit tests",
+      "Passion for blockchain development, with a strong focus on Ethereum, EVM, L2s and decentralized technologies",
+      "A proactive and adaptable mindset, ready to tackle dynamic challenges in a fast-paced environment"
+    ],
+    "benefits": ["This is a fully remote role."],
+    "overview": "Software Engineer integrating Kraken's systems with EVM-based blockchains using Solidity, TypeScript/Node.js and Rust. Build low-latency, high-availability secure services to process client transactions and protect funds.",
+    "seniority": "mid",
+    "category": "backend",
+    "companyId": "krakenfx",
+    "locationTokens": []
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/kraken.com/3e769962-edad-47c1-898a-662208902b1c",
+    "title": "Mobile UI/Design Engineer",
+    "employmentType": "fulltime",
+    "workplaceType": "remote",
+    "location": {
+      "scope": "country",
+      "businessRegion": "amer",
+      "continent": "northamerica",
+      "country": "unitedstates"
+    },
+    "publishedAt": "2026-04-15",
+    "salaryRange": {
+      "min": 110400,
+      "max": 220800,
+      "interval": "year",
+      "currency": "USD"
+    },
+    "skills": ["react-native", "swift", "kotlin"],
+    "description": [
+      "Most mobile engineers can build screens. This role is for someone who makes interfaces feel right — the weight of a gesture, the timing of a transition, the moment a loading state becomes invisible.",
+      "Own the craft layer of our React Native mobile experience — fluid, gesture-driven interactions and transitions that feel native, not web-in-a-wrapper",
+      "Push React Native beyond its defaults — Reanimated, Skia, native module bridges when the abstraction isn't enough",
+      "Partner closely with product designers, challenging and elevating motion and interaction design from concept through implementation",
+      "Establish animation primitives and interaction patterns within our design system that other engineers build on — your work becomes the quality floor for the team",
+      "Profile and optimise rendering performance, especially on lower-end Android devices where frame drops are unforgivable",
+      "Contribute to architectural decisions that affect UI responsiveness: state management, render cycles, and data flow into the view layer",
+      "Mentor engineers on interaction quality and raise the standard for what \"done\" looks like across the mobile org"
+    ],
+    "requirements": [
+      "Deep, demonstrable experience building polished mobile interfaces in React Native — you know Reanimated well, you've fought with gesture handlers, and you've profiled JS thread vs UI thread performance and won",
+      "A trained eye for interaction design — you notice when an easing curve is wrong, you have opinions about spring physics, and you understand that 60fps isn't a target, it's a constraint",
+      "A portfolio or demo reel of shipped work is a hard requirement — a personal site, video walkthrough, GitHub interaction demos, or screen captures of work you're proud of. If we can't see your craft, we can't evaluate it",
+      "Experience with modern AI development tooling (Cursor, Copilot, or similar) as a natural part of how you build — not as a novelty, but as a multiplier",
+      "Strong written and verbal communication skills in English",
+      "Experience with React Native Skia, custom shader work, or canvas-based rendering for non-standard UI",
+      "Some native platform knowledge (Swift/Kotlin) for when you need to drop below the RN abstraction — bridging, native modules, platform-specific behaviour",
+      "Experience in high-stakes product domains (fintech, health, trading) where UI precision affects user trust"
+    ],
+    "benefits": ["Salary range: $110.4K – $220.8K.", "Fully remote work."],
+    "overview": "Mobile UI/Design Engineer building polished React Native interfaces using Reanimated and Skia. Join the Consumer Mobile team to craft fluid, gesture-driven interactions and optimize performance across devices.",
+    "seniority": "senior",
+    "category": "frontend",
+    "companyId": "krakenfx",
+    "locationTokens": ["businessRegion:amer", "continent:northamerica", "country:unitedstates"]
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/kraken.com/95b0206c-8168-49d5-8e6c-e0c5ff885cf6",
+    "title": "Mobile UI/Design Engineer",
+    "employmentType": "fulltime",
+    "workplaceType": "remote",
+    "location": {
+      "scope": "worldwide"
+    },
+    "publishedAt": "2026-04-15",
+    "salaryRange": null,
+    "skills": ["react-native", "javascript", "swift", "kotlin"],
+    "description": [
+      "The Consumer Mobile team builds the Kraken app — the interface millions of people use to interact with their money.",
+      "Most mobile engineers can build screens. This role is for someone who makes interfaces feel right — the weight of a gesture, the timing of a transition, the moment a loading state becomes invisible. You obsess over these details not because a designer asked for them, but because you can't ship something that feels wrong.",
+      "Own the craft layer of our React Native mobile experience — fluid, gesture-driven interactions and transitions that feel native, not web-in-a-wrapper",
+      "Push React Native beyond its defaults — Reanimated, Skia, native module bridges when the abstraction isn't enough",
+      "Partner closely with product designers, challenging and elevating motion and interaction design from concept through implementation",
+      "Establish animation primitives and interaction patterns within our design system that other engineers build on — your work becomes the quality floor for the team",
+      "Profile and optimise rendering performance, especially on lower-end Android devices where frame drops are unforgivable",
+      "Contribute to architectural decisions that affect UI responsiveness: state management, render cycles, and data flow into the view layer",
+      "Mentor engineers on interaction quality and raise the standard for what \"done\" looks like across the mobile org"
+    ],
+    "requirements": [
+      "Deep, demonstrable experience building polished mobile interfaces in React Native — you know Reanimated well, you've fought with gesture handlers, and you've profiled JS thread vs UI thread performance and won",
+      "A trained eye for interaction design — you notice when an easing curve is wrong, you have opinions about spring physics, and you understand that 60fps isn't a target, it's a constraint",
+      "A portfolio or demo reel of shipped work is a hard requirement — a personal site, video walkthrough, GitHub interaction demos, or screen captures of work you're proud of. If we can't see your craft, we can't evaluate it",
+      "Experience with modern AI development tooling (Cursor, Copilot, or similar) as a natural part of how you build — not as a novelty, but as a multiplier",
+      "Strong written and verbal communication skills in English",
+      "Experience with React Native Skia, custom shader work, or canvas-based rendering for non-standard UI",
+      "Some native platform knowledge (Swift/Kotlin) for when you need to drop below the RN abstraction — bridging, native modules, platform-specific behaviour",
+      "Background in or affinity for visual/motion design — maybe you prototype in Figma or After Effects before you write code, maybe you sketch interaction flows on paper. Either way, you think visually"
+    ],
+    "benefits": ["Fully remote work"],
+    "overview": "Mobile UI/Design Engineer crafting polished, gesture-driven React Native interfaces using Reanimated and Skia. You’ll optimize motion, responsiveness, and performance for the Kraken mobile app.",
+    "seniority": "senior",
+    "category": "frontend",
+    "companyId": "krakenfx",
+    "locationTokens": []
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/kraken.com/d6f88f50-fe58-4c5f-b801-d700a9ae9b3d",
+    "title": "Senior Site Reliability Engineer - Payward Services",
+    "employmentType": "fulltime",
+    "workplaceType": "remote",
+    "location": {
+      "scope": "country",
+      "country": "United Kingdom,Canada,Portugal,Spain,Poland,Ireland,Brazil,Romania,Czech Republic,Cyprus,Lithuania"
+    },
+    "publishedAt": "2026-04-24",
+    "salaryRange": null,
+    "skills": ["kubernetes", "docker", "grafana", "python", "go", "bash", "sql", "redis"],
+    "description": [
+      "Manage and support infrastructure for Payward Services, including Nomad, Kubernetes, databases, and 3rd party system integration",
+      "Provide operational support across multiple teams, helping debug issues in staging and production environments",
+      "Participate in incident response and post-incident reviews to improve system resilience",
+      "Consult with teams on performance, monitoring, and alerting best practices — with awareness of partner-facing SLA commitments",
+      "Build tooling, automation, and dashboards to improve observability and empower development teams",
+      "Maintain and troubleshoot CI pipelines, ensuring reliable and fast build, test, and deployment cycles",
+      "Collaborate with developers, QA, and product managers to streamline development and release cycles",
+      "Support a fully distributed team operating across multiple timezones"
+    ],
+    "requirements": [
+      "5+ years in DevOps or SRE role",
+      "Proficiency with hybrid-cloud infrastructure environments",
+      "Git source version-control and CI/CD configuration proficiency",
+      "Deep understanding of monitoring and alerting systems, preferably Prometheus and Grafana",
+      "Ability to debug complex distributed systems, networks, and Linux operating systems issues",
+      "Containerization and orchestration experience (Docker, Nomad, Kubernetes a plus)",
+      "Strong scripting skills (Bash, Python, or Go)",
+      "Self-starter capable of thriving independently and remotely in fast-paced environments",
+      "Background working with distributed systems and technologies (Kafka, gRPC, Redis, etc.)",
+      "Experience operating services with external SLAs or in a B2B/enterprise context",
+      "Experience with benchmarking, performance tuning, and identifying system bottlenecks",
+      "Proficiency with databases (SQL and NoSQL) and production operations experience",
+      "Interest in lower-level programming languages such as Rust",
+      "Experience integrating with APIs (GitLab, Jira, Slack)"
+    ],
+    "benefits": ["This role is fully remote with a strong preference for candidates in EU timezones."],
+    "overview": "Senior Site Reliability Engineer managing Payward Services infrastructure, CI/CD, monitoring, and automation (Nomad, Kubernetes, Prometheus, Grafana). Support B2B/institutional products under partner-facing SLAs in a distributed remote team.",
+    "seniority": "mid",
+    "category": "devops",
+    "companyId": "krakenfx",
+    "locationTokens": [
+      "country:United Kingdom,Canada,Portugal,Spain,Poland,Ireland,Brazil,Romania,Czech Republic,Cyprus,Lithuania",
+      "continent:undefined"
+    ]
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "website": "https://verneek.com",
+    "error": "Error: No careers URL found:"
+  },
+  {
+    "website": "https://zenrows.com",
+    "error": "Error: [scrapCareersPage]: No careers URL found for https://zenrows.com"
+  },
+  {
+    "website": "https://zenrows.com",
+    "error": "Error: [scrapCareersPage]: No careers URL found for https://zenrows.com"
+  },
+  {
+    "website": "https://zenrows.com",
+    "error": "Error: [scrapCareersPage]: No careers URL found for https://zenrows.com"
+  },
+  {
+    "website": "https://zenrows.com",
+    "error": "Error: [scrapCareersPage]: No careers URL found for https://zenrows.com"
+  },
+  {
+    "website": "https://zenrows.com",
+    "error": "Error: [scrapCareersPage]: No careers URL found for https://zenrows.com"
+  },
+  {
+    "website": "https://zenrows.com",
+    "error": "Error: [scrapCareersPage]: No careers URL found for https://zenrows.com"
+  },
+  {
+    "website": "https://kraken.com",
+    "error": "Error: [scrapeWebsitePage]: No jobs url found in https://kraken.com"
+  }
+]
