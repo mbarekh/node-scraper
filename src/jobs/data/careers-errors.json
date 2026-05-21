@@ -30,5 +30,61 @@
   {
     "website": "https://kraken.com",
     "error": "Error: [scrapeWebsitePage]: No jobs url found in https://kraken.com"
+  },
+  {
+    "website": "https://instacart.com",
+    "error": "Error: [scrapeWebsitePage]: No careers URL found for https://instacart.com"
+  },
+  {
+    "website": "https://wayfair.com",
+    "error": "Error: [scrapeWebsitePage]: No careers URL found for https://wayfair.com"
+  },
+  {
+    "website": "https://instacart.com",
+    "error": "Error: [scrapeWebsitePage]: No careers URL found for https://instacart.com"
+  },
+  {
+    "website": "https://wayfair.com",
+    "error": "Error: [scrapeWebsitePage]: No careers URL found for https://wayfair.com"
+  },
+  {
+    "website": "https://rivian.com",
+    "error": "Error: [scrapeWebsitePage]: No careers URL found for https://rivian.com"
+  },
+  {
+    "website": "https://instacart.com",
+    "error": "Error: [scrapeWebsitePage]: No careers URL found for https://instacart.com"
+  },
+  {
+    "website": "https://wayfair.com",
+    "error": "Error: [scrapeWebsitePage]: No careers URL found for https://wayfair.com"
+  },
+  {
+    "website": "https://rivian.com",
+    "error": "Error: [scrapeWebsitePage]: No careers URL found for https://rivian.com"
+  },
+  {
+    "website": "https://instacart.com",
+    "error": "Error: [scrapeWebsitePage]: No careers URL found for https://instacart.com"
+  },
+  {
+    "website": "https://wayfair.com",
+    "error": "Error: [scrapeWebsitePage]: No careers URL found for https://wayfair.com"
+  },
+  {
+    "website": "https://rivian.com",
+    "error": "Error: [scrapeWebsitePage]: No careers URL found for https://rivian.com"
+  },
+  {
+    "website": "https://instacart.com",
+    "error": "Error: [scrapeWebsitePage]: No careers URL found for https://instacart.com"
+  },
+  {
+    "website": "https://wayfair.com",
+    "error": "Error: [scrapeWebsitePage]: No careers URL found for https://wayfair.com"
+  },
+  {
+    "website": "https://nianticlabs.com",
+    "error": "Error: [scrapeWebsitePage]: No careers URL found for https://nianticlabs.com"
   }
 ]

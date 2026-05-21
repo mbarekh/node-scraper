@@ -1,1 +1,374 @@
-[]
+[
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/c73bd1cd-7c40-4375-8eed-3ebb0d33cc0d",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/c73bd1cd-7c40-4375-8eed-3ebb0d33cc0d",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/9eaedc0e-6aa1-434b-8180-2a0903d48f40",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/9eaedc0e-6aa1-434b-8180-2a0903d48f40",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/5948c8ef-5a0e-4219-8fd8-fea56305e931",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/5948c8ef-5a0e-4219-8fd8-fea56305e931",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/776ef7f7-b602-4340-a24d-5075255dff32",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/776ef7f7-b602-4340-a24d-5075255dff32",
+    "normalizedJobInfo": {
+      "skills": [
+        "AWS",
+        "Microsoft Azure",
+        "Google Cloud Platform",
+        "Snowflake"
+      ],
+      "description": [
+        "Work independently coordinating efforts to resolve complex, critical customer issues, major interruptions, and client-impacting events",
+        "Effectively prioritize all related escalation tasks independently",
+        "Collaborate with Snowflake on-call engineers, and monitor online activity data for multiple Snowflake Services to identify Service disruptions",
+        "Coordinate and engage with other teams such as Sales, Professional Services, Support, and Engineering to effectively resolve escalated situations",
+        "Develop strong partnerships internally with Sales, Services, Support, and Engineering",
+        "Work with a global mindset as part of a team of Escalation Managers",
+        "Serve as a mentor to junior staff on escalation practices",
+        "Work with Engineering and Product Management on the resolution of specific issues that may arise as blockers to customer progress",
+        "Demonstrate strong judgment regarding escalation management and problem mitigation, as well as the ability to make timely decisions from both business and technical perspectives",
+        "Effectively advocate for required solutions to provide the best customer experience",
+        "Understand both proactive and reactive escalation management practices and how to analyze and apply data to a decision making process",
+        "Manage customer-facing communications for Escalations as well as the development and execution of a “Get Well Plan”, understanding all aspects of the situation and developing a clear scope and get well plan",
+        "Maintain disciplined and regular communications within accounts while building credibility through timely action and responsiveness during the account escalation",
+        "Effectively communicate critical issue status (both verbally and written) to executive staff, sales teams, and other involved parties",
+        "Utilize your contextual interpretation and writing skills to summarize pages of information into concise and readable paragraphs effectively",
+        "Understand and translate complex technical information and issues into business cases, impacts, and risks that the customer can easily interpret",
+        "Meet deliverable timelines based on pre-scheduled activities and events, such as customer, team, and executive updates",
+        "Participate in weekend on-call rotation",
+        "Review & analyze Customer health trends to proactively identify and resolve issues, preventing customer escalations",
+        "Coordination with all internal subject matter experts and stakeholders, acting as the primary decision point for all active customer activities pertaining to the account escalation",
+        "Customer champion, a resource specifically focused on returning the customer environment to a stable state and the customer to a state of satisfaction with Snowflake, resulting in the continued growth of the account"
+      ],
+      "requirements": [
+        "B.S. or M.S degree in CS, MIS, or equivalent discipline/work experience",
+        "8+ years of working as an Escalation Manager in a Support environment with related experience with a proven track record of delivering business value and improvement",
+        "8+ years of experience working with Amazon Web Services (AWS), Microsoft Azure (Azure), Google Cloud Platform (GCP), or a private cloud environment.",
+        "5+ years of experience managing enterprise customer relationships in Technical Support, Technical Support or Business Operations, or other Support Delivery based organizations",
+        "Excellent verbal, written, communication, and active & receptive listening skills",
+        "Incredibly high levels of emotional intelligence (EQ), empathy, proactivity, and the ability to advocate for both clients and internal teams alike, continuously striving for mutually beneficial solutions.",
+        "Successful experience working, collaborating, and establishing relationships with leadership, colleagues, and customers",
+        "The ability to adapt, take initiative, be flexible, and learn quickly in a dynamic environment",
+        "Excellent teaming skills, able to work with virtual and global cross-functional teams",
+        "ITIL certification v3/v4 or an in-depth understanding of the ITIL framework",
+        "Every Snowflake employee is expected to follow the company’s confidentiality and security standards for handling sensitive data. Snowflake employees must abide by the company’s data security plan as an essential part of their duties."
+      ],
+      "benefits": [
+        "Compensation Range: $140K - $183.7K.",
+        "Full-time employment.",
+        "Remote work options available for some US-based roles."
+      ],
+      "overview": "Staff Escalation Manager coordinating resolution of complex customer incidents across Snowflake services and cloud platforms (AWS, Azure, GCP). You will lead cross‑functional response, develop 'Get Well' plans, and drive customer recovery and satisfaction.",
+      "seniority": "lead",
+      "category": "devops"
+    }
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/e6e81afb-2b0f-48ad-8457-fb7ba213f289",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/e6e81afb-2b0f-48ad-8457-fb7ba213f289",
+    "normalizedJobInfo": {
+      "url": "https://jobs.ashbyhq.com/snowflake/e6e81afb-2b0f-48ad-8457-fb7ba213f289",
+      "title": "Lead Product Marketing Manager, Developer Experience",
+      "employmentType": "fulltime",
+      "publishedAt": null,
+      "salaryRange": {
+        "min": 190000,
+        "max": 249900,
+        "interval": "year",
+        "currency": "USD",
+        "bonus": true,
+        "equity": true
+      }
+    }
+  },
+  {
+    "url": "https://www.datadoghq.com/product/kubernetes-autoscaling/",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://www.datadoghq.com/product/kubernetes-autoscaling/",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://www.datadoghq.com/product/software-catalog/",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://www.datadoghq.com/product/software-catalog/",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://www.datadoghq.com/product/software-composition-analysis/",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://www.datadoghq.com/product/software-composition-analysis/",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://www.datadoghq.com/product/internal-developer-portal/",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://www.datadoghq.com/product/internal-developer-portal/",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://www.datadoghq.com/trust/",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://www.datadoghq.com/trust/",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://www.mongodb.com/products/platform/trust",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://www.mongodb.com/products/platform/trust",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://www.hubspot.com/products/marketing?hubs_content=www.hubspot.com/careers/jobs&hubs_content-cta=nav-software-marketing&hubs_signup-cta=careers-nav-cta",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://www.hubspot.com/products/marketing?hubs_content=www.hubspot.com/careers/jobs&hubs_content-cta=nav-software-marketing&hubs_signup-cta=careers-nav-cta",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://www.hubspot.com/products/sales?hubs_content=www.hubspot.com/careers/jobs&hubs_content-cta=nav-software-sales&hubs_signup-cta=careers-nav-cta",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://www.hubspot.com/products/sales?hubs_content=www.hubspot.com/careers/jobs&hubs_content-cta=nav-software-sales&hubs_signup-cta=careers-nav-cta",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://www.hubspot.com/products/service?hubs_content=www.hubspot.com/careers/jobs&hubs_content-cta=nav-software-service&hubs_signup-cta=careers-nav-cta",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://www.hubspot.com/products/service?hubs_content=www.hubspot.com/careers/jobs&hubs_content-cta=nav-software-service&hubs_signup-cta=careers-nav-cta",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://www.hubspot.com/products/content?hubs_content=www.hubspot.com/careers/jobs&hubs_content-cta=nav-software-content&hubs_signup-cta=careers-nav-cta",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://www.hubspot.com/products/content?hubs_content=www.hubspot.com/careers/jobs&hubs_content-cta=nav-software-content&hubs_signup-cta=careers-nav-cta",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://www.hubspot.com/products/data?hubs_content=www.hubspot.com/careers/jobs&hubs_content-cta=nav-software-data&hubs_signup-cta=careers-nav-cta",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://www.hubspot.com/products/data?hubs_content=www.hubspot.com/careers/jobs&hubs_content-cta=nav-software-data&hubs_signup-cta=careers-nav-cta",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://www.hubspot.com/products/commerce?hubs_content=www.hubspot.com/careers/jobs&hubs_content-cta=nav-software-commerce&hubs_signup-cta=careers-nav-cta",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://www.hubspot.com/products/commerce?hubs_content=www.hubspot.com/careers/jobs&hubs_content-cta=nav-software-commerce&hubs_signup-cta=careers-nav-cta",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://www.hubspot.com/products/crm/ai-crm?hubs_content=www.hubspot.com/careers/jobs&hubs_content-cta=nav-software-smartcrm&hubs_signup-cta=careers-nav-cta",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://www.hubspot.com/products/crm/ai-crm?hubs_content=www.hubspot.com/careers/jobs&hubs_content-cta=nav-software-smartcrm&hubs_signup-cta=careers-nav-cta",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://www.hubspot.com/products/marketing?hubs_content=www.hubspot.com/careers/jobs&hubs_content-cta=nav-software-marketing&hubs_signup-cta=careers-nav-cta",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://www.hubspot.com/products/marketing?hubs_content=www.hubspot.com/careers/jobs&hubs_content-cta=nav-software-marketing&hubs_signup-cta=careers-nav-cta",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://www.hubspot.com/products/sales?hubs_content=www.hubspot.com/careers/jobs&hubs_content-cta=nav-software-sales&hubs_signup-cta=careers-nav-cta",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://www.hubspot.com/products/sales?hubs_content=www.hubspot.com/careers/jobs&hubs_content-cta=nav-software-sales&hubs_signup-cta=careers-nav-cta",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://www.hubspot.com/products/service?hubs_content=www.hubspot.com/careers/jobs&hubs_content-cta=nav-software-service&hubs_signup-cta=careers-nav-cta",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://www.hubspot.com/products/service?hubs_content=www.hubspot.com/careers/jobs&hubs_content-cta=nav-software-service&hubs_signup-cta=careers-nav-cta",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://www.hubspot.com/products/content?hubs_content=www.hubspot.com/careers/jobs&hubs_content-cta=nav-software-content&hubs_signup-cta=careers-nav-cta",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://www.hubspot.com/products/content?hubs_content=www.hubspot.com/careers/jobs&hubs_content-cta=nav-software-content&hubs_signup-cta=careers-nav-cta",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://www.hubspot.com/products/data?hubs_content=www.hubspot.com/careers/jobs&hubs_content-cta=nav-software-data&hubs_signup-cta=careers-nav-cta",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://www.hubspot.com/products/data?hubs_content=www.hubspot.com/careers/jobs&hubs_content-cta=nav-software-data&hubs_signup-cta=careers-nav-cta",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://www.hubspot.com/products/commerce?hubs_content=www.hubspot.com/careers/jobs&hubs_content-cta=nav-software-commerce&hubs_signup-cta=careers-nav-cta",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://www.hubspot.com/products/commerce?hubs_content=www.hubspot.com/careers/jobs&hubs_content-cta=nav-software-commerce&hubs_signup-cta=careers-nav-cta",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://www.hubspot.com/products/crm/ai-crm?hubs_content=www.hubspot.com/careers/jobs&hubs_content-cta=nav-software-smartcrm&hubs_signup-cta=careers-nav-cta",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://www.hubspot.com/products/crm/ai-crm?hubs_content=www.hubspot.com/careers/jobs&hubs_content-cta=nav-software-smartcrm&hubs_signup-cta=careers-nav-cta",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://www.hubspot.com/products/marketing/email?hubs_content=www.hubspot.com/careers/jobs&hubs_content-cta=email-marketing-software&hubs_signup-cta=careers-nav-cta",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://www.hubspot.com/products/marketing/email?hubs_content=www.hubspot.com/careers/jobs&hubs_content-cta=email-marketing-software&hubs_signup-cta=careers-nav-cta",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://www.hubspot.com/products/crm/lead-management?hubs_content=www.hubspot.com/careers/jobs&hubs_content-cta=lead-management-software&hubs_signup-cta=careers-nav-cta",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://www.hubspot.com/products/crm/lead-management?hubs_content=www.hubspot.com/careers/jobs&hubs_content-cta=lead-management-software&hubs_signup-cta=careers-nav-cta",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://www.hubspot.com/products/crm/live-chat?hubs_content=www.hubspot.com/careers/jobs&hubs_content-cta=free-live-chat-software&hubs_signup-cta=careers-nav-cta",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://www.hubspot.com/products/crm/live-chat?hubs_content=www.hubspot.com/careers/jobs&hubs_content-cta=free-live-chat-software&hubs_signup-cta=careers-nav-cta",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://www.hubspot.com/comparisons?hubs_content=www.hubspot.com/careers/jobs&hubs_content-cta=software-comparisons-library&hubs_signup-cta=careers-nav-cta",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://www.hubspot.com/comparisons?hubs_content=www.hubspot.com/careers/jobs&hubs_content-cta=software-comparisons-library&hubs_signup-cta=careers-nav-cta",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://www.shopify.com/careers/social-lead-developer_ae4a3af7-a254-4a14-8e2d-e493ca8d1c6a",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://www.shopify.com/careers/social-lead-developer_ae4a3af7-a254-4a14-8e2d-e493ca8d1c6a",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://www.shopify.com/careers/enterprise-support-specialist_c606b1ce-2ac8-4d6a-9510-dac1136ca953",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://www.shopify.com/careers/enterprise-support-specialist_c606b1ce-2ac8-4d6a-9510-dac1136ca953",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://www.shopify.com/careers/manager-iam-security-operations-trust-safety_a547ae99-1811-479b-9901-df0eedf661bb",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://www.shopify.com/careers/manager-iam-security-operations-trust-safety_a547ae99-1811-479b-9901-df0eedf661bb",
+    "normalizedJobInfo": {
+      "skills": [
+        "Okta",
+        "SAML",
+        "SCIM",
+        "OIDC",
+        "GCP",
+        "AWS",
+        "Workday",
+        "GitHub",
+        "Fleet",
+        "Slack",
+        "Freshworks",
+        "macOS",
+        "IAM",
+        "RBAC",
+        "ABAC"
+      ],
+      "description": [
+        "Own the end-to-end access lifecycle and risk analysis for workers of all types — provisioning, deprovisioning, transfers, access, entitlements, and ongoing risk assessments across Shopify's systems",
+        "Own the IAM analysis function — identifying overprivileged and anomalous access, and producing the risk intelligence that informs access decisions across Shopify",
+        "Lead, develop, and grow the worker identity team as the work requires, setting clear expectations, removing blockers, and driving high performance through direct feedback",
+        "Own operational metrics and use data to drive workflow improvements",
+        "Manage IAM tooling operations and drive automation to reduce manual toil",
+        "Own and continuously improve the controls, builds, and monitoring that keep Shopify's access environment secure and observable",
+        "Build and maintain playbooks, ensuring consistent operations and decision making",
+        "Own the worker identity roadmap — defining what the team focuses on and how to mitigate risk",
+        "Support an on-call rotation, ensuring IAM operational issues are triaged and resolved quickly",
+        "Partner cross-functionally with IT, Security Engineering, Privacy, Legal, Talent, and Compliance to align you team’s work with broader Trust and Shopify objectives",
+        "Be obsessed with reducing risk for Shopify — every process you build, every control you operate, every tool you improve ties back to that",
+        "Ruthlessly prioritize operational work, keep the team focused on what matters most and stop everything else",
+        "Use AI reflexively to accelerate operations, automate repetitive tasks, and solve problems faster",
+        "Mentor your team members, raise the bar on quality, and develop them into go-to experts in their areas"
+      ],
+      "requirements": [
+        "Experience managing a security or IAM team, with a track record of building high-performing teams and growing headcount as scope expands",
+        "Deep understanding of identity lifecycle management across employees and non-employees — RBAC/ABAC models, access governance, and contractor and vendor offboarding",
+        "Track record of improving operational metrics and reducing toil — consistent execution with a bias toward fixing what's broken",
+        "Hands-on familiarity with IAM tooling (e.g. Okta, Google) and protocols (e.g. SAML, SCIM, OIDC)",
+        "Strong, crisp communication across decisions, playbooks, and everything in between.",
+        "Experience in threat detection and third party risk management",
+        "Background in compliance frameworks (SOC 2, SOX, ISO 27001) as they relate to access controls",
+        "Experience operating IAM at scale in a cloud-native environment (GCP, AWS)",
+        "Familiarity with one or more of the following tools: Google, Okta, Fleet, Slack, Freshworks, macOS, Workday, and GitHub"
+      ],
+      "benefits": [
+        "This role is remote for candidates in Canada and the Americas."
+      ],
+      "overview": "IAM Security Operations Manager leading Shopify's worker identity program and IAM tooling (Okta, SAML, SCIM, OIDC, GCP/AWS). Own access lifecycle, risk analysis, automation, and operational metrics to secure worker access across the company.",
+      "seniority": "lead",
+      "category": "devops"
+    }
+  },
+  {
+    "url": "https://www.shopify.com/careers/manager-incident-response-support_e2f5f0d8-77ee-40a3-8097-4172ca984d88",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://www.shopify.com/careers/manager-incident-response-support_e2f5f0d8-77ee-40a3-8097-4172ca984d88",
+    "normalizedJobInfo": {
+      "skills": [
+        "AI tools"
+      ],
+      "description": [
+        "Lead and develop a team of incident responders — managing performance, coaching craft, and building a culture of precision and accountability",
+        "Hire well — own the process for building a team with the right skills, judgment, and values",
+        "Stay close to the work — join live incidents alongside your team, review escalated cases directly, and use what you learn to sharpen coaching and improve how the team operates",
+        "Own the response execution for every incident and escalated case your team handles, keeping it aligned to Support and Shopify's broader priorities",
+        "Coordinate Shopify's response to merchant-impacting incidents and escalated support cases — from live triage through post-incident follow-up — working alongside engineering, product, and executive leadership to resolve issues fast and maintain merchant trust",
+        "Brief executives and senior stakeholders during active incidents and escalated support cases, translating technical complexity into clear, timely communications and actions",
+        "Drive post-incident and escalated case reviews that look past symptoms to find root causes and prevent recurrence",
+        "Build and maintain the playbooks and partnerships your team needs to perform under pressure, including during high-traffic events like Black Friday and Cyber Monday",
+        "Use data to define team metrics, track incident and case trends, and surface improvements that benefit merchants at scale",
+        "Advocate for your team and your merchants with peers, stakeholders, and leadership",
+        "Make calls that balance the needs of merchants, partners, and Shopify — with sound judgment when those priorities compete"
+      ],
+      "requirements": [
+        "Experience in incident and crisis response, external communications, or escalated support",
+        "Proven experience leading, coaching, and developing teams across timezones during high-volume operations",
+        "Experience working autonomously in ambiguous, fast-moving environments without prescriptive playbooks",
+        "Fluency with current frontier AI tools, models, and systems",
+        "Excellent written and verbal communication skills across synchronous and asynchronous settings — equally effective in a real-time executive briefing as in a Slack thread, email update, or incident summary",
+        "Experience briefing and communicating with senior and executive leadership",
+        "Experience collaborating across functions — including engineering, product, and legal — to align on priorities and drive outcomes",
+        "Experience managing social media channels across both proactive brand communications and real-time incident response — knowing when to shift modes and how to calibrate messaging for each",
+        "Proven resilience and composure under pressure in high-stakes, time-sensitive situations",
+        "Support Incident Response is a 24/7 operation, and you’ll work directly alongside the team during critical events — no matter when they occur. You should be prepared to work a schedule that aligns with business needs and team coverage, which may fall outside of a traditional 9-to-5 window and includes on-call availability. You will lead employees primarily within North American core timezones (Eastern to Pacific timezones), and are ideally located within the Pacific or Mountain timezone."
+      ],
+      "benefits": [
+        "Remote role available for Canada and the Americas."
+      ],
+      "overview": "Incident Response Manager leading incident and escalated case operations, coordinating with engineering and product, and using AI tools. Resolve platform outages to protect merchant trust and brief executives from first signal to post-incident review.",
+      "seniority": "lead",
+      "category": "devops"
+    }
+  },
+  {
+    "url": "https://www.shopify.com/careers/merchant-support-advisor-canada_40a2419d-fc9a-4d3e-af04-01249edd4e44",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://www.shopify.com/careers/merchant-support-advisor-canada_40a2419d-fc9a-4d3e-af04-01249edd4e44",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://www.shopify.com/careers/overnight-support-manager_6da43d29-08dd-40e4-8bbc-3f094f3f6677",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://www.shopify.com/careers/overnight-support-manager_6da43d29-08dd-40e4-8bbc-3f094f3f6677",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://www.shopify.com/careers/senior-manager-credit-risk_dca240ad-35eb-4977-8972-e50eece77e0c",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://www.shopify.com/careers/senior-manager-credit-risk_dca240ad-35eb-4977-8972-e50eece77e0c",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://www.shopify.com/careers/sr-manager-account-security_0dedbaa5-739f-4c6b-9025-bbf26f7cf908",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://www.shopify.com/careers/sr-manager-account-security_0dedbaa5-739f-4c6b-9025-bbf26f7cf908",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://www.shopify.com/careers/support-manager_0b1fa3a7-0532-4b87-b1a3-7f5255599d58",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://www.shopify.com/careers/support-manager_0b1fa3a7-0532-4b87-b1a3-7f5255599d58",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://careers.etsy.com/trust-safety",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://careers.etsy.com/trust-safety",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://careers.etsy.com/jobs/search#jobs_search_results_925f7c5ccdafa51655694ff8a9a1fd05",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://careers.etsy.com/jobs/search#jobs_search_results_925f7c5ccdafa51655694ff8a9a1fd05",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://careers.etsy.com/jobs/group-product-manager-trust-experience-brooklyn-new-york-united-states",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://careers.etsy.com/jobs/group-product-manager-trust-experience-brooklyn-new-york-united-states",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://careers.etsy.com/jobs/senior-product-manager-trust-experience-brooklyn-new-york-united-states",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://careers.etsy.com/jobs/senior-product-manager-trust-experience-brooklyn-new-york-united-states",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://pl.linkedin.com/jobs/view/senior-full-stack-software-engineer-device-services-at-peloton-interactive-4412817777?refId=CfFgQ9JcXEfHkYp0RFZ4dg%3D%3D&trackingId=Oc1tgKfrd3cdT3pPJIL1iA%3D%3D",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://pl.linkedin.com/jobs/view/senior-full-stack-software-engineer-device-services-at-peloton-interactive-4412817777?refId=CfFgQ9JcXEfHkYp0RFZ4dg%3D%3D&trackingId=Oc1tgKfrd3cdT3pPJIL1iA%3D%3D",
+    "normalizedJobInfo": {
+      "url": "https://pl.linkedin.com/jobs/view/senior-full-stack-software-engineer-device-services-at-peloton-interactive-4412817777?refId=CfFgQ9JcXEfHkYp0RFZ4dg%3D%3D&trackingId=Oc1tgKfrd3cdT3pPJIL1iA%3D%3D",
+      "title": "Senior Full Stack Software Engineer, Device Services",
+      "employmentType": "fulltime",
+      "publishedAt": null,
+      "salaryRange": null,
+      "locations": []
+    }
+  }
+]
