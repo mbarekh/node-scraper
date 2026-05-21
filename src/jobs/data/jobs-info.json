@@ -12,17 +12,7 @@
       "bonus": true,
       "equity": true
     },
-    "skills": [
-      "kubernetes",
-      "terraform",
-      "jenkins",
-      "bash",
-      "python",
-      "go",
-      "aws",
-      "postgresql",
-      "kafka"
-    ],
+    "skills": ["kubernetes", "terraform", "jenkins", "bash", "python", "go", "aws", "postgresql", "kafka"],
     "description": [
       "We are seeking a proactive and self-sufficient DevOps Engineer to join our team.",
       "You will be instrumental in the design, construction, and maintenance of our core infrastructure.",
@@ -89,9 +79,7 @@
       }
     ],
     "companyId": "pandadoc",
-    "workplaceTypes": [
-      "remote"
-    ],
+    "workplaceTypes": ["remote"],
     "remoteLocationTokens": [
       "businessRegion:emea",
       "continent:europe",
@@ -210,10 +198,7 @@
       }
     ],
     "companyId": "pandadoc",
-    "workplaceTypes": [
-      "remote",
-      "hybrid"
-    ],
+    "workplaceTypes": ["remote", "hybrid"],
     "remoteLocationTokens": [
       "businessRegion:emea",
       "continent:europe",
@@ -238,15 +223,7 @@
     "employmentType": "fulltime",
     "publishedAt": null,
     "salaryRange": null,
-    "skills": [
-      "react-native",
-      "react",
-      "typescript",
-      "javascript",
-      "ios",
-      "android",
-      "ci_cd"
-    ],
+    "skills": ["react-native", "react", "typescript", "javascript", "ios", "android", "ci_cd"],
     "description": [
       "Own and evolve the architecture of PandaDoc’s mobile applications across different platforms (iOS, Android) on React Native",
       "Drive technical decisions and set standards for code quality, testing, performance, and cross-team integrations.",
@@ -314,9 +291,7 @@
       }
     ],
     "companyId": "pandadoc",
-    "workplaceTypes": [
-      "remote"
-    ],
+    "workplaceTypes": ["remote"],
     "remoteLocationTokens": [
       "businessRegion:emea",
       "continent:europe",
@@ -429,10 +404,7 @@
       }
     ],
     "companyId": "pandadoc",
-    "workplaceTypes": [
-      "remote",
-      "hybrid"
-    ],
+    "workplaceTypes": ["remote", "hybrid"],
     "remoteLocationTokens": [
       "businessRegion:emea",
       "continent:europe",
@@ -514,14 +486,8 @@
       }
     ],
     "companyId": "pandadoc",
-    "workplaceTypes": [
-      "remote"
-    ],
-    "remoteLocationTokens": [
-      "businessRegion:amer",
-      "continent:northamerica",
-      "country:unitedstates"
-    ],
+    "workplaceTypes": ["remote"],
+    "remoteLocationTokens": ["businessRegion:amer", "continent:northamerica", "country:unitedstates"],
     "onsiteOrHybrifLocationTokens": []
   },
   {
@@ -530,16 +496,7 @@
     "employmentType": "fulltime",
     "publishedAt": "2026-02-25",
     "salaryRange": null,
-    "skills": [
-      "javascript",
-      "typescript",
-      "react",
-      "react-native",
-      "nextjs",
-      "websocket",
-      "ios",
-      "android"
-    ],
+    "skills": ["javascript", "typescript", "react", "react-native", "nextjs", "websocket", "ios", "android"],
     "description": [
       "The Payments & Blockchain team is responsible for the first and last mile of every dollar (digital or fiat) that goes in our out of Kraken.",
       "As a member of this team, your focus is on protecting client funds.",
@@ -696,9 +653,7 @@
       }
     ],
     "companyId": "krakenfx",
-    "workplaceTypes": [
-      "remote"
-    ],
+    "workplaceTypes": ["remote"],
     "remoteLocationTokens": [
       "businessRegion:emea",
       "continent:europe",
@@ -733,10 +688,7 @@
     "employmentType": "fulltime",
     "publishedAt": "2026-03-19",
     "salaryRange": null,
-    "skills": [
-      "rust",
-      "distributedsystem"
-    ],
+    "skills": ["rust", "distributedsystem"],
     "description": [
       "The AI Infrastructure team builds and operates the production systems that power intelligent agents at scale.",
       "This team sits at the foundation of the agent platform, ensuring that model inference, orchestration, and execution layers are reliable, observable, and performant under real-world load.",
@@ -909,9 +861,7 @@
       }
     ],
     "companyId": "krakenfx",
-    "workplaceTypes": [
-      "remote"
-    ],
+    "workplaceTypes": ["remote"],
     "remoteLocationTokens": [
       "businessRegion:emea",
       "continent:europe",
@@ -950,17 +900,7 @@
     "employmentType": "fulltime",
     "publishedAt": "2026-04-02",
     "salaryRange": null,
-    "skills": [
-      "rust",
-      "typescript",
-      "graphql",
-      "grpc",
-      "kafka",
-      "docker",
-      "kubernetes",
-      "ci_cd",
-      "distributedsystem"
-    ],
+    "skills": ["rust", "typescript", "graphql", "grpc", "kafka", "docker", "kubernetes", "ci_cd", "distributedsystem"],
     "description": [
       "The Blockchain Platform team is the connective tissue of Kraken's engineering organization.",
       "We own the systems that handle node interactions, block ingestion & parsing, balance tracking, and on-chain data at scale.",
@@ -986,9 +926,7 @@
       "Comfortable with ambiguity and able to drive alignment across teams with different priorities",
       "Pragmatic – you know when to build the elegant solution and when to ship the working one"
     ],
-    "benefits": [
-      "Fully remote work across 70+ countries."
-    ],
+    "benefits": ["Fully remote work across 70+ countries."],
     "overview": "Software Engineer building high-throughput, low-latency services in Rust and TypeScript for Kraken's Blockchain Platform. You will process node interactions, block ingestion, balance tracking, and on-chain data across 120+ chains at scale.",
     "seniority": "mid",
     "category": "backend",
@@ -1076,9 +1014,7 @@
       }
     ],
     "companyId": "krakenfx",
-    "workplaceTypes": [
-      "remote"
-    ],
+    "workplaceTypes": ["remote"],
     "remoteLocationTokens": [
       "businessRegion:emea",
       "continent:europe",
@@ -1107,12 +1043,7 @@
     "employmentType": "fulltime",
     "publishedAt": "2026-04-15",
     "salaryRange": null,
-    "skills": [
-      "react-native",
-      "javascript",
-      "swift",
-      "kotlin"
-    ],
+    "skills": ["react-native", "javascript", "swift", "kotlin"],
     "description": [
       "Own the craft layer of our React Native mobile experience — fluid, gesture-driven interactions and transitions that feel native, not web-in-a-wrapper",
       "Push React Native beyond its defaults — Reanimated, Skia, native module bridges when the abstraction isn't enough",
@@ -1235,9 +1166,7 @@
       }
     ],
     "companyId": "krakenfx",
-    "workplaceTypes": [
-      "remote"
-    ],
+    "workplaceTypes": ["remote"],
     "remoteLocationTokens": [
       "businessRegion:emea",
       "continent:europe",
@@ -1276,12 +1205,7 @@
       "bonus": true,
       "equity": true
     },
-    "skills": [
-      "react-native",
-      "javascript",
-      "swift",
-      "kotlin"
-    ],
+    "skills": ["react-native", "javascript", "swift", "kotlin"],
     "description": [
       "Own the craft layer of our React Native mobile experience — fluid, gesture-driven interactions and transitions that feel native, not web-in-a-wrapper",
       "Push React Native beyond its defaults — Reanimated, Skia, native module bridges when the abstraction isn't enough",
@@ -1323,14 +1247,8 @@
       }
     ],
     "companyId": "krakenfx",
-    "workplaceTypes": [
-      "remote"
-    ],
-    "remoteLocationTokens": [
-      "businessRegion:amer",
-      "continent:northamerica",
-      "country:unitedstates"
-    ],
+    "workplaceTypes": ["remote"],
+    "remoteLocationTokens": ["businessRegion:amer", "continent:northamerica", "country:unitedstates"],
     "onsiteOrHybrifLocationTokens": []
   },
   {
@@ -1346,10 +1264,7 @@
       "bonus": false,
       "equity": true
     },
-    "skills": [
-      "kotlin",
-      "android"
-    ],
+    "skills": ["kotlin", "android"],
     "description": [
       "As an Android engineer on the Subscription Crossgrades Team, you’ll build features that help learners discover and subscribe to the Duolingo plan that best fits their goals.",
       "Our team’s mission is to make subscription purchases convenient, compelling, and clear, so that learners can unlock Duolingo’s most powerful tools for long-term success.",
@@ -1390,9 +1305,7 @@
       }
     ],
     "companyId": "duolingo",
-    "workplaceTypes": [
-      "remote"
-    ],
+    "workplaceTypes": ["remote"],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:undefined",
@@ -1417,11 +1330,7 @@
       "bonus": false,
       "equity": true
     },
-    "skills": [
-      "android",
-      "kotlin",
-      "ci_cd"
-    ],
+    "skills": ["android", "kotlin", "ci_cd"],
     "description": [
       "As an engineer on the App Builds team in our Client Platform area you’ll be responsible for evaluating and setting the direction for our Android builds.",
       "Drive the modernization of our CI build and release pipelines with the migration to new Github Action workflows",
@@ -1461,9 +1370,7 @@
       }
     ],
     "companyId": "duolingo",
-    "workplaceTypes": [
-      "remote"
-    ],
+    "workplaceTypes": ["remote"],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -1478,10 +1385,7 @@
     "employmentType": "fulltime",
     "publishedAt": "2026-04-27",
     "salaryRange": null,
-    "skills": [
-      "kotlin",
-      "android"
-    ],
+    "skills": ["kotlin", "android"],
     "description": [
       "Your role will be to rapidly expand our user base in India by delivering product features.",
       "We’re looking for a Senior Software Engineer (Android) to join the India Growth team.",
@@ -1514,9 +1418,7 @@
       }
     ],
     "companyId": "duolingo",
-    "workplaceTypes": [
-      "onsite"
-    ],
+    "workplaceTypes": ["onsite"],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:undefined",
@@ -1531,10 +1433,7 @@
     "employmentType": "fulltime",
     "publishedAt": "2026-04-27",
     "salaryRange": null,
-    "skills": [
-      "kotlin",
-      "android"
-    ],
+    "skills": ["kotlin", "android"],
     "description": [
       "Your role will be to improve the Android user experience by leveraging your extensive experience to enhance the performance and efficiency of our Android app.",
       "Quickly develop native Android application performance optimizations in Kotlin.",
@@ -1564,16 +1463,9 @@
       }
     ],
     "companyId": "duolingo",
-    "workplaceTypes": [
-      "onsite"
-    ],
+    "workplaceTypes": ["onsite"],
     "remoteLocationTokens": [],
-    "onsiteOrHybrifLocationTokens": [
-      "businessRegion:undefined",
-      "continent:undefined",
-      "country:China",
-      "city:Beijing"
-    ]
+    "onsiteOrHybrifLocationTokens": ["businessRegion:undefined", "continent:undefined", "country:China", "city:Beijing"]
   },
   {
     "url": "https://careers.duolingo.com/jobs/8526793002?gh_jid=8526793002",
@@ -1581,12 +1473,7 @@
     "employmentType": "fulltime",
     "publishedAt": "2026-04-28",
     "salaryRange": null,
-    "skills": [
-      "java",
-      "python",
-      "kotlin",
-      "swift"
-    ],
+    "skills": ["java", "python", "kotlin", "swift"],
     "description": [
       "Build and ship features that drive user growth and deliver high-quality learning experiences to millions of learners in China.",
       "Work closely with product managers, designers to create engaging, localized experiences tailored to this market.",
@@ -1620,16 +1507,9 @@
       }
     ],
     "companyId": "duolingo",
-    "workplaceTypes": [
-      "onsite"
-    ],
+    "workplaceTypes": ["onsite"],
     "remoteLocationTokens": [],
-    "onsiteOrHybrifLocationTokens": [
-      "businessRegion:undefined",
-      "continent:undefined",
-      "country:China",
-      "city:Beijing"
-    ]
+    "onsiteOrHybrifLocationTokens": ["businessRegion:undefined", "continent:undefined", "country:China", "city:Beijing"]
   },
   {
     "url": "https://careers.duolingo.com/jobs/8489365002?gh_jid=8489365002",
@@ -1637,10 +1517,7 @@
     "employmentType": "fulltime",
     "publishedAt": "2026-04-27",
     "salaryRange": null,
-    "skills": [
-      "kotlin",
-      "android"
-    ],
+    "skills": ["kotlin", "android"],
     "description": [
       "Your role will be to improve the Android user experience by leveraging your extensive experience to enhance the performance and efficiency of our Android app.",
       "Quickly develop native Android application performance optimizations in Kotlin.",
@@ -1672,16 +1549,9 @@
       }
     ],
     "companyId": "duolingo",
-    "workplaceTypes": [
-      "onsite"
-    ],
+    "workplaceTypes": ["onsite"],
     "remoteLocationTokens": [],
-    "onsiteOrHybrifLocationTokens": [
-      "businessRegion:undefined",
-      "continent:undefined",
-      "country:China",
-      "city:Beijing"
-    ]
+    "onsiteOrHybrifLocationTokens": ["businessRegion:undefined", "continent:undefined", "country:China", "city:Beijing"]
   },
   {
     "url": "https://jobs.ashbyhq.com/snowflake/38f79cb1-c366-4bc5-9965-cc679ee730a4",
@@ -1689,16 +1559,7 @@
     "employmentType": "internship",
     "publishedAt": "2026-02-23",
     "salaryRange": null,
-    "skills": [
-      "java",
-      "go",
-      "typescript",
-      "python",
-      "aws",
-      "azure",
-      "gcp",
-      "distributedsystem"
-    ],
+    "skills": ["java", "go", "typescript", "python", "aws", "azure", "gcp", "distributedsystem"],
     "description": [
       "Develop new 3rd party integrations that contribute to expanding the functionality of the Snowflake application and deliver an awesome, consistent user experience.",
       "Collaborate with product management, and other software engineers to deliver new customer-facing features.",
@@ -1741,16 +1602,9 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      null
-    ],
+    "workplaceTypes": [null],
     "remoteLocationTokens": [],
-    "onsiteOrHybrifLocationTokens": [
-      "businessRegion:emea",
-      "continent:europe",
-      "country:poland",
-      "city:warsaw"
-    ]
+    "onsiteOrHybrifLocationTokens": ["businessRegion:emea", "continent:europe", "country:poland", "city:warsaw"]
   },
   {
     "url": "https://jobs.ashbyhq.com/snowflake/41e65c6c-a01e-4f40-af14-ae75d3b95e27",
@@ -1758,17 +1612,7 @@
     "employmentType": "internship",
     "publishedAt": "2025-09-26",
     "salaryRange": null,
-    "skills": [
-      "cpp",
-      "java",
-      "sql",
-      "spark",
-      "hadoop",
-      "aws",
-      "azure",
-      "gcp",
-      "distributedsystem"
-    ],
+    "skills": ["cpp", "java", "sql", "spark", "hadoop", "aws", "azure", "gcp", "distributedsystem"],
     "description": [
       "Provide meaningful contributions to a real system used by customers",
       "Implementation, testing of features in query compilation, compiler design, query execution",
@@ -1815,16 +1659,9 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      null
-    ],
+    "workplaceTypes": [null],
     "remoteLocationTokens": [],
-    "onsiteOrHybrifLocationTokens": [
-      "businessRegion:emea",
-      "continent:europe",
-      "country:germany",
-      "city:berlin"
-    ]
+    "onsiteOrHybrifLocationTokens": ["businessRegion:emea", "continent:europe", "country:germany", "city:berlin"]
   },
   {
     "url": "https://jobs.ashbyhq.com/snowflake/0bd2f4bd-d46a-43cf-b923-74e56b17cb85",
@@ -1832,10 +1669,7 @@
     "employmentType": "fulltime",
     "publishedAt": "2025-09-22",
     "salaryRange": null,
-    "skills": [
-      "sql",
-      "distributedsystem"
-    ],
+    "skills": ["sql", "distributedsystem"],
     "description": [
       "Lead and grow a team of talented engineers in the design, development, and support of the foundational clients that connect to our highly parallel and fault-tolerant platform.",
       "Own the strategy and execution for the Drivers, SDKs, APIs, and Clients pillar, with a primary focus on delivering a unified driver stack that consolidates our existing drivers into a single, high-performance universal driver core.",
@@ -1872,16 +1706,9 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      null
-    ],
+    "workplaceTypes": [null],
     "remoteLocationTokens": [],
-    "onsiteOrHybrifLocationTokens": [
-      "businessRegion:emea",
-      "continent:europe",
-      "country:poland",
-      "city:warsaw"
-    ]
+    "onsiteOrHybrifLocationTokens": ["businessRegion:emea", "continent:europe", "country:poland", "city:warsaw"]
   },
   {
     "url": "https://jobs.ashbyhq.com/snowflake/cac27b18-bd24-4722-8bb7-0b5ce7b18eaf",
@@ -1889,13 +1716,7 @@
     "employmentType": "fulltime",
     "publishedAt": "2026-04-01",
     "salaryRange": null,
-    "skills": [
-      "python",
-      "java",
-      "cpp",
-      "go",
-      "distributedsystem"
-    ],
+    "skills": ["python", "java", "cpp", "go", "distributedsystem"],
     "description": [
       "Build customer facing AI Functions portfolio of products",
       "Design and implement highly scalable distributed platforms within the global Snowflake platform.",
@@ -1926,16 +1747,9 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      null
-    ],
+    "workplaceTypes": [null],
     "remoteLocationTokens": [],
-    "onsiteOrHybrifLocationTokens": [
-      "businessRegion:emea",
-      "continent:europe",
-      "country:poland",
-      "city:warsaw"
-    ]
+    "onsiteOrHybrifLocationTokens": ["businessRegion:emea", "continent:europe", "country:poland", "city:warsaw"]
   },
   {
     "url": "https://jobs.ashbyhq.com/snowflake/897e1850-c590-4462-b187-0516b65b2034",
@@ -1943,16 +1757,7 @@
     "employmentType": "internship",
     "publishedAt": "2025-11-26",
     "salaryRange": null,
-    "skills": [
-      "python",
-      "go",
-      "java",
-      "pytorch",
-      "tensorflow",
-      "spark",
-      "distributedsystem",
-      "ci_cd"
-    ],
+    "skills": ["python", "go", "java", "pytorch", "tensorflow", "spark", "distributedsystem", "ci_cd"],
     "description": [
       "contribute to cutting-edge AI-powered products, such as Snowflake Intelligence, which helps business users extract insights from large-scale data.",
       "Your work will be directly integrated into the Snowflake platform, driving AI innovation in data applications.",
@@ -1994,16 +1799,9 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      null
-    ],
+    "workplaceTypes": [null],
     "remoteLocationTokens": [],
-    "onsiteOrHybrifLocationTokens": [
-      "businessRegion:emea",
-      "continent:europe",
-      "country:poland",
-      "city:warsaw"
-    ]
+    "onsiteOrHybrifLocationTokens": ["businessRegion:emea", "continent:europe", "country:poland", "city:warsaw"]
   },
   {
     "url": "https://jobs.ashbyhq.com/snowflake/02aa1900-b08d-44e4-8724-9eba8b090fb1",
@@ -2011,12 +1809,7 @@
     "employmentType": "fulltime",
     "publishedAt": "2026-02-26",
     "salaryRange": null,
-    "skills": [
-      "python",
-      "sql",
-      "terraform",
-      "ci_cd"
-    ],
+    "skills": ["python", "sql", "terraform", "ci_cd"],
     "description": [
       "You will manage the foundational interfaces and connectivity tools that developers rely on to interact with Snowflake.",
       "Oversee the strategy and execution for a diverse set of developer-facing capabilities, ranging from programmatic interfaces (APIs/SDKs) to ecosystem integrations.",
@@ -2066,9 +1859,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      "hybrid"
-    ],
+    "workplaceTypes": ["hybrid"],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:emea",
@@ -2085,14 +1876,7 @@
     "employmentType": "fulltime",
     "publishedAt": "2026-02-06",
     "salaryRange": null,
-    "skills": [
-      "python",
-      "sql",
-      "aws",
-      "azure",
-      "bigQuery",
-      "etl"
-    ],
+    "skills": ["python", "sql", "aws", "azure", "bigQuery", "etl"],
     "description": [
       "In this role, you will design, build, and maintain robust data pipelines, ensuring our data infrastructure is scalable, reliable, and efficient.",
       "Design, develop, and maintain scalable data pipelines using Snowflake and cloud technologies.",
@@ -2137,16 +1921,9 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      "hybrid"
-    ],
+    "workplaceTypes": ["hybrid"],
     "remoteLocationTokens": [],
-    "onsiteOrHybrifLocationTokens": [
-      "businessRegion:emea",
-      "continent:europe",
-      "country:poland",
-      "city:warsaw"
-    ]
+    "onsiteOrHybrifLocationTokens": ["businessRegion:emea", "continent:europe", "country:poland", "city:warsaw"]
   },
   {
     "url": "https://jobs.ashbyhq.com/snowflake/e5e412cd-b5ec-4937-a25b-d01839a09007",
@@ -2154,14 +1931,7 @@
     "employmentType": "fulltime",
     "publishedAt": "2026-02-06",
     "salaryRange": null,
-    "skills": [
-      "python",
-      "sql",
-      "aws",
-      "azure",
-      "bigQuery",
-      "etl"
-    ],
+    "skills": ["python", "sql", "aws", "azure", "bigQuery", "etl"],
     "description": [
       "Design, develop, and maintain scalable data pipelines using Snowflake and cloud technologies.",
       "Own and manage cost optimization for Product and Data Science team operations.",
@@ -2205,16 +1975,9 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      "hybrid"
-    ],
+    "workplaceTypes": ["hybrid"],
     "remoteLocationTokens": [],
-    "onsiteOrHybrifLocationTokens": [
-      "businessRegion:emea",
-      "continent:europe",
-      "country:poland",
-      "city:warsaw"
-    ]
+    "onsiteOrHybrifLocationTokens": ["businessRegion:emea", "continent:europe", "country:poland", "city:warsaw"]
   },
   {
     "url": "https://jobs.ashbyhq.com/snowflake/10495197-9600-4590-9863-83f31f93a200",
@@ -2273,16 +2036,9 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      "hybrid"
-    ],
+    "workplaceTypes": ["hybrid"],
     "remoteLocationTokens": [],
-    "onsiteOrHybrifLocationTokens": [
-      "businessRegion:emea",
-      "continent:europe",
-      "country:poland",
-      "city:warsaw"
-    ]
+    "onsiteOrHybrifLocationTokens": ["businessRegion:emea", "continent:europe", "country:poland", "city:warsaw"]
   },
   {
     "url": "https://jobs.ashbyhq.com/snowflake/5e571ebe-6cae-4384-a6e2-c151f72ccd41",
@@ -2290,12 +2046,7 @@
     "employmentType": "fulltime",
     "publishedAt": "2026-05-05",
     "salaryRange": null,
-    "skills": [
-      "go",
-      "cpp",
-      "aws",
-      "distributedsystem"
-    ],
+    "skills": ["go", "cpp", "aws", "distributedsystem"],
     "description": [
       "build and scale core features, APIs, and business logic powering a high-performance observability platform.",
       "develop reliable, production-grade systems designed to handle massive volumes of telemetry for enterprise customers.",
@@ -2330,9 +2081,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      null
-    ],
+    "workplaceTypes": [null],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:emea",
@@ -2347,13 +2096,7 @@
     "employmentType": "fulltime",
     "publishedAt": "2026-04-07",
     "salaryRange": null,
-    "skills": [
-      "python",
-      "java",
-      "cpp",
-      "go",
-      "distributedsystem"
-    ],
+    "skills": ["python", "java", "cpp", "go", "distributedsystem"],
     "description": [
       "Build customer facing AI Functions portfolio of products",
       "Design and implement highly scalable distributed platforms within the global Snowflake platform.",
@@ -2370,9 +2113,7 @@
       "Experience working with cross teams and product managers.",
       "BS/MS/PhD in Computer Science or related majors."
     ],
-    "benefits": [
-      "Hybrid work arrangement (Warsaw, Poland)."
-    ],
+    "benefits": ["Hybrid work arrangement (Warsaw, Poland)."],
     "overview": "Principal Software Engineer building scalable AI services using Python or Java and distributed systems. Work on Snowflake's AI Functions product to deliver multi-cloud, governed AI ETL pipelines at scale.",
     "seniority": "lead",
     "category": "backend",
@@ -2387,16 +2128,9 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      "hybrid"
-    ],
+    "workplaceTypes": ["hybrid"],
     "remoteLocationTokens": [],
-    "onsiteOrHybrifLocationTokens": [
-      "businessRegion:emea",
-      "continent:europe",
-      "country:poland",
-      "city:warsaw"
-    ]
+    "onsiteOrHybrifLocationTokens": ["businessRegion:emea", "continent:europe", "country:poland", "city:warsaw"]
   },
   {
     "url": "https://jobs.ashbyhq.com/snowflake/26a0ae52-97a6-4a46-9216-3c382570d89b",
@@ -2404,17 +2138,7 @@
     "employmentType": "internship",
     "publishedAt": "2026-05-12",
     "salaryRange": null,
-    "skills": [
-      "cpp",
-      "go",
-      "sql",
-      "spark",
-      "hadoop",
-      "aws",
-      "azure",
-      "gcp",
-      "distributedsystem"
-    ],
+    "skills": ["cpp", "go", "sql", "spark", "hadoop", "aws", "azure", "gcp", "distributedsystem"],
     "description": [
       "The Infrastructure team ... responsible for building, scaling, and operating the development and production environments that power our observability platform.",
       "Implementation, testing of features in metrics processing, warehouse scheduling, query execution",
@@ -2472,21 +2196,9 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      null,
-      "remote"
-    ],
-    "remoteLocationTokens": [
-      "businessRegion:emea",
-      "continent:europe",
-      "country:switzerland"
-    ],
-    "onsiteOrHybrifLocationTokens": [
-      "businessRegion:emea",
-      "continent:europe",
-      "country:switzerland",
-      "city:zurich"
-    ]
+    "workplaceTypes": [null, "remote"],
+    "remoteLocationTokens": ["businessRegion:emea", "continent:europe", "country:switzerland"],
+    "onsiteOrHybrifLocationTokens": ["businessRegion:emea", "continent:europe", "country:switzerland", "city:zurich"]
   },
   {
     "url": "https://jobs.ashbyhq.com/snowflake/3b15e969-42d4-48c0-8e01-a95985aec533",
@@ -2494,12 +2206,7 @@
     "employmentType": "fulltime",
     "publishedAt": "2026-04-13",
     "salaryRange": null,
-    "skills": [
-      "python",
-      "java",
-      "kubernetes",
-      "scikitLearn"
-    ],
+    "skills": ["python", "java", "kubernetes", "scikitLearn"],
     "description": [
       "As a Software Engineer, you will contribute to the development of ML and LLM-based solutions, propose new ideas, and keep improving the existing models.",
       "Work closely with the state of the art LLM models, fine-tune them, develop agents, apply various clusterings, summarizations, embeddings, and so on.",
@@ -2538,16 +2245,9 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      null
-    ],
+    "workplaceTypes": [null],
     "remoteLocationTokens": [],
-    "onsiteOrHybrifLocationTokens": [
-      "businessRegion:emea",
-      "continent:europe",
-      "country:poland",
-      "city:warsaw"
-    ]
+    "onsiteOrHybrifLocationTokens": ["businessRegion:emea", "continent:europe", "country:poland", "city:warsaw"]
   },
   {
     "url": "https://jobs.ashbyhq.com/snowflake/227b8c06-b6de-4f3a-ae37-7e0c015e5b7a",
@@ -2555,12 +2255,7 @@
     "employmentType": "fulltime",
     "publishedAt": "2026-04-29",
     "salaryRange": null,
-    "skills": [
-      "java",
-      "sql",
-      "distributedsystem",
-      "cloud"
-    ],
+    "skills": ["java", "sql", "distributedsystem", "cloud"],
     "description": [
       "Design and develop data integration and processing applications. These applications replicate data from various data sources (including relational databases, saas, data streams) into Snowflake, following CDC patterns.",
       "Develop and extend a robust connector platform to standardise and accelerate the development of connectors, either developed by Snowflake or by third parties. Typical example includes developing a scheduling service ensuring timely execution of tasks and optimal resource allocation.",
@@ -2599,16 +2294,9 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      null
-    ],
+    "workplaceTypes": [null],
     "remoteLocationTokens": [],
-    "onsiteOrHybrifLocationTokens": [
-      "businessRegion:emea",
-      "continent:europe",
-      "country:poland",
-      "city:warsaw"
-    ]
+    "onsiteOrHybrifLocationTokens": ["businessRegion:emea", "continent:europe", "country:poland", "city:warsaw"]
   },
   {
     "url": "https://jobs.ashbyhq.com/snowflake/21137a73-0d22-43cc-b72c-b7ef30037bc0",
@@ -2616,12 +2304,7 @@
     "employmentType": "fulltime",
     "publishedAt": "2026-04-29",
     "salaryRange": null,
-    "skills": [
-      "java",
-      "sql",
-      "distributedsystem",
-      "etl"
-    ],
+    "skills": ["java", "sql", "distributedsystem", "etl"],
     "description": [
       "Design and develop data integration and processing applications. These applications replicate data from various data sources (including relational databases, SaaS, data streams) into Snowflake, following CDC patterns.",
       "Develop and extend a robust connector platform to standardize and accelerate the development of connectors, either developed by Snowflake or by third parties. Typical example includes developing a scheduling service ensuring timely execution of tasks and optimal resource allocation.",
@@ -2656,16 +2339,9 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      null
-    ],
+    "workplaceTypes": [null],
     "remoteLocationTokens": [],
-    "onsiteOrHybrifLocationTokens": [
-      "businessRegion:emea",
-      "continent:europe",
-      "country:poland",
-      "city:warsaw"
-    ]
+    "onsiteOrHybrifLocationTokens": ["businessRegion:emea", "continent:europe", "country:poland", "city:warsaw"]
   },
   {
     "url": "https://jobs.ashbyhq.com/snowflake/f5c5cb72-ffe8-452d-b3cb-e8e8209de108",
@@ -2673,13 +2349,7 @@
     "employmentType": "fulltime",
     "publishedAt": "2026-05-05",
     "salaryRange": null,
-    "skills": [
-      "java",
-      "scala",
-      "python",
-      "kubernetes",
-      "ci_cd"
-    ],
+    "skills": ["java", "scala", "python", "kubernetes", "ci_cd"],
     "description": [
       "Define and evolve the architecture for CXE’s core services, data pipelines, and applications, balancing robustness, scalability, cost, and developer productivity.",
       "Drive key design decisions for systems that ingest, model, and serve large volumes of structured and unstructured diagnostic and support data.",
@@ -2716,16 +2386,9 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      null
-    ],
+    "workplaceTypes": [null],
     "remoteLocationTokens": [],
-    "onsiteOrHybrifLocationTokens": [
-      "businessRegion:undefined",
-      "continent:undefined",
-      "country:IN",
-      "city:Bangalore"
-    ]
+    "onsiteOrHybrifLocationTokens": ["businessRegion:undefined", "continent:undefined", "country:IN", "city:Bangalore"]
   },
   {
     "url": "https://jobs.ashbyhq.com/snowflake/db1375f0-ea5d-404a-b640-259f94dbc995",
@@ -2780,9 +2443,7 @@
       "Experience in database replication technology",
       "Big data storage technologies and their applications, e.g., HDFS, Cassandra, Columnar Databases, etc."
     ],
-    "benefits": [
-      "Compensation range is $160K–$230K."
-    ],
+    "benefits": ["Compensation range is $160K–$230K."],
     "overview": "Software Engineer building and supporting Snowflake's petabyte-scale cloud database using Java or C++ and distributed systems. Focus on query optimization, performance, scalability, and new service architecture for the Snowflake Data Cloud.",
     "seniority": "junior",
     "category": "backend",
@@ -2825,10 +2486,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      null,
-      "onsite"
-    ],
+    "workplaceTypes": [null, "onsite"],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -2855,15 +2513,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "java",
-      "scala",
-      "cpp",
-      "spark",
-      "aws",
-      "azure",
-      "distributedsystem"
-    ],
+    "skills": ["java", "scala", "cpp", "spark", "aws", "azure", "distributedsystem"],
     "description": [
       "Pioneer new and innovative technical capabilities in the Open Source Analytics community.   You will define and build next-generation capabilities on top of critical lakehouse building blocks like interoperable table formats, data catalogs, file formats, and query engines.",
       "Design and implement features and enhancements for Apache Iceberg and Apache Polaris focusing on scalability, performance and usability such as Iceberg DML/DDL transactions, schema evolution, partitioning, time travel, and more.",
@@ -2912,9 +2562,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      null
-    ],
+    "workplaceTypes": [null],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -2937,13 +2585,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "java",
-      "python",
-      "cpp",
-      "sql",
-      "distributedsystem"
-    ],
+    "skills": ["java", "python", "cpp", "sql", "distributedsystem"],
     "description": [
       "Design and build features, and/or distributed platforms at scale.",
       "Drive impactful initiatives for the globally distributed infrastructure",
@@ -2986,9 +2628,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      "hybrid"
-    ],
+    "workplaceTypes": ["hybrid"],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -3011,10 +2651,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "java",
-      "distributedsystem"
-    ],
+    "skills": ["java", "distributedsystem"],
     "description": [
       "Solve real business needs at large scale by applying your software engineering and analytical problem solving skills.",
       "Design, develop and support fault-tolerant scalable distributed systems for our Snowgrid and Data Sharing teams.",
@@ -3033,10 +2670,7 @@
       "Ability to work effectively across engineering teams in multiple locations",
       "BS in Computer Science; Masters or PhD Preferred."
     ],
-    "benefits": [
-      "Compensation Range: $264K - $379.5K.",
-      "Full-time position."
-    ],
+    "benefits": ["Compensation Range: $264K - $379.5K.", "Full-time position."],
     "overview": "Principal Software Engineer building fault-tolerant distributed metadata and transaction systems using Java. Join the Snowflake Metadata team to support Snowgrid, data sharing and petabyte-scale data services.",
     "seniority": "lead",
     "category": "backend",
@@ -3050,9 +2684,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      null
-    ],
+    "workplaceTypes": [null],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -3074,11 +2706,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "python",
-      "go",
-      "sql"
-    ],
+    "skills": ["python", "go", "sql"],
     "description": [
       "Own features end-to-end for Snowflake Cortex products. Build agentic workflows, NL-to-SQL on semantic layers, search.",
       "Build enterprise-grade context engineering: function calling, tool schemas, guardrails, semantic model-aware prompting for SQL, and verification/repair",
@@ -3093,10 +2721,7 @@
       "Strong communication skills and ability to collaborate effectively in a team environment.",
       "(Optional) Experience working with text2sql, data modeling, data analysis, retrieval systems, and semantic layers is a plus."
     ],
-    "benefits": [
-      "Compensation range: $200K - $287.5K.",
-      "Full-time employment."
-    ],
+    "benefits": ["Compensation range: $200K - $287.5K.", "Full-time employment."],
     "overview": "Tech Lead Manager for Cortex AI, owning AI engineering lifecycle and building NL-to-SQL, agentic workflows, search using Python and Go. You’ll ship enterprise-grade context engineering, evals, and productionize AI features for Snowflake’s Cortex products.",
     "seniority": "lead",
     "category": "backend",
@@ -3116,9 +2741,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      null
-    ],
+    "workplaceTypes": [null],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -3140,11 +2763,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "pytorch",
-      "tensorflow",
-      "scikitLearn"
-    ],
+    "skills": ["pytorch", "tensorflow", "scikitLearn"],
     "description": [
       "Help define and own the roadmap, working collaboratively and proactively with senior architects, PMs, and team leadership. The initiatives include platforms and tools that enable customers to do state-of-the-art machine learning on Snowflake natively.",
       "Collaboratively build and execute a vision for incorporating new advances in machine learning in ways that best achieve the team’s business objectives.",
@@ -3185,9 +2804,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      null
-    ],
+    "workplaceTypes": [null],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -3210,9 +2827,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "distributedsystem"
-    ],
+    "skills": ["distributedsystem"],
     "description": [
       "You'll be our dedicated expert in query execution and query performance.",
       "That means owning the query execution service end-to-end: working on caching strategies, incremental execution, query rewrites, and other optimizations that directly affect the speed and cost of running Observe at scale.",
@@ -3234,10 +2849,7 @@
       "Experience with OLAP query optimization, columnar storage, or vectorized execution",
       "Advanced degree in Computer Science with a focus on databases or systems"
     ],
-    "benefits": [
-      "Full-time employment.",
-      "Compensation range: CHF 176K - CHF 253K."
-    ],
+    "benefits": ["Full-time employment.", "Compensation range: CHF 176K - CHF 253K."],
     "overview": "Senior Software Engineer owning query execution and performance for Observe by Snowflake, focusing on caching, query planning, and execution. Work involves optimizing large-scale observability queries and collaborating with Snowflake teams to reduce latency and cost.",
     "seniority": "mid",
     "category": "backend",
@@ -3251,16 +2863,9 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      null
-    ],
+    "workplaceTypes": [null],
     "remoteLocationTokens": [],
-    "onsiteOrHybrifLocationTokens": [
-      "businessRegion:emea",
-      "continent:europe",
-      "country:switzerland",
-      "city:zurich"
-    ]
+    "onsiteOrHybrifLocationTokens": ["businessRegion:emea", "continent:europe", "country:switzerland", "city:zurich"]
   },
   {
     "url": "https://jobs.ashbyhq.com/snowflake/db4f0492-ae21-49b7-a7eb-100be61e92bb",
@@ -3275,9 +2880,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "distributedsystem"
-    ],
+    "skills": ["distributedsystem"],
     "description": [
       "You will work on our Metrics platform - enabling our users to query, visualize, and alert on billions of time series quickly and effectively.",
       "You'll own meaningful parts of that stack, drive performance and scalability improvements, and contribute to architectural decisions that shape where the platform goes next.",
@@ -3300,10 +2903,7 @@
       "Familiarity with columnar storage formats, inverted indexes, or OLAP query optimization",
       "Advanced degree in Computer Science with a focus on databases or systems"
     ],
-    "benefits": [
-      "Compensation range: CHF 176K - CHF 253K.",
-      "Full-time employment."
-    ],
+    "benefits": ["Compensation range: CHF 176K - CHF 253K.", "Full-time employment."],
     "overview": "Senior Software Engineer building and optimizing the Metrics backend for time-series ingestion, storage, and query on Snowflake and related data systems. Work focuses on performance, scalability, experiments, and architectural evolution for a high-impact observability platform.",
     "seniority": "mid",
     "category": "backend",
@@ -3317,16 +2917,9 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      null
-    ],
+    "workplaceTypes": [null],
     "remoteLocationTokens": [],
-    "onsiteOrHybrifLocationTokens": [
-      "businessRegion:emea",
-      "continent:europe",
-      "country:switzerland",
-      "city:zurich"
-    ]
+    "onsiteOrHybrifLocationTokens": ["businessRegion:emea", "continent:europe", "country:switzerland", "city:zurich"]
   },
   {
     "url": "https://jobs.ashbyhq.com/snowflake/d297d07c-eaa7-4896-946d-df2879c8cde3",
@@ -3341,9 +2934,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "distributedsystem"
-    ],
+    "skills": ["distributedsystem"],
     "description": [
       "0->1 Architectural Leadership: Lead the ground-up redesign of our core Metadata systems, influencing the transaction frameworks that power query, DML, and AI-driven data interactions in addition to extending our lead on platform capabilities such as Zero Copy Cloning and Cross-Region / Cross-Cloud Replication.",
       "Iceberg Innovation: Drive industry-leading innovation on Apache Iceberg, ensuring it serves as a first-class citizen for Analytics, Data Engineering, and high-performance AI workloads.",
@@ -3386,9 +2977,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      "onsite"
-    ],
+    "workplaceTypes": ["onsite"],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -3411,19 +3000,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "sql",
-      "python",
-      "java",
-      "cpp",
-      "scala",
-      "spark",
-      "pytorch",
-      "kafka",
-      "bigQuery",
-      "aws",
-      "azure"
-    ],
+    "skills": ["sql", "python", "java", "cpp", "scala", "spark", "pytorch", "kafka", "bigQuery", "aws", "azure"],
     "description": [
       "The Applied Performance Group (APG) Engineering team provides a highly strategic function at Snowflake, with direct impact to our product direction, as well as to our bottom line.",
       "APG engineers are a key bridge between Engineering and our Sales organization, support organization, and other engineering organizations at Snowflake.",
@@ -3451,10 +3028,7 @@
       "Knowledge of and experience with AI and Machine Learning technologies either in use (eg. using a coding assistant), or in development (eg. using technologies like PyTorch for training and inference).",
       "University degree in computer science, engineering, mathematics or related fields, or equivalent experience."
     ],
-    "benefits": [
-      "Compensation Range: $160K - $230K.",
-      "Employment type: Full time."
-    ],
+    "benefits": ["Compensation Range: $160K - $230K.", "Employment type: Full time."],
     "overview": "Applied Performance Engineer focusing on Snowflake architecture, SQL performance analysis, and data engineering using Python/Java and cloud platforms. Partner with customers, sales, and engineering to deliver benchmarks, resolve performance issues, and shape product direction.",
     "seniority": "junior",
     "category": "backend",
@@ -3468,9 +3042,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      null
-    ],
+    "workplaceTypes": [null],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -3492,11 +3064,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "distributedsystem",
-      "aws",
-      "azure"
-    ],
+    "skills": ["distributedsystem", "aws", "azure"],
     "description": [
       "Design and implement innovative highly available distributed platforms and pipelines and enhance the overall Snowflake data infrastructure",
       "Lead and drive projects from idea formulation to design, implementation and successful productionization.",
@@ -3514,10 +3082,7 @@
       "Strong hands-on skills. Can dive deep into the complex system design and implementation when needed.",
       "BS/MS/PhD in Computer Science or related majors, or equivalent experience."
     ],
-    "benefits": [
-      "Full-time employment.",
-      "Compensation range: $264K - $379.5K."
-    ],
+    "benefits": ["Full-time employment.", "Compensation range: $264K - $379.5K."],
     "overview": "Principal Software Engineer designing and implementing highly available distributed data platforms and pipelines on cloud (AWS/Azure/GCP). Work on Snowhouse Foundation powering Snowflake’s global data warehouse, ingestion, replication and analytics.",
     "seniority": "lead",
     "category": "backend",
@@ -3531,9 +3096,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      null
-    ],
+    "workplaceTypes": [null],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -3555,19 +3118,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "sql",
-      "python",
-      "java",
-      "cpp",
-      "scala",
-      "spark",
-      "bigQuery",
-      "postgresql",
-      "oracle",
-      "kafka",
-      "aws"
-    ],
+    "skills": ["sql", "python", "java", "cpp", "scala", "spark", "bigQuery", "postgresql", "oracle", "kafka", "aws"],
     "description": [
       "APG engineers are a key bridge between Engineering and our Sales organization, support organization, and other engineering organizations at Snowflake.",
       "Help with our most challenging customer performance issues, and help deliver some of our biggest deals.",
@@ -3611,9 +3162,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      null
-    ],
+    "workplaceTypes": [null],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -3635,10 +3184,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "java",
-      "distributedsystem"
-    ],
+    "skills": ["java", "distributedsystem"],
     "description": [
       "Set Technical Vision: Lead strategic planning for the Horizon Catalog, translating complex business goals into technical architecture, and developing high-impact engineering roadmaps.",
       "Drive Product Influence: Actively influence and co-develop the product roadmap in partnership with the PM team",
@@ -3681,9 +3227,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      null
-    ],
+    "workplaceTypes": [null],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -3706,10 +3250,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "sql",
-      "distributedsystem"
-    ],
+    "skills": ["sql", "distributedsystem"],
     "description": [
       "Define the long-term technical vision for Snowflake Intelligence. Lead the architectural design of multi-agent systems, complex tool-use frameworks, and self-correcting NL-to-SQL engines.",
       "Move beyond simple evals to build world-class, automated \"hill-climbing\" infrastructure. You will establish the methodology for how Snowflake measures and guarantees LLM performance across diverse customer schemas.",
@@ -3725,9 +3266,7 @@
       "Communication: Exceptional ability to communicate complex technical trade-offs to both executive leadership and ICs. You are as comfortable in a design doc as you are in a boardroom.",
       "Proven Impact: You have previously held a \"Principal\" or equivalent high-level IC role, or have led the technical launch of a major AI product used by millions."
     ],
-    "benefits": [
-      "Compensation range: $264K - $379.5K."
-    ],
+    "benefits": ["Compensation range: $264K - $379.5K."],
     "overview": "Principal AI Engineer defining technical vision and building enterprise-scale LLM orchestration, multi-agent systems, and NL-to-SQL solutions. Join the Cortex Apps team to scale Snowflake Intelligence for Fortune 500 data at production reliability.",
     "seniority": "lead",
     "category": "backend",
@@ -3741,9 +3280,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      null
-    ],
+    "workplaceTypes": [null],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -3765,11 +3302,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "postgresql",
-      "ruby",
-      "distributedsystem"
-    ],
+    "skills": ["postgresql", "ruby", "distributedsystem"],
     "description": [
       "Serve as the technical leader on our most critical, cross-functional projects.",
       "Break problems down and build consensus across multiple parties to reach solutions that are scalable, tractable, and timely.",
@@ -3814,9 +3347,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      null
-    ],
+    "workplaceTypes": [null],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -3839,18 +3370,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "java",
-      "scala",
-      "go",
-      "cpp",
-      "kafka",
-      "airflow",
-      "aws",
-      "azure",
-      "ci_cd",
-      "distributedsystem"
-    ],
+    "skills": ["java", "scala", "go", "cpp", "kafka", "airflow", "aws", "azure", "ci_cd", "distributedsystem"],
     "description": [
       "Design and implement features in Openflow’s control plane and data plane, contributing to reliable, scalable, and secure services that power real-time, bi-directional data movement for our customers.",
       "Build and evolve distributed systems for batch and streaming workloads, enabling high-throughput, low-latency data pipelines across Snowflake and non-Snowflake environments, for both structured and multi-modal unstructured data.",
@@ -3892,9 +3412,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      null
-    ],
+    "workplaceTypes": [null],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -3916,15 +3434,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "python",
-      "go",
-      "spark",
-      "airflow",
-      "kafka",
-      "etl",
-      "distributedsystem"
-    ],
+    "skills": ["python", "go", "spark", "airflow", "kafka", "etl", "distributedsystem"],
     "description": [
       "Within this charter, the SnowConvert AI team delivers an AI-driven migration product that moves data-centric applications to Snowflake an order of magnitude faster than industry norms.",
       "The team develops fundamental code conversion techniques, robust data migration and validation pipelines, and automatic testing components. These capabilities are then leveraged by automated AI agents that process a complete application migration to Snowflake.",
@@ -3946,10 +3456,7 @@
       "Experience optimizing large-scale data pipelines for performance and cost efficiency.",
       "Former founding engineers who have built and owned significant technical projects are highly valued."
     ],
-    "benefits": [
-      "Salary range: $160K–$230K.",
-      "Full-time employment."
-    ],
+    "benefits": ["Salary range: $160K–$230K.", "Full-time employment."],
     "overview": "Software Engineer building AI-driven code conversion and data migration systems using Python and agentic AI. Work on automated agents, validation pipelines, and backend API design to migrate applications to Snowflake.",
     "seniority": "senior",
     "category": "backend",
@@ -3963,9 +3470,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      null
-    ],
+    "workplaceTypes": [null],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -3987,12 +3492,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "go",
-      "java",
-      "distributedsystem",
-      "splunk"
-    ],
+    "skills": ["go", "java", "distributedsystem", "splunk"],
     "description": [
       "Lead the backend architecture and delivery of the Logs product area by owning the full lifecycle from API design through production reliability, with a strong sense of what makes a great end-user experience.",
       "Drive technical direction for log ingestion, storage, querying, and enrichment pipelines capable of handling hundreds of terabytes of telemetry daily.",
@@ -4031,9 +3531,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      null
-    ],
+    "workplaceTypes": [null],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -4055,12 +3553,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "java",
-      "python",
-      "go",
-      "distributedsystem"
-    ],
+    "skills": ["java", "python", "go", "distributedsystem"],
     "description": [
       "Drive high impact initiatives that span our product areas and tech stack including Java , python and golang",
       "Promote strong collaboration within a cross functional team, including design, product management.",
@@ -4073,10 +3566,7 @@
       "Deep understanding of distributed design architecture, good API design patterns, security, performance and scale.",
       "Knowledge of data development tools, data infrastructure, or ML is a plus."
     ],
-    "benefits": [
-      "Full-time position.",
-      "Salary range: CA$176.3K - CA$226.3K."
-    ],
+    "benefits": ["Full-time position.", "Salary range: CA$176.3K - CA$226.3K."],
     "overview": "Backend Software Engineer responsible for building backend systems for Snowflake Native Apps using Java, Python, and Go. Work on app lifecycle, runtimes, security, and scale to enable a global app marketplace.",
     "seniority": "junior",
     "category": "backend",
@@ -4090,16 +3580,9 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      null
-    ],
+    "workplaceTypes": [null],
     "remoteLocationTokens": [],
-    "onsiteOrHybrifLocationTokens": [
-      "businessRegion:amer",
-      "continent:northamerica",
-      "country:canada",
-      "city:toronto"
-    ]
+    "onsiteOrHybrifLocationTokens": ["businessRegion:amer", "continent:northamerica", "country:canada", "city:toronto"]
   },
   {
     "url": "https://jobs.ashbyhq.com/snowflake/d8816f3f-89d6-4434-bc24-eaf4169c1d95",
@@ -4114,10 +3597,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "java",
-      "sql"
-    ],
+    "skills": ["java", "sql"],
     "description": [
       "Work closely with Product Managers to drive projects from idea formulation to design and implementation",
       "Design and build data governance features",
@@ -4133,9 +3613,7 @@
       "Some experience in database security or building data governance systems is a bonus",
       "BS in Computer Science or a related field; Masters or PhD preferred"
     ],
-    "benefits": [
-      "Compensation range: $160K - $230K."
-    ],
+    "benefits": ["Compensation range: $160K - $230K."],
     "overview": "Senior Software Engineer, Data Governance designing and building data governance features using Java and SQL. Work focuses on large-scale systems programming, multi-threading, and cross-team delivery to enable secure data lifecycle.",
     "seniority": "mid",
     "category": "backend",
@@ -4149,9 +3627,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      null
-    ],
+    "workplaceTypes": [null],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -4213,9 +3689,7 @@
       "Experience in database replication technology",
       "Big data storage technologies and their applications, e.g., HDFS, Cassandra, Columnar Databases, etc."
     ],
-    "benefits": [
-      "Salary range: $200K - $287.5K."
-    ],
+    "benefits": ["Salary range: $200K - $287.5K."],
     "overview": "Senior Software Engineer building query optimization and distributed data processing for Snowflake’s cloud data warehouse using Java or C++. Work on petabyte-scale, highly parallel, fault-tolerant systems and next-generation service architecture.",
     "seniority": "mid",
     "category": "backend",
@@ -4229,9 +3703,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      null
-    ],
+    "workplaceTypes": [null],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -4253,16 +3725,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "go",
-      "python",
-      "grpc",
-      "kubernetes",
-      "terraform",
-      "aws",
-      "azure",
-      "distributedsystem"
-    ],
+    "skills": ["go", "python", "grpc", "kubernetes", "terraform", "aws", "azure", "distributedsystem"],
     "description": [
       "Design, develop, and support critical security services, libraries and frameworks that are highly reliable and easy to use.",
       "Build high-quality and highly reliable software to meet the needs of a fast growing company in a multi-cloud environment.",
@@ -4320,10 +3783,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      null,
-      "onsite"
-    ],
+    "workplaceTypes": [null, "onsite"],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -4349,11 +3809,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "python",
-      "spark",
-      "distributedsystem"
-    ],
+    "skills": ["python", "spark", "distributedsystem"],
     "description": [
       "We are hiring a Principal Engineer II to architect the core data processing engine of the Snowflake Data & AI Cloud.",
       "Design and implement the fundamental transformations infrastructure—Stateful Stream Processing Engines, Incremental View Maintenance Engine, Materialization Internals, and the Distributed Orchestration Fabric.",
@@ -4399,9 +3855,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      "onsite"
-    ],
+    "workplaceTypes": ["onsite"],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -4424,12 +3878,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "java",
-      "csharp",
-      "cpp",
-      "distributedsystem"
-    ],
+    "skills": ["java", "csharp", "cpp", "distributedsystem"],
     "description": [
       "Design and implement critical AI security capabilities for controlled, audited, restricted agent workflows, both inbound and outbound.",
       "Design and implement features that provide critical identity and access management capabilities, including integration with the next generation identity providers and authentication protocols.",
@@ -4467,9 +3916,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      "hybrid"
-    ],
+    "workplaceTypes": ["hybrid"],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -4491,12 +3938,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "java",
-      "csharp",
-      "cpp",
-      "distributedsystem"
-    ],
+    "skills": ["java", "csharp", "cpp", "distributedsystem"],
     "description": [
       "Design and implement critical AI security capabilities for controlled, audited, restricted agent workflows, both inbound and outbound.",
       "Design and implement features that provide critical identity and access management capabilities, including integration with the next generation identity providers and authentication protocols.",
@@ -4516,11 +3958,7 @@
       "Strong development skills in Java, C# or C++ preferred.",
       "Advanced degree in Computer Science or related field."
     ],
-    "benefits": [
-      "Compensation range: $236K - $339.2K.",
-      "Full-time employment.",
-      "Location: Bellevue, WA, USA."
-    ],
+    "benefits": ["Compensation range: $236K - $339.2K.", "Full-time employment.", "Location: Bellevue, WA, USA."],
     "overview": "Staff Software Engineer, Identity & Access Management, designing and implementing IAM and AI security capabilities for Snowflake's cloud data platform. Focuses on scalable authentication, authorization, and access-control systems for secure agent workflows and data sharing.",
     "seniority": "lead",
     "category": "backend",
@@ -4534,9 +3972,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      null
-    ],
+    "workplaceTypes": [null],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -4558,11 +3994,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "python",
-      "java",
-      "distributedsystem"
-    ],
+    "skills": ["python", "java", "distributedsystem"],
     "description": [
       "Architect and build highly scalable infrastructure that enables secure, multi-party collaboration.",
       "Design and implement core clean room features and services, intelligent agents, and robust developer APIs to expand platform capabilities and support custom AI/ML workflows.",
@@ -4604,9 +4036,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      "hybrid"
-    ],
+    "workplaceTypes": ["hybrid"],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -4629,15 +4059,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "java",
-      "cpp",
-      "go",
-      "kubernetes",
-      "aws",
-      "azure",
-      "distributedsystem"
-    ],
+    "skills": ["java", "cpp", "go", "kubernetes", "aws", "azure", "distributedsystem"],
     "description": [
       "Design and develop features, understand customer requirements and meet business goals.",
       "Lead a team of engineers, including mentoring and guiding them, and build technical direction and strategy for large and critical parts of the product surface area.",
@@ -4677,9 +4099,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      "hybrid"
-    ],
+    "workplaceTypes": ["hybrid"],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -4701,13 +4121,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "java",
-      "go",
-      "python",
-      "cpp",
-      "distributedsystem"
-    ],
+    "skills": ["java", "go", "python", "cpp", "distributedsystem"],
     "description": [
       "Serve as the senior technical authority and architectural leader for Product Security, defining the long-term technical vision and security architecture for Snowflake.",
       "Drive the security strategy across key domains, including AI security, authentication, authorization, data protection, and software supply chain security.",
@@ -4755,9 +4169,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      "hybrid"
-    ],
+    "workplaceTypes": ["hybrid"],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -4780,11 +4192,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "sql",
-      "airflow",
-      "etl"
-    ],
+    "skills": ["sql", "airflow", "etl"],
     "description": [
       "Own the Cortex Code enablement experience end-to-end, from onboarding content and quickstarts to advanced how‑to guides and best practices for data engineers, analysts, and developers.",
       "Define and maintain documentation, tutorials, and samples for Cortex Code, including: Product overviews and conceptual docs; Step‑by‑step guides and walkthroughs; Code examples and reference projects; “How we built this” patterns for data and AI workflows.",
@@ -4826,9 +4234,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      null
-    ],
+    "workplaceTypes": [null],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -4850,17 +4256,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "java",
-      "cpp",
-      "go",
-      "python",
-      "kubernetes",
-      "terraform",
-      "aws",
-      "azure",
-      "distributedsystem"
-    ],
+    "skills": ["java", "cpp", "go", "python", "kubernetes", "terraform", "aws", "azure", "distributedsystem"],
     "description": [
       "Solve real business needs at large scale by applying your software engineering and analytical problem solving skills.",
       "Design, implement and maintain scalable distributed systems for our cloud automation platform that include cloud control plane, Kubernetes container platform and traffic and networking.",
@@ -4905,9 +4301,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      "onsite"
-    ],
+    "workplaceTypes": ["onsite"],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -4929,13 +4323,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "go",
-      "java",
-      "python",
-      "ci_cd",
-      "distributedsystem"
-    ],
+    "skills": ["go", "java", "python", "ci_cd", "distributedsystem"],
     "description": [
       "As a software engineer on the team, you will play a central role in delivering the next generation of tools and evolve our developer infrastructure and tooling to be scalable, highly performant, and AI-first.",
       "Design and build AI-first platforms, tools, and best practices to significantly enhance the developer experience for Snowsight",
@@ -4959,10 +4347,7 @@
       "Ability to work on-site at our Bellevue, WA or Menlo Park, CA offices.",
       "Every Snowflake employee is expected to follow the company’s confidentiality and security standards for handling sensitive data."
     ],
-    "benefits": [
-      "Compensation Range: $236K - $339.2K per year.",
-      "This is a full-time position."
-    ],
+    "benefits": ["Compensation Range: $236K - $339.2K per year.", "This is a full-time position."],
     "overview": "Staff Software Engineer building AI-first developer tooling and platforms using Go, Java, or Python and LLM-based techniques. Work focuses on scalable developer infrastructure, CI/CD, observability, and agentic workflows for Snowflake's Snowsight experiences.",
     "seniority": "senior",
     "category": "devops",
@@ -4985,9 +4370,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      "onsite"
-    ],
+    "workplaceTypes": ["onsite"],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -5010,9 +4393,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "distributedsystem"
-    ],
+    "skills": ["distributedsystem"],
     "description": [
       "We are looking for an outstanding software engineering manager to lead and grow a world class team in the product backend area. This team is responsible for building core observability features such as log analytics, metrics, APM, tracing, on top of our novel data platform. You and your team will own the backend portion of one or multiple features in this area, make sure they can solve our customer's pain points, and can also be implemented efficiently and cost effectively with our platform.",
       "Work with our product team and frontend/UI leaders to define novel and differentiating observability features leveraging the unique capabilities of our data platform.",
@@ -5046,9 +4427,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      null
-    ],
+    "workplaceTypes": [null],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -5070,15 +4449,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "java",
-      "python",
-      "nodejs",
-      "go",
-      "csharp",
-      "ruby",
-      "kubernetes"
-    ],
+    "skills": ["java", "python", "nodejs", "go", "csharp", "ruby", "kubernetes"],
     "description": [
       "Snowflake’s Customer Experience Engineering Team is expanding! We are looking for a Senior Software Engineer to join our team who likes building intelligent data applications that give insight into diagnostic data and technical content that is relevant to issues customers may be facing.",
       "Our Customer Experience Senior Software Engineers enjoy developing features into the Snowflake product that aim to greatly reduce friction points that block customers and regularly require help from Snowflake technical experts.",
@@ -5102,10 +4473,7 @@
       "Genuine enjoyment of the art of building great software, and a love of learning new things",
       "Every Snowflake employee is expected to follow the company’s confidentiality and security standards for handling sensitive data. Snowflake employees must abide by the company’s data security plan as an essential part of their duties. It is every employee's duty to keep customer information secure and confidential."
     ],
-    "benefits": [
-      "Compensation range: $176K - $253K.",
-      "Full-time employment."
-    ],
+    "benefits": ["Compensation range: $176K - $253K.", "Full-time employment."],
     "overview": "Senior Software Engineer building intelligent data applications and features using Java and Python on AWS Lambda and Kubernetes. Join Customer Experience Engineering to reduce customer friction, enable diagnostics, and drive cross-team product work.",
     "seniority": "senior",
     "category": "backend",
@@ -5119,9 +4487,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      null
-    ],
+    "workplaceTypes": [null],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -5143,13 +4509,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "react",
-      "typescript",
-      "javascript",
-      "css",
-      "splunk"
-    ],
+    "skills": ["react", "typescript", "javascript", "css", "splunk"],
     "description": [
       "Develop interactive, data-rich user interfaces using React, TypeScript, and Vega, with a focus on integrating LLM-driven features (e.g., natural language querying, generative UI, and AI-assisted data storytelling).",
       "Lead the end-to-end delivery of substantial product features, ensuring AI outputs are presented with high reliability and low latency.",
@@ -5184,9 +4544,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      null
-    ],
+    "workplaceTypes": [null],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -5208,10 +4566,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "sql",
-      "distributedsystem"
-    ],
+    "skills": ["sql", "distributedsystem"],
     "description": [
       "Drive high-impact features end-to-end: from anomaly detection and compound monitor logic to simple alerting workflows, owning scope, architecture, and delivery",
       "Design and scale the monitoring and alerting pipeline to support high concurrency and high-throughput SQL workloads, ensuring reliability for hundreds of terabytes of telemetry processed daily",
@@ -5236,10 +4591,7 @@
       "Background in event-driven architectures, distributed queues, or streaming pipelines",
       "Prior experience in a high-growth startup or fast-paced product environment"
     ],
-    "benefits": [
-      "Full-time employment",
-      "Compensation range is $200K - $287.5K."
-    ],
+    "benefits": ["Full-time employment", "Compensation range is $200K - $287.5K."],
     "overview": "Senior Software Engineer responsible for building backend monitoring and alerting systems using SQL, event-driven architectures, message queues, and Snowflake. Work includes designing high-throughput pipelines, AI-native workflows, and scaling telemetry processing for enterprise observability.",
     "seniority": "mid",
     "category": "backend",
@@ -5253,9 +4605,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      null
-    ],
+    "workplaceTypes": [null],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -5277,14 +4627,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "python",
-      "sql",
-      "java",
-      "go",
-      "aws",
-      "azure"
-    ],
+    "skills": ["python", "sql", "java", "go", "aws", "azure"],
     "description": [
       "The Anti-abuse team at Snowflake is responsible for protecting Snowflake and our customers from abuse on the Snowflake platform.",
       "You will have the opportunity to help set the direction of the anti-abuse roadmap and Product Security while working closely with other teams at Snowflake.",
@@ -5309,10 +4652,7 @@
       "Experience with cloud environments (AWS, GCP, Azure) and their security/abuse detection tooling.",
       "Familiarity with ML-based detection systems, feature engineering, or anomaly detection methods."
     ],
-    "benefits": [
-      "Salary range is $200K - $287.5K.",
-      "Full-time position."
-    ],
+    "benefits": ["Salary range is $200K - $287.5K.", "Full-time position."],
     "overview": "Anti-Abuse Senior Software Engineer designing and operating anti-abuse systems using Python, SQL, cloud platforms, and machine learning. Protect the Snowflake platform and customers by building prevention controls, detections, and automation across products.",
     "seniority": "senior",
     "category": "backend",
@@ -5326,9 +4666,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      null
-    ],
+    "workplaceTypes": [null],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -5350,15 +4688,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "java",
-      "scala",
-      "cpp",
-      "python",
-      "distributedsystem",
-      "aws",
-      "azure"
-    ],
+    "skills": ["java", "scala", "cpp", "python", "distributedsystem", "aws", "azure"],
     "description": [
       "Lead, build and improve Snowflake’s feature flagging and experimentation platform.",
       "Work on complex framework and code which are used at various places in Snowflake’s engineering stack to control feature flags.",
@@ -5386,10 +4716,7 @@
       "Every Snowflake employee is expected to follow the company’s confidentiality and security standards for handling sensitive data.",
       "Snowflake employees must abide by the company’s data security plan as an essential part of their duties."
     ],
-    "benefits": [
-      "Compensation range: $236K - $339.2K.",
-      "Full-time position based in Bellevue, WA, USA."
-    ],
+    "benefits": ["Compensation range: $236K - $339.2K.", "Full-time position based in Bellevue, WA, USA."],
     "overview": "Staff Software Engineer to build Snowflake's feature-flagging and experimentation platform, developing scalable distributed cloud services and APIs with Java/Scala/C++/Python. Focus on resilient, performant infrastructure enabling safe, fast feature rollout and experimentation.",
     "seniority": "lead",
     "category": "backend",
@@ -5403,9 +4730,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      null
-    ],
+    "workplaceTypes": [null],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -5459,11 +4784,7 @@
       "Strong distributed-systems troubleshooting and incident resolution skills.",
       "BONUS: Proficiency with Kubernetes, especially on the platform side."
     ],
-    "benefits": [
-      "Compensation range: $200K–$287.5K.",
-      "Full-time employment.",
-      "Location: Menlo Park, CA, USA."
-    ],
+    "benefits": ["Compensation range: $200K–$287.5K.", "Full-time employment.", "Location: Menlo Park, CA, USA."],
     "overview": "Senior Software Engineer building Snowflake’s production control plane using Go, Java, Python or C++ and IaC tools like Terraform. Automate provisioning, lifecycle management, and platform tooling to run cloud services at scale.",
     "seniority": "senior",
     "category": "devops",
@@ -5477,9 +4798,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      null
-    ],
+    "workplaceTypes": [null],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -5501,13 +4820,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "go",
-      "cpp",
-      "aws",
-      "azure",
-      "distributedsystem"
-    ],
+    "skills": ["go", "cpp", "aws", "azure", "distributedsystem"],
     "description": [
       "This team owns the core pipelines that ingest and process over 1 petabyte of telemetry data per day — the foundational infrastructure powering Observe's entire observability stack.",
       "Design, build, and scale high-throughput data ingestion and processing pipelines handling petabyte-scale telemetry — logs, metrics, traces, and events",
@@ -5552,9 +4865,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      "hybrid"
-    ],
+    "workplaceTypes": ["hybrid"],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -5630,9 +4941,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      null
-    ],
+    "workplaceTypes": [null],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -5654,14 +4963,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "nodejs",
-      "java",
-      "javascript",
-      "react",
-      "python",
-      "sql"
-    ],
+    "skills": ["nodejs", "java", "javascript", "react", "python", "sql"],
     "description": [
       "Drive high impact initiatives that span our product areas and tech stack including NodeJS, Java and JavaScript (React).",
       "Promote strong collaboration within a cross functional team, including design, product management.",
@@ -5695,9 +4997,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      "hybrid"
-    ],
+    "workplaceTypes": ["hybrid"],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -5719,15 +5019,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "react",
-      "typescript",
-      "javascript",
-      "nodejs",
-      "java",
-      "python",
-      "sql"
-    ],
+    "skills": ["react", "typescript", "javascript", "nodejs", "java", "python", "sql"],
     "description": [
       "Drive high impact initiatives that span our product areas and tech stack including: React, Typescript, JavaScript , NodeJS and java",
       "Promote strong collaboration within a cross functional team, including design, product management.",
@@ -5761,9 +5053,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      "hybrid"
-    ],
+    "workplaceTypes": ["hybrid"],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -5785,12 +5075,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "go",
-      "kubernetes",
-      "aws",
-      "distributedsystem"
-    ],
+    "skills": ["go", "kubernetes", "aws", "distributedsystem"],
     "description": [
       "Contribute to the Observe Agent, a custom OpenTelemetry collector distribution, building receivers, processors, and exporters that collect and forward customer telemetry at scale",
       "Build and maintain configuration-heavy systems including OTel collector configs, Helm charts, Kubernetes manifests, and AWS infrastructure templates",
@@ -5831,9 +5116,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      null
-    ],
+    "workplaceTypes": [null],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -5855,15 +5138,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "ci_cd",
-      "aws",
-      "kubernetes",
-      "python",
-      "groovy",
-      "bash",
-      "linux"
-    ],
+    "skills": ["ci_cd", "aws", "kubernetes", "python", "groovy", "bash", "linux"],
     "description": [
       "You will build, maintain, and improve the continuous integration systems that thousands of engineers rely on every day to ship code with confidence.",
       "Contribute to the development and maintenance of continuous integration and delivery pipelines, ensuring reliable and efficient build, test, and release workflows across the organization.",
@@ -5889,10 +5164,7 @@
       "Understanding of observability practices including monitoring, logging, and alerting.",
       "BS/MS in Computer Science or a related field, or equivalent practical experience."
     ],
-    "benefits": [
-      "Compensation range: $128K–$184K.",
-      "Full-time position."
-    ],
+    "benefits": ["Compensation range: $128K–$184K.", "Full-time position."],
     "overview": "Software Engineer, Engineering Infrastructure responsible for building and maintaining CI/CD systems and cloud infrastructure (AWS) supporting Snowflake's development velocity. The role focuses on artifact lifecycle, automation, and developer tooling for reproducible builds at scale.",
     "seniority": "mid",
     "category": "devops",
@@ -5906,16 +5178,9 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      null
-    ],
+    "workplaceTypes": [null],
     "remoteLocationTokens": [],
-    "onsiteOrHybrifLocationTokens": [
-      "businessRegion:amer",
-      "continent:northamerica",
-      "country:canada",
-      "city:toronto"
-    ]
+    "onsiteOrHybrifLocationTokens": ["businessRegion:amer", "continent:northamerica", "country:canada", "city:toronto"]
   },
   {
     "url": "https://jobs.ashbyhq.com/snowflake/509681a0-08cd-484f-aaa6-ffdb8ea5a5ce",
@@ -5930,16 +5195,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "sql",
-      "python",
-      "pandas",
-      "spark",
-      "pyspark",
-      "hadoop",
-      "informatica",
-      "kafka"
-    ],
+    "skills": ["sql", "python", "pandas", "spark", "pyspark", "hadoop", "informatica", "kafka"],
     "description": [
       "Provide technical leadership in working with both technical and business executives in the design and architecture of the Snowflake Cloud Data Platform as a critical component of their enterprise data architecture and overall ecosystem.",
       "Work directly with the sales team to understand the needs of our customers, strategize on how to navigate winning sales cycles, provide compelling value-based demonstrations, support enterprise Proof of Concepts, and ultimately close business.",
@@ -5980,14 +5236,8 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      "remote"
-    ],
-    "remoteLocationTokens": [
-      "businessRegion:amer",
-      "continent:northamerica",
-      "country:unitedstates"
-    ],
+    "workplaceTypes": ["remote"],
+    "remoteLocationTokens": ["businessRegion:amer", "continent:northamerica", "country:unitedstates"],
     "onsiteOrHybrifLocationTokens": []
   },
   {
@@ -6058,9 +5308,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      null
-    ],
+    "workplaceTypes": [null],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -6082,12 +5330,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "go",
-      "typescript",
-      "python",
-      "distributedsystem"
-    ],
+    "skills": ["go", "typescript", "python", "distributedsystem"],
     "description": [
       "Design and build backend systems that power Observe's AI product layer from context resolution APIs to real-time alert-to-agent pipelines",
       "Own services end-to-end across design, implementation, and production reliability",
@@ -6101,10 +5344,7 @@
       "Familiarity with evals or LLM quality measurement and the ability to apply them as part of your day-to-day engineering workflow",
       "Strong product sense; you understand how backend decisions connect to user outcomes and can engage meaningfully on product direction"
     ],
-    "benefits": [
-      "Compensation range: $200K - $287.5K.",
-      "Full-time position located in Menlo Park, CA."
-    ],
+    "benefits": ["Compensation range: $200K - $287.5K.", "Full-time position located in Menlo Park, CA."],
     "overview": "Senior Software Engineer (AI Backend) building backend systems in Go, TypeScript, and Python for AI-powered observability on Snowflake. You'll own services, real-time pipelines, and APIs that accelerate detection to resolution for engineering teams.",
     "seniority": "senior",
     "category": "backend",
@@ -6118,9 +5358,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      null
-    ],
+    "workplaceTypes": [null],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -6142,13 +5380,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "go",
-      "java",
-      "scala",
-      "python",
-      "distributedsystem"
-    ],
+    "skills": ["go", "java", "scala", "python", "distributedsystem"],
     "description": [
       "Design, build, and own core features, APIs, and business logic powering a high-performance observability platform for enterprise customers",
       "Develop production-grade backend systems capable of ingesting and processing massive volumes of telemetry data reliably and at scale",
@@ -6172,10 +5404,7 @@
       "Background in SRE practices, incident response automation, or root-cause analysis tooling",
       "Open-source contributions to observability, data infrastructure, or developer productivity projects"
     ],
-    "benefits": [
-      "Full-time employment.",
-      "Compensation range: CHF 176K - CHF 253K."
-    ],
+    "benefits": ["Full-time employment.", "Compensation range: CHF 176K - CHF 253K."],
     "overview": "Senior Software Engineer building backend systems and APIs for an observability platform using Go, Java, Scala, Python, and Apache Iceberg. Deliver production-grade telemetry ingestion and processing at enterprise scale.",
     "seniority": "mid",
     "category": "backend",
@@ -6189,16 +5418,9 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      null
-    ],
+    "workplaceTypes": [null],
     "remoteLocationTokens": [],
-    "onsiteOrHybrifLocationTokens": [
-      "businessRegion:emea",
-      "continent:europe",
-      "country:switzerland",
-      "city:zurich"
-    ]
+    "onsiteOrHybrifLocationTokens": ["businessRegion:emea", "continent:europe", "country:switzerland", "city:zurich"]
   },
   {
     "url": "https://jobs.ashbyhq.com/snowflake/a1f1779b-464c-48f6-a664-56314825c8ac",
@@ -6213,15 +5435,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "go",
-      "java",
-      "python",
-      "kubernetes",
-      "distributedsystem",
-      "microservices",
-      "sql"
-    ],
+    "skills": ["go", "java", "python", "kubernetes", "distributedsystem", "microservices", "sql"],
     "description": [
       "Architect Agentic Runtimes: Build and scale the orchestration engines that execute complex agentic workflows, ensuring low-latency tool execution and robust state management.",
       "Scale Context Engineering Infra: Design high-performance systems for RAG (Retrieval-Augmented Generation), including vector database integration, scalable and efficient search indexing, query processing, and result ranking, semantic caching, and automated metadata extraction.",
@@ -6240,10 +5454,7 @@
       "Developing search infrastructure for large-scale applications.",
       "Direct experience with any of the subsystems outlined above."
     ],
-    "benefits": [
-      "Salary range: $236,000 - $339,250.",
-      "Full-time employment."
-    ],
+    "benefits": ["Salary range: $236,000 - $339,250.", "Full-time employment."],
     "overview": "Staff Software Engineer building backend AI infrastructure and orchestration runtimes with Go, Java, Python, and Kubernetes. Focus on scalable RAG, agent execution, context retrieval, evals, and productionizing multi-tenant AI services.",
     "seniority": "mid",
     "category": "backend",
@@ -6257,9 +5468,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      null
-    ],
+    "workplaceTypes": [null],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -6281,15 +5490,7 @@
       "bonus": true,
       "equity": false
     },
-    "skills": [
-      "distributedsystem",
-      "ci_cd",
-      "java",
-      "cpp",
-      "python",
-      "go",
-      "jenkins"
-    ],
+    "skills": ["distributedsystem", "ci_cd", "java", "cpp", "python", "go", "jenkins"],
     "description": [
       "We’re hiring a seasoned Senior Software Engineer to help us build a world class developer platform to fuel the Snowflake Data Cloud.",
       "As an engineer in the Continuous Integration team within ES (Engineering Systems), you will play a central role in setting the technical standard for and delivering the CI service that powers our repositories.",
@@ -6341,9 +5542,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      "hybrid"
-    ],
+    "workplaceTypes": ["hybrid"],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -6366,10 +5565,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "ci_cd",
-      "distributedsystem"
-    ],
+    "skills": ["ci_cd", "distributedsystem"],
     "description": [
       "Drive AI-Native Validation: Lead the transformation of our testing suites by integrating AI to generate test cases, identify regression risks, and optimize test selection, significantly accelerating the time-to-impact.",
       "Redefine Developer Workflow: Build an AI-forward developer experience that removes friction from the \"inner loop\" of development, ensuring engineers can validate and iterate on their ideas in seconds, not hours.",
@@ -6416,9 +5612,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      "hybrid"
-    ],
+    "workplaceTypes": ["hybrid"],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -6441,10 +5635,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "microservices",
-      "distributedsystem"
-    ],
+    "skills": ["microservices", "distributedsystem"],
     "description": [
       "We are hiring a Senior Software Engineer to own and drive the evolution of our APM and AI observability products — two adjacent product lines that sit at the intersection of AI, advanced streaming data pipelines, and backend platform engineering.",
       "Own end-to-end product scopes across our APM and AI observability product lines — from backend behavior and API design to data pipeline architecture and client-side SDK work",
@@ -6488,9 +5679,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      "onsite"
-    ],
+    "workplaceTypes": ["onsite"],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -6512,10 +5701,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "typescript",
-      "nodejs"
-    ],
+    "skills": ["typescript", "nodejs"],
     "description": [
       "Own features end-to-end across the full stack, from API design and backend logic through to the front-end experience, shipping customer-facing AI products with speed and quality",
       "Build and evolve the AI SRE product, Observe's flagship tool that helps engineering teams resolve production issues up to 10x faster through AI-powered signal correlation",
@@ -6558,9 +5744,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      null
-    ],
+    "workplaceTypes": [null],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -6582,9 +5766,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "ci_cd"
-    ],
+    "skills": ["ci_cd"],
     "description": [
       "Grow a world-class PM team that delivers best in class systems, services, and tools to help engineers at Snowflake more easily deliver value to customers.",
       "Define and evolve the product vision for Snowflake’s Developer experience. Help us evolve the products and services we build to help our engineers succeed.",
@@ -6632,9 +5814,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      "hybrid"
-    ],
+    "workplaceTypes": ["hybrid"],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -6657,15 +5837,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "java",
-      "go",
-      "cpp",
-      "dns",
-      "distributedsystem",
-      "aws",
-      "azure"
-    ],
+    "skills": ["java", "go", "cpp", "dns", "distributedsystem", "aws", "azure"],
     "description": [
       "As a Principal Engineer in the Data Protection group, you will be the technical lead for the Data Exfiltration Protection (DXP) and Data Movement Policy (DMP) initiatives.",
       "You will bridge the gap between high-level security policy and low-level system enforcement, ensuring that our perimeter controls are robust, scalable, and deeply integrated with context-aware access policy frameworks.",
@@ -6702,9 +5874,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      null
-    ],
+    "workplaceTypes": [null],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -6726,19 +5896,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "java",
-      "cpp",
-      "go",
-      "python",
-      "sql",
-      "spark",
-      "hadoop",
-      "distributedsystem",
-      "aws",
-      "azure",
-      "gcp"
-    ],
+    "skills": ["java", "cpp", "go", "python", "sql", "spark", "hadoop", "distributedsystem", "aws", "azure", "gcp"],
     "description": [
       "Opportunity to provide meaningful contributions to a real system used by customers",
       "Implementation, testing of features in query compilation, compiler design, query execution",
@@ -6791,9 +5949,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      null
-    ],
+    "workplaceTypes": [null],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -6816,11 +5972,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "go",
-      "sql",
-      "distributedsystem"
-    ],
+    "skills": ["go", "sql", "distributedsystem"],
     "description": [
       "Own the data modeling product surface — the APIs, schemas, and abstractions through which customers create tables, views, and materialized views that unify their telemetry for correlation and querying, designed for high-performance execution at scale",
       "Design the right abstractions for how customers create and manage queryable data — from streaming materialized views to reference tables to log-derived metrics — each serving different needs but composing under one coherent, evolvable model",
@@ -6843,10 +5995,7 @@
       "Prior work building internal data platforms that turned raw event streams into curated, queryable tables for internal teams",
       "Familiarity with Apache Iceberg, open table formats, or data lakehouse architectures"
     ],
-    "benefits": [
-      "Compensation range: $200K - $287.5K.",
-      "Full-time employment."
-    ],
+    "benefits": ["Compensation range: $200K - $287.5K.", "Full-time employment."],
     "overview": "Senior Software Engineer owning streaming data products: data models, tables, views, and materialized views using SQL, Go and stream processing. Scale data lakehouse architectures and enable low-latency telemetry correlation at petabyte scale.",
     "seniority": "mid",
     "category": "backend",
@@ -6860,9 +6009,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      null
-    ],
+    "workplaceTypes": [null],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -6884,17 +6031,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "go",
-      "java",
-      "python",
-      "javascript",
-      "typescript",
-      "dotnet",
-      "kubernetes",
-      "aws",
-      "azure"
-    ],
+    "skills": ["go", "java", "python", "javascript", "typescript", "dotnet", "kubernetes", "aws", "azure"],
     "description": [
       "Pioneer new instrumentation capabilities in the OpenTelemetry community, defining and building next-generation telemetry collection for emerging domains including LLM/AI inference, Browser RUM, and mobile.",
       "Design and implement OTel Collector components (receivers, processors, exporters) and SDK instrumentation libraries that strengthen Observe's position as a leading OTel destination.",
@@ -6934,9 +6071,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      null
-    ],
+    "workplaceTypes": [null],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -6958,16 +6093,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "java",
-      "go",
-      "cpp",
-      "python",
-      "postgresql",
-      "aws",
-      "azure",
-      "distributedsystem"
-    ],
+    "skills": ["java", "go", "cpp", "python", "postgresql", "aws", "azure", "distributedsystem"],
     "description": [
       "Design and build backend services that power provisioning, lifecycle management, and configuration of Snowflake Postgres instances.",
       "Develop features in the access and user model, including authorization, secure administration flows, and customer-facing management capabilities.",
@@ -7015,9 +6141,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      "hybrid"
-    ],
+    "workplaceTypes": ["hybrid"],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -7040,12 +6164,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "postgresql",
-      "sql",
-      "cpp",
-      "distributedsystem"
-    ],
+    "skills": ["postgresql", "sql", "cpp", "distributedsystem"],
     "description": [
       "Explore new database technologies and innovate to bring new capabilities to Postgres",
       "Design and develop Postgres extensions to bring differentiating features to Snowflake",
@@ -7092,9 +6211,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      "hybrid"
-    ],
+    "workplaceTypes": ["hybrid"],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -7117,15 +6234,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "ruby",
-      "go",
-      "postgresql",
-      "aws",
-      "azure",
-      "gcp",
-      "distributedsystem"
-    ],
+    "skills": ["ruby", "go", "postgresql", "aws", "azure", "gcp", "distributedsystem"],
     "description": [
       "Orchestrate Postgres databases via a Ruby application",
       "Work with AWS, Azure, and GCP APIs",
@@ -7149,10 +6258,7 @@
       "Experience designing and implementing large systems for public or private clouds",
       "FedRAMP and DoD deployment experience"
     ],
-    "benefits": [
-      "Compensation Range: $200K - $287.5K.",
-      "Full-time position."
-    ],
+    "benefits": ["Compensation Range: $200K - $287.5K.", "Full-time position."],
     "overview": "Senior Software Engineer building and operating Snowflake's Postgres service using Ruby, Go, and PostgreSQL across AWS, Azure, and GCP. You'll scale and secure a multi-cloud, high-availability OLTP offering for Snowflake customers.",
     "seniority": "senior",
     "category": "backend",
@@ -7166,9 +6272,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      null
-    ],
+    "workplaceTypes": [null],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -7190,15 +6294,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "cpp",
-      "java",
-      "distributedsystem",
-      "bigQuery",
-      "oracle",
-      "msSqlServer",
-      "airflow"
-    ],
+    "skills": ["cpp", "java", "distributedsystem", "bigQuery", "oracle", "msSqlServer", "airflow"],
     "description": [
       "As a Staff Engineer on this team, you will own the technical direction for critical performance initiatives and be a force multiplier for the engineers around you.",
       "Make incremental refresh fast, predictable, and cost-efficient across increasingly complex query shapes.",
@@ -7239,9 +6335,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      "hybrid"
-    ],
+    "workplaceTypes": ["hybrid"],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -7263,11 +6357,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "go",
-      "java",
-      "react"
-    ],
+    "skills": ["go", "java", "react"],
     "description": [
       "Act as a technical leader and deep domain expert across the stack, owning an area of the product end-to-end with an eye toward service health, quality, and customer experience.",
       "Lead large, cross-team projects from architecture through delivery — identifying opportunities, making the right trade-offs in the context of overall company goals, and driving them to completion.",
@@ -7307,9 +6397,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      null
-    ],
+    "workplaceTypes": [null],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -7331,14 +6419,7 @@
       "bonus": false,
       "equity": false
     },
-    "skills": [
-      "kubernetes",
-      "go",
-      "aws",
-      "azure",
-      "distributedsystem",
-      "ci_cd"
-    ],
+    "skills": ["kubernetes", "go", "aws", "azure", "distributedsystem", "ci_cd"],
     "description": [
       "We build the foundational container platform that runs Snowflake's production, AI/ML, and CI workloads across AWS, Azure, and GCP, including a rapidly growing AI/ML footprint.",
       "The work is to make that fleet reliable, automated, and invisible to the thousands of engineers building on top of it.",
@@ -7356,10 +6437,7 @@
       "Experience with GPU infrastructure or AI/ML training workloads at scale.",
       "Open source contributions to Kubernetes or related ecosystem projects."
     ],
-    "benefits": [
-      "Compensation range: $236K–$339.2K.",
-      "Full-time position based in Menlo Park, CA (US)."
-    ],
+    "benefits": ["Compensation range: $236K–$339.2K.", "Full-time position based in Menlo Park, CA (US)."],
     "overview": "Staff Software Engineer owning Snowflake's container platform and Kubernetes automation across AWS, Azure, and GCP. Scale and automate cluster fleets to improve developer velocity and reliability for production, AI/ML, and CI workloads.",
     "seniority": "senior",
     "category": "devops",
@@ -7373,9 +6451,7 @@
       }
     ],
     "companyId": "snowflake-computing",
-    "workplaceTypes": [
-      null
-    ],
+    "workplaceTypes": [null],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -7390,9 +6466,7 @@
     "employmentType": "fulltime",
     "publishedAt": null,
     "salaryRange": null,
-    "skills": [
-      "distributedsystem"
-    ],
+    "skills": ["distributedsystem"],
     "description": [
       "We are seeking an Engineering Manager II to lead a group within Datadog’s Site Reliability Engineering organization, spanning teams focused on resilience validation, chaos engineering, and penetration testing.",
       "Lead and mentor engineering managers, fostering their growth while building strong, high-performing teams across your organization",
@@ -7435,15 +6509,8 @@
       }
     ],
     "companyId": "datadog",
-    "workplaceTypes": [
-      "remote"
-    ],
-    "remoteLocationTokens": [
-      "businessRegion:emea",
-      "continent:europe",
-      "country:france",
-      "country:ireland"
-    ],
+    "workplaceTypes": ["remote"],
+    "remoteLocationTokens": ["businessRegion:emea", "continent:europe", "country:france", "country:ireland"],
     "onsiteOrHybrifLocationTokens": []
   },
   {
@@ -7452,9 +6519,7 @@
     "employmentType": "fulltime",
     "publishedAt": null,
     "salaryRange": null,
-    "skills": [
-      "distributedsystem"
-    ],
+    "skills": ["distributedsystem"],
     "description": [
       "Lead and mentor engineering managers, fostering their growth while building strong, high-performing teams across your organization",
       "Contribute to and advance the vision for reliability at Datadog, including adapting practices in response to the evolving impact of AI on software development",
@@ -7490,16 +6555,9 @@
       }
     ],
     "companyId": "datadog",
-    "workplaceTypes": [
-      "hybrid"
-    ],
+    "workplaceTypes": ["hybrid"],
     "remoteLocationTokens": [],
-    "onsiteOrHybrifLocationTokens": [
-      "businessRegion:emea",
-      "continent:europe",
-      "country:france",
-      "city:paris"
-    ]
+    "onsiteOrHybrifLocationTokens": ["businessRegion:emea", "continent:europe", "country:france", "city:paris"]
   },
   {
     "url": "https://www.shopify.com/careers/overnight-senior-support-specialist-front-end-developer-support_fcc7adcb-1307-421d-8234-1501290717f3",
@@ -7507,13 +6565,7 @@
     "employmentType": "fulltime",
     "publishedAt": null,
     "salaryRange": null,
-    "skills": [
-      "html",
-      "css",
-      "javascript",
-      "typescript",
-      "react"
-    ],
+    "skills": ["html", "css", "javascript", "typescript", "react"],
     "description": [
       "As a Senior Support Specialist in Developer Support at Shopify, you play a critical role in empowering entrepreneurs globally, going beyond merely answering technical queries to create memorable experiences that add value to their businesses.",
       "Work with merchants, partners and/or their developers to resolve issues with their front-end technology stack in relation to Shopify and Developer Support’s scope (e.g. Online Storefront, Checkout Extensions, Notifications).",
@@ -7536,9 +6588,7 @@
       "Skilled in using version control systems like Git, understands object-oriented programming principles, and has practical knowledge of building cross-browser compliant and responsive code.",
       "Enthusiastic about improving team efficiency through the development of standards and tools, and actively engages in crafting maintainable code as part of a collaborative development team."
     ],
-    "benefits": [
-      "This is a remote role based in Canada."
-    ],
+    "benefits": ["This is a remote role based in Canada."],
     "overview": "Senior Support Specialist providing front-end technical support for merchants using HTML, CSS, JavaScript, React and TypeScript. Work overnight shifts to resolve complex storefront and checkout issues and collaborate with engineering and support teams.",
     "seniority": "senior",
     "category": "frontend",
@@ -7552,14 +6602,8 @@
       }
     ],
     "companyId": "shopify",
-    "workplaceTypes": [
-      "remote"
-    ],
-    "remoteLocationTokens": [
-      "businessRegion:amer",
-      "continent:northamerica",
-      "country:canada"
-    ],
+    "workplaceTypes": ["remote"],
+    "remoteLocationTokens": ["businessRegion:amer", "continent:northamerica", "country:canada"],
     "onsiteOrHybrifLocationTokens": []
   },
   {
@@ -7568,14 +6612,7 @@
     "employmentType": "fulltime",
     "publishedAt": null,
     "salaryRange": null,
-    "skills": [
-      "ruby",
-      "python",
-      "php",
-      "nodejs",
-      "graphql",
-      "sql"
-    ],
+    "skills": ["ruby", "python", "php", "nodejs", "graphql", "sql"],
     "description": [
       "Work with merchants, partners and/or their developers to resolve issues with their back-end technology stack in relation to Shopify and Developer Support’s scope (e.g. Shopify APIs, SDKs, Checkout Extensions, Headless).",
       "Help merchants customize their Online Store either through consultation or implementation.",
@@ -7597,9 +6634,7 @@
       "Competent in leveraging technical support tools such as Observe, SQL databases, and Chrome Developer Tools, capable of interpreting and executing development testing procedures, and experienced in managing complex codebases in collaborative environments.",
       "Enthusiastic about improving team efficiency through the development of standards and tools, and actively engages in crafting maintainable code as part of a collaborative development team."
     ],
-    "benefits": [
-      "This is a remote role for candidates based in the United Kingdom or Ireland."
-    ],
+    "benefits": ["This is a remote role for candidates based in the United Kingdom or Ireland."],
     "overview": "Senior Support Specialist providing back-end developer support for Shopify APIs, SDKs, Checkout Extensions, and headless systems. You’ll resolve complex technical issues for merchants, partners, and internal teams to improve merchant success.",
     "seniority": "senior",
     "category": "backend",
@@ -7620,15 +6655,8 @@
       }
     ],
     "companyId": "shopify",
-    "workplaceTypes": [
-      "remote"
-    ],
-    "remoteLocationTokens": [
-      "businessRegion:emea",
-      "continent:europe",
-      "country:unitedkingdom",
-      "country:ireland"
-    ],
+    "workplaceTypes": ["remote"],
+    "remoteLocationTokens": ["businessRegion:emea", "continent:europe", "country:unitedkingdom", "country:ireland"],
     "onsiteOrHybrifLocationTokens": []
   },
   {
@@ -7637,13 +6665,7 @@
     "employmentType": "fulltime",
     "publishedAt": null,
     "salaryRange": null,
-    "skills": [
-      "html",
-      "css",
-      "javascript",
-      "react",
-      "typescript"
-    ],
+    "skills": ["html", "css", "javascript", "react", "typescript"],
     "description": [
       "As a Senior Support Specialist in Developer Support at Shopify, you play a critical role in empowering entrepreneurs globally, going beyond merely answering technical queries to create memorable experiences that add value to their businesses.",
       "Work with merchants, partners and/or their developers to resolve issues with their front-end technology stack in relation to Shopify and Developer Support’s scope (e.g. Online Storefront, Checkout Extensions, Notifications).",
@@ -7666,9 +6688,7 @@
       "Skilled in using version control systems like Git, understands object-oriented programming principles, and has practical knowledge of building cross-browser compliant and responsive code.",
       "Enthusiastic about improving team efficiency through the development of standards and tools, and actively engages in crafting maintainable code as part of a collaborative development team."
     ],
-    "benefits": [
-      "Remote role (based in Singapore) with digital-first work."
-    ],
+    "benefits": ["Remote role (based in Singapore) with digital-first work."],
     "overview": "Senior Support Specialist resolving complex front-end issues for merchants using HTML, CSS, JavaScript, React and TypeScript. Provide real-time support, collaborate with engineering, and improve developer-facing knowledge to drive merchant success.",
     "seniority": "senior",
     "category": "frontend",
@@ -7680,14 +6700,8 @@
       }
     ],
     "companyId": "shopify",
-    "workplaceTypes": [
-      "remote"
-    ],
-    "remoteLocationTokens": [
-      "businessRegion:undefined",
-      "continent:undefined",
-      "country:Singapore"
-    ],
+    "workplaceTypes": ["remote"],
+    "remoteLocationTokens": ["businessRegion:undefined", "continent:undefined", "country:Singapore"],
     "onsiteOrHybrifLocationTokens": []
   },
   {
@@ -7703,11 +6717,7 @@
       "bonus": true,
       "equity": true
     },
-    "skills": [
-      "scala",
-      "python",
-      "spark"
-    ],
+    "skills": ["scala", "python", "spark"],
     "description": [
       "You will build and scale the infrastructure to help machine learning teams generate training datasets.",
       "We develop infrastructure to help machine learning teams generate training datasets. Specifically, we own platforms for attribution data generation and point-in-time joins.",
@@ -7753,9 +6763,7 @@
       }
     ],
     "companyId": "etsy",
-    "workplaceTypes": [
-      "hybrid"
-    ],
+    "workplaceTypes": ["hybrid"],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:amer",
@@ -7770,10 +6778,7 @@
     "employmentType": "fulltime",
     "publishedAt": null,
     "salaryRange": null,
-    "skills": [
-      "php",
-      "mysql"
-    ],
+    "skills": ["php", "mysql"],
     "description": [
       "Privacy Engineering mission is for Etsy buyers and sellers to have clear control over their data, Etsy meets global privacy obligations with confidence, and product teams have the guidance needed to build safely by default.",
       "This team is focused on expanding the Etsy Privacy Platform and end user experiences - building in the Etsy PHP/MySQL monolith and related systems - the architecture that powers Etsy.com.",
@@ -7809,16 +6814,9 @@
       }
     ],
     "companyId": "etsy",
-    "workplaceTypes": [
-      "hybrid"
-    ],
+    "workplaceTypes": ["hybrid"],
     "remoteLocationTokens": [],
-    "onsiteOrHybrifLocationTokens": [
-      "businessRegion:emea",
-      "continent:europe",
-      "country:ireland",
-      "city:dublin"
-    ]
+    "onsiteOrHybrifLocationTokens": ["businessRegion:emea", "continent:europe", "country:ireland", "city:dublin"]
   },
   {
     "url": "https://careers.etsy.com/jobs/senior-software-engineer-i-enforcement-integrity-cdmx-mexico-city-mexico",
@@ -7826,10 +6824,7 @@
     "employmentType": "fulltime",
     "publishedAt": null,
     "salaryRange": null,
-    "skills": [
-      "php",
-      "mysql"
-    ],
+    "skills": ["php", "mysql"],
     "description": [
       "Enforcement Integrity is a part of the Detection and Enforcement group, focused on protecting Etsy's marketplace and elevating Etsy as a trusted brand.",
       "This team's focus is on ensuring enforcement actions are consistent, attributable, auditable, understandable, and applied fairly across time.",
@@ -7896,9 +6891,7 @@
       }
     ],
     "companyId": "etsy",
-    "workplaceTypes": [
-      "hybrid"
-    ],
+    "workplaceTypes": ["hybrid"],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:undefined",
@@ -8227,9 +7220,7 @@
       }
     ],
     "companyId": "peloton-interactive-",
-    "workplaceTypes": [
-      null
-    ],
+    "workplaceTypes": [null],
     "remoteLocationTokens": [],
     "onsiteOrHybrifLocationTokens": [
       "businessRegion:undefined",
@@ -8272,5 +7263,124 @@
       "country:GA",
       "city:atlanta"
     ]
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/stack-ai/2c562d97-871f-444d-b4cc-796cd15e2ed5",
+    "title": "Staff Backend Engineer",
+    "employmentType": "fulltime",
+    "publishedAt": null,
+    "salaryRange": {
+      "min": 170000,
+      "max": 250000,
+      "interval": "year",
+      "currency": "USD",
+      "bonus": true,
+      "equity": true
+    },
+    "skills": ["python", "postgresql", "sql", "nosql", "aws", "docker", "kubernetes", "distributedsystem"],
+    "description": [
+      "We're looking for a Staff Backend Engineer to own and evolve the backbone of our platform.",
+      "This is a technical leadership position: you'll shape our architecture, set engineering standards, and make the long-term infrastructure decisions that determine how Stack AI scales.",
+      "You'll work directly with our founders and product leads, balancing speed with sustainability in a fast-moving startup where your work ships quickly and your influence is felt across the entire product.",
+      "Architect and scale core systems — Design, build, and own the backend services that power our no-code AI platform, from API layer through data pipeline.",
+      "Lead authentication and identity infrastructure — Own our SSO, SAML, and OIDC integrations, ensuring enterprise-grade auth that scales with our customer base.",
+      "Set technical direction — Define system design patterns, service boundaries, data modeling approaches, and long-term infrastructure strategy.",
+      "Mentor and elevate the team — Raise the bar through design reviews, pairing, knowledge-sharing, and establishing best practices across backend engineering.",
+      "Drive reliability and observability — Proactively identify bottlenecks, improve performance, and evolve our infrastructure before problems become incidents."
+    ],
+    "requirements": [
+      "6+ years of backend engineering experience, with a track record of operating at Staff level or as a technical lead on complex, production systems.",
+      "Deep expertise in SSO, SAML, and OIDC — you've built or owned identity and authentication systems, not just consumed them.",
+      "Broad understanding of identity provider (IdP) architecture and enterprise auth patterns.",
+      "Strong proficiency in Python with experience in FastAPI or similar modern frameworks.",
+      "Deep knowledge of distributed systems design, database architecture, and scaling strategies.",
+      "Hands-on experience with SQL and NoSQL databases (e.g., Postgres, Supabase, SQLAlchemy).",
+      "Strong command of cloud infrastructure (AWS: EC2, S3, RDS, Lambda) and containerization (Docker, Kubernetes).",
+      "Comfort operating in a fast-paced startup where priorities shift and impact is immediate.",
+      "Experience with entitlements management, usage-based metering, or billing systems (e.g., Stripe Billing, Lago, or custom metering pipelines)."
+    ],
+    "benefits": [
+      "Full-time remote role based in the United States.",
+      "Compensation range: $170K–$250K.",
+      "Offers equity.",
+      "Offers bonus.",
+      "Join a lean, high-impact engineering team with ownership of major technical areas."
+    ],
+    "overview": "Staff Backend Engineer responsible for architecting and scaling backend services for a no-code AI workflows platform using Python and FastAPI. You'll set technical direction, lead enterprise identity integrations, and drive reliability across production systems.",
+    "seniority": "senior",
+    "category": "backend",
+    "locations": [
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "amer",
+        "continent": "northamerica",
+        "country": "unitedstates"
+      }
+    ],
+    "companyId": "stackai",
+    "workplaceTypes": ["remote"],
+    "remoteLocationTokens": ["businessRegion:amer", "continent:northamerica", "country:unitedstates"],
+    "onsiteOrHybrifLocationTokens": []
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/stack-ai/f15559d9-4c4f-4e95-bdf5-786376d93f04",
+    "title": "Senior Frontend Engineer",
+    "employmentType": "fulltime",
+    "publishedAt": null,
+    "salaryRange": {
+      "min": 70000,
+      "max": 150000,
+      "interval": "year",
+      "currency": "EUR",
+      "bonus": true,
+      "equity": false
+    },
+    "skills": ["react", "nextjs", "typescript", "javascript", "tailwindcss", "react-query"],
+    "description": [
+      "Main Mission: Remove the bottleneck in our Product Design pod by taking ownership of incremental UX/UI improvements to existing features and code.",
+      "Optimize and refine existing frontend code and features",
+      "Implement incremental UX/UI improvements from detailed design specs (no design skills required)",
+      "Work autonomously with minimal code review needed—your code should be clean enough that our other Front Enders can trust it blindfolded",
+      "Collaborate with Product Designers, Design Engineers, and Front End Engineers on execution",
+      "Focus on high-impact improvements that elevate our product quality and user experience",
+      "Clean up and improve legacy code"
+    ],
+    "requirements": [
+      "Exceptional code quality: Clean, maintainable, trustworthy code that requires minimal review",
+      "Strong execution: You ship fast and ship well",
+      "Senior-level experience: 5+ years with React, TypeScript, Next.js, and modern frontend stack",
+      "Accountability: You own your decisions and respond when needed",
+      "Autonomy: You can own features end-to-end without hand-holding",
+      "Pragmatism: You are willing to engage with detail-oriented and iterative work that is essential to the product's success",
+      "Technical excellence: Someone who can teach us, not someone we have to teach",
+      "Experience with Tailwind CSS",
+      "Understanding of UI fundamentals (but design skills are NOT required)",
+      "Experience cleaning up and optimizing existing codebases",
+      "Comfort working across the stack when needed"
+    ],
+    "benefits": ["Remote role (based in Spain).", "Full-time employment.", "Compensation: €70K–€150K plus bonus."],
+    "overview": "Senior Frontend Engineer optimizing and refining a React, Next.js, and TypeScript frontend. You'll remove bottlenecks in the Product Design pod by executing incremental UX/UI improvements and cleaning legacy code.",
+    "seniority": "mid",
+    "category": "frontend",
+    "locations": [
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "spain"
+      },
+      {
+        "scope": "continent",
+        "workplaceType": "remote",
+        "businessRegion": "emea",
+        "continent": "europe"
+      }
+    ],
+    "companyId": "stackai",
+    "workplaceTypes": ["remote"],
+    "remoteLocationTokens": ["businessRegion:emea", "continent:europe", "country:spain"],
+    "onsiteOrHybrifLocationTokens": []
   }
 ]

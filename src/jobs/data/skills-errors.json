@@ -653,5 +653,12 @@
   "Object-oriented programming",
   "Dataflow",
   "Apache Iceberg",
-  "Ray Data"
+  "Ray Data",
+  "FastAPI",
+  "SQLAlchemy",
+  "Supabase",
+  "SSO",
+  "SAML",
+  "OIDC",
+  "Stripe"
 ]

@@ -1,5 +1,25 @@
 [
   {
+    "name": "StackAI",
+    "website": "https://stack-ai.com",
+    "companySize": "51-200",
+    "foundedYear": 2023,
+    "industry": "Finance",
+    "technology": "Artificial Intelligence",
+    "customerTypes": ["B2B"],
+    "description": [
+      "In the evolving landscape of enterprise operations, organizations seek advanced AI solutions to enhance decision-making, automate processes, and improve efficiency across departments.",
+      "StackAI offers a trusted AI platform tailored for finance, risk, and operations teams, enabling seamless integration and deployment of AI models to optimize workflows and mitigate risks effectively.",
+      "Utilizing cutting-edge artificial intelligence technology, StackAI provides scalable solutions that adapt to complex enterprise needs, ensuring robust performance and security.",
+      "Backed by Y Combinator and Google, StackAI serves a diverse range of B2B clients, empowering them to accelerate digital transformation and maintain competitive advantages in their respective markets."
+    ],
+    "id": "stackai",
+    "linkedinUrl": "https://linkedin.com/company/stackai",
+    "followers": 22000,
+    "listJobsUrl": "https://api.ashbyhq.com/posting-api/job-board/stack-ai?includeCompensation=true",
+    "lastScrapedAt": "2026-05-21"
+  },
+  {
     "name": "PandaDoc",
     "website": "https://pandadoc.com",
     "companySize": "501-1000",
@@ -6180,24 +6200,6 @@
     "id": "ford-motor-company",
     "linkedinUrl": "https://linkedin.com/company/ford-motor-company",
     "followers": 4400000
-  },
-  {
-    "name": "StackAI",
-    "website": "https://stack-ai.com",
-    "companySize": "51-200",
-    "foundedYear": 2023,
-    "industry": "Finance",
-    "technology": "Artificial Intelligence",
-    "customerTypes": ["B2B"],
-    "description": [
-      "In the evolving landscape of enterprise operations, organizations seek advanced AI solutions to enhance decision-making, automate processes, and improve efficiency across departments.",
-      "StackAI offers a trusted AI platform tailored for finance, risk, and operations teams, enabling seamless integration and deployment of AI models to optimize workflows and mitigate risks effectively.",
-      "Utilizing cutting-edge artificial intelligence technology, StackAI provides scalable solutions that adapt to complex enterprise needs, ensuring robust performance and security.",
-      "Backed by Y Combinator and Google, StackAI serves a diverse range of B2B clients, empowering them to accelerate digital transformation and maintain competitive advantages in their respective markets."
-    ],
-    "id": "stackai",
-    "linkedinUrl": "https://linkedin.com/company/stackai",
-    "followers": 22000
   },
   {
     "name": "Harmonic",
