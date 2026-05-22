@@ -4,7 +4,7 @@ import { readJSONFile, writeJSONFile } from "../utils/file-utils.ts";
 import { JOBS_DATA_FILES, findAndHandle } from "./jobs-utils.ts";
 import { CAREERS_KEYWORDS } from "./jobs-keywords.ts";
 import { scrapeCareersPage } from "./scrape-careers-page.ts";
-import type { ScrapedSoftwareJobsInfoWithListJobsUrl } from "../model/jobs-model.ts";
+import type { HtmlTag, ScrapedSoftwareJobsInfoWithListJobsUrl } from "../model/jobs-model.ts";
 import { scrapePublicAtsDomains } from "./scrape-ats-domains.ts";
 
 export const scrapeWebsitePage = async (website: string): Promise<ScrapedSoftwareJobsInfoWithListJobsUrl | null> => {
@@ -21,11 +21,12 @@ export const scrapeWebsitePage = async (website: string): Promise<ScrapedSoftwar
 
     const careersUrl = await findAndHandle<string>({
       $: websiteDom,
-      domSearchParams: [{ keywords: CAREERS_KEYWORDS, tags: ["a"], attr: "href" }],
+      domSearchParams: [{ keywords: CAREERS_KEYWORDS, tags: ["a", "nl-button" as HtmlTag], attr: "href" }],
       handler: async ({ attrValue }) => {
         return toAbsoluteUrl({ url: finalWebsiteUrl, href: attrValue });
       },
     });
+    // console.log(websiteDom.html());
     if (!careersUrl) {
       throw Error(`[${scrapeWebsitePage.name}]: No careers URL found for ${website}`);
     }

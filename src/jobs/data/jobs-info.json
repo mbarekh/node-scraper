@@ -7382,5 +7382,488 @@
     "workplaceTypes": ["remote"],
     "remoteLocationTokens": ["businessRegion:emea", "continent:europe", "country:spain"],
     "onsiteOrHybrifLocationTokens": []
+  },
+  {
+    "url": "https://job-boards.greenhouse.io/scopely/jobs/5200013008",
+    "title": "Senior Front End Engineer",
+    "employmentType": "fulltime",
+    "publishedAt": "2026-05-15",
+    "salaryRange": {
+      "min": 107500,
+      "max": 212000,
+      "interval": "year",
+      "currency": "USD",
+      "bonus": true,
+      "equity": true
+    },
+    "skills": [
+      "react-native",
+      "typescript",
+      "javascript",
+      "java",
+      "kotlin",
+      "objectiveC",
+      "swift",
+      "cpp",
+      "ci_cd",
+      "csharp"
+    ],
+    "description": [
+      "You will work closely with a small, cross-functional team to build and improve features for the companion app of a game played by millions of players worldwide.",
+      "Building and improving MONOPOLY GO! Chat features in React Native",
+      "Collaborating with product, design, backend, QA, game teams, and other partners to deliver world-class experiences to our players",
+      "Owning quality, testing, performance, and release readiness for production mobile app changes",
+      "Using generative AI tools such as ChatGPT, Codex, Claude Code, Copilot, and Windsurf for coding, debugging, planning, automation, and documentation",
+      "Participating in a strong engineering team and culture through clear communication, ownership, and continuous improvement"
+    ],
+    "requirements": [
+      "5+ years of professional experience on a mobile app, game, or similarly complex product engineering team",
+      "3+ years of professional React Native development experience on shipped mobile applications, with solid knowledge of TypeScript and JavaScript",
+      "Strong software engineering fundamentals, including data structures, concurrency, design patterns, API design, testing, debugging, and maintainable architecture",
+      "Experience identifying and addressing mobile performance issues using React profiling tools and native tooling such as Xcode Instruments, Android Studio profilers, and Perfetto",
+      "Solid understanding of mobile networking, offline behavior, unreliable network conditions, app lifecycle concerns, push notifications, and platform limitations",
+      "Ability to write effective prompts, supervise agent-driven development work, and help the team adopt safe and useful AI-assisted workflows",
+      "Excellent technical communication skills, including the ability to explain tradeoffs clearly to technical and non-technical partners",
+      "A desire to seek out and address player and stakeholder feedback to drive outstanding application development",
+      "Experience with the Expo framework for React Native",
+      "Experience creating native modules or platform-specific integrations using Java, Kotlin, Objective-C, Swift, or C++",
+      "Experience building and maintaining CI/CD pipelines",
+      "Experience building and maintaining automations with GitHub Actions or other automation platforms",
+      "Experience with the Unity Game Engine and C#"
+    ],
+    "benefits": [
+      "Work location: Kelowna, British Columbia or remote within Canada and the US.",
+      "Base salary range for candidates in CA, CO, NJ, NY, and WA: $107,500—$212,000 USD annually.",
+      "Employees may be eligible for equity and bonuses in addition to base pay.",
+      "Comprehensive benefits including healthcare benefits, retirement benefits, and pet insurance.",
+      "Paid holidays, paid Scopely free days, and unlimited paid time off."
+    ],
+    "overview": "Senior Front End Engineer building and improving React Native mobile features using TypeScript and JavaScript. Work on the MONOPOLY GO! Chat companion app for millions of players focusing on performance, testing, and cross-functional delivery.",
+    "seniority": "mid",
+    "category": "frontend",
+    "locations": [
+      {
+        "scope": "city",
+        "workplaceType": "onsite",
+        "businessRegion": "amer",
+        "continent": "northamerica",
+        "country": "canada",
+        "city": "Kelowna"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "amer",
+        "continent": "northamerica",
+        "country": "canada"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "amer",
+        "continent": "northamerica",
+        "country": "unitedstates"
+      }
+    ],
+    "companyId": "niantic",
+    "workplaceTypes": ["onsite", "remote"],
+    "remoteLocationTokens": ["businessRegion:amer", "continent:northamerica", "country:canada", "country:unitedstates"],
+    "onsiteOrHybrifLocationTokens": ["businessRegion:amer", "continent:northamerica", "country:canada", "city:Kelowna"]
+  },
+  {
+    "url": "https://job-boards.greenhouse.io/scopely/jobs/4981760008",
+    "title": "Senior Security Engineer - Software Security",
+    "employmentType": "fulltime",
+    "publishedAt": "2026-05-04",
+    "salaryRange": null,
+    "skills": ["go", "java", "ci_cd", "distributedsystem"],
+    "description": [
+      "Perform security reviews and audits of platform and application software throughout design and launch.",
+      "Provide guidance and expertise to product and operations teams across Scopely.",
+      "Build automation and tooling that amplify the Security Team’s impact and improve the developer experience.",
+      "Drive initiatives in security architecture, application scanning, fuzzing, and other proactive defenses.",
+      "Contribute to hardening efforts across in-house libraries, CI/CD systems, and cloud/container environments.",
+      "Be responsible for third-party library reviews and manage vulnerability remediation.",
+      "Educate engineers on secure coding practices and help standardize security across teams.",
+      "Engage in red-team exercises and coordinate with internal teams and external pentesting partners.",
+      "Implement and maintain agentic or AI-enabled workflows to speed-up common security tasks."
+    ],
+    "requirements": [
+      "5+ years of experience in a global company with cloud-centric infrastructure (preferably GCP).",
+      "You have in-depth experience in hardening distributed web services, cloud services and platform architectures.",
+      "You can demonstrate strong programming skills (preferably Go or Java) and a deep understanding of common vulnerability classes and exploitation patterns across modern stacks.",
+      "Excellent communication skills and experience collaborating across distributed teams.",
+      "You have implemented services and applications with the help of AI tools like Claude, Codex, OpenCode or Gemini and are adept in the use of these tools.",
+      "Have participated in red-team operations or managed mitigation tracking.",
+      "Possess deep familiarity with build systems, artifact repositories, or large-scale infrastructure.",
+      "Have delivered privacy-focused solutions for user-facing services.",
+      "Have experience in code quality management or security champion programs.",
+      "Have worked in a customer-centric engineering culture and value pragmatic, scalable solutions.",
+      "Have implemented agentic workflows, MCPs.",
+      "Can demonstrate hands-on experience or research in the area of AI security and safety."
+    ],
+    "benefits": [],
+    "overview": "Senior Security Engineer improving software security across the SDLC, applications, and build infrastructure using cloud and application security tooling. You’ll secure widely used gaming platforms and harden distributed services and CI/CD systems.",
+    "seniority": "mid",
+    "category": "devops",
+    "locations": [
+      {
+        "scope": "city",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "switzerland",
+        "city": "zurich"
+      }
+    ],
+    "companyId": "niantic",
+    "workplaceTypes": [null],
+    "remoteLocationTokens": [],
+    "onsiteOrHybrifLocationTokens": ["businessRegion:emea", "continent:europe", "country:switzerland", "city:zurich"]
+  },
+  {
+    "url": "https://job-boards.greenhouse.io/scopely/jobs/5216078008",
+    "title": "Senior Site Reliability Engineer - Security",
+    "employmentType": "fulltime",
+    "publishedAt": "2026-05-21",
+    "salaryRange": null,
+    "skills": ["python", "terraform", "aws", "ci_cd", "firewalls"],
+    "description": [
+      "Design and operate observability layers for AI platforms, including audit trails, tool-call logs, correlation IDs, traces, and runtime visibility across service boundaries.",
+      "Build automated findings-to-fix loops for AI and cloud platforms, integrating signals from CSPM tooling or future AI security products into pragmatic remediation workflows.",
+      "Implement reliability and hardening controls for internal AI systems, including alerting, health checks, rollback drills, kill-switch validation, rate limiting, and drift detection.",
+      "Codify detections, policies, and operational checks as code where they reduce toil, prevent regressions, and improve platform control.",
+      "Review platform and AI-application changes from a reliability and application-hardening perspective, especially around secrets, telemetry, external calls, risky MCP usage, and production readiness.",
+      "Own AI-platform-specific operational readiness and partner with central IT / SOC teams for escalations, postmortems, and shared incident workflows.",
+      "Continuously improve production readiness through automation, post-incident learning, and repeatable playbooks for AI runtime issues."
+    ],
+    "requirements": [
+      "Site Reliability Engineers or backend engineers with strong automation skills",
+      "Platform, DevSecOps, or observability engineers who build tooling, not just dashboards",
+      "Cloud automation engineers with strong logging, tracing, and incident-response instincts",
+      "Detection or security automation engineers who prefer code, pipelines, and remediation over ticket operations",
+      "5+ years in SRE, production engineering, platform operations, or security automation with strong coding ability.",
+      "Hands-on scripting and coding experience, especially Python, with comfort working against APIs, log pipelines, and automation workflows.",
+      "Experience building pragmatic observability and alerting systems in AWS or comparable cloud environments.",
+      "Ability to reduce operational toil through automation while keeping signal quality high and false positives manageable.",
+      "Comfortable with incident handling, rollback thinking, SLA / SLO discussions, and evidence-driven postmortems.",
+      "Interest in AI systems, agent runtimes, and MCP-style integration risks is highly valuable.",
+      "Software engineering background beyond scripting, including code review and testing habits.",
+      "Experience with AI agent runtimes, prompt / tool telemetry, or internal platform hardening for LLM-powered systems.",
+      "Experience with privacy-aware telemetry, compliance-oriented logging, or runtime protection"
+    ],
+    "benefits": [],
+    "overview": "Senior Site Reliability Engineer - Security responsible for observability, automation, and runtime reliability of AI platforms using Python, Terraform/Pulumi and AWS. They will build telemetry, automated remediation, and operational readiness for internal agentic systems.",
+    "seniority": "mid",
+    "category": "devops",
+    "locations": [
+      {
+        "scope": "city",
+        "country": "India",
+        "city": "Bangalore"
+      }
+    ],
+    "companyId": "niantic",
+    "workplaceTypes": [null],
+    "remoteLocationTokens": [],
+    "onsiteOrHybrifLocationTokens": [
+      "businessRegion:undefined",
+      "continent:undefined",
+      "country:India",
+      "city:Bangalore"
+    ]
+  },
+  {
+    "url": "https://job-boards.greenhouse.io/scopely/jobs/4596752008",
+    "title": "Senior Software Engineer",
+    "employmentType": "fulltime",
+    "publishedAt": "2026-04-28",
+    "salaryRange": null,
+    "skills": ["java", "csharp", "aws", "gcp", "react", "angular", "distributedsystem"],
+    "description": [
+      "Design, architect, and help implement features to run world-class games at scale",
+      "Take ownership for the quality of what the team creates, helping to establish good practices",
+      "Deliver code and supporting documentation of the highest quality through good design, attention to detail, and system testing on a timely basis",
+      "Ensure our systems perform, and are reliable, scalable, and secure",
+      "Work in an agile environment where your opinions matter",
+      "Team up with skilled colleagues that are committed to delivering the best products possible",
+      "Share knowledge and help colleagues both inside and outside of your team"
+    ],
+    "requirements": [
+      "Team player with good communication skills, someone who is easy to work with",
+      "Strong computer science and engineering fundamentals (data structures, concurrency, design patterns, algorithms)",
+      "High-quality and maintainable code writing",
+      "Mastery of Java, C#, or another OO language, including experience with asynchronous, multi-threaded, parallel programming paradigms",
+      "Always looking further to keep improving your skills",
+      "Product Engineering Mindset",
+      "You are not senior? Go for it and apply, we are seeking talented and driven engineers at all levels, from junior on up!",
+      "Hands-on experience with cloud computing (AWS, GCP...)",
+      "You do not fear acronyms like TDD, CI, CD",
+      "Experience with low-latency, high-volume distributed systems and Big Data computing technologies",
+      "Web development on a modern framework such as React or Angular"
+    ],
+    "benefits": [
+      "Hybrid work in Barcelona (on a hybrid basis)",
+      "Opportunity to work on a leading SaaS gaming platform and high-profile mobile titles",
+      "Diverse, supportive work environment with equal employment opportunities"
+    ],
+    "overview": "Senior Software Engineer to design and implement scalable game services using Java or C# and cloud platforms. Join the Playgami team building a SaaS gaming platform that powers high-volume live mobile games.",
+    "seniority": "senior",
+    "category": "backend",
+    "locations": [
+      {
+        "scope": "city",
+        "workplaceType": "hybrid",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "spain",
+        "city": "barcelona"
+      }
+    ],
+    "companyId": "niantic",
+    "workplaceTypes": ["hybrid"],
+    "remoteLocationTokens": [],
+    "onsiteOrHybrifLocationTokens": ["businessRegion:emea", "continent:europe", "country:spain", "city:barcelona"]
+  },
+  {
+    "url": "https://job-boards.greenhouse.io/scopely/jobs/5180929008",
+    "title": "Senior Software Engineer - Pikmin Bloom",
+    "employmentType": "fulltime",
+    "publishedAt": "2026-05-21",
+    "salaryRange": null,
+    "skills": ["csharp", "cpp", "ios", "android"],
+    "description": [
+      "Lead the technical design and implementation of engaging, scalable gameplay systems for a large and active user base.",
+      "Own cross-platform development across mobile (iOS/Android), ensuring code is reusable, maintainable, and performant across multiple environments.",
+      "Drive performance optimization and reliability, including profiling, debugging, and troubleshooting complex issues on mobile devices.",
+      "Collaborate cross-functionally with engineers, product managers, game designers, and UX designers to deliver high-quality user experiences.",
+      "Provide technical leadership and mentorship to other engineers through code reviews, design reviews, and knowledge sharing.",
+      "Contribute to engineering excellence, including improving development processes, testing practices, and overall code quality.",
+      "Required in-office 3 days on Tuesday, Wednesday, and Thursday."
+    ],
+    "requirements": [
+      "BS in Computer Science or a related technical field, or equivalent practical experience.",
+      "5+ years of professional experience in game development, with strong expertise in Unity and/or other game engines.",
+      "Proficient working in C# or C++.",
+      "Embraces generative AI with curiosity and good judgment, using it responsibly to improve tooling, testing, debugging, prototyping, and overall product quality.",
+      "Ability to work in a fast-paced hybrid environment and handle stress appropriately and/or ability to solve practical problems and be sufficiently adaptable to handle dynamic situations with little advance notice.",
+      "Experience working on cross-functional teams with ability to communicate effectively through written and verbal communications, including synchronous interactions with others.",
+      "Japanese language skills (intermediate - Business level)",
+      "Have mobile or console game performance optimization experience.",
+      "Experience with shader programming (e.g., GLSL, HLSL, Metal).",
+      "Passion for building products that connect people through shared real-world or interactive experiences."
+    ],
+    "benefits": [
+      "Hybrid work arrangement: required in-office presence three days per week (Tuesday, Wednesday, Thursday).",
+      "Opportunity to work on high-profile, widely played mobile games and live-operated titles.",
+      "Work with a global, multi-disciplinary team of game makers, engineers, and creative professionals."
+    ],
+    "overview": "Senior Software Engineer leading technical design and implementation of cross-platform mobile gameplay systems using Unity and C#/C++. Work on high-profile mobile titles with a global multidisciplinary team focused on performance and reliability.",
+    "seniority": "mid",
+    "category": "frontend",
+    "locations": [
+      {
+        "scope": "city",
+        "workplaceType": "hybrid",
+        "country": "Japan",
+        "city": "Tokyo"
+      }
+    ],
+    "companyId": "niantic",
+    "workplaceTypes": ["hybrid"],
+    "remoteLocationTokens": [],
+    "onsiteOrHybrifLocationTokens": ["businessRegion:undefined", "continent:undefined", "country:Japan", "city:Tokyo"]
+  },
+  {
+    "url": "https://job-boards.greenhouse.io/scopely/jobs/5180560008",
+    "title": "Software Engineer (Unity)",
+    "employmentType": "fulltime",
+    "publishedAt": "2026-05-21",
+    "salaryRange": null,
+    "skills": ["csharp", "objectiveC", "java", "cpp"],
+    "description": [
+      "You will be responsible for the implementation of game functionality as per design documents and specifications.",
+      "You will provide inputs on design and architecture keeping in the mind the best practices for development.",
+      "You will communicate with all the team members to establish a pipeline and integrate art assets, taking into account the game roadmap.",
+      "You will work closely with the game designers and artists to enable the designers and artists to express their creativity within the game.",
+      "You will assist your project lead by providing regular feedback on implementation issues and possible improvements to game design.",
+      "You will actively suggest and implement the best solutions in the development process and in the game systems. Also, you will address bugs and other technical issues identified for subsequent release.",
+      "You will be responsible for technical documentation."
+    ],
+    "requirements": [
+      "2+ Year’s experience with Mobile/Unity3D platform and ecosystem.",
+      "Strong at solving logical problems & C# programming.",
+      "Good knowledge of computer science fundamentals & concepts.",
+      "A natural flair for writing well-structured, optimal, and maintainable quality code.",
+      "Basic understanding of programming best practices.",
+      "Good communication skills.",
+      "Familiarity with build systems.",
+      "Knowledge of using version control systems like Git.",
+      "Experience using debugging and profiling tools.",
+      "Familiar with mobile native languages like objective-c, Java, C++, etc.",
+      "Passionate about games, especially in playing mobile games.",
+      "Experience or hands-on use of AI tools is a plus."
+    ],
+    "benefits": [
+      "Hybrid work arrangement in Bengaluru.",
+      "Inclusive, diverse and supportive work environment with equal employment opportunities.",
+      "Work with a global team across multiple hubs (Bengaluru, Tel Aviv, Barcelona, etc.)."
+    ],
+    "overview": "Software Engineer (Unity) implementing game functionality using Unity and C# for mobile games. Work on Grand Casino in a hybrid Bangalore team, integrating art assets and collaborating with designers and artists.",
+    "seniority": "junior",
+    "category": "frontend",
+    "locations": [
+      {
+        "scope": "city",
+        "workplaceType": "hybrid",
+        "country": "India",
+        "city": "Bangalore"
+      }
+    ],
+    "companyId": "niantic",
+    "workplaceTypes": ["hybrid"],
+    "remoteLocationTokens": [],
+    "onsiteOrHybrifLocationTokens": [
+      "businessRegion:undefined",
+      "continent:undefined",
+      "country:India",
+      "city:Bangalore"
+    ]
+  },
+  {
+    "url": "https://job-boards.greenhouse.io/scopely/jobs/5212412008",
+    "title": "Staff Front End Engineer",
+    "employmentType": "fulltime",
+    "publishedAt": "2026-05-15",
+    "salaryRange": {
+      "min": 169600,
+      "max": 253000,
+      "interval": "year",
+      "currency": "USD",
+      "bonus": true,
+      "equity": true
+    },
+    "skills": ["react-native", "typescript", "javascript", "java", "kotlin", "objectiveC", "swift", "cpp", "csharp"],
+    "description": [
+      "You will work closely with a small, cross-functional team to guide, build, and improve features for the companion app of a game played by millions of players worldwide.",
+      "Leading technical direction for MONOPOLY GO! Chat features and systems in React Native",
+      "Turning ambiguous product goals into clear technical plans with product, design, backend, QA, game teams, and other partners",
+      "Owning quality, performance, release readiness, and platform integrations for production mobile app changes",
+      "Mentoring engineers, raising the quality of technical decision-making, and helping the team develop strong engineering practices",
+      "Using generative AI tools such as ChatGPT, Codex, Claude Code, Copilot, and Windsurf while helping the team adopt safe and useful AI-assisted workflows"
+    ],
+    "requirements": [
+      "8+ years of professional experience on a mobile app, game, or similarly complex product engineering team",
+      "5+ years of professional React Native development experience on shipped mobile applications, with deep knowledge of TypeScript and JavaScript",
+      "Experience creating native modules or platform-specific integrations using Java, Kotlin, Objective-C, Swift, or C++",
+      "Strong software engineering fundamentals, including data structures, concurrency, design patterns, API design, testing, debugging, and maintainable architecture",
+      "Experience identifying and addressing mobile performance issues using React profiling tools and native tooling such as Xcode Instruments, Android Studio profilers, and Perfetto",
+      "Solid understanding of mobile networking, offline behavior, unreliable network conditions, app lifecycle concerns, push notifications, and platform limitations",
+      "Experience leading technical design, influencing architecture, mentoring engineers, and aligning technical work across teams or disciplines",
+      "Ability to write effective prompts, supervise agent-driven development work, create or adapt agent skills, and guide a team toward safe and useful AI-assisted engineering practices",
+      "Excellent technical communication skills, including the ability to explain tradeoffs clearly to technical and non-technical partners",
+      "A desire to seek out and address player and stakeholder feedback to drive outstanding application development",
+      "Experience with the Expo framework for React Native",
+      "Professional experience as a full-stack or backend developer",
+      "Experience building and maintaining CI/CD pipelines",
+      "Experience building and maintaining automations with GitHub Actions or other automation platforms",
+      "Experience with the Unity Game Engine and C#",
+      "Experience with mobile release processes, app store submissions, feature flags, experimentation, or staged rollouts",
+      "Experience with observability, crash reporting, analytics, or production debugging for mobile applications"
+    ],
+    "benefits": [
+      "Remote work available within Canada and the US.",
+      "Annual salary range for CA, CO, NJ, NY, and WA: $169,600—$253,000 USD.",
+      "Employees may be eligible for equity and bonuses.",
+      "Comprehensive benefits package including healthcare and retirement benefits.",
+      "Pet insurance provided.",
+      "Paid holidays, paid Scopely free days, and unlimited paid time off."
+    ],
+    "overview": "Staff Front End Engineer leading technical direction and building React Native mobile features using TypeScript. Work on MONOPOLY GO! Chat companion app for millions of players, focusing on performance, releases, and cross-functional collaboration.",
+    "seniority": "lead",
+    "category": "frontend",
+    "locations": [
+      {
+        "scope": "city",
+        "workplaceType": "onsite",
+        "businessRegion": "amer",
+        "continent": "northamerica",
+        "country": "canada",
+        "city": "Kelowna, British Columbia"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "amer",
+        "continent": "northamerica",
+        "country": "canada"
+      },
+      {
+        "scope": "country",
+        "workplaceType": "remote",
+        "businessRegion": "amer",
+        "continent": "northamerica",
+        "country": "unitedstates"
+      }
+    ],
+    "companyId": "niantic",
+    "workplaceTypes": ["onsite", "remote"],
+    "remoteLocationTokens": ["businessRegion:amer", "continent:northamerica", "country:canada", "country:unitedstates"],
+    "onsiteOrHybrifLocationTokens": [
+      "businessRegion:amer",
+      "continent:northamerica",
+      "country:canada",
+      "city:Kelowna, British Columbia"
+    ]
+  },
+  {
+    "url": "https://job-boards.greenhouse.io/scopely/jobs/5156257008",
+    "title": "Web Tools Backend Engineer, Monopoly GO!",
+    "employmentType": "fulltime",
+    "publishedAt": "2026-04-28",
+    "salaryRange": null,
+    "skills": ["csharp"],
+    "description": [
+      "Design, build, and maintain backend systems for internal tools used to configure and operate live game features",
+      "Develop APIs, services, and supporting workflows to enable safe, scalable configuration management",
+      "Partner with game teams, product managers, and internal users to understand operational needs and translate them into robust backend solutions",
+      "Improve the reliability, maintainability, and observability of internal tooling systems",
+      "Contribute to architectural decisions through code reviews, helping raise the engineering bar across the team",
+      "Help define best practices for backend development, service design, and configuration handling",
+      "Support the evolution of tooling platforms that improve development speed and reduce operational risk for live game teams",
+      "Mentor other engineers through technical guidance, pair programming, and collaborative problem solving"
+    ],
+    "requirements": [
+      "Strong experience in C# backend development, building services, APIs, and internal tooling",
+      "Experience designing and maintaining server-side systems with a focus on reliability, scalability, and maintainability",
+      "Solid understanding of data modeling, configuration-driven systems, and backend architecture",
+      "Experience working with web APIs, service integrations, and database-backed applications",
+      "Strong debugging and problem-solving skills, with the ability to understand complex technical and operational workflows",
+      "Ability to work closely with cross-functional stakeholders and turn ambiguous needs into practical backend solutions",
+      "Strong communication skills and a collaborative mindset",
+      "A commitment to engineering quality, clean code, and continuous improvement",
+      "Experience building or supporting internal tools or CMS platforms",
+      "Experience with game live operations or configuration systems in games or other content-driven products",
+      "Familiarity with frontend technologies sufficient to collaborate effectively with UI engineers, though this is not a frontend-focused role",
+      "Experience with observability, deployment pipelines, and production support practices",
+      "Familiarity with game development workflows"
+    ],
+    "benefits": ["Hybrid work arrangement in Barcelona."],
+    "overview": "Web Tools Backend Engineer building C# backend services and Web APIs for internal tools and configuration workflows. Join the Monopoly GO! team in Barcelona to improve tooling reliability and developer efficiency for live game operations.",
+    "seniority": "senior",
+    "category": "backend",
+    "locations": [
+      {
+        "scope": "city",
+        "workplaceType": "hybrid",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "spain",
+        "city": "barcelona"
+      }
+    ],
+    "companyId": "niantic",
+    "workplaceTypes": ["hybrid"],
+    "remoteLocationTokens": [],
+    "onsiteOrHybrifLocationTokens": ["businessRegion:emea", "continent:europe", "country:spain", "city:barcelona"]
   }
 ]

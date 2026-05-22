@@ -86,5 +86,17 @@
   {
     "website": "https://nianticlabs.com",
     "error": "Error: [scrapeWebsitePage]: No careers URL found for https://nianticlabs.com"
+  },
+  {
+    "website": "https://nianticlabs.com",
+    "error": "Error: [scrapeWebsitePage]: No careers URL found for https://nianticlabs.com"
+  },
+  {
+    "website": "https://nianticlabs.com",
+    "error": "Error: [scrapeWebsitePage]: No careers URL found for https://nianticlabs.com"
+  },
+  {
+    "website": "https://wayfair.com",
+    "error": "Error: [scrapeWebsitePage]: No careers URL found for https://wayfair.com"
   }
 ]

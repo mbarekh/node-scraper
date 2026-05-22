@@ -22,6 +22,7 @@ const scrapeSoftwareJobsGreenhouse = async (url: string): Promise<ScrapedSoftwar
     /^https:\/\/job-boards\.greenhouse\.io\/([a-z0-9_\-\.]+)\/jobs\/\d+/i,
     /^https:\/\/boards-api\.greenhouse\.io\/v1\/boards\/([a-z0-9_\-\.]+)\/departments/i,
     /^https:\/\/boards-api\.greenhouse\.io\/v1\/boards\/([a-z0-9_\-\.]+)\/jobs/i,
+    /^https:\/\/job-boards\.greenhouse\.io\/([a-z0-9_\-\.]+)/i,
   ];
   try {
     const companyName = extractCompanyName({ url, regexes });
