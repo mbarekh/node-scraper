@@ -26,7 +26,6 @@ export const scrapeWebsitePage = async (website: string): Promise<ScrapedSoftwar
         return toAbsoluteUrl({ url: finalWebsiteUrl, href: attrValue });
       },
     });
-    // console.log(websiteDom.html());
     if (!careersUrl) {
       throw Error(`[${scrapeWebsitePage.name}]: No careers URL found for ${website}`);
     }

@@ -24,7 +24,7 @@ Return ONLY a valid JSON object of the following type:
   } | null,
 }
 
-type BusinessRegion = "emea" | "apac" | "amer"
+type businessRegion = "emea" | "apac" | "amer"
 
 type Continent = "northamerica" | "southamerica" | "europe" | "asia" | "africa" | "oceania"
 

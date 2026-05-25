@@ -8,6 +8,7 @@ import type {
   BUSINESS_REGIONS_MAP,
   SENIORITY_MAP,
   SKILLS_MAP,
+  STATES_MAP,
   WORKPLACE_TYPES_MAP,
 } from "../jobs/map/job-info-map.ts";
 
@@ -93,28 +94,29 @@ export type Location =
     }
   | {
       scope: Extract<Scope, "businessRegion">;
-      businessRegion: BusinessRegion;
+      businessRegion: businessRegion;
       workplaceType: WorkplaceType;
     }
   | {
       scope: Extract<Scope, "continent">;
       continent: Continent;
-      businessRegion: BusinessRegion;
+      businessRegion: businessRegion;
       workplaceType: WorkplaceType;
     }
   | {
       scope: Extract<Scope, "country">;
       workplaceType: WorkplaceType;
-      businessRegion: BusinessRegion;
+      businessRegion: businessRegion;
       continent: Continent;
       country: Country;
     }
   | {
       scope: Extract<Scope, "city">;
       workplaceType: Extract<WorkplaceType, "hybrid" | "onsite">;
-      businessRegion: BusinessRegion;
+      businessRegion: businessRegion;
       continent: Continent;
       country: Country;
+      state?: State;
       city: City;
     };
 
@@ -137,10 +139,21 @@ export type EmploymentType = keyof typeof EMPLOYMENT_TYPES_MAP;
 
 export type Continent = keyof typeof CONTINENTS_MAP;
 
-export type BusinessRegion = keyof typeof BUSINESS_REGIONS_MAP;
+export type businessRegion = keyof typeof BUSINESS_REGIONS_MAP;
 
 export type Country = keyof typeof COUNTRIES_MAP;
+
+export type State = keyof typeof STATES_MAP;
 
 export type City = keyof typeof CITIES_MAP;
 
 export type Currency = keyof typeof CURRENCIES_MAP;
+
+export type CityMap = {
+  readonly id: string;
+  readonly label: string;
+  readonly aliases: string[];
+  readonly search: { remote: string; onSiteOrHybrid: string };
+  readonly country: Country;
+  readonly state?: State;
+};

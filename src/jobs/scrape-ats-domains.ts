@@ -193,6 +193,7 @@ const scrapeSoftwareJobsMyworkdayjobs = async (url: string): Promise<ScrapedSoft
       url: listJobsUrl,
       payload: { appliedFacets: {}, limit: 20, offset: 0 },
     });
+    console.log(listJobsUrl);
     const softwarejobUrls = data.jobPostings
       .filter((jobInfo) => hasSoftwareKeyword(jobInfo.title))
       .map((jobInfo) => `${rootUrl}${jobInfo.externalPath}`);

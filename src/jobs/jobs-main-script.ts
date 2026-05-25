@@ -7,7 +7,6 @@ import type { NormalizedSoftwareJobInfo, ScrapedSoftwareJobsInfoWithListJobsUrl 
 import { COMPANIES_DATA_FILES } from "../companies/companies-utils.ts";
 import { getToday, isLessThanFourMonths } from "../utils/extra-utils.ts";
 import { scrapeSoftwareJobsInfoFromListJobsUrl } from "./scrape-list-jobs-page.ts";
-import { mapToPublicAtsDomain, PUBLIC_ATS_DOMAINS_SCRAPERS } from "./scrape-ats-domains.ts";
 
 const jobsInfo = readJSONFile<NormalizedSoftwareJobInfo[]>(JOBS_DATA_FILES.jobsInfo) ?? [];
 const companiesInfo = readJSONFile<CompanyInfo[]>(COMPANIES_DATA_FILES.companiesInfo);

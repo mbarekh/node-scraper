@@ -1,72 +1,102 @@
 import type { ScrapedSoftwareJobInfo } from "../../model/jobs-model.ts";
 
 export const jobInfoPromptPartLocations = (input: ScrapedSoftwareJobInfo): string => {
-  return `Transform raw scraped job data into structured JSON format.
+  return `Transform the raw scraped job data into structured JSON.
 
 INPUT:
 ${JSON.stringify(input, null, 2)}
 
-GOAL:
-Extract ONLY explicitly stated location and work arrangement data.
+────────────────────────
+OUTPUT FORMAT
+────────────────────────
+
+- If the input does not describe a software development or DevOps role, return:
+{}
+
+- Otherwise, return:
+{ "locations": Location[] }
+
+type Location =
+  | { scope: "worldwide", workplaceType: WorkplaceType }
+  | { scope: "businessRegion", businessRegion: businessRegion, workplaceType: WorkplaceType }
+  | { scope: "continent", continent: Continent, workplaceType: WorkplaceType }
+  | { scope: "country", country: string, workplaceType: WorkplaceType }
+  | { scope: "city", country: string, city: string, workplaceType: WorkplaceType }
+
+type WorkplaceType = "remote" | "hybrid" | "onsite"
+
+type businessRegion = "emea" | "apac" | "amer"
+
+type Continent =
+  | "northamerica"
+  | "southamerica"
+  | "europe"
+  | "asia"
+  | "africa"
+  | "oceania"
 
 ────────────────────────
-CORE RULES
+LOCATION EXTRACTION PRIORITY
 ────────────────────────
-- Use only explicit information (no inference or expansion).
-- Each distinct statement = one rule.
 
-────────────────────────
-PRIORITY ORDER (CRITICAL)
-────────────────────────
+Extract ALL locations using this priority order:
 1. Header / title / labels (highest priority)
 2. Job description
 3. Company description (lowest priority)
 
-Header overrides description text in conflicts. If no conficts, include both.
+Conflict handling:
+- Higher-priority sources override lower-priority sources.
+- If there is no conflict, include all detected locations.
 
 ────────────────────────
-WORLDWIDE (STRICT)
+LOCATION RULES
 ────────────────────────
-Only allow:
+
+WORLDWIDE
+- Use scope: "worldwide" ONLY IF the text explicitly contains:
+  - "remote worldwide"
+  - "remote anywhere in the world"
+  - "remote globally"
+- Never infer worldwide from:
+  - remote
+  - remote-first
+  - distributed team
+  - international
+  - Europe
+  - EMEA
+  - AMER
+  - APAC
+  - missing data
+- If workplaceType is not mentioned, assume "remote"
+
+Result:
 { scope: "worldwide", workplaceType }
 
-IF AND ONLY IF text explicitly contains: remote worldwide, remote anywhere in the world, remote globally
+BUSINESS REGION
+- Use scope: "businessRegion" for EMEA, APAC, or AMER
+- If workplaceType is not mentioned, assume "remote"
 
-Never infer worldwide from:
-remote, remote-first, distributed team, international, Europe, EMEA, AMER, APAC, or missing data.
-
-────────────────────────
-LOCATION TYPES
-────────────────────────
-Return:
-{
-  "locations": Location[],
-}
-
-locations types:
-
-1. worldwide
-{ scope: "worldwide", workplaceType }
-
-2. businessRegion (emea | apac | amer)
+Result:
 { scope: "businessRegion", businessRegion, workplaceType }
 
-3. continent (northamerica | southamerica | europe | asia | africa | oceania)
+CONTINENT
+- Use scope: "continent" for continent-level locations
+- If workplaceType is not mentioned, assume "remote"
+
+Result:
 { scope: "continent", continent, workplaceType }
 
-4. country
+COUNTRY
+- Use scope: "country" for country-level locations
+- If workplaceType is not mentioned, assume "remote"
+
+Result:
 { scope: "country", country, workplaceType }
 
-5. city
-{ scope: "city", country, city, workplaceType }
+CITY
+- Use scope: "city" for city-level locations
+- If workplaceType is not mentioned, assume "onsite"
 
-────────────────────────
-WORKPLACE TYPE
-────────────────────────
-"remote" | "hybrid" | "onsite"
-
-- Must be explicitly stated.
-- Cities only allow hybrid/onsite.
-- Do not assume remote for regions or continents.
-- if the input does not describe a role in software development or devOps, return an empty object {}.`;
+Result:
+{ scope: "city", country, city, workplaceType }`;
 };

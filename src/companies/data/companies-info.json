@@ -1,5 +1,26 @@
 [
   {
+    "name": "Snowflake",
+    "website": "https://snowflake.com",
+    "companySize": "5001-10000",
+    "foundedYear": 2012,
+    "industry": "Software",
+    "technology": "Data Analytics",
+    "customerTypes": [
+      "B2B"
+    ],
+    "description": [
+      "Snowflake delivers the AI Data Cloud, a global network enabling organizations to mobilize data at near-unlimited scale and concurrency, supporting data-driven decision-making and innovation across various industries.",
+      "The company's core service is a cloud-based data platform that integrates data warehousing, data lakes, and data sharing, empowering businesses to analyze and share data securely and efficiently.",
+      "Snowflake's technology influences a broad range of enterprise clients seeking scalable data solutions. Its mission is to facilitate seamless data collaboration and unlock insights for competitive advantage."
+    ],
+    "id": "snowflake-computing",
+    "linkedinUrl": "https://linkedin.com/company/snowflake-computing",
+    "followers": 1200000,
+    "listJobsUrl": "https://api.ashbyhq.com/posting-api/job-board/snowflake?includeCompensation=true",
+    "lastScrapedAt": "2026-05-25"
+  },
+  {
     "name": "StackAI",
     "website": "https://stack-ai.com",
     "companySize": "51-200",
@@ -104,27 +125,6 @@
     "followers": 1300000,
     "listJobsUrl": "https://stripe.com/jobs",
     "lastScrapedAt": "2026-05-19"
-  },
-  {
-    "name": "Snowflake",
-    "website": "https://snowflake.com",
-    "companySize": "5001-10000",
-    "foundedYear": 2012,
-    "industry": "Software",
-    "technology": "Data Analytics",
-    "customerTypes": [
-      "B2B"
-    ],
-    "description": [
-      "Snowflake delivers the AI Data Cloud, a global network enabling organizations to mobilize data at near-unlimited scale and concurrency, supporting data-driven decision-making and innovation across various industries.",
-      "The company's core service is a cloud-based data platform that integrates data warehousing, data lakes, and data sharing, empowering businesses to analyze and share data securely and efficiently.",
-      "Snowflake's technology influences a broad range of enterprise clients seeking scalable data solutions. Its mission is to facilitate seamless data collaboration and unlock insights for competitive advantage."
-    ],
-    "id": "snowflake-computing",
-    "linkedinUrl": "https://linkedin.com/company/snowflake-computing",
-    "followers": 1200000,
-    "listJobsUrl": "https://api.ashbyhq.com/posting-api/job-board/snowflake?includeCompensation=true",
-    "lastScrapedAt": "2026-05-20"
   },
   {
     "name": "Datadog",
@@ -276,25 +276,6 @@
     "lastScrapedAt": "2026-05-22"
   },
   {
-    "name": "Wayfair",
-    "website": "https://wayfair.com",
-    "companySize": "10001+",
-    "foundedYear": 2002,
-    "industry": "E-Commerce",
-    "technology": "Data Analytics",
-    "customerTypes": [
-      "B2C"
-    ],
-    "description": [
-      "Wayfair is a leading e-commerce platform dedicated to helping customers create their ideal home environments through a vast selection of furniture and decor, supported by innovative data-driven solutions.",
-      "The company's platform leverages data analytics to personalize shopping experiences, optimize logistics, and streamline operations, setting it apart in the competitive online retail space.",
-      "Serving millions of consumers globally, Wayfair holds a prominent position in the home goods industry, continuously expanding its market reach and enhancing customer satisfaction through technological advancements."
-    ],
-    "id": "wayfair",
-    "linkedinUrl": "https://linkedin.com/company/wayfair",
-    "followers": 423200
-  },
-  {
     "name": "Carvana",
     "website": "https://carvana.com",
     "companySize": "10001+",
@@ -335,6 +316,25 @@
     "id": "rivian",
     "linkedinUrl": "https://linkedin.com/company/rivian",
     "followers": 754200
+  },
+  {
+    "name": "Wayfair",
+    "website": "https://wayfair.com",
+    "companySize": "10001+",
+    "foundedYear": 2002,
+    "industry": "E-Commerce",
+    "technology": "Data Analytics",
+    "customerTypes": [
+      "B2C"
+    ],
+    "description": [
+      "Wayfair is a leading e-commerce platform dedicated to helping customers create their ideal home environments through a vast selection of furniture and decor, supported by innovative data-driven solutions.",
+      "The company's platform leverages data analytics to personalize shopping experiences, optimize logistics, and streamline operations, setting it apart in the competitive online retail space.",
+      "Serving millions of consumers globally, Wayfair holds a prominent position in the home goods industry, continuously expanding its market reach and enhancing customer satisfaction through technological advancements."
+    ],
+    "id": "wayfair",
+    "linkedinUrl": "https://linkedin.com/company/wayfair",
+    "followers": 423200
   },
   {
     "name": "Peloton",

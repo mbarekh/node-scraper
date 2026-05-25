@@ -370,5 +370,430 @@
       "salaryRange": null,
       "locations": []
     }
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/c73bd1cd-7c40-4375-8eed-3ebb0d33cc0d",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/c73bd1cd-7c40-4375-8eed-3ebb0d33cc0d",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/9eaedc0e-6aa1-434b-8180-2a0903d48f40",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/9eaedc0e-6aa1-434b-8180-2a0903d48f40",
+    "normalizedJobInfo": {
+      "url": "https://jobs.ashbyhq.com/snowflake/9eaedc0e-6aa1-434b-8180-2a0903d48f40",
+      "title": "Staff Escalation Manager",
+      "employmentType": "fulltime",
+      "publishedAt": "2026-05-12",
+      "salaryRange": null,
+      "skills": [
+        "Snowflake",
+        "AWS",
+        "Azure",
+        "GCP",
+        "Private Cloud"
+      ],
+      "description": [
+        "複雑で重大な顧客課題や大規模障害、顧客に影響するインシデントについて、主体的に調整・対応し、解決へ導く。",
+        "状況に応じてエスカレーション関連のタスクに優先順位をつけ、主体的に遂行する。",
+        "Snowflake のオンコールエンジニアと連携し、複数の Snowflake サービスのオンラインデータを監視してサービス障害を特定する。",
+        "Sales、Professional Services、Support、Engineering などのチームと協力し、エスカレーション案件の効果的な解決を図る。",
+        "社内の Sales、Services、Support、Engineering との強固なパートナーシップを構築する。",
+        "グローバルに活動する Escalation Manager チームの一員として、グローバル視点で業務を推進する。",
+        "ジュニアメンバーのメンターとして、エスカレーション対応の知見を共有する。",
+        "顧客の進捗を阻害する技術的問題の解決に向けて、Engineering と Product Management と連携する。",
+        "エスカレーション管理および問題緩和に関する的確な判断を行い、ビジネス・技術両面から迅速に意思決定する。",
+        "最適な顧客体験を実現するために、必要な解決策を積極的に提案・推進する。",
+        "プロアクティブ・リアクティブ両面のデータポイントを踏まえ、顧客に最適なアクションプランを策定する。",
+        "顧客向けアクションプラン（Plan of Action）を、各種データポイントを活用して策定する。",
+        "エスカレーション時の対外コミュニケーション管理や「Get Well Plan（改善計画）」の策定・実行を行い、状況全体を適切に把握した上で明確な対応方針を示す。",
+        "アカウントエスカレーション中、規律ある定期的なコミュニケーションを維持し、迅速な対応で信頼関係を構築する。",
+        "重要案件のステータスを、経営層、営業チーム、その他関係者へ口頭・文書で明瞭に報告する。",
+        "大量の情報を文脈理解と文章力を活かし、簡潔で読みやすい文にまとめる。",
+        "複雑な技術情報を、顧客が理解しやすいビジネスインパクトやリスクに翻訳し伝える。",
+        "文書・スプレッドシート・プレゼンテーションを含むオフィスツール（Gsuite であれば尚可）を高いレベルで使いこなせること。",
+        "顧客・チーム・経営層向けアップデートなどの事前に計画されたスケジュールに合わせて成果物を納品する。",
+        "ビジネスおよび技術的知識を活かし、エスカレーション管理、会議・コールの調整、成果物管理、トレンド分析などを実施する。",
+        "週末オンコールのローテーションに参加する。",
+        "顧客の利用状況（Customer Health）トレンドを分析し、潜在的な問題を早期に発見・解決してエスカレーションを未然に防ぐ。",
+        "すべての社内 SME やステークホルダーと連携し、アカウントエスカレーションに関する活動の主要な意思決定者として対応する。",
+        "顧客の代弁者として、環境を安定化させ満足度を高め、アカウントの継続的な成長を支える。",
+        "Business Level English speaking, reading, and writing."
+      ],
+      "requirements": [
+        "成果を迅速に生み出し、顧客の安心感と信頼を醸成するAIファーストの思考姿勢",
+        "AIツールを活用した傾向分析、健全性把握、大量情報の要約、リスク兆候の早期把握、および出力の検証",
+        "AIリテラシー : AIを活用した分析、文案作成、エスカレーション要約作成、ならびに出力内容の検証",
+        "AIを活用したサポートツール、またはワークフロー自動化の実務経験",
+        "コンピュータサイエンス、情報システム、または関連分野の学士号または修士号を有する方",
+        "サポート環境において、エスカレーションマネージャーとして8年以上の実務経験があり、ビジネス価値の創出や改善実績を有する方",
+        "AWS、Azure、GCP、またはプライベートクラウド環境での 8年以上の経験",
+        "エンタープライズ顧客との関係構築・管理の経験を 5年以上（Technical Support、Business Operations、または類似のサポートデリバリー組織での経験を含む）",
+        "日本語での優れた口頭および文章でのコミュニケーション能力、アクティブリスニング・リスニングスキル",
+        "Business Level English speaking, reading, and writing.",
+        "高いEQ（感情知能）、共感力、主体性を持ち、顧客・社内双方に寄り添い、相互にプラスとなる解決策を導ける方",
+        "リーダーシップ、同僚、顧客と連携しながら成果を出した経験",
+        "変化の速い環境で、柔軟性を持ち、主体的に動き、迅速に学べる能力",
+        "グローバルかつクロスファンクショナルな組織で、バーチャルチームとして協働できるスキル",
+        "ITIL v3/v4 の認定、または ITIL フレームワークに関する深い理解"
+      ],
+      "benefits": [
+        "Hybrid work arrangement.",
+        "Full-time employment.",
+        "Salary and benefits information available on the Snowflake Careers Site for United States positions."
+      ],
+      "overview": "Staff Escalation Manager coordinating and resolving critical incidents for Snowflake and cloud platforms (AWS, Azure, GCP). Collaborates with Engineering and Support globally to stabilize accounts and drive customer success.",
+      "seniority": "lead",
+      "category": "devops"
+    }
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/eb704210-4c4a-4ab7-8838-8ba7abd55af3",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/eb704210-4c4a-4ab7-8838-8ba7abd55af3",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/b77b3b89-1fd1-474f-a642-af0c41b43a3b",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/b77b3b89-1fd1-474f-a642-af0c41b43a3b",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/3eb872af-0ab1-4986-8f72-e7321fcd1538",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/3eb872af-0ab1-4986-8f72-e7321fcd1538",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/e2739aab-b0a2-4583-92c1-13bbd4fd9672",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/e2739aab-b0a2-4583-92c1-13bbd4fd9672",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/5ee8f744-ff46-45c8-8d1c-b83514b24f61",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/5ee8f744-ff46-45c8-8d1c-b83514b24f61",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/34584833-b410-4c03-bf0c-0208bcf962c6",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/34584833-b410-4c03-bf0c-0208bcf962c6",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/b8ff4e0d-7fdb-4c7a-a139-1d69d5ca4b09",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/b8ff4e0d-7fdb-4c7a-a139-1d69d5ca4b09",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/db4f0492-ae21-49b7-a7eb-100be61e92bb",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/db4f0492-ae21-49b7-a7eb-100be61e92bb",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/d297d07c-eaa7-4896-946d-df2879c8cde3",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/d297d07c-eaa7-4896-946d-df2879c8cde3",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/5f4ae8d3-bf84-430d-8f9f-325f14ddf947",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/5f4ae8d3-bf84-430d-8f9f-325f14ddf947",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/7657edf1-2646-4a37-b178-2807cd7dd5e5",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/7657edf1-2646-4a37-b178-2807cd7dd5e5",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/09adfe1d-f78c-4d58-9aad-04d84c6ef980",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/09adfe1d-f78c-4d58-9aad-04d84c6ef980",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/b80ae1a9-7f32-499a-89de-fc227d65d089",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/b80ae1a9-7f32-499a-89de-fc227d65d089",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/a9b4dab9-0b27-47b0-b0fb-2d83c5742717",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/a9b4dab9-0b27-47b0-b0fb-2d83c5742717",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/d386f15a-9d4c-43ff-861c-122d22da66dd",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/d386f15a-9d4c-43ff-861c-122d22da66dd",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/afa654dd-0431-4030-9878-1e48c27465bd",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/afa654dd-0431-4030-9878-1e48c27465bd",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/2a928b93-a5d4-4285-a92c-032fb389faa2",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/2a928b93-a5d4-4285-a92c-032fb389faa2",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/84ae5b39-9c5d-4c57-876d-7530be35a5f1",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/84ae5b39-9c5d-4c57-876d-7530be35a5f1",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/708992c7-67da-4f99-99f0-39ed70e360d4",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/708992c7-67da-4f99-99f0-39ed70e360d4",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/d8816f3f-89d6-4434-bc24-eaf4169c1d95",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/d8816f3f-89d6-4434-bc24-eaf4169c1d95",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/d08e3ff6-378e-4e3e-9787-39638817ae0f",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/d08e3ff6-378e-4e3e-9787-39638817ae0f",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/f991db58-6bc1-40b2-a1b9-97d4d2b20a83",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/f991db58-6bc1-40b2-a1b9-97d4d2b20a83",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/0de66140-c2df-4314-8660-bb074a9d313f",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/0de66140-c2df-4314-8660-bb074a9d313f",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/9670db54-bd0d-4dcc-a4af-61724dd82188",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/9670db54-bd0d-4dcc-a4af-61724dd82188",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/f4a4fc50-0bda-418e-a8ca-203dea81e801",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/f4a4fc50-0bda-418e-a8ca-203dea81e801",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/dcbd8798-31d0-4551-acf4-0d7a8f8d7757",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/dcbd8798-31d0-4551-acf4-0d7a8f8d7757",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/a20eb88b-5307-406f-b2ed-e9d5c5001a82",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/a20eb88b-5307-406f-b2ed-e9d5c5001a82",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/0675599f-3475-4706-ab37-925bc34aebe0",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/0675599f-3475-4706-ab37-925bc34aebe0",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/13fe38e8-d130-4ab2-bea6-f586e30b7c5e",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/13fe38e8-d130-4ab2-bea6-f586e30b7c5e",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/a6292a81-7cf7-4e29-bb77-f7d0935e7bdb",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/a6292a81-7cf7-4e29-bb77-f7d0935e7bdb",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/eacac37f-9bba-4503-b329-72864edb822c",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/eacac37f-9bba-4503-b329-72864edb822c",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/5948c8ef-5a0e-4219-8fd8-fea56305e931",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/5948c8ef-5a0e-4219-8fd8-fea56305e931",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/db54960b-fe73-4cd9-9c2d-85221eca66b2",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/db54960b-fe73-4cd9-9c2d-85221eca66b2",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/2427f45b-bac6-4b57-b4c4-c7108064d0cc",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/2427f45b-bac6-4b57-b4c4-c7108064d0cc",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/6754de86-7485-4826-9aad-ef24cce405a9",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/6754de86-7485-4826-9aad-ef24cce405a9",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/cc02c7aa-16b7-4003-93eb-db2f038b3e52",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/cc02c7aa-16b7-4003-93eb-db2f038b3e52",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/1ed263be-f6d1-41fb-8cd7-fc99112c2ca1",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/1ed263be-f6d1-41fb-8cd7-fc99112c2ca1",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/bcd7eea8-1f1e-437b-b7d1-52361493d55e",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/bcd7eea8-1f1e-437b-b7d1-52361493d55e",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/dba101f7-c6f7-49e2-a1e6-06c3c2ddee5b",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/dba101f7-c6f7-49e2-a1e6-06c3c2ddee5b",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/8d54cbf2-ca42-4297-b498-2f1620be66c5",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/8d54cbf2-ca42-4297-b498-2f1620be66c5",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/3272836f-807d-4306-af07-83a848803e01",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/3272836f-807d-4306-af07-83a848803e01",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/364c14ff-e4c9-4f50-b5aa-b02b0aa98e7a",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/364c14ff-e4c9-4f50-b5aa-b02b0aa98e7a",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/07e50e24-84ac-4002-ad26-9de1d991362c",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/07e50e24-84ac-4002-ad26-9de1d991362c",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/8aaca557-05dc-4412-8d3b-28ed686df200",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/8aaca557-05dc-4412-8d3b-28ed686df200",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/509681a0-08cd-484f-aaa6-ffdb8ea5a5ce",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/509681a0-08cd-484f-aaa6-ffdb8ea5a5ce",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/85ad455a-ecbc-45b3-bab3-76685251e136",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/85ad455a-ecbc-45b3-bab3-76685251e136",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/3c018564-63c0-4179-ba91-f42ce75a40fa",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/3c018564-63c0-4179-ba91-f42ce75a40fa",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/a9ac05e3-cfe7-474c-a8e6-41baff859964",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/a9ac05e3-cfe7-474c-a8e6-41baff859964",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/3eea87fa-73c8-46dc-b69b-7beb438b48d8",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/3eea87fa-73c8-46dc-b69b-7beb438b48d8",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/a1f1779b-464c-48f6-a664-56314825c8ac",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/a1f1779b-464c-48f6-a664-56314825c8ac",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/b8c95597-b452-49bf-994c-04027b7bd6dd",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/b8c95597-b452-49bf-994c-04027b7bd6dd",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/4a8607f9-5e63-427d-91de-183f43012c69",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/4a8607f9-5e63-427d-91de-183f43012c69",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/87966ed3-94f5-47b5-8fa8-855f10480346",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/87966ed3-94f5-47b5-8fa8-855f10480346",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/76e65492-9ff5-4ca1-950a-3565f075f6cb",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/76e65492-9ff5-4ca1-950a-3565f075f6cb",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/4475c333-7e3e-4f28-bc8a-ccb77c45de0a",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/4475c333-7e3e-4f28-bc8a-ccb77c45de0a",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/776ef7f7-b602-4340-a24d-5075255dff32",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/776ef7f7-b602-4340-a24d-5075255dff32",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/85d2fa78-b136-417e-b953-6f23ddde5d88",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/85d2fa78-b136-417e-b953-6f23ddde5d88",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/a488959b-6874-4563-acb2-af747c3dc6f7",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/a488959b-6874-4563-acb2-af747c3dc6f7",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/18b462b4-96a5-4e9f-8811-70e27b7c7278",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/18b462b4-96a5-4e9f-8811-70e27b7c7278",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/47d4f4eb-00bf-4395-971c-52b3d23e6ae0",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/47d4f4eb-00bf-4395-971c-52b3d23e6ae0",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/e6e81afb-2b0f-48ad-8457-fb7ba213f289",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/e6e81afb-2b0f-48ad-8457-fb7ba213f289",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/19ff5740-e678-4f43-a6c6-29bab94fbc21",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/19ff5740-e678-4f43-a6c6-29bab94fbc21",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/f0c72a8a-aa58-4d3b-a68d-72d790545d81",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/f0c72a8a-aa58-4d3b-a68d-72d790545d81",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/3acc2938-fbcb-4dcb-b512-05b62d03dcee",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/3acc2938-fbcb-4dcb-b512-05b62d03dcee",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/514bfbdf-fe61-4809-bab5-d100cd2f44d6",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/514bfbdf-fe61-4809-bab5-d100cd2f44d6",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/b3418869-2cbf-4bb0-9286-e25852dc1506",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/b3418869-2cbf-4bb0-9286-e25852dc1506",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/32d18d13-97ee-4e21-b2c8-2e5334caea20",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/32d18d13-97ee-4e21-b2c8-2e5334caea20",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/52892674-342b-4519-9a57-7097e4ef4a8a",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/52892674-342b-4519-9a57-7097e4ef4a8a",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/85580cf5-beac-4d43-b434-f0316e82f1ec",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/85580cf5-beac-4d43-b434-f0316e82f1ec",
+    "normalizedJobInfo": {}
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/snowflake/2db865d9-1b32-4f20-8091-de76c5d2b7f4",
+    "error": "Error: [normalizeSoftwareJobsInfo]: Normalization failed for https://jobs.ashbyhq.com/snowflake/2db865d9-1b32-4f20-8091-de76c5d2b7f4",
+    "normalizedJobInfo": {}
   }
 ]

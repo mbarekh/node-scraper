@@ -7,19 +7,22 @@ import type {
   Continent,
   Skill,
   JobNormalizationError,
-  BusinessRegion,
+  businessRegion,
   Location,
+  State,
+  CityMap,
 } from "../model/jobs-model.ts";
 import { lowerCaseTrim, compact, uniq } from "../utils/extra-utils.ts";
 import { readJSONFile, writeJSONFile } from "../utils/file-utils.ts";
 import { JOBS_DATA_FILES } from "./jobs-utils.ts";
-import { CONTINENTS_MAP, COUNTRIES_MAP } from "./map/job-info-map.ts";
+import { CITIES_MAP, CONTINENTS_MAP, COUNTRIES_MAP } from "./map/job-info-map.ts";
 import {
   OPTIMIZED_SKILLS_MAP,
   OPTIMIZED_CONTINENTS_MAP,
   OPTIMIZED_COUNTRIES_MAP,
   OPTIMIZED_CITIES_MAP,
   OPTIMIZED_BUSINESS_REGION,
+  OPTIMIZED_STATES_MAP,
 } from "./map/optimized-job-info-map.ts";
 import { jobInfoPromptPartGeneral } from "./prompts/job-info-prompt-general.ts";
 import { jobInfoPromptPartDescriptions } from "./prompts/job-info-prompt-descriptions.ts";
@@ -83,34 +86,37 @@ export const normalizeSoftwareJobsInfo = async ({
 
 const normalizeLocation = (location: Location): Location => {
   if (location.scope === "city") {
+    const city = normalizeCity(location.city);
+    const country = normalizeCountry(location.country ?? CITIES_MAP[city]?.country ?? "");
     return {
       scope: "city",
       workplaceType: location.workplaceType,
-      businessRegion: COUNTRIES_MAP[normalizeCountry(location.country)]?.businessRegion,
-      continent: COUNTRIES_MAP[normalizeCountry(location.country)]?.continent,
-      country: normalizeCountry(location.country),
-      city: normalizeCity(location.city),
+      businessRegion: normalizebusinessRegion(COUNTRIES_MAP[country]?.businessRegion ?? ""),
+      continent: normalizeContinent(COUNTRIES_MAP[country]?.continent),
+      country,
+      state: country === "unitedstates" ? normalizeState(CITIES_MAP[city]?.state ?? "") : undefined,
+      city,
     };
   } else if (location.scope === "country") {
     return {
       scope: "country",
       workplaceType: location.workplaceType,
-      businessRegion: COUNTRIES_MAP[normalizeCountry(location.country)]?.businessRegion,
-      continent: COUNTRIES_MAP[normalizeCountry(location.country)]?.continent,
+      businessRegion: normalizebusinessRegion(COUNTRIES_MAP[normalizeCountry(location.country)]?.businessRegion),
+      continent: normalizeContinent(COUNTRIES_MAP[normalizeCountry(location.country)]?.continent),
       country: normalizeCountry(location.country),
     };
   } else if (location.scope === "continent") {
     return {
       scope: "continent",
       workplaceType: location.workplaceType,
-      businessRegion: CONTINENTS_MAP[normalizeContinent(location.continent)]?.businessRegion,
+      businessRegion: normalizebusinessRegion(CONTINENTS_MAP[normalizeContinent(location.continent)]?.businessRegion),
       continent: normalizeContinent(location.continent),
     };
   } else if (location.scope === "businessRegion") {
     return {
       scope: "businessRegion",
       workplaceType: location.workplaceType,
-      businessRegion: normalizeBusinessRegion(location.businessRegion),
+      businessRegion: normalizebusinessRegion(location.businessRegion),
     };
   } else {
     return {
@@ -123,7 +129,7 @@ const normalizeLocation = (location: Location): Location => {
 const mapLocationToToken = (location: Location): string[] => {
   return Object.entries(location)
     .filter(([key]) => !["scope", "workplaceType"].includes(key))
-    .map(([key, value]) => `${key}:${value}`);
+    .map(([key, value]) => `${key}:${value}`.toLowerCase());
 };
 
 const normalizeValue = <T extends string>({
@@ -162,8 +168,8 @@ const normalizeSkill = (skill: string): Skill | null => {
   });
 };
 
-const normalizeBusinessRegion = (continent: string): BusinessRegion => {
-  return normalizeValue<BusinessRegion>({
+const normalizebusinessRegion = (continent: string): businessRegion => {
+  return normalizeValue<businessRegion>({
     value: continent,
     map: OPTIMIZED_BUSINESS_REGION,
     errorFile: JOBS_DATA_FILES.locationsErrors,
@@ -176,6 +182,16 @@ const normalizeContinent = (continent: string): Continent => {
   return normalizeValue<Continent>({
     value: continent,
     map: OPTIMIZED_CONTINENTS_MAP,
+    errorFile: JOBS_DATA_FILES.locationsErrors,
+    ignoreNotFound: false,
+    verbose: true,
+  })!;
+};
+
+const normalizeState = (state: string): State => {
+  return normalizeValue<State>({
+    value: state,
+    map: OPTIMIZED_STATES_MAP,
     errorFile: JOBS_DATA_FILES.locationsErrors,
     ignoreNotFound: false,
     verbose: true,
