@@ -179,25 +179,23 @@ const scrapeSoftwareJobsWorkable = async (url: string): Promise<ScrapedSoftwareJ
 const scrapeSoftwareJobsMyworkdayjobs = async (url: string): Promise<ScrapedSoftwareJobsInfoWithListJobsUrl | null> => {
   try {
     const regexes = [
-      /https:\/\/([a-z0-9_\-\.]+)\.([a-z0-9_\-\.]+)\.myworkdayjobs.com\/([a-z0-9_\-\.]+)/i,
-      /https:\/\/([a-z0-9_\-\.]+)\.([a-z0-9_\-\.]+)\.myworkdayjobs.com\/wday\/cxs\/([a-z0-9_\-\.]+)/i,
+      /https:\/\/([a-z0-9_\-\.]+)\.([a-z0-9_\-\.]+)\.myworkdayjobs.com\//i,
+      /https:\/\/([a-z0-9_\-\.]+)\.([a-z0-9_\-\.]+)\.myworkdayjobs.com\/wday\/cxs\//i,
     ];
     const match = regexes.map((r) => url.match(r)).find(Boolean) ?? null;
-    if (!match || !match[1] || !match[2] || !match[3]) {
+    if (!match || !match[1] || !match[2]) {
       throw Error(`[${scrapeSoftwareJobsMyworkdayjobs.name}]: URL ${url} does not match expected pattern`);
     }
-    const [, tenant, wdServer, site] = match;
-    const rootUrl = `https://${tenant}.${wdServer}.myworkdayjobs.com/wday/cxs/${tenant}/${site}`;
+    const [, tenant, wdServer] = match;
+    const rootUrl = `https://${tenant}.${wdServer}.myworkdayjobs.com/wday/cxs/${tenant}/External_Career`;
     const listJobsUrl = `${rootUrl}/jobs`;
     const { data } = await fetchApi.post<MyworkdayResponse>({
       url: listJobsUrl,
       payload: { appliedFacets: {}, limit: 20, offset: 0 },
     });
-    console.log(listJobsUrl);
     const softwarejobUrls = data.jobPostings
       .filter((jobInfo) => hasSoftwareKeyword(jobInfo.title))
       .map((jobInfo) => `${rootUrl}${jobInfo.externalPath}`);
-
     const scrapedSoftwareJobsInfo: ScrapedSoftwareJobInfo[] = [];
     for (const softwarejobUrl of softwarejobUrls) {
       await wait(randomNumber({ min: 2000, max: 5000 }));
@@ -210,7 +208,7 @@ const scrapeSoftwareJobsMyworkdayjobs = async (url: string): Promise<ScrapedSoft
         url: jobInfo.externalUrl,
         title: jobInfo.title,
         content: optimizeContentForAI(load(jobInfo.jobDescription.replace(/\n/g, ""))),
-        location: `${jobInfo.country.descriptor} ${jobInfo.location}`,
+        location: [`${jobInfo.country.descriptor} ${jobInfo.location}`, ...jobInfo.additionalLocations].join(", "),
         publishedAt: jobInfo.postedOn,
         employmentType: jobInfo.timeType,
       });

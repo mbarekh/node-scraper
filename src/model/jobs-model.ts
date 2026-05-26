@@ -85,7 +85,7 @@ export type NormalizedSoftwareJobInfo = {
 
 export type Skill = keyof typeof SKILLS_MAP;
 
-export type Scope = "worldwide" | "businessRegion" | "continent" | "country" | "countries" | "city";
+export type Scope = "worldwide" | "businessRegion" | "continent" | "country" | "state" | "city";
 
 export type Location =
   | {
@@ -94,26 +94,34 @@ export type Location =
     }
   | {
       scope: Extract<Scope, "businessRegion">;
-      businessRegion: businessRegion;
+      businessRegion: BusinessRegion;
       workplaceType: WorkplaceType;
     }
   | {
       scope: Extract<Scope, "continent">;
       continent: Continent;
-      businessRegion: businessRegion;
+      businessRegion: BusinessRegion;
       workplaceType: WorkplaceType;
     }
   | {
       scope: Extract<Scope, "country">;
       workplaceType: WorkplaceType;
-      businessRegion: businessRegion;
+      businessRegion: BusinessRegion;
       continent: Continent;
       country: Country;
     }
   | {
+      scope: Extract<Scope, "state">;
+      workplaceType: WorkplaceType;
+      businessRegion: BusinessRegion;
+      continent: Continent;
+      country: Country;
+      state: State;
+    }
+  | {
       scope: Extract<Scope, "city">;
       workplaceType: Extract<WorkplaceType, "hybrid" | "onsite">;
-      businessRegion: businessRegion;
+      businessRegion: BusinessRegion;
       continent: Continent;
       country: Country;
       state?: State;
@@ -139,7 +147,7 @@ export type EmploymentType = keyof typeof EMPLOYMENT_TYPES_MAP;
 
 export type Continent = keyof typeof CONTINENTS_MAP;
 
-export type businessRegion = keyof typeof BUSINESS_REGIONS_MAP;
+export type BusinessRegion = keyof typeof BUSINESS_REGIONS_MAP;
 
 export type Country = keyof typeof COUNTRIES_MAP;
 
@@ -155,5 +163,7 @@ export type CityMap = {
   readonly aliases: string[];
   readonly search: { remote: string; onSiteOrHybrid: string };
   readonly country: Country;
+  readonly continent: Continent;
+  readonly businessRegion: BusinessRegion;
   readonly state?: State;
 };

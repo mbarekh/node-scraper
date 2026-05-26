@@ -249,6 +249,7 @@ type MyworkdayJobPostingInfo = {
   title: string;
   jobDescription: string;
   location: string;
+  additionalLocations: string[];
   postedOn: string;
   startDate: string;
   timeType: string;
