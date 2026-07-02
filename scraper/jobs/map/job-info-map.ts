@@ -8,11 +8,31 @@ export const CATEGORIES_MAP = {
 } as const;
 
 export const SENIORITY_MAP = {
-  entry: { id: "entry-level", seniorityLabel: "Entry-Level", yearsLabel: "(0 years)" },
-  junior: { id: "junior-level", seniorityLabel: "Junior-Level", yearsLabel: "(1-2 years)" },
-  mid: { id: "mid-level", seniorityLabel: "Mid-Level", yearsLabel: "(3-5 years)" },
-  senior: { id: "senior-level", seniorityLabel: "Senior-Level", yearsLabel: "(7+ years)" },
-  lead: { id: "lead-level", seniorityLabel: "Lead-Level", yearsLabel: "(8+ years)" },
+  entry: {
+    id: "entry-level",
+    seniorityLabel: "Entry-Level",
+    yearsLabel: "(0 years)",
+  },
+  junior: {
+    id: "junior-level",
+    seniorityLabel: "Junior-Level",
+    yearsLabel: "(1-2 years)",
+  },
+  mid: {
+    id: "mid-level",
+    seniorityLabel: "Mid-Level",
+    yearsLabel: "(3-5 years)",
+  },
+  senior: {
+    id: "senior-level",
+    seniorityLabel: "Senior-Level",
+    yearsLabel: "(7+ years)",
+  },
+  lead: {
+    id: "lead-level",
+    seniorityLabel: "Lead-Level",
+    yearsLabel: "(8+ years)",
+  },
 } as const;
 
 export const WORKPLACE_TYPES_MAP = {
@@ -43,6 +63,7 @@ export const CURRENCIES_MAP = {
   inr: "₹",
   brl: "R$",
   zar: "R",
+  pln: "zł",
 } as const;
 
 export const WORLDWIDE_LOCATIONS_MAP = {
@@ -58,20 +79,38 @@ export const BUSINESS_REGIONS_MAP = {
   emea: {
     id: "emea",
     label: "EMEA",
-    aliases: ["emea", "europe middle east africa", "europe, middle east and africa"],
-    search: { remote: "businessregion:emea", onSiteOrHybrid: "businessregion:emea" },
+    aliases: [
+      "emea",
+      "europe middle east africa",
+      "europe, middle east and africa",
+    ],
+    search: {
+      remote: "businessregion:emea",
+      onSiteOrHybrid: "businessregion:emea",
+    },
   },
   apac: {
     id: "apac",
     label: "APAC",
     aliases: ["apac", "asia pacific", "asia-pacific"],
-    search: { remote: "businessregion:apac", onSiteOrHybrid: "businessregion:apac" },
+    search: {
+      remote: "businessregion:apac",
+      onSiteOrHybrid: "businessregion:apac",
+    },
   },
   amer: {
     id: "amer",
     label: "AMER",
-    aliases: ["amer", "americas", "north and south america", "north america and south america"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "businessregion:amer" },
+    aliases: [
+      "amer",
+      "americas",
+      "north and south america",
+      "north america and south america",
+    ],
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "businessregion:amer",
+    },
   },
 };
 
@@ -80,21 +119,37 @@ export const CONTINENTS_MAP = {
     id: "northamerica",
     label: "North America",
     aliases: ["northamerica", "north america", "na", "n.a.", "n. america"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "continent:northamerica" },
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "continent:northamerica",
+    },
     businessRegion: "amer",
   },
   southamerica: {
     id: "southamerica",
     label: "South America",
     aliases: ["southamerica", "south america", "sa", "s.a.", "s. america"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "continent:southamerica" },
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "continent:southamerica",
+    },
     businessRegion: "amer",
   },
   europe: {
     id: "europe",
     label: "Europe",
-    aliases: ["europe", "eu", "european union", "europe continent", "eurasia west", "schengen area (partial)"],
-    search: { remote: "businessregion:emea", onSiteOrHybrid: "continent:europe" },
+    aliases: [
+      "europe",
+      "eu",
+      "european union",
+      "europe continent",
+      "eurasia west",
+      "schengen area (partial)",
+    ],
+    search: {
+      remote: "businessregion:emea",
+      onSiteOrHybrid: "continent:europe",
+    },
     businessRegion: "emea",
   },
   asia: {
@@ -108,14 +163,20 @@ export const CONTINENTS_MAP = {
     id: "africa",
     label: "Africa",
     aliases: ["africa", "af", "african continent"],
-    search: { remote: "businessregion:emea", onSiteOrHybrid: "continent:africa" },
+    search: {
+      remote: "businessregion:emea",
+      onSiteOrHybrid: "continent:africa",
+    },
     businessRegion: "emea",
   },
   oceania: {
     id: "oceania",
     label: "Oceania",
     aliases: ["oceania", "oc", "australia and oceania"],
-    search: { remote: "businessregion:apac", onSiteOrHybrid: "continent:oceania" },
+    search: {
+      remote: "businessregion:apac",
+      onSiteOrHybrid: "continent:oceania",
+    },
     businessRegion: "apac",
   },
 } as const;
@@ -152,7 +213,10 @@ export const STATES_MAP = {
     id: "california",
     label: "California",
     aliases: ["california", "ca", "us-california"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "state:california" },
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "state:california",
+    },
     country: "unitedstates",
     continent: "northamerica",
     businessRegion: "amer",
@@ -170,7 +234,10 @@ export const STATES_MAP = {
     id: "connecticut",
     label: "Connecticut",
     aliases: ["connecticut", "ct", "us-connecticut"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "state:connecticut" },
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "state:connecticut",
+    },
     country: "unitedstates",
     continent: "northamerica",
     businessRegion: "amer",
@@ -178,8 +245,18 @@ export const STATES_MAP = {
   districtofcolumbia: {
     id: "districtofcolumbia",
     label: "District of Columbia",
-    aliases: ["districtofcolumbia", "district of columbia", "dc", "d.c.", "washington dc", "washington d.c."],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "state:districtofcolumbia" },
+    aliases: [
+      "districtofcolumbia",
+      "district of columbia",
+      "dc",
+      "d.c.",
+      "washington dc",
+      "washington d.c.",
+    ],
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "state:districtofcolumbia",
+    },
     country: "unitedstates",
     continent: "northamerica",
     businessRegion: "amer",
@@ -269,7 +346,10 @@ export const STATES_MAP = {
     id: "louisiana",
     label: "Louisiana",
     aliases: ["louisiana", "la", "us-louisiana"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "state:louisiana" },
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "state:louisiana",
+    },
     country: "unitedstates",
     continent: "northamerica",
     businessRegion: "amer",
@@ -287,7 +367,10 @@ export const STATES_MAP = {
     id: "massachusetts",
     label: "Massachusetts",
     aliases: ["massachusetts", "ma", "us-massachusetts"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "state:massachusetts" },
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "state:massachusetts",
+    },
     country: "unitedstates",
     continent: "northamerica",
     businessRegion: "amer",
@@ -305,7 +388,10 @@ export const STATES_MAP = {
     id: "minnesota",
     label: "Minnesota",
     aliases: ["minnesota", "mn", "us-minnesota"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "state:minnesota" },
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "state:minnesota",
+    },
     country: "unitedstates",
     continent: "northamerica",
     businessRegion: "amer",
@@ -341,7 +427,10 @@ export const STATES_MAP = {
     id: "newjersey",
     label: "New Jersey",
     aliases: ["newjersey", "new jersey", "nj", "us-new-jersey"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "state:newjersey" },
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "state:newjersey",
+    },
     country: "unitedstates",
     continent: "northamerica",
     businessRegion: "amer",
@@ -350,7 +439,10 @@ export const STATES_MAP = {
     id: "newmexico",
     label: "New Mexico",
     aliases: ["newmexico", "new mexico", "nm", "us-new-mexico"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "state:newmexico" },
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "state:newmexico",
+    },
     country: "unitedstates",
     continent: "northamerica",
     businessRegion: "amer",
@@ -367,8 +459,17 @@ export const STATES_MAP = {
   northcarolina: {
     id: "northcarolina",
     label: "North Carolina",
-    aliases: ["northcarolina", "north carolina", "nc", "us-north-carolina", "us-north carolina"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "state:northcarolina" },
+    aliases: [
+      "northcarolina",
+      "north carolina",
+      "nc",
+      "us-north-carolina",
+      "us-north carolina",
+    ],
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "state:northcarolina",
+    },
     country: "unitedstates",
     continent: "northamerica",
     businessRegion: "amer",
@@ -404,7 +505,10 @@ export const STATES_MAP = {
     id: "pennsylvania",
     label: "Pennsylvania",
     aliases: ["pennsylvania", "pa", "us-pennsylvania"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "state:pennsylvania" },
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "state:pennsylvania",
+    },
     country: "unitedstates",
     continent: "northamerica",
     businessRegion: "amer",
@@ -413,7 +517,10 @@ export const STATES_MAP = {
     id: "rhodeisland",
     label: "Rhode Island",
     aliases: ["rhodeisland", "rhode island", "ri", "us-rhode-island"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "state:rhodeisland" },
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "state:rhodeisland",
+    },
     country: "unitedstates",
     continent: "northamerica",
     businessRegion: "amer",
@@ -422,7 +529,10 @@ export const STATES_MAP = {
     id: "southcarolina",
     label: "South Carolina",
     aliases: ["southcarolina", "south carolina", "sc", "us-south-carolina"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "state:southcarolina" },
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "state:southcarolina",
+    },
     country: "unitedstates",
     continent: "northamerica",
     businessRegion: "amer",
@@ -431,7 +541,10 @@ export const STATES_MAP = {
     id: "tennessee",
     label: "Tennessee",
     aliases: ["tennessee", "tn", "us-tennessee"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "state:tennessee" },
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "state:tennessee",
+    },
     country: "unitedstates",
     continent: "northamerica",
     businessRegion: "amer",
@@ -467,7 +580,10 @@ export const STATES_MAP = {
     id: "washington",
     label: "Washington",
     aliases: ["washington", "washington state", "wa", "us-washington"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "state:washington" },
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "state:washington",
+    },
     country: "unitedstates",
     continent: "northamerica",
     businessRegion: "amer",
@@ -476,7 +592,10 @@ export const STATES_MAP = {
     id: "wisconsin",
     label: "Wisconsin",
     aliases: ["wisconsin", "wi", "us-wisconsin"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "state:wisconsin" },
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "state:wisconsin",
+    },
     country: "unitedstates",
     continent: "northamerica",
     businessRegion: "amer",
@@ -487,8 +606,20 @@ export const COUNTRIES_MAP = {
   unitedstates: {
     id: "unitedstates",
     label: "United States",
-    aliases: ["unitedstates", "united states", "usa", "us", "u.s.a", "u.s.", "united states of america", "america"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "country:unitedstates" },
+    aliases: [
+      "unitedstates",
+      "united states",
+      "usa",
+      "us",
+      "u.s.a",
+      "u.s.",
+      "united states of america",
+      "america",
+    ],
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "country:unitedstates",
+    },
     businessRegion: "amer",
     continent: "northamerica",
   },
@@ -520,7 +651,10 @@ export const COUNTRIES_MAP = {
     id: "argentina",
     label: "Argentina",
     aliases: ["argentina"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "country:argentina" },
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "country:argentina",
+    },
     businessRegion: "amer",
     continent: "southamerica",
   },
@@ -544,7 +678,10 @@ export const COUNTRIES_MAP = {
     id: "costarica",
     label: "Costa Rica",
     aliases: ["costarica", "costa rica"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "country:costarica" },
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "country:costarica",
+    },
     businessRegion: "amer",
     continent: "northamerica",
   },
@@ -552,7 +689,10 @@ export const COUNTRIES_MAP = {
     id: "paraguay",
     label: "Paraguay",
     aliases: ["paraguay"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "country:paraguay" },
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "country:paraguay",
+    },
     businessRegion: "amer",
     continent: "southamerica",
   },
@@ -560,7 +700,10 @@ export const COUNTRIES_MAP = {
     id: "uruguay",
     label: "Uruguay",
     aliases: ["uruguay"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "country:uruguay" },
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "country:uruguay",
+    },
     businessRegion: "amer",
     continent: "southamerica",
   },
@@ -575,7 +718,13 @@ export const COUNTRIES_MAP = {
   france: {
     id: "france",
     label: "France",
-    aliases: ["france", "fr", "french republic", "république française", "france eu"],
+    aliases: [
+      "france",
+      "fr",
+      "french republic",
+      "république française",
+      "france eu",
+    ],
     search: { remote: "businessregion:emea", onSiteOrHybrid: "country:france" },
     businessRegion: "emea",
     continent: "europe",
@@ -583,7 +732,13 @@ export const COUNTRIES_MAP = {
   italy: {
     id: "italy",
     label: "Italy",
-    aliases: ["italy", "it", "italian republic", "repubblica italiana", "italy eu"],
+    aliases: [
+      "italy",
+      "it",
+      "italian republic",
+      "repubblica italiana",
+      "italy eu",
+    ],
     search: { remote: "businessregion:emea", onSiteOrHybrid: "country:italy" },
     businessRegion: "emea",
     continent: "europe",
@@ -591,23 +746,49 @@ export const COUNTRIES_MAP = {
   germany: {
     id: "germany",
     label: "Germany",
-    aliases: ["germany", "de", "deutschland", "federal republic of germany", "bundesrepublik deutschland"],
-    search: { remote: "businessregion:emea", onSiteOrHybrid: "country:germany" },
+    aliases: [
+      "germany",
+      "de",
+      "deutschland",
+      "federal republic of germany",
+      "bundesrepublik deutschland",
+    ],
+    search: {
+      remote: "businessregion:emea",
+      onSiteOrHybrid: "country:germany",
+    },
     businessRegion: "emea",
     continent: "europe",
   },
   unitedkingdom: {
     id: "unitedkingdom",
     label: "United Kingdom",
-    aliases: ["unitedkingdom", "united kingdom", "uk", "u.k.", "great britain", "britain"],
-    search: { remote: "businessregion:emea", onSiteOrHybrid: "country:unitedkingdom" },
+    aliases: [
+      "unitedkingdom",
+      "united kingdom",
+      "uk",
+      "u.k.",
+      "great britain",
+      "britain",
+    ],
+    search: {
+      remote: "businessregion:emea",
+      onSiteOrHybrid: "country:unitedkingdom",
+    },
     businessRegion: "emea",
     continent: "europe",
   },
   spain: {
     id: "spain",
     label: "Spain",
-    aliases: ["spain", "es", "espana", "españa", "kingdom of spain", "spain eu"],
+    aliases: [
+      "spain",
+      "es",
+      "espana",
+      "españa",
+      "kingdom of spain",
+      "spain eu",
+    ],
     search: { remote: "businessregion:emea", onSiteOrHybrid: "country:spain" },
     businessRegion: "emea",
     continent: "europe",
@@ -615,48 +796,109 @@ export const COUNTRIES_MAP = {
   netherlands: {
     id: "netherlands",
     label: "Netherlands",
-    aliases: ["netherlands", "nl", "holland", "the netherlands", "nederland", "netherlands eu"],
-    search: { remote: "businessregion:emea", onSiteOrHybrid: "country:netherlands" },
+    aliases: [
+      "netherlands",
+      "nl",
+      "holland",
+      "the netherlands",
+      "nederland",
+      "netherlands eu",
+    ],
+    search: {
+      remote: "businessregion:emea",
+      onSiteOrHybrid: "country:netherlands",
+    },
     businessRegion: "emea",
     continent: "europe",
   },
   portugal: {
     id: "portugal",
     label: "Portugal",
-    aliases: ["portugal", "pt", "portuguese republic", "república portuguesa", "portugal eu"],
-    search: { remote: "businessregion:emea", onSiteOrHybrid: "country:portugal" },
+    aliases: [
+      "portugal",
+      "pt",
+      "portuguese republic",
+      "república portuguesa",
+      "portugal eu",
+    ],
+    search: {
+      remote: "businessregion:emea",
+      onSiteOrHybrid: "country:portugal",
+    },
     businessRegion: "emea",
     continent: "europe",
   },
   belgium: {
     id: "belgium",
     label: "Belgium",
-    aliases: ["belgium", "be", "belgique", "belgie", "belgië", "kingdom of belgium", "belgium eu"],
-    search: { remote: "businessregion:emea", onSiteOrHybrid: "country:belgium" },
+    aliases: [
+      "belgium",
+      "be",
+      "belgique",
+      "belgie",
+      "belgië",
+      "kingdom of belgium",
+      "belgium eu",
+    ],
+    search: {
+      remote: "businessregion:emea",
+      onSiteOrHybrid: "country:belgium",
+    },
     businessRegion: "emea",
     continent: "europe",
   },
   switzerland: {
     id: "switzerland",
     label: "Switzerland",
-    aliases: ["switzerland", "ch", "swiss", "schweiz", "suisse", "svizzera", "swiss confederation"],
-    search: { remote: "businessregion:emea", onSiteOrHybrid: "country:switzerland" },
+    aliases: [
+      "switzerland",
+      "ch",
+      "swiss",
+      "schweiz",
+      "suisse",
+      "svizzera",
+      "swiss confederation",
+    ],
+    search: {
+      remote: "businessregion:emea",
+      onSiteOrHybrid: "country:switzerland",
+    },
     businessRegion: "emea",
     continent: "europe",
   },
   austria: {
     id: "austria",
     label: "Austria",
-    aliases: ["austria", "at", "osterreich", "österreich", "republic of austria", "austria eu"],
-    search: { remote: "businessregion:emea", onSiteOrHybrid: "country:austria" },
+    aliases: [
+      "austria",
+      "at",
+      "osterreich",
+      "österreich",
+      "republic of austria",
+      "austria eu",
+    ],
+    search: {
+      remote: "businessregion:emea",
+      onSiteOrHybrid: "country:austria",
+    },
     businessRegion: "emea",
     continent: "europe",
   },
   ireland: {
     id: "ireland",
     label: "Ireland",
-    aliases: ["ireland", "ie", "eire", "éire", "republic of ireland", "ireland eu"],
-    search: { remote: "businessregion:emea", onSiteOrHybrid: "country:ireland" },
+    aliases: [
+      "ireland",
+      "ie",
+      "eire",
+      "éire",
+      "republic of ireland",
+      "ireland eu",
+    ],
+    search: {
+      remote: "businessregion:emea",
+      onSiteOrHybrid: "country:ireland",
+    },
     businessRegion: "emea",
     continent: "europe",
   },
@@ -680,7 +922,10 @@ export const COUNTRIES_MAP = {
     id: "denmark",
     label: "Denmark",
     aliases: ["denmark", "dk", "danmark", "kingdom of denmark", "denmark eu"],
-    search: { remote: "businessregion:emea", onSiteOrHybrid: "country:denmark" },
+    search: {
+      remote: "businessregion:emea",
+      onSiteOrHybrid: "country:denmark",
+    },
     businessRegion: "emea",
     continent: "europe",
   },
@@ -688,7 +933,10 @@ export const COUNTRIES_MAP = {
     id: "finland",
     label: "Finland",
     aliases: ["finland", "fi", "suomi", "republic of finland", "finland eu"],
-    search: { remote: "businessregion:emea", onSiteOrHybrid: "country:finland" },
+    search: {
+      remote: "businessregion:emea",
+      onSiteOrHybrid: "country:finland",
+    },
     businessRegion: "emea",
     continent: "europe",
   },
@@ -703,8 +951,19 @@ export const COUNTRIES_MAP = {
   czechrepublic: {
     id: "czechrepublic",
     label: "Czech Republic",
-    aliases: ["czechrepublic", "czech republic", "cz", "czechia", "cesko", "česko", "czech republic eu"],
-    search: { remote: "businessregion:emea", onSiteOrHybrid: "country:czechrepublic" },
+    aliases: [
+      "czechrepublic",
+      "czech republic",
+      "cz",
+      "czechia",
+      "cesko",
+      "česko",
+      "czech republic eu",
+    ],
+    search: {
+      remote: "businessregion:emea",
+      onSiteOrHybrid: "country:czechrepublic",
+    },
     businessRegion: "emea",
     continent: "europe",
   },
@@ -712,7 +971,10 @@ export const COUNTRIES_MAP = {
     id: "romania",
     label: "Romania",
     aliases: ["romania", "ro", "românia", "romania eu"],
-    search: { remote: "businessregion:emea", onSiteOrHybrid: "country:romania" },
+    search: {
+      remote: "businessregion:emea",
+      onSiteOrHybrid: "country:romania",
+    },
     businessRegion: "emea",
     continent: "europe",
   },
@@ -720,7 +982,10 @@ export const COUNTRIES_MAP = {
     id: "hungary",
     label: "Hungary",
     aliases: ["hungary", "hu", "magyarorszag", "magyarország", "hungary eu"],
-    search: { remote: "businessregion:emea", onSiteOrHybrid: "country:hungary" },
+    search: {
+      remote: "businessregion:emea",
+      onSiteOrHybrid: "country:hungary",
+    },
     businessRegion: "emea",
     continent: "europe",
   },
@@ -736,7 +1001,10 @@ export const COUNTRIES_MAP = {
     id: "ukraine",
     label: "Ukraine",
     aliases: ["ukraine", "ua", "ukraina", "україна"],
-    search: { remote: "businessregion:emea", onSiteOrHybrid: "country:ukraine" },
+    search: {
+      remote: "businessregion:emea",
+      onSiteOrHybrid: "country:ukraine",
+    },
     businessRegion: "emea",
     continent: "europe",
   },
@@ -744,7 +1012,10 @@ export const COUNTRIES_MAP = {
     id: "croatia",
     label: "Croatia",
     aliases: ["croatia", "hr", "hrvatska", "republic of croatia", "croatia eu"],
-    search: { remote: "businessregion:emea", onSiteOrHybrid: "country:croatia" },
+    search: {
+      remote: "businessregion:emea",
+      onSiteOrHybrid: "country:croatia",
+    },
     businessRegion: "emea",
     continent: "europe",
   },
@@ -752,31 +1023,61 @@ export const COUNTRIES_MAP = {
     id: "slovakia",
     label: "Slovakia",
     aliases: ["slovakia", "sk", "slovensko", "slovak republic", "slovakia eu"],
-    search: { remote: "businessregion:emea", onSiteOrHybrid: "country:slovakia" },
+    search: {
+      remote: "businessregion:emea",
+      onSiteOrHybrid: "country:slovakia",
+    },
     businessRegion: "emea",
     continent: "europe",
   },
   slovenia: {
     id: "slovenia",
     label: "Slovenia",
-    aliases: ["slovenia", "si", "slovenija", "republic of slovenia", "slovenia eu"],
-    search: { remote: "businessregion:emea", onSiteOrHybrid: "country:slovenia" },
+    aliases: [
+      "slovenia",
+      "si",
+      "slovenija",
+      "republic of slovenia",
+      "slovenia eu",
+    ],
+    search: {
+      remote: "businessregion:emea",
+      onSiteOrHybrid: "country:slovenia",
+    },
     businessRegion: "emea",
     continent: "europe",
   },
   bulgaria: {
     id: "bulgaria",
     label: "Bulgaria",
-    aliases: ["bulgaria", "bg", "balgariya", "bulgarian republic", "bulgaria eu"],
-    search: { remote: "businessregion:emea", onSiteOrHybrid: "country:bulgaria" },
+    aliases: [
+      "bulgaria",
+      "bg",
+      "balgariya",
+      "bulgarian republic",
+      "bulgaria eu",
+    ],
+    search: {
+      remote: "businessregion:emea",
+      onSiteOrHybrid: "country:bulgaria",
+    },
     businessRegion: "emea",
     continent: "europe",
   },
   lithuania: {
     id: "lithuania",
     label: "Lithuania",
-    aliases: ["lithuania", "lt", "lietuva", "republic of lithuania", "lithuania eu"],
-    search: { remote: "businessregion:emea", onSiteOrHybrid: "country:lithuania" },
+    aliases: [
+      "lithuania",
+      "lt",
+      "lietuva",
+      "republic of lithuania",
+      "lithuania eu",
+    ],
+    search: {
+      remote: "businessregion:emea",
+      onSiteOrHybrid: "country:lithuania",
+    },
     businessRegion: "emea",
     continent: "europe",
   },
@@ -792,15 +1093,28 @@ export const COUNTRIES_MAP = {
     id: "estonia",
     label: "Estonia",
     aliases: ["estonia", "ee", "eesti", "republic of estonia", "estonia eu"],
-    search: { remote: "businessregion:emea", onSiteOrHybrid: "country:estonia" },
+    search: {
+      remote: "businessregion:emea",
+      onSiteOrHybrid: "country:estonia",
+    },
     businessRegion: "emea",
     continent: "europe",
   },
   luxembourg: {
     id: "luxembourg",
     label: "Luxembourg",
-    aliases: ["luxembourg", "lu", "letzebuerg", "lëtzebuerg", "grand duchy of luxembourg", "luxembourg eu"],
-    search: { remote: "businessregion:emea", onSiteOrHybrid: "country:luxembourg" },
+    aliases: [
+      "luxembourg",
+      "lu",
+      "letzebuerg",
+      "lëtzebuerg",
+      "grand duchy of luxembourg",
+      "luxembourg eu",
+    ],
+    search: {
+      remote: "businessregion:emea",
+      onSiteOrHybrid: "country:luxembourg",
+    },
     businessRegion: "emea",
     continent: "europe",
   },
@@ -808,7 +1122,10 @@ export const COUNTRIES_MAP = {
     id: "iceland",
     label: "Iceland",
     aliases: ["iceland", "is", "island", "ísland", "republic of iceland"],
-    search: { remote: "businessregion:emea", onSiteOrHybrid: "country:iceland" },
+    search: {
+      remote: "businessregion:emea",
+      onSiteOrHybrid: "country:iceland",
+    },
     businessRegion: "emea",
     continent: "europe",
   },
@@ -840,7 +1157,10 @@ export const COUNTRIES_MAP = {
     id: "southafrica",
     label: "South Africa",
     aliases: ["southafrica", "south africa", "za"],
-    search: { remote: "businessregion:emea", onSiteOrHybrid: "country:southafrica" },
+    search: {
+      remote: "businessregion:emea",
+      onSiteOrHybrid: "country:southafrica",
+    },
     businessRegion: "emea",
     continent: "africa",
   },
@@ -848,7 +1168,10 @@ export const COUNTRIES_MAP = {
     id: "unitedarabemirates",
     label: "United Arab Emirates",
     aliases: ["unitedarabemirates", "united arab emirates", "uae", "u.a.e."],
-    search: { remote: "businessregion:emea", onSiteOrHybrid: "country:unitedarabemirates" },
+    search: {
+      remote: "businessregion:emea",
+      onSiteOrHybrid: "country:unitedarabemirates",
+    },
     businessRegion: "emea",
     continent: "asia",
   },
@@ -872,7 +1195,10 @@ export const COUNTRIES_MAP = {
     id: "singapore",
     label: "Singapore",
     aliases: ["singapore", "sg"],
-    search: { remote: "businessregion:apac", onSiteOrHybrid: "country:singapore" },
+    search: {
+      remote: "businessregion:apac",
+      onSiteOrHybrid: "country:singapore",
+    },
     businessRegion: "apac",
     continent: "asia",
   },
@@ -880,7 +1206,10 @@ export const COUNTRIES_MAP = {
     id: "australia",
     label: "Australia",
     aliases: ["australia", "au", "commonwealth of australia"],
-    search: { remote: "businessregion:apac", onSiteOrHybrid: "country:australia" },
+    search: {
+      remote: "businessregion:apac",
+      onSiteOrHybrid: "country:australia",
+    },
     businessRegion: "apac",
     continent: "oceania",
   },
@@ -907,7 +1236,14 @@ export const CITIES_MAP = {
   newyork: {
     id: "newyork",
     label: "New York",
-    aliases: ["newyork", "new york", "new york city", "nyc", "ny", "new york, ny"],
+    aliases: [
+      "newyork",
+      "new york",
+      "new york city",
+      "nyc",
+      "ny",
+      "new york, ny",
+    ],
     search: { remote: "businessregion:amer", onSiteOrHybrid: "city:newyork" },
     state: "newyork",
     country: "unitedstates",
@@ -918,7 +1254,10 @@ export const CITIES_MAP = {
     id: "losangeles",
     label: "Los Angeles",
     aliases: ["losangeles", "los angeles", "la", "l.a.", "los angeles, ca"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "city:losangeles" },
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "city:losangeles",
+    },
     state: "california",
     country: "unitedstates",
     continent: "northamerica",
@@ -958,7 +1297,10 @@ export const CITIES_MAP = {
     id: "philadelphia",
     label: "Philadelphia",
     aliases: ["philadelphia", "philly", "philadelphia, pa"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "city:philadelphia" },
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "city:philadelphia",
+    },
     state: "pennsylvania",
     country: "unitedstates",
     continent: "northamerica",
@@ -968,7 +1310,10 @@ export const CITIES_MAP = {
     id: "sanantonio",
     label: "San Antonio",
     aliases: ["sanantonio", "san antonio", "san antonio tx", "san antonio, tx"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "city:sanantonio" },
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "city:sanantonio",
+    },
     state: "texas",
     country: "unitedstates",
     continent: "northamerica",
@@ -1018,7 +1363,10 @@ export const CITIES_MAP = {
     id: "jacksonville",
     label: "Jacksonville",
     aliases: ["jacksonville", "jacksonville fl", "jacksonville, fl"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "city:jacksonville" },
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "city:jacksonville",
+    },
     state: "florida",
     country: "unitedstates",
     continent: "northamerica",
@@ -1057,8 +1405,18 @@ export const CITIES_MAP = {
   sanfrancisco: {
     id: "sanfrancisco",
     label: "San Francisco",
-    aliases: ["sanfrancisco", "san francisco", "sf", "bay area", "san francisco bay area", "san francisco, ca"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "city:sanfrancisco" },
+    aliases: [
+      "sanfrancisco",
+      "san francisco",
+      "sf",
+      "bay area",
+      "san francisco bay area",
+      "san francisco, ca",
+    ],
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "city:sanfrancisco",
+    },
     state: "california",
     country: "unitedstates",
     continent: "northamerica",
@@ -1068,7 +1426,10 @@ export const CITIES_MAP = {
     id: "indianapolis",
     label: "Indianapolis",
     aliases: ["indianapolis", "indy", "indianapolis, in"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "city:indianapolis" },
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "city:indianapolis",
+    },
     state: "indiana",
     country: "unitedstates",
     continent: "northamerica",
@@ -1098,7 +1459,10 @@ export const CITIES_MAP = {
     id: "washington",
     label: "Washington, DC",
     aliases: ["washington dc", "dc", "d.c.", "washington", "washington, dc"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "city:washington" },
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "city:washington",
+    },
     state: "districtofcolumbia",
     country: "unitedstates",
     continent: "northamerica",
@@ -1148,7 +1512,10 @@ export const CITIES_MAP = {
     id: "oklahomacity",
     label: "Oklahoma City",
     aliases: ["oklahomacity", "oklahoma city", "okc", "oklahoma city, ok"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "city:oklahomacity" },
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "city:oklahomacity",
+    },
     state: "oklahoma",
     country: "unitedstates",
     continent: "northamerica",
@@ -1188,7 +1555,10 @@ export const CITIES_MAP = {
     id: "louisville",
     label: "Louisville",
     aliases: ["louisville", "louisville ky", "louisville, ky"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "city:louisville" },
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "city:louisville",
+    },
     state: "kentucky",
     country: "unitedstates",
     continent: "northamerica",
@@ -1218,7 +1588,10 @@ export const CITIES_MAP = {
     id: "albuquerque",
     label: "Albuquerque",
     aliases: ["albuquerque", "abq", "albuquerque, nm"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "city:albuquerque" },
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "city:albuquerque",
+    },
     state: "newmexico",
     country: "unitedstates",
     continent: "northamerica",
@@ -1248,7 +1621,10 @@ export const CITIES_MAP = {
     id: "sacramento",
     label: "Sacramento",
     aliases: ["sacramento", "sac", "sacramento, ca"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "city:sacramento" },
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "city:sacramento",
+    },
     state: "california",
     country: "unitedstates",
     continent: "northamerica",
@@ -1258,7 +1634,10 @@ export const CITIES_MAP = {
     id: "kansascity",
     label: "Kansas City",
     aliases: ["kansascity", "kansas city", "kc", "kansas city, mo"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "city:kansascity" },
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "city:kansascity",
+    },
     state: "missouri",
     country: "unitedstates",
     continent: "northamerica",
@@ -1308,7 +1687,10 @@ export const CITIES_MAP = {
     id: "neworleans",
     label: "New Orleans",
     aliases: ["neworleans", "new orleans", "nola", "new orleans, la"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "city:neworleans" },
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "city:neworleans",
+    },
     state: "louisiana",
     country: "unitedstates",
     continent: "northamerica",
@@ -1328,7 +1710,10 @@ export const CITIES_MAP = {
     id: "pittsburgh",
     label: "Pittsburgh",
     aliases: ["pittsburgh", "pgh", "pittsburgh, pa"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "city:pittsburgh" },
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "city:pittsburgh",
+    },
     state: "pennsylvania",
     country: "unitedstates",
     continent: "northamerica",
@@ -1338,7 +1723,10 @@ export const CITIES_MAP = {
     id: "cincinnati",
     label: "Cincinnati",
     aliases: ["cincinnati", "cincy", "cincinnati, oh"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "city:cincinnati" },
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "city:cincinnati",
+    },
     state: "ohio",
     country: "unitedstates",
     continent: "northamerica",
@@ -1358,7 +1746,10 @@ export const CITIES_MAP = {
     id: "saltlakecity",
     label: "Salt Lake City",
     aliases: ["saltlakecity", "salt lake city", "slc", "salt lake city, ut"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "city:saltlakecity" },
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "city:saltlakecity",
+    },
     state: "utah",
     country: "unitedstates",
     continent: "northamerica",
@@ -1368,7 +1759,10 @@ export const CITIES_MAP = {
     id: "minneapolis",
     label: "Minneapolis",
     aliases: ["minneapolis", "minneapolis mn", "minneapolis, mn"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "city:minneapolis" },
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "city:minneapolis",
+    },
     state: "minnesota",
     country: "unitedstates",
     continent: "northamerica",
@@ -1387,7 +1781,14 @@ export const CITIES_MAP = {
   stlouis: {
     id: "stlouis",
     label: "St. Louis",
-    aliases: ["stlouis", "st. louis", "st louis", "stl", "saint louis", "st. louis, mo"],
+    aliases: [
+      "stlouis",
+      "st. louis",
+      "st louis",
+      "stl",
+      "saint louis",
+      "st. louis, mo",
+    ],
     search: { remote: "businessregion:amer", onSiteOrHybrid: "city:stlouis" },
     state: "missouri",
     country: "unitedstates",
@@ -1447,8 +1848,16 @@ export const CITIES_MAP = {
   virginiabeach: {
     id: "virginiabeach",
     label: "Virginia Beach",
-    aliases: ["virginiabeach", "virginia beach", "virginia beach va", "virginia beach, va"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "city:virginiabeach" },
+    aliases: [
+      "virginiabeach",
+      "virginia beach",
+      "virginia beach va",
+      "virginia beach, va",
+    ],
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "city:virginiabeach",
+    },
     state: "virginia",
     country: "unitedstates",
     continent: "northamerica",
@@ -1457,8 +1866,16 @@ export const CITIES_MAP = {
   coloradosprings: {
     id: "coloradosprings",
     label: "Colorado Springs",
-    aliases: ["coloradosprings", "colorado springs", "colorado springs co", "colorado springs, co"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "city:coloradosprings" },
+    aliases: [
+      "coloradosprings",
+      "colorado springs",
+      "colorado springs co",
+      "colorado springs, co",
+    ],
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "city:coloradosprings",
+    },
     state: "colorado",
     country: "unitedstates",
     continent: "northamerica",
@@ -1467,8 +1884,16 @@ export const CITIES_MAP = {
   arlingtontx: {
     id: "arlingtontx",
     label: "Arlington, TX",
-    aliases: ["arlingtontx", "arlington tx", "arlington texas", "arlington, tx"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "city:arlingtontx" },
+    aliases: [
+      "arlingtontx",
+      "arlington tx",
+      "arlington texas",
+      "arlington, tx",
+    ],
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "city:arlingtontx",
+    },
     state: "texas",
     country: "unitedstates",
     continent: "northamerica",
@@ -1497,8 +1922,16 @@ export const CITIES_MAP = {
   corpuschristi: {
     id: "corpuschristi",
     label: "Corpus Christi",
-    aliases: ["corpuschristi", "corpus christi", "corpus christi tx", "corpus christi, tx"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "city:corpuschristi" },
+    aliases: [
+      "corpuschristi",
+      "corpus christi",
+      "corpus christi tx",
+      "corpus christi, tx",
+    ],
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "city:corpuschristi",
+    },
     state: "texas",
     country: "unitedstates",
     continent: "northamerica",
@@ -1537,7 +1970,14 @@ export const CITIES_MAP = {
   saintpaul: {
     id: "saintpaul",
     label: "Saint Paul",
-    aliases: ["saintpaul", "saint paul", "st. paul", "st paul", "saint paul mn", "saint paul, mn"],
+    aliases: [
+      "saintpaul",
+      "saint paul",
+      "st. paul",
+      "st paul",
+      "saint paul mn",
+      "saint paul, mn",
+    ],
     search: { remote: "businessregion:amer", onSiteOrHybrid: "city:saintpaul" },
     state: "minnesota",
     country: "unitedstates",
@@ -1547,8 +1987,18 @@ export const CITIES_MAP = {
   stpetersburg: {
     id: "stpetersburg",
     label: "St. Petersburg",
-    aliases: ["stpetersburg", "st. petersburg", "st petersburg", "st. petersburg fl", "st petersburg fl", "st. petersburg, fl"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "city:stpetersburg" },
+    aliases: [
+      "stpetersburg",
+      "st. petersburg",
+      "st petersburg",
+      "st. petersburg fl",
+      "st petersburg fl",
+      "st. petersburg, fl",
+    ],
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "city:stpetersburg",
+    },
     state: "florida",
     country: "unitedstates",
     continent: "northamerica",
@@ -1598,7 +2048,10 @@ export const CITIES_MAP = {
     id: "chulavista",
     label: "Chula Vista",
     aliases: ["chulavista", "chula vista", "chula vista ca", "chula vista, ca"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "city:chulavista" },
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "city:chulavista",
+    },
     state: "california",
     country: "unitedstates",
     continent: "northamerica",
@@ -1658,7 +2111,10 @@ export const CITIES_MAP = {
     id: "glendaleaz",
     label: "Glendale, AZ",
     aliases: ["glendaleaz", "glendale az", "glendale arizona", "glendale, az"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "city:glendaleaz" },
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "city:glendaleaz",
+    },
     state: "arizona",
     country: "unitedstates",
     continent: "northamerica",
@@ -1667,8 +2123,16 @@ export const CITIES_MAP = {
   northlasvegas: {
     id: "northlasvegas",
     label: "North Las Vegas",
-    aliases: ["northlasvegas", "north las vegas", "north las vegas nv", "north las vegas, nv"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "city:northlasvegas" },
+    aliases: [
+      "northlasvegas",
+      "north las vegas",
+      "north las vegas nv",
+      "north las vegas, nv",
+    ],
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "city:northlasvegas",
+    },
     state: "nevada",
     country: "unitedstates",
     continent: "northamerica",
@@ -1688,7 +2152,10 @@ export const CITIES_MAP = {
     id: "scottsdale",
     label: "Scottsdale",
     aliases: ["scottsdale", "scottsdale az", "scottsdale, az"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "city:scottsdale" },
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "city:scottsdale",
+    },
     state: "arizona",
     country: "unitedstates",
     continent: "northamerica",
@@ -1708,7 +2175,10 @@ export const CITIES_MAP = {
     id: "chesapeake",
     label: "Chesapeake",
     aliases: ["chesapeake", "chesapeake va", "chesapeake, va"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "city:chesapeake" },
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "city:chesapeake",
+    },
     state: "virginia",
     country: "unitedstates",
     continent: "northamerica",
@@ -1758,7 +2228,10 @@ export const CITIES_MAP = {
     id: "batonrouge",
     label: "Baton Rouge",
     aliases: ["batonrouge", "baton rouge", "baton rouge la", "baton rouge, la"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "city:batonrouge" },
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "city:batonrouge",
+    },
     state: "louisiana",
     country: "unitedstates",
     continent: "northamerica",
@@ -1797,8 +2270,16 @@ export const CITIES_MAP = {
   rochesterny: {
     id: "rochesterny",
     label: "Rochester, NY",
-    aliases: ["rochesterny", "rochester ny", "rochester new york", "rochester, ny"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "city:rochesterny" },
+    aliases: [
+      "rochesterny",
+      "rochester ny",
+      "rochester new york",
+      "rochester, ny",
+    ],
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "city:rochesterny",
+    },
     state: "newyork",
     country: "unitedstates",
     continent: "northamerica",
@@ -1818,7 +2299,10 @@ export const CITIES_MAP = {
     id: "fayetteville",
     label: "Fayetteville",
     aliases: ["fayetteville", "fayetteville nc", "fayetteville, nc"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "city:fayetteville" },
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "city:fayetteville",
+    },
     state: "northcarolina",
     country: "unitedstates",
     continent: "northamerica",
@@ -1837,8 +2321,16 @@ export const CITIES_MAP = {
   grandrapids: {
     id: "grandrapids",
     label: "Grand Rapids",
-    aliases: ["grandrapids", "grand rapids", "grand rapids mi", "grand rapids, mi"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "city:grandrapids" },
+    aliases: [
+      "grandrapids",
+      "grand rapids",
+      "grand rapids mi",
+      "grand rapids, mi",
+    ],
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "city:grandrapids",
+    },
     state: "michigan",
     country: "unitedstates",
     continent: "northamerica",
@@ -1848,7 +2340,10 @@ export const CITIES_MAP = {
     id: "huntsville",
     label: "Huntsville",
     aliases: ["huntsville", "huntsville al", "huntsville, al"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "city:huntsville" },
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "city:huntsville",
+    },
     state: "alabama",
     country: "unitedstates",
     continent: "northamerica",
@@ -1858,7 +2353,10 @@ export const CITIES_MAP = {
     id: "littlerock",
     label: "Little Rock",
     aliases: ["littlerock", "little rock", "little rock ar", "little rock, ar"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "city:littlerock" },
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "city:littlerock",
+    },
     state: "arkansas",
     country: "unitedstates",
     continent: "northamerica",
@@ -1888,7 +2386,10 @@ export const CITIES_MAP = {
     id: "charleston",
     label: "Charleston",
     aliases: ["charleston", "charleston sc", "charleston, sc"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "city:charleston" },
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "city:charleston",
+    },
     state: "southcarolina",
     country: "unitedstates",
     continent: "northamerica",
@@ -1908,7 +2409,10 @@ export const CITIES_MAP = {
     id: "providence",
     label: "Providence",
     aliases: ["providence", "providence ri", "providence, ri"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "city:providence" },
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "city:providence",
+    },
     state: "rhodeisland",
     country: "unitedstates",
     continent: "northamerica",
@@ -1958,7 +2462,10 @@ export const CITIES_MAP = {
     id: "santaclara",
     label: "Santa Clara",
     aliases: ["santaclara", "santa clara", "santa clara ca", "santa clara, ca"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "city:santaclara" },
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "city:santaclara",
+    },
     state: "california",
     country: "unitedstates",
     continent: "northamerica",
@@ -1967,8 +2474,16 @@ export const CITIES_MAP = {
   mountainview: {
     id: "mountainview",
     label: "Mountain View",
-    aliases: ["mountainview", "mountain view", "mountain view ca", "mountain view, ca"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "city:mountainview" },
+    aliases: [
+      "mountainview",
+      "mountain view",
+      "mountain view ca",
+      "mountain view, ca",
+    ],
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "city:mountainview",
+    },
     state: "california",
     country: "unitedstates",
     continent: "northamerica",
@@ -2017,8 +2532,16 @@ export const CITIES_MAP = {
   cambridgema: {
     id: "cambridgema",
     label: "Cambridge, MA",
-    aliases: ["cambridgema", "cambridge ma", "cambridge massachusetts", "cambridge, ma"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "city:cambridgema" },
+    aliases: [
+      "cambridgema",
+      "cambridge ma",
+      "cambridge massachusetts",
+      "cambridge, ma",
+    ],
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "city:cambridgema",
+    },
     state: "massachusetts",
     country: "unitedstates",
     continent: "northamerica",
@@ -2027,8 +2550,16 @@ export const CITIES_MAP = {
   arlingtonva: {
     id: "arlingtonva",
     label: "Arlington, VA",
-    aliases: ["arlingtonva", "arlington va", "arlington virginia", "arlington, va"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "city:arlingtonva" },
+    aliases: [
+      "arlingtonva",
+      "arlington va",
+      "arlington virginia",
+      "arlington, va",
+    ],
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "city:arlingtonva",
+    },
     state: "virginia",
     country: "unitedstates",
     continent: "northamerica",
@@ -2038,7 +2569,10 @@ export const CITIES_MAP = {
     id: "alexandria",
     label: "Alexandria",
     aliases: ["alexandria", "alexandria va", "alexandria, va"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "city:alexandria" },
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "city:alexandria",
+    },
     state: "virginia",
     country: "unitedstates",
     continent: "northamerica",
@@ -2048,7 +2582,10 @@ export const CITIES_MAP = {
     id: "jerseycity",
     label: "Jersey City",
     aliases: ["jerseycity", "jersey city", "jersey city nj", "jersey city, nj"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "city:jerseycity" },
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "city:jerseycity",
+    },
     state: "newjersey",
     country: "unitedstates",
     continent: "northamerica",
@@ -2068,7 +2605,10 @@ export const CITIES_MAP = {
     id: "naperville",
     label: "Naperville",
     aliases: ["naperville", "naperville il", "naperville, il"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "city:naperville" },
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "city:naperville",
+    },
     state: "illinois",
     country: "unitedstates",
     continent: "northamerica",
@@ -2077,8 +2617,17 @@ export const CITIES_MAP = {
   fortlauderdale: {
     id: "fortlauderdale",
     label: "Fort Lauderdale",
-    aliases: ["fortlauderdale", "fort lauderdale", "fort lauderdale fl", "ft lauderdale", "fort lauderdale, fl"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "city:fortlauderdale" },
+    aliases: [
+      "fortlauderdale",
+      "fort lauderdale",
+      "fort lauderdale fl",
+      "ft lauderdale",
+      "fort lauderdale, fl",
+    ],
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "city:fortlauderdale",
+    },
     state: "florida",
     country: "unitedstates",
     continent: "northamerica",
@@ -2087,7 +2636,13 @@ export const CITIES_MAP = {
   menlopark: {
     id: "menlopark",
     label: "Menlo Park",
-    aliases: ["menlopark", "menlo park", "menlo park ca", "menlo park, ca", "ca-menlo park"],
+    aliases: [
+      "menlopark",
+      "menlo park",
+      "menlo park ca",
+      "menlo park, ca",
+      "ca-menlo park",
+    ],
     search: { remote: "businessregion:amer", onSiteOrHybrid: "city:menlopark" },
     state: "california",
     country: "unitedstates",
@@ -2108,7 +2663,10 @@ export const CITIES_MAP = {
     id: "woodinville",
     label: "Woodinville",
     aliases: ["woodinville", "woodinville wa", "woodinville, wa"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "city:woodinville" },
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "city:woodinville",
+    },
     state: "washington",
     country: "unitedstates",
     continent: "northamerica",
@@ -2137,8 +2695,16 @@ export const CITIES_MAP = {
   tysonscorner: {
     id: "tysonscorner",
     label: "Tysons Corner",
-    aliases: ["tysonscorner", "tysons corner", "tysons corner va", "tysons corner, va"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "city:tysonscorner" },
+    aliases: [
+      "tysonscorner",
+      "tysons corner",
+      "tysons corner va",
+      "tysons corner, va",
+    ],
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "city:tysonscorner",
+    },
     state: "virginia",
     country: "unitedstates",
     continent: "northamerica",
@@ -2342,7 +2908,13 @@ export const CITIES_MAP = {
   saopaulo: {
     id: "saopaulo",
     label: "Sao Paulo",
-    aliases: ["saopaulo", "sao paulo", "são paulo", "sao paulo brazil", "são paulo brazil"],
+    aliases: [
+      "saopaulo",
+      "sao paulo",
+      "são paulo",
+      "sao paulo brazil",
+      "são paulo brazil",
+    ],
     search: { remote: "businessregion:amer", onSiteOrHybrid: "city:saopaulo" },
     country: "brazil",
     continent: "southamerica",
@@ -2352,7 +2924,10 @@ export const CITIES_MAP = {
     id: "riodejaneiro",
     label: "Rio de Janeiro",
     aliases: ["riodejaneiro", "rio de janeiro", "rio", "rio de janeiro brazil"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "city:riodejaneiro" },
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "city:riodejaneiro",
+    },
     country: "brazil",
     continent: "southamerica",
     businessRegion: "amer",
@@ -2369,8 +2944,17 @@ export const CITIES_MAP = {
   mexicocity: {
     id: "mexicocity",
     label: "Mexico City",
-    aliases: ["mexicocity", "mexico city", "cdmx", "mexico city mexico", "ciudad de mexico"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "city:mexicocity" },
+    aliases: [
+      "mexicocity",
+      "mexico city",
+      "cdmx",
+      "mexico city mexico",
+      "ciudad de mexico",
+    ],
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "city:mexicocity",
+    },
     country: "mexico",
     continent: "northamerica",
     businessRegion: "amer",
@@ -2379,7 +2963,10 @@ export const CITIES_MAP = {
     id: "guadalajara",
     label: "Guadalajara",
     aliases: ["guadalajara", "guadalajara mexico"],
-    search: { remote: "businessregion:amer", onSiteOrHybrid: "city:guadalajara" },
+    search: {
+      remote: "businessregion:amer",
+      onSiteOrHybrid: "city:guadalajara",
+    },
     country: "mexico",
     continent: "northamerica",
     businessRegion: "amer",
@@ -2450,8 +3037,16 @@ export const CITIES_MAP = {
   manchester: {
     id: "manchester",
     label: "Manchester",
-    aliases: ["manchester", "manchester uk", "manchester england", "manchester, england"],
-    search: { remote: "businessregion:emea", onSiteOrHybrid: "city:manchester" },
+    aliases: [
+      "manchester",
+      "manchester uk",
+      "manchester england",
+      "manchester, england",
+    ],
+    search: {
+      remote: "businessregion:emea",
+      onSiteOrHybrid: "city:manchester",
+    },
     country: "unitedkingdom",
     continent: "europe",
     businessRegion: "emea",
@@ -2468,8 +3063,16 @@ export const CITIES_MAP = {
   birminghamuk: {
     id: "birminghamuk",
     label: "Birmingham",
-    aliases: ["birminghamuk", "birmingham uk", "birmingham england", "birmingham united kingdom"],
-    search: { remote: "businessregion:emea", onSiteOrHybrid: "city:birminghamuk" },
+    aliases: [
+      "birminghamuk",
+      "birmingham uk",
+      "birmingham england",
+      "birmingham united kingdom",
+    ],
+    search: {
+      remote: "businessregion:emea",
+      onSiteOrHybrid: "city:birminghamuk",
+    },
     country: "unitedkingdom",
     continent: "europe",
     businessRegion: "emea",
@@ -2477,8 +3080,16 @@ export const CITIES_MAP = {
   highwycombe: {
     id: "highwycombe",
     label: "High Wycombe",
-    aliases: ["highwycombe", "high wycombe", "high wycombe england", "high wycombe, england"],
-    search: { remote: "businessregion:emea", onSiteOrHybrid: "city:highwycombe" },
+    aliases: [
+      "highwycombe",
+      "high wycombe",
+      "high wycombe england",
+      "high wycombe, england",
+    ],
+    search: {
+      remote: "businessregion:emea",
+      onSiteOrHybrid: "city:highwycombe",
+    },
     country: "unitedkingdom",
     continent: "europe",
     businessRegion: "emea",
@@ -2667,7 +3278,10 @@ export const CITIES_MAP = {
     id: "gothenburg",
     label: "Gothenburg",
     aliases: ["gothenburg", "göteborg", "goteborg", "gothenburg sweden"],
-    search: { remote: "businessregion:emea", onSiteOrHybrid: "city:gothenburg" },
+    search: {
+      remote: "businessregion:emea",
+      onSiteOrHybrid: "city:gothenburg",
+    },
     country: "sweden",
     continent: "europe",
     businessRegion: "emea",
@@ -2712,7 +3326,10 @@ export const CITIES_MAP = {
     id: "copenhagen",
     label: "Copenhagen",
     aliases: ["copenhagen", "københavn", "kobenhavn", "copenhagen denmark"],
-    search: { remote: "businessregion:emea", onSiteOrHybrid: "city:copenhagen" },
+    search: {
+      remote: "businessregion:emea",
+      onSiteOrHybrid: "city:copenhagen",
+    },
     country: "denmark",
     continent: "europe",
     businessRegion: "emea",
@@ -2828,8 +3445,17 @@ export const CITIES_MAP = {
   clujnapoca: {
     id: "clujnapoca",
     label: "Cluj-Napoca",
-    aliases: ["clujnapoca", "cluj-napoca", "cluj napoca", "cluj", "cluj romania"],
-    search: { remote: "businessregion:emea", onSiteOrHybrid: "city:clujnapoca" },
+    aliases: [
+      "clujnapoca",
+      "cluj-napoca",
+      "cluj napoca",
+      "cluj",
+      "cluj romania",
+    ],
+    search: {
+      remote: "businessregion:emea",
+      onSiteOrHybrid: "city:clujnapoca",
+    },
     country: "romania",
     continent: "europe",
     businessRegion: "emea",
@@ -2874,7 +3500,10 @@ export const CITIES_MAP = {
     id: "thessaloniki",
     label: "Thessaloniki",
     aliases: ["thessaloniki", "salonica", "thessaloniki greece"],
-    search: { remote: "businessregion:emea", onSiteOrHybrid: "city:thessaloniki" },
+    search: {
+      remote: "businessregion:emea",
+      onSiteOrHybrid: "city:thessaloniki",
+    },
     country: "greece",
     continent: "europe",
     businessRegion: "emea",
@@ -2928,7 +3557,10 @@ export const CITIES_MAP = {
     id: "bratislava",
     label: "Bratislava",
     aliases: ["bratislava", "bratislava slovakia"],
-    search: { remote: "businessregion:emea", onSiteOrHybrid: "city:bratislava" },
+    search: {
+      remote: "businessregion:emea",
+      onSiteOrHybrid: "city:bratislava",
+    },
     country: "slovakia",
     continent: "europe",
     businessRegion: "emea",
@@ -3009,7 +3641,10 @@ export const CITIES_MAP = {
     id: "daugavpils",
     label: "Daugavpils",
     aliases: ["daugavpils", "daugavpils latvia"],
-    search: { remote: "businessregion:emea", onSiteOrHybrid: "city:daugavpils" },
+    search: {
+      remote: "businessregion:emea",
+      onSiteOrHybrid: "city:daugavpils",
+    },
     country: "latvia",
     continent: "europe",
     businessRegion: "emea",
@@ -3035,8 +3670,16 @@ export const CITIES_MAP = {
   luxembourgcity: {
     id: "luxembourgcity",
     label: "Luxembourg City",
-    aliases: ["luxembourgcity", "luxembourg city", "luxembourg ville", "luxembourg luxembourg"],
-    search: { remote: "businessregion:emea", onSiteOrHybrid: "city:luxembourgcity" },
+    aliases: [
+      "luxembourgcity",
+      "luxembourg city",
+      "luxembourg ville",
+      "luxembourg luxembourg",
+    ],
+    search: {
+      remote: "businessregion:emea",
+      onSiteOrHybrid: "city:luxembourgcity",
+    },
     country: "luxembourg",
     continent: "europe",
     businessRegion: "emea",
@@ -3128,7 +3771,10 @@ export const CITIES_MAP = {
     id: "singaporecity",
     label: "Singapore",
     aliases: ["singaporecity", "singapore", "singapore city"],
-    search: { remote: "businessregion:apac", onSiteOrHybrid: "city:singaporecity" },
+    search: {
+      remote: "businessregion:apac",
+      onSiteOrHybrid: "city:singaporecity",
+    },
     country: "singapore",
     continent: "asia",
     businessRegion: "apac",
@@ -3188,12 +3834,23 @@ export const SKILLS_MAP = {
   ahrefs: {
     id: "ahrefs",
     label: "Ahrefs",
-    aliases: ["ahrefs", "ahrefs seo tool", "backlink checker ahrefs", "keyword explorer ahrefs", "seo suite ahrefs"],
+    aliases: [
+      "ahrefs",
+      "ahrefs seo tool",
+      "backlink checker ahrefs",
+      "keyword explorer ahrefs",
+      "seo suite ahrefs",
+    ],
   },
   airflow: {
     id: "airflow",
     label: "Airflow",
-    aliases: ["airflow", "apache airflow", "workflow orchestration airflow", "dag scheduler airflow"],
+    aliases: [
+      "airflow",
+      "apache airflow",
+      "workflow orchestration airflow",
+      "dag scheduler airflow",
+    ],
   },
   android: {
     id: "android",
@@ -3208,17 +3865,34 @@ export const SKILLS_MAP = {
   ansible: {
     id: "ansible",
     label: "Ansible",
-    aliases: ["ansible", "ansible automation", "ansible playbook", "redhat ansible"],
+    aliases: [
+      "ansible",
+      "ansible automation",
+      "ansible playbook",
+      "redhat ansible",
+    ],
   },
   apache: {
     id: "apache",
     label: "Apache",
-    aliases: ["apache", "apache http server", "apache web server", "httpd", "apache2"],
+    aliases: [
+      "apache",
+      "apache http server",
+      "apache web server",
+      "httpd",
+      "apache2",
+    ],
   },
   apollo: {
     id: "apollo",
     label: "Apollo",
-    aliases: ["apollo", "apollo graphql", "apollo client", "apollo server", "apollo federation"],
+    aliases: [
+      "apollo",
+      "apollo graphql",
+      "apollo client",
+      "apollo server",
+      "apollo federation",
+    ],
   },
   aspnet: {
     id: "aspnet",
@@ -3238,12 +3912,24 @@ export const SKILLS_MAP = {
   aws: {
     id: "aws",
     label: "AWS",
-    aliases: ["amazon web services", "aws cloud", "ec2 s3 aws", "aws platform", "aws"],
+    aliases: [
+      "amazon web services",
+      "aws cloud",
+      "ec2 s3 aws",
+      "aws platform",
+      "aws",
+    ],
   },
   azure: {
     id: "azure",
     label: "Azure",
-    aliases: ["azure", "microsoft azure", "azure cloud", "azure platform", "ms azure"],
+    aliases: [
+      "azure",
+      "microsoft azure",
+      "azure cloud",
+      "azure platform",
+      "ms azure",
+    ],
   },
   babel: {
     id: "babel",
@@ -3258,12 +3944,25 @@ export const SKILLS_MAP = {
   bash: {
     id: "bash",
     label: "Bash",
-    aliases: ["bash", "shell", "sh", "bash shell", "gnu bash", "scripting shell"],
+    aliases: [
+      "bash",
+      "shell",
+      "sh",
+      "bash shell",
+      "gnu bash",
+      "scripting shell",
+    ],
   },
   bigquery: {
     id: "bigquery",
     label: "BigQuery",
-    aliases: ["bigquery", "google bigquery", "gcp bigquery", "big query", "data warehouse bigquery"],
+    aliases: [
+      "bigquery",
+      "google bigquery",
+      "gcp bigquery",
+      "big query",
+      "data warehouse bigquery",
+    ],
   },
   bootstrap: {
     id: "bootstrap",
@@ -3273,12 +3972,23 @@ export const SKILLS_MAP = {
   cassandra: {
     id: "cassandra",
     label: "Cassandra",
-    aliases: ["cassandra", "apache cassandra", "nosql cassandra", "wide column cassandra"],
+    aliases: [
+      "cassandra",
+      "apache cassandra",
+      "nosql cassandra",
+      "wide column cassandra",
+    ],
   },
   chai: {
     id: "chai",
     label: "Chai",
-    aliases: ["chai", "chai.js", "chai assertion library", "node chai", "javascript chai"],
+    aliases: [
+      "chai",
+      "chai.js",
+      "chai assertion library",
+      "node chai",
+      "javascript chai",
+    ],
   },
   chef: {
     id: "chef",
@@ -3293,22 +4003,45 @@ export const SKILLS_MAP = {
   cloud: {
     id: "cloud",
     label: "Cloud",
-    aliases: ["cloud", "cloud computing", "iaas paas saas", "aws azure gcp", "cloud infrastructure"],
+    aliases: [
+      "cloud",
+      "cloud computing",
+      "iaas paas saas",
+      "aws azure gcp",
+      "cloud infrastructure",
+    ],
   },
   consul: {
     id: "consul",
     label: "Consul",
-    aliases: ["consul", "hashicorp consul", "service discovery consul", "consul kv"],
+    aliases: [
+      "consul",
+      "hashicorp consul",
+      "service discovery consul",
+      "consul kv",
+    ],
   },
   contentseo: {
     id: "contentseo",
     label: "Content SEO",
-    aliases: ["content seo", "seo content writing", "content optimization", "blog seo", "semantic seo"],
+    aliases: [
+      "content seo",
+      "seo content writing",
+      "content optimization",
+      "blog seo",
+      "semantic seo",
+    ],
   },
   corewebvitals: {
     id: "corewebvitals",
     label: "Core Web Vitals",
-    aliases: ["core web vitals", "lcp fid cls", "page speed metrics", "google page experience", "web vitals seo"],
+    aliases: [
+      "core web vitals",
+      "lcp fid cls",
+      "page speed metrics",
+      "google page experience",
+      "web vitals seo",
+    ],
   },
   cpp: {
     id: "cpp",
@@ -3328,7 +4061,13 @@ export const SKILLS_MAP = {
   cybersecurity: {
     id: "cybersecurity",
     label: "Cybersecurity",
-    aliases: ["cybersecurity", "information security", "infosec", "cyber security", "security engineering"],
+    aliases: [
+      "cybersecurity",
+      "information security",
+      "infosec",
+      "cyber security",
+      "security engineering",
+    ],
   },
   cypress: {
     id: "cypress",
@@ -3374,7 +4113,12 @@ export const SKILLS_MAP = {
   distributedsystem: {
     id: "distributedsystem",
     label: "Distributed System",
-    aliases: ["distributed system", "distributed systems", "distributed computing", "distributed architecture"],
+    aliases: [
+      "distributed system",
+      "distributed systems",
+      "distributed computing",
+      "distributed architecture",
+    ],
   },
   django: {
     id: "django",
@@ -3384,17 +4128,34 @@ export const SKILLS_MAP = {
   dns: {
     id: "dns",
     label: "DNS",
-    aliases: ["dns", "domain name system", "dns records", "name resolution dns", "bind dns"],
+    aliases: [
+      "dns",
+      "domain name system",
+      "dns records",
+      "name resolution dns",
+      "bind dns",
+    ],
   },
   docker: {
     id: "docker",
     label: "Docker",
-    aliases: ["docker container", "containerization docker", "docker engine", "docker"],
+    aliases: [
+      "docker container",
+      "containerization docker",
+      "docker engine",
+      "docker",
+    ],
   },
   dotnet: {
     id: "dotnet",
     label: ".NET",
-    aliases: [".net", "dot net", ".net framework", ".net core", ".net platform"],
+    aliases: [
+      ".net",
+      "dot net",
+      ".net framework",
+      ".net core",
+      ".net platform",
+    ],
   },
   dynamodb: {
     id: "dynamodb",
@@ -3409,12 +4170,23 @@ export const SKILLS_MAP = {
   elasticsearch: {
     id: "elasticsearch",
     label: "Elasticsearch",
-    aliases: ["elasticsearch", "elastic search", "elk elasticsearch", "search engine elastic"],
+    aliases: [
+      "elasticsearch",
+      "elastic search",
+      "elk elasticsearch",
+      "search engine elastic",
+    ],
   },
   electron: {
     id: "electron",
     label: "Electron",
-    aliases: ["electron", "electronjs", "electron.js", "desktop electron", "chromium node"],
+    aliases: [
+      "electron",
+      "electronjs",
+      "electron.js",
+      "desktop electron",
+      "chromium node",
+    ],
   },
   elixir: {
     id: "elixir",
@@ -3429,7 +4201,13 @@ export const SKILLS_MAP = {
   entityframework: {
     id: "entityframework",
     label: "Entity Framework",
-    aliases: ["entity framework", "ef", "ef core", "entity framework core", "microsoft ef"],
+    aliases: [
+      "entity framework",
+      "ef",
+      "ef core",
+      "entity framework core",
+      "microsoft ef",
+    ],
   },
   erlang: {
     id: "erlang",
@@ -3439,7 +4217,12 @@ export const SKILLS_MAP = {
   erp: {
     id: "erp",
     label: "ERP",
-    aliases: ["erp", "enterprise resource planning", "erp systems", "business management software"],
+    aliases: [
+      "erp",
+      "enterprise resource planning",
+      "erp systems",
+      "business management software",
+    ],
   },
   eslint: {
     id: "eslint",
@@ -3449,22 +4232,45 @@ export const SKILLS_MAP = {
   etl: {
     id: "etl",
     label: "ETL",
-    aliases: ["etl", "extract transform load", "data pipeline", "etl pipeline", "data integration"],
+    aliases: [
+      "etl",
+      "extract transform load",
+      "data pipeline",
+      "etl pipeline",
+      "data integration",
+    ],
   },
   ffmpeg: {
     id: "ffmpeg",
     label: "FFmpeg",
-    aliases: ["ffmpeg", "ffmpeg cli", "libav", "video encoding ffmpeg", "media toolkit"],
+    aliases: [
+      "ffmpeg",
+      "ffmpeg cli",
+      "libav",
+      "video encoding ffmpeg",
+      "media toolkit",
+    ],
   },
   firebase: {
     id: "firebase",
     label: "Firebase",
-    aliases: ["firebase", "google firebase", "firebase backend", "firebase platform"],
+    aliases: [
+      "firebase",
+      "google firebase",
+      "firebase backend",
+      "firebase platform",
+    ],
   },
   firewalls: {
     id: "firewalls",
     label: "Firewalls",
-    aliases: ["firewalls", "network firewall", "security firewall", "waf", "iptables firewall"],
+    aliases: [
+      "firewalls",
+      "network firewall",
+      "security firewall",
+      "waf",
+      "iptables firewall",
+    ],
   },
   flask: {
     id: "flask",
@@ -3489,7 +4295,12 @@ export const SKILLS_MAP = {
   gcp: {
     id: "gcp",
     label: "Google Cloud Platform",
-    aliases: ["google cloud platform", "google cloud", "gcp cloud", "google cloud platform gcp"],
+    aliases: [
+      "google cloud platform",
+      "google cloud",
+      "gcp cloud",
+      "google cloud platform gcp",
+    ],
   },
   go: {
     id: "go",
@@ -3499,17 +4310,35 @@ export const SKILLS_MAP = {
   googleanalytics: {
     id: "googleanalytics",
     label: "Google Analytics",
-    aliases: ["google analytics", "ga", "google analytics 4", "ga4", "analytics tracking", "web analytics google"],
+    aliases: [
+      "google analytics",
+      "ga",
+      "google analytics 4",
+      "ga4",
+      "analytics tracking",
+      "web analytics google",
+    ],
   },
   googlesearchconsole: {
     id: "googlesearchconsole",
     label: "Google Search Console",
-    aliases: ["google search console", "gsc", "search console", "google webmaster tools", "index coverage tool"],
+    aliases: [
+      "google search console",
+      "gsc",
+      "search console",
+      "google webmaster tools",
+      "index coverage tool",
+    ],
   },
   grafana: {
     id: "grafana",
     label: "Grafana",
-    aliases: ["grafana", "grafana labs", "metrics dashboard grafana", "observability grafana"],
+    aliases: [
+      "grafana",
+      "grafana labs",
+      "metrics dashboard grafana",
+      "observability grafana",
+    ],
   },
   graphql: {
     id: "graphql",
@@ -3524,22 +4353,43 @@ export const SKILLS_MAP = {
   grpc: {
     id: "grpc",
     label: "GRPC",
-    aliases: ["grpc", "grpc protocol", "google rpc", "remote procedure call grpc"],
+    aliases: [
+      "grpc",
+      "grpc protocol",
+      "google rpc",
+      "remote procedure call grpc",
+    ],
   },
   guidewire: {
     id: "guidewire",
     label: "Guidewire",
-    aliases: ["guidewire", "guidewire software", "insurance suite guidewire", "policycenter guidewire"],
+    aliases: [
+      "guidewire",
+      "guidewire software",
+      "insurance suite guidewire",
+      "policycenter guidewire",
+    ],
   },
   hadoop: {
     id: "hadoop",
     label: "Hadoop",
-    aliases: ["hadoop", "apache hadoop", "hadoop ecosystem", "hadoop framework", "big data hadoop"],
+    aliases: [
+      "hadoop",
+      "apache hadoop",
+      "hadoop ecosystem",
+      "hadoop framework",
+      "big data hadoop",
+    ],
   },
   haproxy: {
     id: "haproxy",
     label: "HAProxy",
-    aliases: ["haproxy", "load balancer haproxy", "reverse proxy haproxy", "high availability proxy"],
+    aliases: [
+      "haproxy",
+      "load balancer haproxy",
+      "reverse proxy haproxy",
+      "high availability proxy",
+    ],
   },
   haskell: {
     id: "haskell",
@@ -3554,7 +4404,12 @@ export const SKILLS_MAP = {
   hdfs: {
     id: "hdfs",
     label: "HDFS",
-    aliases: ["hdfs", "hadoop distributed file system", "hadoop fs", "distributed file system hdfs"],
+    aliases: [
+      "hdfs",
+      "hadoop distributed file system",
+      "hadoop fs",
+      "distributed file system hdfs",
+    ],
   },
   heroku: {
     id: "heroku",
@@ -3595,7 +4450,12 @@ export const SKILLS_MAP = {
   itsm: {
     id: "itsm",
     label: "ITSM",
-    aliases: ["itsm", "it service management", "information technology service management", "itsm processes"],
+    aliases: [
+      "itsm",
+      "it service management",
+      "information technology service management",
+      "itsm processes",
+    ],
   },
   java: {
     id: "java",
@@ -3610,22 +4470,43 @@ export const SKILLS_MAP = {
   jenkins: {
     id: "jenkins",
     label: "Jenkins",
-    aliases: ["jenkins", "ci jenkins", "jenkins pipeline", "automation server jenkins"],
+    aliases: [
+      "jenkins",
+      "ci jenkins",
+      "jenkins pipeline",
+      "automation server jenkins",
+    ],
   },
   jest: {
     id: "jest",
     label: "Jest",
-    aliases: ["jestjs", "jest testing", "javascript jest", "react testing jest", "jest"],
+    aliases: [
+      "jestjs",
+      "jest testing",
+      "javascript jest",
+      "react testing jest",
+      "jest",
+    ],
   },
   jmeter: {
     id: "jmeter",
     label: "JMeter",
-    aliases: ["jmeter", "apache jmeter", "performance testing jmeter", "load testing jmeter"],
+    aliases: [
+      "jmeter",
+      "apache jmeter",
+      "performance testing jmeter",
+      "load testing jmeter",
+    ],
   },
   joomla: {
     id: "joomla",
     label: "Joomla",
-    aliases: ["joomla", "joomla cms", "joomla framework", "content management joomla"],
+    aliases: [
+      "joomla",
+      "joomla cms",
+      "joomla framework",
+      "content management joomla",
+    ],
   },
   jquery: {
     id: "jquery",
@@ -3635,27 +4516,57 @@ export const SKILLS_MAP = {
   junit: {
     id: "junit",
     label: "JUnit",
-    aliases: ["junit", "java junit", "junit 4", "junit 5", "unit testing java junit"],
+    aliases: [
+      "junit",
+      "java junit",
+      "junit 4",
+      "junit 5",
+      "unit testing java junit",
+    ],
   },
   jwt: {
     id: "jwt",
     label: "JWT",
-    aliases: ["jwt", "json web token", "jwt auth", "token based authentication", "bearer token jwt"],
+    aliases: [
+      "jwt",
+      "json web token",
+      "jwt auth",
+      "token based authentication",
+      "bearer token jwt",
+    ],
   },
   kafka: {
     id: "kafka",
     label: "Kafka",
-    aliases: ["kafka", "apache kafka", "event streaming kafka", "message broker kafka", "kafka streams"],
+    aliases: [
+      "kafka",
+      "apache kafka",
+      "event streaming kafka",
+      "message broker kafka",
+      "kafka streams",
+    ],
   },
   keras: {
     id: "keras",
     label: "Keras",
-    aliases: ["keras", "tensorflow keras", "deep learning keras", "keras api", "neural network keras"],
+    aliases: [
+      "keras",
+      "tensorflow keras",
+      "deep learning keras",
+      "keras api",
+      "neural network keras",
+    ],
   },
   keywordresearch: {
     id: "keywordresearch",
     label: "Keyword Research",
-    aliases: ["keyword research", "seo keywords", "keyword analysis", "search intent research", "keyword planning"],
+    aliases: [
+      "keyword research",
+      "seo keywords",
+      "keyword analysis",
+      "search intent research",
+      "keyword planning",
+    ],
   },
   kotlin: {
     id: "kotlin",
@@ -3665,7 +4576,12 @@ export const SKILLS_MAP = {
   kubernetes: {
     id: "kubernetes",
     label: "Kubernetes",
-    aliases: ["k8s", "kube", "container orchestration kubernetes", "kubernetes"],
+    aliases: [
+      "k8s",
+      "kube",
+      "container orchestration kubernetes",
+      "kubernetes",
+    ],
   },
   laravel: {
     id: "laravel",
@@ -3675,7 +4591,13 @@ export const SKILLS_MAP = {
   linux: {
     id: "linux",
     label: "Linux",
-    aliases: ["linux", "linux os", "ubuntu linux", "debian linux", "unix-like operating system"],
+    aliases: [
+      "linux",
+      "linux os",
+      "ubuntu linux",
+      "debian linux",
+      "unix-like operating system",
+    ],
   },
   localseo: {
     id: "localseo",
@@ -3691,7 +4613,12 @@ export const SKILLS_MAP = {
   logstash: {
     id: "logstash",
     label: "Logstash",
-    aliases: ["logstash", "elastic logstash", "elk logstash", "log ingestion logstash"],
+    aliases: [
+      "logstash",
+      "elastic logstash",
+      "elk logstash",
+      "log ingestion logstash",
+    ],
   },
   lua: {
     id: "lua",
@@ -3701,7 +4628,13 @@ export const SKILLS_MAP = {
   macos: {
     id: "macos",
     label: "macOS",
-    aliases: ["macos", "apple macos", "osx", "mac os", "darwin operating system"],
+    aliases: [
+      "macos",
+      "apple macos",
+      "osx",
+      "mac os",
+      "darwin operating system",
+    ],
   },
   magento: {
     id: "magento",
@@ -3726,7 +4659,12 @@ export const SKILLS_MAP = {
   microservices: {
     id: "microservices",
     label: "Microservices",
-    aliases: ["microservices", "microservice architecture", "distributed microservices", "microservices architecture"],
+    aliases: [
+      "microservices",
+      "microservice architecture",
+      "distributed microservices",
+      "microservices architecture",
+    ],
   },
   mobx: {
     id: "mobx",
@@ -3736,12 +4674,23 @@ export const SKILLS_MAP = {
   mocha: {
     id: "mocha",
     label: "Mocha",
-    aliases: ["mocha", "mochajs", "mocha testing framework", "node mocha", "javascript mocha"],
+    aliases: [
+      "mocha",
+      "mochajs",
+      "mocha testing framework",
+      "node mocha",
+      "javascript mocha",
+    ],
   },
   mockito: {
     id: "mockito",
     label: "Mockito",
-    aliases: ["mockito", "java mockito", "mocking framework mockito", "unit testing mockito"],
+    aliases: [
+      "mockito",
+      "java mockito",
+      "mocking framework mockito",
+      "unit testing mockito",
+    ],
   },
   mongodb: {
     id: "mongodb",
@@ -3751,12 +4700,24 @@ export const SKILLS_MAP = {
   moz: {
     id: "moz",
     label: "Moz",
-    aliases: ["moz", "moz pro", "moz seo tool", "domain authority moz", "keyword explorer moz"],
+    aliases: [
+      "moz",
+      "moz pro",
+      "moz seo tool",
+      "domain authority moz",
+      "keyword explorer moz",
+    ],
   },
   mssqlserver: {
     id: "mssqlserver",
     label: "MS SQL Server",
-    aliases: ["ms sql server", "mssql", "sql server", "microsoft sql server", "tsql"],
+    aliases: [
+      "ms sql server",
+      "mssql",
+      "sql server",
+      "microsoft sql server",
+      "tsql",
+    ],
   },
   mysql: {
     id: "mysql",
@@ -3766,7 +4727,12 @@ export const SKILLS_MAP = {
   neo4j: {
     id: "neo4j",
     label: "Neo4j",
-    aliases: ["neo4j", "graph database neo4j", "cypher neo4j", "graph db neo4j"],
+    aliases: [
+      "neo4j",
+      "graph database neo4j",
+      "cypher neo4j",
+      "graph db neo4j",
+    ],
   },
   nextjs: {
     id: "nextjs",
@@ -3781,17 +4747,35 @@ export const SKILLS_MAP = {
   nginx: {
     id: "nginx",
     label: "Nginx",
-    aliases: ["nginx", "nginx web server", "reverse proxy nginx", "load balancer nginx", "engine x"],
+    aliases: [
+      "nginx",
+      "nginx web server",
+      "reverse proxy nginx",
+      "load balancer nginx",
+      "engine x",
+    ],
   },
   nodejs: {
     id: "nodejs",
     label: "Node.js",
-    aliases: ["node.js", "node", "node js", "node.js runtime", "nodejs runtime"],
+    aliases: [
+      "node.js",
+      "node",
+      "node js",
+      "node.js runtime",
+      "nodejs runtime",
+    ],
   },
   nosql: {
     id: "nosql",
     label: "NoSQL",
-    aliases: ["nosql", "nosql database", "non relational database", "document database", "key value store"],
+    aliases: [
+      "nosql",
+      "nosql database",
+      "non relational database",
+      "document database",
+      "key value store",
+    ],
   },
   npm: {
     id: "npm",
@@ -3801,7 +4785,13 @@ export const SKILLS_MAP = {
   numpy: {
     id: "numpy",
     label: "NumPy",
-    aliases: ["numpy", "numpy python", "np", "numerical python numpy", "array computing numpy"],
+    aliases: [
+      "numpy",
+      "numpy python",
+      "np",
+      "numerical python numpy",
+      "array computing numpy",
+    ],
   },
   nuxt: {
     id: "nuxt",
@@ -3811,12 +4801,24 @@ export const SKILLS_MAP = {
   objectivec: {
     id: "objectivec",
     label: "Objective-C",
-    aliases: ["objective-c", "objective c", "objc", "ios objective-c", "apple objective-c"],
+    aliases: [
+      "objective-c",
+      "objective c",
+      "objc",
+      "ios objective-c",
+      "apple objective-c",
+    ],
   },
   offpageseo: {
     id: "offpageseo",
     label: "Off-Page SEO",
-    aliases: ["off-page seo", "offpage seo", "link building", "backlink strategy", "domain authority building"],
+    aliases: [
+      "off-page seo",
+      "offpage seo",
+      "link building",
+      "backlink strategy",
+      "domain authority building",
+    ],
   },
   onpageseo: {
     id: "onpageseo",
@@ -3837,22 +4839,44 @@ export const SKILLS_MAP = {
   opensource: {
     id: "opensource",
     label: "Open Source",
-    aliases: ["open source", "open-source software", "oss", "foss", "public source code"],
+    aliases: [
+      "open source",
+      "open-source software",
+      "oss",
+      "foss",
+      "public source code",
+    ],
   },
   openstack: {
     id: "openstack",
     label: "OpenStack",
-    aliases: ["openstack", "open stack", "iaas openstack", "private cloud openstack"],
+    aliases: [
+      "openstack",
+      "open stack",
+      "iaas openstack",
+      "private cloud openstack",
+    ],
   },
   oracle: {
     id: "oracle",
     label: "Oracle",
-    aliases: ["oracle", "oracle database", "oracle db", "oracle rdbms", "oracle sql"],
+    aliases: [
+      "oracle",
+      "oracle database",
+      "oracle db",
+      "oracle rdbms",
+      "oracle sql",
+    ],
   },
   oracleerp: {
     id: "oracleerp",
     label: "Oracle ERP",
-    aliases: ["oracle erp", "oracle enterprise resource planning", "oracle fusion erp", "oracle financials"],
+    aliases: [
+      "oracle erp",
+      "oracle enterprise resource planning",
+      "oracle fusion erp",
+      "oracle financials",
+    ],
   },
   packer: {
     id: "packer",
@@ -3862,7 +4886,13 @@ export const SKILLS_MAP = {
   pandas: {
     id: "pandas",
     label: "Pandas",
-    aliases: ["pandas", "pandas python", "dataframe pandas", "pd", "data analysis pandas"],
+    aliases: [
+      "pandas",
+      "pandas python",
+      "dataframe pandas",
+      "pd",
+      "data analysis pandas",
+    ],
   },
   perl: {
     id: "perl",
@@ -3892,7 +4922,12 @@ export const SKILLS_MAP = {
   postgis: {
     id: "postgis",
     label: "PostGIS",
-    aliases: ["postgis", "postgres gis", "geospatial postgres", "spatial database postgis"],
+    aliases: [
+      "postgis",
+      "postgres gis",
+      "geospatial postgres",
+      "spatial database postgis",
+    ],
   },
   postgresql: {
     id: "postgresql",
@@ -3907,17 +4942,33 @@ export const SKILLS_MAP = {
   pubsub: {
     id: "pubsub",
     label: "Pub/Sub",
-    aliases: ["pub/sub", "google pubsub", "cloud pub/sub", "message pubsub", "event pubsub"],
+    aliases: [
+      "pub/sub",
+      "google pubsub",
+      "cloud pub/sub",
+      "message pubsub",
+      "event pubsub",
+    ],
   },
   pulsar: {
     id: "pulsar",
     label: "Pulsar",
-    aliases: ["pulsar", "apache pulsar", "message broker pulsar", "event streaming pulsar"],
+    aliases: [
+      "pulsar",
+      "apache pulsar",
+      "message broker pulsar",
+      "event streaming pulsar",
+    ],
   },
   puppet: {
     id: "puppet",
     label: "Puppet",
-    aliases: ["puppet", "puppet labs", "puppet automation", "config management puppet"],
+    aliases: [
+      "puppet",
+      "puppet labs",
+      "puppet automation",
+      "config management puppet",
+    ],
   },
   puppeteer: {
     id: "puppeteer",
@@ -3933,7 +4984,13 @@ export const SKILLS_MAP = {
   pyspark: {
     id: "pyspark",
     label: "PySpark",
-    aliases: ["pyspark", "spark python", "apache spark python", "pyspark sql", "spark dataframe python"],
+    aliases: [
+      "pyspark",
+      "spark python",
+      "apache spark python",
+      "pyspark sql",
+      "spark dataframe python",
+    ],
   },
   python: {
     id: "python",
@@ -3943,17 +5000,33 @@ export const SKILLS_MAP = {
   pytorch: {
     id: "pytorch",
     label: "PyTorch",
-    aliases: ["pytorch", "torch", "facebook pytorch", "deep learning pytorch", "torch library"],
+    aliases: [
+      "pytorch",
+      "torch",
+      "facebook pytorch",
+      "deep learning pytorch",
+      "torch library",
+    ],
   },
   rabbitmq: {
     id: "rabbitmq",
     label: "RabbitMQ",
-    aliases: ["rabbitmq", "rabbit mq", "message broker rabbitmq", "amqp rabbitmq"],
+    aliases: [
+      "rabbitmq",
+      "rabbit mq",
+      "message broker rabbitmq",
+      "amqp rabbitmq",
+    ],
   },
   rdbms: {
     id: "rdbms",
     label: "RDBMS",
-    aliases: ["rdbms", "relational database", "relational database management system", "sql database"],
+    aliases: [
+      "rdbms",
+      "relational database",
+      "relational database management system",
+      "sql database",
+    ],
   },
   react: {
     id: "react",
@@ -3963,7 +5036,12 @@ export const SKILLS_MAP = {
   reactcontext: {
     id: "react-context",
     label: "React Context",
-    aliases: ["react context", "react context api", "context api", "react-context"],
+    aliases: [
+      "react context",
+      "react context api",
+      "context api",
+      "react-context",
+    ],
   },
   reacthookform: {
     id: "react-hook-form",
@@ -3993,17 +5071,36 @@ export const SKILLS_MAP = {
   realm: {
     id: "realm",
     label: "Realm",
-    aliases: ["realm", "realm db", "realm database", "mongodb realm", "realm mobile database"],
+    aliases: [
+      "realm",
+      "realm db",
+      "realm database",
+      "mongodb realm",
+      "realm mobile database",
+    ],
   },
   redis: {
     id: "redis",
     label: "Redis",
-    aliases: ["redis", "redis cache", "redis db", "in memory redis", "redis store"],
+    aliases: [
+      "redis",
+      "redis cache",
+      "redis db",
+      "in memory redis",
+      "redis store",
+    ],
   },
   redux: {
     id: "redux",
     label: "Redux",
-    aliases: ["redux", "reduxjs", "redux.js", "redux toolkit", "redux saga", "redux thunk"],
+    aliases: [
+      "redux",
+      "reduxjs",
+      "redux.js",
+      "redux toolkit",
+      "redux saga",
+      "redux thunk",
+    ],
   },
   remix: {
     id: "remix",
@@ -4013,12 +5110,23 @@ export const SKILLS_MAP = {
   remotesensing: {
     id: "remotesensing",
     label: "Remote Sensing",
-    aliases: ["remote sensing", "earth observation", "satellite imaging", "gis remote sensing", "geospatial analysis"],
+    aliases: [
+      "remote sensing",
+      "earth observation",
+      "satellite imaging",
+      "gis remote sensing",
+      "geospatial analysis",
+    ],
   },
   roku: {
     id: "roku",
     label: "Roku",
-    aliases: ["roku", "roku sdk", "roku channel development", "brightscript roku"],
+    aliases: [
+      "roku",
+      "roku sdk",
+      "roku channel development",
+      "brightscript roku",
+    ],
   },
   rollup: {
     id: "rollup",
@@ -4028,17 +5136,34 @@ export const SKILLS_MAP = {
   rpa: {
     id: "rpa",
     label: "RPA",
-    aliases: ["rpa", "robotic process automation", "ui automation bots", "process automation rpa"],
+    aliases: [
+      "rpa",
+      "robotic process automation",
+      "ui automation bots",
+      "process automation rpa",
+    ],
   },
   rspec: {
     id: "rspec",
     label: "RSpec",
-    aliases: ["rspec", "ruby rspec", "rspec testing", "behavior driven development rspec", "bdd rspec"],
+    aliases: [
+      "rspec",
+      "ruby rspec",
+      "rspec testing",
+      "behavior driven development rspec",
+      "bdd rspec",
+    ],
   },
   rtos: {
     id: "rtos",
     label: "RTOS",
-    aliases: ["rtos", "real time operating system", "embedded rtos", "freertos", "deterministic os"],
+    aliases: [
+      "rtos",
+      "real time operating system",
+      "embedded rtos",
+      "freertos",
+      "deterministic os",
+    ],
   },
   ruby: {
     id: "ruby",
@@ -4053,7 +5178,13 @@ export const SKILLS_MAP = {
   rust: {
     id: "rust",
     label: "Rust",
-    aliases: ["rust", "rustlang", "cargo", "rustc", "rust programming language"],
+    aliases: [
+      "rust",
+      "rustlang",
+      "cargo",
+      "rustc",
+      "rust programming language",
+    ],
   },
   rxjs: {
     id: "rxjs",
@@ -4063,7 +5194,12 @@ export const SKILLS_MAP = {
   saltstack: {
     id: "saltstack",
     label: "SaltStack",
-    aliases: ["saltstack", "salt", "saltstack automation", "salt config management"],
+    aliases: [
+      "saltstack",
+      "salt",
+      "saltstack automation",
+      "salt config management",
+    ],
   },
   sass: {
     id: "sass",
@@ -4078,27 +5214,55 @@ export const SKILLS_MAP = {
   schemamarkup: {
     id: "schemamarkup",
     label: "Schema Markup",
-    aliases: ["schema markup", "structured data", "json ld", "rich snippets", "schema.org markup"],
+    aliases: [
+      "schema markup",
+      "structured data",
+      "json ld",
+      "rich snippets",
+      "schema.org markup",
+    ],
   },
   scikitlearn: {
     id: "scikitlearn",
     label: "Scikit-learn",
-    aliases: ["scikit-learn", "sklearn", "scikit learn", "python sklearn", "machine learning sklearn"],
+    aliases: [
+      "scikit-learn",
+      "sklearn",
+      "scikit learn",
+      "python sklearn",
+      "machine learning sklearn",
+    ],
   },
   screamingfrog: {
     id: "screamingfrog",
     label: "Screaming Frog",
-    aliases: ["screaming frog", "screaming frog seo spider", "seo crawler screaming frog", "site audit screaming frog"],
+    aliases: [
+      "screaming frog",
+      "screaming frog seo spider",
+      "seo crawler screaming frog",
+      "site audit screaming frog",
+    ],
   },
   sdlc: {
     id: "sdlc",
     label: "SDLC",
-    aliases: ["sdlc", "software development lifecycle", "software development life cycle", "application lifecycle"],
+    aliases: [
+      "sdlc",
+      "software development lifecycle",
+      "software development life cycle",
+      "application lifecycle",
+    ],
   },
   selenium: {
     id: "selenium",
     label: "Selenium",
-    aliases: ["selenium webdriver", "browser automation selenium", "e2e selenium", "selenium testing", "selenium"],
+    aliases: [
+      "selenium webdriver",
+      "browser automation selenium",
+      "e2e selenium",
+      "selenium testing",
+      "selenium",
+    ],
   },
   semrush: {
     id: "semrush",
@@ -4114,47 +5278,95 @@ export const SKILLS_MAP = {
   servicenow: {
     id: "servicenow",
     label: "ServiceNow",
-    aliases: ["servicenow", "servicenow platform", "itsm servicenow", "sn platform"],
+    aliases: [
+      "servicenow",
+      "servicenow platform",
+      "itsm servicenow",
+      "sn platform",
+    ],
   },
   sfdc: {
     id: "sfdc",
     label: "SFDC",
-    aliases: ["sfdc", "salesforce", "salesforce crm", "force.com", "salesforce platform"],
+    aliases: [
+      "sfdc",
+      "salesforce",
+      "salesforce crm",
+      "force.com",
+      "salesforce platform",
+    ],
   },
   sitecore: {
     id: "sitecore",
     label: "Sitecore",
-    aliases: ["sitecore", "sitecore cms", "sitecore xp", "sitecore experience platform"],
+    aliases: [
+      "sitecore",
+      "sitecore cms",
+      "sitecore xp",
+      "sitecore experience platform",
+    ],
   },
   smtp: {
     id: "smtp",
     label: "SMTP",
-    aliases: ["smtp", "simple mail transfer protocol", "email smtp", "mail protocol smtp"],
+    aliases: [
+      "smtp",
+      "simple mail transfer protocol",
+      "email smtp",
+      "mail protocol smtp",
+    ],
   },
   soap: {
     id: "soap",
     label: "SOAP",
-    aliases: ["soap", "simple object access protocol", "soap web services", "xml soap api"],
+    aliases: [
+      "soap",
+      "simple object access protocol",
+      "soap web services",
+      "xml soap api",
+    ],
   },
   solidity: {
     id: "solidity",
     label: "Solidity",
-    aliases: ["solidity", "ethereum solidity", "evm", "smart contracts", "solidity lang"],
+    aliases: [
+      "solidity",
+      "ethereum solidity",
+      "evm",
+      "smart contracts",
+      "solidity lang",
+    ],
   },
   spark: {
     id: "spark",
     label: "Spark",
-    aliases: ["spark", "apache spark", "spark ml", "spark sql", "big data spark"],
+    aliases: [
+      "spark",
+      "apache spark",
+      "spark ml",
+      "spark sql",
+      "big data spark",
+    ],
   },
   spinnaker: {
     id: "spinnaker",
     label: "Spinnaker",
-    aliases: ["spinnaker", "continuous delivery spinnaker", "cd spinnaker", "netflix spinnaker"],
+    aliases: [
+      "spinnaker",
+      "continuous delivery spinnaker",
+      "cd spinnaker",
+      "netflix spinnaker",
+    ],
   },
   splunk: {
     id: "splunk",
     label: "Splunk",
-    aliases: ["splunk", "splunk enterprise", "log analytics splunk", "siem splunk"],
+    aliases: [
+      "splunk",
+      "splunk enterprise",
+      "log analytics splunk",
+      "siem splunk",
+    ],
   },
   spring: {
     id: "spring",
@@ -4214,7 +5426,12 @@ export const SKILLS_MAP = {
   tableau: {
     id: "tableau",
     label: "Tableau",
-    aliases: ["tableau", "tableau software", "data visualization tableau", "tableau desktop"],
+    aliases: [
+      "tableau",
+      "tableau software",
+      "data visualization tableau",
+      "tableau desktop",
+    ],
   },
   tailwind: {
     id: "tailwindcss",
@@ -4224,7 +5441,13 @@ export const SKILLS_MAP = {
   tcpip: {
     id: "tcpip",
     label: "TCP/IP",
-    aliases: ["tcp/ip", "tcp ip stack", "tcp/ip protocol suite", "networking tcp ip", "internet protocol suite"],
+    aliases: [
+      "tcp/ip",
+      "tcp ip stack",
+      "tcp/ip protocol suite",
+      "networking tcp ip",
+      "internet protocol suite",
+    ],
   },
   technicalseo: {
     id: "technicalseo",
@@ -4240,7 +5463,12 @@ export const SKILLS_MAP = {
   tempo: {
     id: "tempo",
     label: "Tempo",
-    aliases: ["tempo", "grafana tempo", "tempo tracing", "distributed tracing tempo"],
+    aliases: [
+      "tempo",
+      "grafana tempo",
+      "tempo tracing",
+      "distributed tracing tempo",
+    ],
   },
   memcached: {
     id: "memcached",
@@ -4305,22 +5533,45 @@ export const SKILLS_MAP = {
   temporal: {
     id: "temporal",
     label: "Temporal",
-    aliases: ["temporal", "temporal io", "temporal workflow", "temporal cadence", "temporal server"],
+    aliases: [
+      "temporal",
+      "temporal io",
+      "temporal workflow",
+      "temporal cadence",
+      "temporal server",
+    ],
   },
   tensorflow: {
     id: "tensorflow",
     label: "TensorFlow",
-    aliases: ["tensorflow", "tf", "tensorflow keras", "google tensorflow", "deep learning tensorflow"],
+    aliases: [
+      "tensorflow",
+      "tf",
+      "tensorflow keras",
+      "google tensorflow",
+      "deep learning tensorflow",
+    ],
   },
   terraform: {
     id: "terraform",
     label: "Terraform",
-    aliases: ["terraform", "hashicorp terraform", "iac terraform", "infrastructure as code terraform"],
+    aliases: [
+      "terraform",
+      "hashicorp terraform",
+      "iac terraform",
+      "infrastructure as code terraform",
+    ],
   },
   tfs: {
     id: "tfs",
     label: "TFS",
-    aliases: ["tfs", "team foundation server", "azure devops server", "tfvc", "tfs azure devops"],
+    aliases: [
+      "tfs",
+      "team foundation server",
+      "azure devops server",
+      "tfvc",
+      "tfs azure devops",
+    ],
   },
   typescript: {
     id: "typescript",
@@ -4330,7 +5581,13 @@ export const SKILLS_MAP = {
   unix: {
     id: "unix",
     label: "Unix",
-    aliases: ["unix", "unix operating system", "bsd unix", "linux unix-like", "posix system"],
+    aliases: [
+      "unix",
+      "unix operating system",
+      "bsd unix",
+      "linux unix-like",
+      "posix system",
+    ],
   },
   vagrant: {
     id: "vagrant",
@@ -4340,12 +5597,23 @@ export const SKILLS_MAP = {
   vault: {
     id: "vault",
     label: "Vault",
-    aliases: ["vault", "hashicorp vault", "secrets management vault", "vault kv", "secret store vault"],
+    aliases: [
+      "vault",
+      "hashicorp vault",
+      "secrets management vault",
+      "vault kv",
+      "secret store vault",
+    ],
   },
   visualforce: {
     id: "visualforce",
     label: "Visualforce",
-    aliases: ["visualforce", "salesforce visualforce", "vf pages", "salesforce ui framework"],
+    aliases: [
+      "visualforce",
+      "salesforce visualforce",
+      "vf pages",
+      "salesforce ui framework",
+    ],
   },
   visualstudio: {
     id: "visualstudio",
@@ -4355,7 +5623,13 @@ export const SKILLS_MAP = {
   vscode: {
     id: "vscode",
     label: "VS Code",
-    aliases: ["visual studio code", "vscode", "vs code", "code editor vscode", "microsoft vscode"],
+    aliases: [
+      "visual studio code",
+      "vscode",
+      "vs code",
+      "code editor vscode",
+      "microsoft vscode",
+    ],
   },
   vite: {
     id: "vite",
@@ -4370,12 +5644,24 @@ export const SKILLS_MAP = {
   vmware: {
     id: "vmware",
     label: "VMware",
-    aliases: ["vmware", "vmware esxi", "vmware vcenter", "virtualization vmware", "vmware workstation"],
+    aliases: [
+      "vmware",
+      "vmware esxi",
+      "vmware vcenter",
+      "virtualization vmware",
+      "vmware workstation",
+    ],
   },
   voip: {
     id: "voip",
     label: "VoIP",
-    aliases: ["voip", "voice over ip", "internet telephony", "sip voip", "softphone systems"],
+    aliases: [
+      "voip",
+      "voice over ip",
+      "internet telephony",
+      "sip voip",
+      "softphone systems",
+    ],
   },
   vue: {
     id: "vue",
@@ -4412,7 +5698,13 @@ export const SKILLS_MAP = {
   wordpress: {
     id: "wordpress",
     label: "WordPress",
-    aliases: ["wordpress", "wp", "wordpress cms", "woocommerce wordpress", "content management wordpress"],
+    aliases: [
+      "wordpress",
+      "wp",
+      "wordpress cms",
+      "woocommerce wordpress",
+      "content management wordpress",
+    ],
   },
   yarn: {
     id: "yarn",
@@ -4432,7 +5724,12 @@ export const SKILLS_MAP = {
   zookeeper: {
     id: "zookeeper",
     label: "ZooKeeper",
-    aliases: ["zookeeper", "apache zookeeper", "distributed coordination zookeeper", "zk ensemble"],
+    aliases: [
+      "zookeeper",
+      "apache zookeeper",
+      "distributed coordination zookeeper",
+      "zk ensemble",
+    ],
   },
   zustand: {
     id: "zustand",
