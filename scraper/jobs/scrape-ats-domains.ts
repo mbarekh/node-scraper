@@ -5,18 +5,27 @@ import type {
   MyworkdayJobPostingResponse,
   MyworkdayResponse,
   WorkableResponse,
-} from "../model/ats-model.ts";
-import { extractCompanyName, getUrlWithParams } from "../utils/domain-utils.ts";
-import type { ScrapedSoftwareJobInfo, ScrapedSoftwareJobsInfoWithListJobsUrl } from "../model/jobs-model.ts";
-import { findAndHandle, hasSoftwareKeyword, optimizeContentForAI } from "./jobs-utils.ts";
-import { compact, randomNumber, wait } from "../utils/extra-utils.ts";
-import { fetchApi } from "../apis/fetch-api.ts";
+} from "../model/ats-model";
+import { extractCompanyName, getUrlWithParams } from "../utils/domain-utils";
+import type {
+  ScrapedSoftwareJobInfo,
+  ScrapedSoftwareJobsInfoWithListJobsUrl,
+} from "../model/jobs-model";
+import {
+  findAndHandle,
+  hasSoftwareKeyword,
+  optimizeContentForAI,
+} from "./jobs-utils";
+import { compact, randomNumber, wait } from "../utils/extra-utils";
+import { fetchApi } from "../apis/fetch-api";
 import { decode } from "html-entities";
 import { load, type CheerioAPI } from "cheerio";
-import { PUBLIC_ATS_DOMAINS, type ATS_DOMAIN_KEY } from "./jobs-keywords.ts";
-import { scraperApi } from "../apis/scraper-api.ts";
+import { PUBLIC_ATS_DOMAINS, type ATS_DOMAIN_KEY } from "./jobs-keywords";
+import { scraperApi } from "../apis/scraper-api";
 
-const scrapeSoftwareJobsGreenhouse = async (url: string): Promise<ScrapedSoftwareJobsInfoWithListJobsUrl | null> => {
+const scrapeSoftwareJobsGreenhouse = async (
+  url: string,
+): Promise<ScrapedSoftwareJobsInfoWithListJobsUrl | null> => {
   const regexes = [
     /^https:\/\/job-boards\.greenhouse\.io\/embed\/job_board\?for=([a-z0-9_\-\.]+)/i,
     /^https:\/\/job-boards\.greenhouse\.io\/([a-z0-9_\-\.]+)\/jobs\/\d+/i,
@@ -30,7 +39,9 @@ const scrapeSoftwareJobsGreenhouse = async (url: string): Promise<ScrapedSoftwar
       url: `https://boards-api.greenhouse.io/v1/boards/${companyName}/jobs`,
       params: { content: true },
     });
-    const { data } = await fetchApi.get<GreenhouseResponse>({ url: listJobsUrl });
+    const { data } = await fetchApi.get<GreenhouseResponse>({
+      url: listJobsUrl,
+    });
     const scrapedSoftwareJobsInfo: ScrapedSoftwareJobInfo[] = data.jobs
       .filter((jobInfo) => hasSoftwareKeyword(jobInfo.title))
       .map((jobInfo) => ({
@@ -38,7 +49,9 @@ const scrapeSoftwareJobsGreenhouse = async (url: string): Promise<ScrapedSoftwar
         publishedAt: jobInfo.updated_at,
         title: jobInfo.title,
         location: jobInfo.location.name,
-        content: optimizeContentForAI(load(decode(jobInfo.content).replace(/\n/g, ""))),
+        content: optimizeContentForAI(
+          load(decode(jobInfo.content).replace(/\n/g, "")),
+        ),
       }));
     return {
       scrapedSoftwareJobsInfo,
@@ -50,7 +63,9 @@ const scrapeSoftwareJobsGreenhouse = async (url: string): Promise<ScrapedSoftwar
   }
 };
 
-const scrapeSoftwareJobsAshbyhq = async (url: string): Promise<ScrapedSoftwareJobsInfoWithListJobsUrl | null> => {
+const scrapeSoftwareJobsAshbyhq = async (
+  url: string,
+): Promise<ScrapedSoftwareJobsInfoWithListJobsUrl | null> => {
   try {
     const regexes = [
       /^https:\/\/jobs\.ashbyhq\.com\/([a-z0-9_\-\.]+)/i,
@@ -61,21 +76,35 @@ const scrapeSoftwareJobsAshbyhq = async (url: string): Promise<ScrapedSoftwareJo
       url: `https://api.ashbyhq.com/posting-api/job-board/${companyName}`,
       params: { includeCompensation: true },
     });
-    const { data } = await fetchApi.get<AshbyhqJobResponse>({ url: listJobsUrl });
-    const scrapedSoftwareJobsInfoWithoutSalaries: ScrapedSoftwareJobInfo[] = data.jobs
-      .filter((jobInfo) => hasSoftwareKeyword(jobInfo.title) && !jobInfo.compensation.compensationTierSummary)
-      .map((jobInfo) => ({
-        url: jobInfo.jobUrl,
-        publishedAt: jobInfo.publishedAt,
-        title: jobInfo.title,
-        location: [jobInfo.location, jobInfo.secondaryLocations.map(({ location }) => location)].join(","),
-        content: jobInfo.descriptionPlain,
-        workplaceType: jobInfo.workplaceType,
-        employmentType: jobInfo.employmentType,
-        salaryRange: jobInfo.compensation.compensationTierSummary,
-      }));
+    const { data } = await fetchApi.get<AshbyhqJobResponse>({
+      url: listJobsUrl,
+    });
+    const scrapedSoftwareJobsInfoWithoutSalaries: ScrapedSoftwareJobInfo[] =
+      data.jobs
+        .filter(
+          (jobInfo) =>
+            hasSoftwareKeyword(jobInfo.title) &&
+            !jobInfo.compensation.compensationTierSummary,
+        )
+        .map((jobInfo) => ({
+          url: jobInfo.jobUrl,
+          publishedAt: jobInfo.publishedAt,
+          title: jobInfo.title,
+          location: [
+            jobInfo.location,
+            jobInfo.secondaryLocations.map(({ location }) => location),
+          ].join(","),
+          content: jobInfo.descriptionPlain,
+          workplaceType: jobInfo.workplaceType,
+          employmentType: jobInfo.employmentType,
+          salaryRange: jobInfo.compensation.compensationTierSummary,
+        }));
     const jobUrlsWithSalaries = data.jobs
-      .filter((jobInfo) => hasSoftwareKeyword(jobInfo.title) && jobInfo.compensation.compensationTierSummary)
+      .filter(
+        (jobInfo) =>
+          hasSoftwareKeyword(jobInfo.title) &&
+          jobInfo.compensation.compensationTierSummary,
+      )
       .map(({ jobUrl }) => jobUrl);
     const scrapedSoftwareJobsInfoWithSalaries: ScrapedSoftwareJobInfo[] = [];
     for (const jobUrl of jobUrlsWithSalaries) {
@@ -103,7 +132,9 @@ const scrapeSoftwareJobsAshbyhq = async (url: string): Promise<ScrapedSoftwareJo
   }
 };
 
-const scrapeSoftwareJobsLever = async (url: string): Promise<ScrapedSoftwareJobsInfoWithListJobsUrl | null> => {
+const scrapeSoftwareJobsLever = async (
+  url: string,
+): Promise<ScrapedSoftwareJobsInfoWithListJobsUrl | null> => {
   try {
     const regexes = [
       /^https:\/\/jobs\.lever\.co\/([a-z0-9_\-\.]+)/i,
@@ -120,7 +151,9 @@ const scrapeSoftwareJobsLever = async (url: string): Promise<ScrapedSoftwareJobs
       .map((jobInfo) => {
         const content = compact([
           jobInfo.description,
-          ...jobInfo.lists.map((item) => `<h3>${item.text}</h3>${item.content}`),
+          ...jobInfo.lists.map(
+            (item) => `<h3>${item.text}</h3>${item.content}`,
+          ),
         ])
           .join(" ")
           .replace(/\n/g, "");
@@ -144,7 +177,9 @@ const scrapeSoftwareJobsLever = async (url: string): Promise<ScrapedSoftwareJobs
   }
 };
 
-const scrapeSoftwareJobsWorkable = async (url: string): Promise<ScrapedSoftwareJobsInfoWithListJobsUrl | null> => {
+const scrapeSoftwareJobsWorkable = async (
+  url: string,
+): Promise<ScrapedSoftwareJobsInfoWithListJobsUrl | null> => {
   try {
     const regexes = [
       /^https:\/\/apply\.workable\.com\/([a-z0-9_\-\.]+)/i,
@@ -176,7 +211,9 @@ const scrapeSoftwareJobsWorkable = async (url: string): Promise<ScrapedSoftwareJ
   }
 };
 
-const scrapeSoftwareJobsMyworkdayjobs = async (url: string): Promise<ScrapedSoftwareJobsInfoWithListJobsUrl | null> => {
+const scrapeSoftwareJobsMyworkdayjobs = async (
+  url: string,
+): Promise<ScrapedSoftwareJobsInfoWithListJobsUrl | null> => {
   try {
     const regexes = [
       /https:\/\/([a-z0-9_\-\.]+)\.([a-z0-9_\-\.]+)\.myworkdayjobs.com\//i,
@@ -184,7 +221,9 @@ const scrapeSoftwareJobsMyworkdayjobs = async (url: string): Promise<ScrapedSoft
     ];
     const match = regexes.map((r) => url.match(r)).find(Boolean) ?? null;
     if (!match || !match[1] || !match[2]) {
-      throw Error(`[${scrapeSoftwareJobsMyworkdayjobs.name}]: URL ${url} does not match expected pattern`);
+      throw Error(
+        `[${scrapeSoftwareJobsMyworkdayjobs.name}]: URL ${url} does not match expected pattern`,
+      );
     }
     const [, tenant, wdServer] = match;
     const rootUrl = `https://${tenant}.${wdServer}.myworkdayjobs.com/wday/cxs/${tenant}/External_Career`;
@@ -199,7 +238,9 @@ const scrapeSoftwareJobsMyworkdayjobs = async (url: string): Promise<ScrapedSoft
     const scrapedSoftwareJobsInfo: ScrapedSoftwareJobInfo[] = [];
     for (const softwarejobUrl of softwarejobUrls) {
       await wait(randomNumber({ min: 2000, max: 5000 }));
-      const { data } = await fetchApi.get<MyworkdayJobPostingResponse>({ url: softwarejobUrl });
+      const { data } = await fetchApi.get<MyworkdayJobPostingResponse>({
+        url: softwarejobUrl,
+      });
       const jobInfo = data.jobPostingInfo;
       if (!jobInfo.canApply) {
         continue;
@@ -207,8 +248,13 @@ const scrapeSoftwareJobsMyworkdayjobs = async (url: string): Promise<ScrapedSoft
       scrapedSoftwareJobsInfo.push({
         url: jobInfo.externalUrl,
         title: jobInfo.title,
-        content: optimizeContentForAI(load(jobInfo.jobDescription.replace(/\n/g, ""))),
-        location: [`${jobInfo.country.descriptor} ${jobInfo.location}`, ...jobInfo.additionalLocations].join(", "),
+        content: optimizeContentForAI(
+          load(jobInfo.jobDescription.replace(/\n/g, "")),
+        ),
+        location: [
+          `${jobInfo.country.descriptor} ${jobInfo.location}`,
+          ...jobInfo.additionalLocations,
+        ].join(", "),
         publishedAt: jobInfo.postedOn,
         employmentType: jobInfo.timeType,
       });
@@ -243,12 +289,18 @@ export const scrapePublicAtsDomains = ({
       { keywords: PUBLIC_ATS_DOMAINS, tags: ["iframe"], attr: "src" },
     ],
     handler: async ({ keyword, attrValue }) => {
-      return await PUBLIC_ATS_DOMAINS_SCRAPERS[keyword as ATS_DOMAIN_KEY](attrValue);
+      return await PUBLIC_ATS_DOMAINS_SCRAPERS[keyword as ATS_DOMAIN_KEY](
+        attrValue,
+      );
     },
   });
 };
 
-export const mapToPublicAtsDomain = (url: string | undefined = ""): ATS_DOMAIN_KEY | null => {
-  const atsDomain = Object.keys(PUBLIC_ATS_DOMAINS_SCRAPERS).find((atsDomain) => url.includes(atsDomain));
+export const mapToPublicAtsDomain = (
+  url: string | undefined = "",
+): ATS_DOMAIN_KEY | null => {
+  const atsDomain = Object.keys(PUBLIC_ATS_DOMAINS_SCRAPERS).find((atsDomain) =>
+    url.includes(atsDomain),
+  );
   return (atsDomain as ATS_DOMAIN_KEY) ?? null;
 };

@@ -10,7 +10,7 @@ import type {
   SKILLS_MAP,
   STATES_MAP,
   WORKPLACE_TYPES_MAP,
-} from "../jobs/map/job-info-map.ts";
+} from "../jobs/map/job-info-map";
 
 export type JobNormalizationError = {
   url: string;
@@ -85,7 +85,13 @@ export type NormalizedSoftwareJobInfo = {
 
 export type Skill = keyof typeof SKILLS_MAP;
 
-export type Scope = "worldwide" | "businessRegion" | "continent" | "country" | "state" | "city";
+export type Scope =
+  | "worldwide"
+  | "businessRegion"
+  | "continent"
+  | "country"
+  | "state"
+  | "city";
 
 export type Location =
   | {

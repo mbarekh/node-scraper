@@ -1,6 +1,8 @@
-import type { ScrapedSoftwareJobInfo } from "../../model/jobs-model.ts";
+import type { ScrapedSoftwareJobInfo } from "../../model/jobs-model";
 
-export const jobInfoPromptPartLocations = (input: ScrapedSoftwareJobInfo): string => {
+export const jobInfoPromptPartLocations = (
+  input: ScrapedSoftwareJobInfo,
+): string => {
   return `Transform the raw scraped job data into structured JSON.
 
 INPUT:

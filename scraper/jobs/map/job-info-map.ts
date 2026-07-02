@@ -1,4 +1,4 @@
-import type { CityMap } from "../../model/jobs-model.ts";
+import type { CityMap } from "../../model/jobs-model";
 
 export const CATEGORIES_MAP = {
   frontend: { id: "frontend", label: "Frontend Engineer" },

@@ -1,11 +1,11 @@
-import { getGoogleCompanyInfoPrompt } from "./prompts/google-company-info-prompt.ts";
-import { getFollowersCountPrompt } from "./prompts/followers-count-prompt.ts";
-import { getOpenaiCompanyInfoPrompt } from "./prompts/openai-company-info-prompt.ts";
-import { googleApi } from "../apis/google-api.ts";
-import { openaiApi } from "../apis/openai-api.ts";
-import { normalizeWebsite } from "../utils/domain-utils.ts";
-import { getLinkedinUrl, MIN_FOLLOWERS_COUNT } from "../utils/linkedin-utils.ts";
-import type { CompanyInfo } from "../model/companies-model.ts";
+import { getGoogleCompanyInfoPrompt } from "./prompts/google-company-info-prompt";
+import { getFollowersCountPrompt } from "./prompts/followers-count-prompt";
+import { getOpenaiCompanyInfoPrompt } from "./prompts/openai-company-info-prompt";
+import { googleApi } from "../apis/google-api";
+import { openaiApi } from "../apis/openai-api";
+import { normalizeWebsite } from "../utils/domain-utils";
+import { getLinkedinUrl, MIN_FOLLOWERS_COUNT } from "../utils/linkedin-utils";
+import type { CompanyInfo } from "../model/companies-model";
 
 export const aiSearchCompanyInfo = async ({
   linkedinId,
@@ -31,7 +31,11 @@ export const aiSearchCompanyInfo = async ({
   });
 
   const googleAiResult = (googleSearchLinkedin.text_blocks ?? [])
-    .map((item) => (item.type === "paragraph" ? item.snippet : item.list?.map(({ snippet }) => snippet).join("\n")))
+    .map((item) =>
+      item.type === "paragraph"
+        ? item.snippet
+        : item.list?.map(({ snippet }) => snippet).join("\n"),
+    )
     .join("\n");
 
   if (followers === -1) {

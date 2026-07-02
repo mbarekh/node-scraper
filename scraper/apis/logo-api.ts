@@ -2,9 +2,15 @@ import fs from "fs";
 import path from "path";
 import axios from "axios";
 import { pipeline } from "stream/promises";
-import { getDomain } from "../utils/domain-utils.ts";
+import { getDomain } from "../utils/domain-utils";
 
-const downloadLogoHelper = async ({ domain, logoAbsolutePath }: { domain: string; logoAbsolutePath: string }) => {
+const downloadLogoHelper = async ({
+  domain,
+  logoAbsolutePath,
+}: {
+  domain: string;
+  logoAbsolutePath: string;
+}) => {
   const imageUrl = `https://logos-api.apistemic.com/domain:${domain}`;
 
   const response = await axios.get(imageUrl, {
@@ -15,11 +21,23 @@ const downloadLogoHelper = async ({ domain, logoAbsolutePath }: { domain: string
   await pipeline(response.data, fs.createWriteStream(logoAbsolutePath));
 };
 
-export const downloadLogoApi = async ({ website, logoFileName }: { website: string; logoFileName: string }) => {
+export const downloadLogoApi = async ({
+  website,
+  logoFileName,
+}: {
+  website: string;
+  logoFileName: string;
+}) => {
   try {
     const domain = getDomain(website);
     if (!domain) throw Error("Domain not found error");
-    const logoAbsolutePath = path.join(process.cwd(), "src", "companies", "logos", logoFileName);
+    const logoAbsolutePath = path.join(
+      process.cwd(),
+      "src",
+      "companies",
+      "logos",
+      logoFileName,
+    );
     if (!fs.existsSync(logoAbsolutePath)) {
       await downloadLogoHelper({ domain, logoAbsolutePath });
     }

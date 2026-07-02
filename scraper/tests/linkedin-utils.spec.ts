@@ -1,41 +1,113 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { getLinkedinUrl, extractLinkedinId, parseFollowersCount } from "../utils/linkedin-utils.ts";
+import {
+  getLinkedinUrl,
+  extractLinkedinId,
+  parseFollowersCount,
+} from "../utils/linkedin-utils";
 
 test("getLinkedinUrl", () => {
-  assert.strictEqual(getLinkedinUrl("google"), "https://linkedin.com/company/google");
-  assert.strictEqual(getLinkedinUrl("intuit"), "https://linkedin.com/company/intuit");
-  assert.strictEqual(getLinkedinUrl("microsoft"), "https://linkedin.com/company/microsoft");
-  assert.strictEqual(getLinkedinUrl("apple"), "https://linkedin.com/company/apple");
-  assert.strictEqual(getLinkedinUrl("amazon"), "https://linkedin.com/company/amazon");
-  assert.strictEqual(getLinkedinUrl("facebook"), "https://linkedin.com/company/facebook");
+  assert.strictEqual(
+    getLinkedinUrl("google"),
+    "https://linkedin.com/company/google",
+  );
+  assert.strictEqual(
+    getLinkedinUrl("intuit"),
+    "https://linkedin.com/company/intuit",
+  );
+  assert.strictEqual(
+    getLinkedinUrl("microsoft"),
+    "https://linkedin.com/company/microsoft",
+  );
+  assert.strictEqual(
+    getLinkedinUrl("apple"),
+    "https://linkedin.com/company/apple",
+  );
+  assert.strictEqual(
+    getLinkedinUrl("amazon"),
+    "https://linkedin.com/company/amazon",
+  );
+  assert.strictEqual(
+    getLinkedinUrl("facebook"),
+    "https://linkedin.com/company/facebook",
+  );
 });
 
 test("extractLinkedinId", () => {
   assert.strictEqual(extractLinkedinId(""), null);
   assert.strictEqual(extractLinkedinId("https://www.linkedin.com"), null);
-  assert.strictEqual(extractLinkedinId("https://www.linkedin.com/company/"), null);
-  assert.strictEqual(extractLinkedinId("https://www.linkedin.com/profile/hazem"), null);
-  assert.strictEqual(extractLinkedinId("https://www.linkedin.com/company/google"), "google");
-  assert.strictEqual(extractLinkedinId("https://au.linkedin.com/company/intuit"), "intuit");
-  assert.strictEqual(extractLinkedinId("https://uk.linkedin.com/company/intuit"), "intuit");
-  assert.strictEqual(extractLinkedinId("https://linkedin.com/company/microsoft/"), "microsoft");
-  assert.strictEqual(extractLinkedinId("https://www.linkedin.com/company/apple?trk=public_profile"), "apple");
-  assert.strictEqual(extractLinkedinId("https://www.linkedin.com/company/amazon#about"), "amazon");
-  assert.strictEqual(extractLinkedinId("https://www.linkedin.com/company/facebook/"), "facebook");
-  assert.strictEqual(extractLinkedinId("https://linkedin.com/company/apple?trk=public_profile"), "apple");
-  assert.strictEqual(extractLinkedinId("https://linkedin.com/company/amazon#about"), "amazon");
-  assert.strictEqual(extractLinkedinId("https://linkedin.com/company/facebook/"), "facebook");
+  assert.strictEqual(
+    extractLinkedinId("https://www.linkedin.com/company/"),
+    null,
+  );
+  assert.strictEqual(
+    extractLinkedinId("https://www.linkedin.com/profile/hazem"),
+    null,
+  );
+  assert.strictEqual(
+    extractLinkedinId("https://www.linkedin.com/company/google"),
+    "google",
+  );
+  assert.strictEqual(
+    extractLinkedinId("https://au.linkedin.com/company/intuit"),
+    "intuit",
+  );
+  assert.strictEqual(
+    extractLinkedinId("https://uk.linkedin.com/company/intuit"),
+    "intuit",
+  );
+  assert.strictEqual(
+    extractLinkedinId("https://linkedin.com/company/microsoft/"),
+    "microsoft",
+  );
+  assert.strictEqual(
+    extractLinkedinId(
+      "https://www.linkedin.com/company/apple?trk=public_profile",
+    ),
+    "apple",
+  );
+  assert.strictEqual(
+    extractLinkedinId("https://www.linkedin.com/company/amazon#about"),
+    "amazon",
+  );
+  assert.strictEqual(
+    extractLinkedinId("https://www.linkedin.com/company/facebook/"),
+    "facebook",
+  );
+  assert.strictEqual(
+    extractLinkedinId("https://linkedin.com/company/apple?trk=public_profile"),
+    "apple",
+  );
+  assert.strictEqual(
+    extractLinkedinId("https://linkedin.com/company/amazon#about"),
+    "amazon",
+  );
+  assert.strictEqual(
+    extractLinkedinId("https://linkedin.com/company/facebook/"),
+    "facebook",
+  );
 });
 
 test("parseFollowersCount", () => {
   assert.strictEqual(parseFollowersCount(""), -1);
   assert.strictEqual(parseFollowersCount("https://www.linkedin.com"), -1);
-  assert.strictEqual(parseFollowersCount("https://www.linkedin.com > about"), -1);
-  assert.strictEqual(parseFollowersCount("https://www.linkedin.com > follower"), -1);
-  assert.strictEqual(parseFollowersCount("https://www.linkedin.com > followers"), -1);
+  assert.strictEqual(
+    parseFollowersCount("https://www.linkedin.com > about"),
+    -1,
+  );
+  assert.strictEqual(
+    parseFollowersCount("https://www.linkedin.com > follower"),
+    -1,
+  );
+  assert.strictEqual(
+    parseFollowersCount("https://www.linkedin.com > followers"),
+    -1,
+  );
   assert.strictEqual(parseFollowersCount("No followers"), -1);
-  assert.strictEqual(parseFollowersCount("No available linkedin followers"), -1);
+  assert.strictEqual(
+    parseFollowersCount("No available linkedin followers"),
+    -1,
+  );
   assert.strictEqual(parseFollowersCount("5 followers"), 5);
   assert.strictEqual(parseFollowersCount("1.2k followers"), 1200);
   assert.strictEqual(parseFollowersCount("3.5M followers"), 3500000);
@@ -69,5 +141,8 @@ test("parseFollowersCount", () => {
   assert.strictEqual(parseFollowersCount("46.9K+ followers"), 46900);
   assert.strictEqual(parseFollowersCount("18.2K+ followers"), 18200);
   assert.strictEqual(parseFollowersCount("46.8K+ followers"), 46800);
-  assert.strictEqual(parseFollowersCount("the company has 472,246 LinkedIn followers"), 472246);
+  assert.strictEqual(
+    parseFollowersCount("the company has 472,246 LinkedIn followers"),
+    472246,
+  );
 });

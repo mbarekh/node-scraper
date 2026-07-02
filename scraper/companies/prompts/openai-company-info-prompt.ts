@@ -1,5 +1,11 @@
-import { sizes, industries, technologies, forbiddenIndustries, customerTypes } from "../../model/companies-model.ts";
-import { randomNumber } from "../../utils/extra-utils.ts";
+import {
+  sizes,
+  industries,
+  technologies,
+  forbiddenIndustries,
+  customerTypes,
+} from "../../model/companies-model";
+import { randomNumber } from "../../utils/extra-utils";
 
 const promptThreeParagraphStandard = `
 Generate a company description using the exact structure below.
@@ -109,7 +115,10 @@ export const getOpenaiCompanyInfoPrompt = ({
   overview: string;
   googleAiResult: string;
 }) => {
-  const randomPromptIndex = randomNumber({ min: 0, max: companyDescriptionPrompts.length - 1 });
+  const randomPromptIndex = randomNumber({
+    min: 0,
+    max: companyDescriptionPrompts.length - 1,
+  });
   const openaiCompanyInfoPromptOutput = `Return ONLY valid JSON.
 
 Global rules:

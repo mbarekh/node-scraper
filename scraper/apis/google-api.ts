@@ -1,6 +1,6 @@
 import { getJson } from "serpapi";
 import type { GoogleResponse } from "../model/google-api-model.ts";
-import { SERP_API_KEY } from "./api-keys.ts";
+import { SERP_API_KEY } from "./api-keys";
 
 export const googleApi = async ({
   query,

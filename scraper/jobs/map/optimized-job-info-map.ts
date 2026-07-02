@@ -5,7 +5,7 @@ import {
   COUNTRIES_MAP,
   BUSINESS_REGIONS_MAP,
   STATES_MAP,
-} from "./job-info-map.ts";
+} from "./job-info-map";
 
 export const OPTIMIZED_SKILLS_MAP = Object.values(SKILLS_MAP).reduce(
   (acc, skill) => {
@@ -17,7 +17,9 @@ export const OPTIMIZED_SKILLS_MAP = Object.values(SKILLS_MAP).reduce(
   {} as Record<string, string>,
 );
 
-export const OPTIMIZED_BUSINESS_REGION = Object.values(BUSINESS_REGIONS_MAP).reduce(
+export const OPTIMIZED_BUSINESS_REGION = Object.values(
+  BUSINESS_REGIONS_MAP,
+).reduce(
   (acc, businessRegion) => {
     for (const alias of businessRegion.aliases) {
       acc[alias] = businessRegion.id;

@@ -1,11 +1,15 @@
-import { stringifyFunction } from "../utils/extra-utils.ts";
-import { ZENROWS_API_KEY } from "./api-keys.ts";
+import { stringifyFunction } from "../utils/extra-utils";
+import { ZENROWS_API_KEY } from "./api-keys";
 import { load, type CheerioAPI } from "cheerio";
-import { fetchApi } from "./fetch-api.ts";
+import { fetchApi } from "./fetch-api";
 
 const getScraperParams = ({ url }: { url: string }) => {
   const scrollDown = () => window.scrollTo(0, document.body.scrollHeight);
-  const jsInstructions = [{ wait: 2000 }, { evaluate: stringifyFunction(scrollDown) }, { wait: 2000 }];
+  const jsInstructions = [
+    { wait: 2000 },
+    { evaluate: stringifyFunction(scrollDown) },
+    { wait: 2000 },
+  ];
 
   return {
     url,
@@ -15,7 +19,11 @@ const getScraperParams = ({ url }: { url: string }) => {
   };
 };
 
-export const scraperApi = async ({ url }: { url: string }): Promise<{ $: CheerioAPI; url: string } | null> => {
+export const scraperApi = async ({
+  url,
+}: {
+  url: string;
+}): Promise<{ $: CheerioAPI; url: string } | null> => {
   try {
     if (!url) {
       throw new Error(`[${scraperApi.name}]: URL is null`);

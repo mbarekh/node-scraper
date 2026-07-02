@@ -1,6 +1,15 @@
-import { forbiddenIndustries, authorizedIndustries } from "../../model/companies-model.ts";
+import {
+  forbiddenIndustries,
+  authorizedIndustries,
+} from "../../model/companies-model";
 
-export const getCompanyNamesGeneratorPrompt = ({ count, location }: { count: number; location: string }): string => {
+export const getCompanyNamesGeneratorPrompt = ({
+  count,
+  location,
+}: {
+  count: number;
+  location: string;
+}): string => {
   const companyNamesGeneratorPrompt = `Generate exactly ${count} real company names in ${location} that are likely to hire Software Engineers.
 
 Rules:

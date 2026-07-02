@@ -1,4 +1,4 @@
-import { getUrlWithParams } from "../utils/domain-utils.ts";
+import { getUrlWithParams } from "../utils/domain-utils";
 
 export const fetchApi = {
   get: async <T>({

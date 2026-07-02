@@ -1,6 +1,6 @@
 import Openai from "openai";
 import type { ResponsesModel } from "openai/resources";
-import { OPENAI_API_KEY } from "./api-keys.ts";
+import { OPENAI_API_KEY } from "./api-keys";
 
 const openai = new Openai({ apiKey: OPENAI_API_KEY });
 
@@ -16,7 +16,11 @@ export const openaiApi = async ({
   temperature?: number;
 }) => {
   try {
-    const response = await openai.responses.create({ model, input: prompt, temperature });
+    const response = await openai.responses.create({
+      model,
+      input: prompt,
+      temperature,
+    });
 
     switch (format) {
       case "json":

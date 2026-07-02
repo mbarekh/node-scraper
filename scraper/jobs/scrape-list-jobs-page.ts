@@ -1,13 +1,30 @@
-import { scraperApi } from "../apis/scraper-api.ts";
-import type { ScrapedSoftwareJobInfo, ScrapedSoftwareJobsInfoWithListJobsUrl } from "../model/jobs-model.ts";
-import { hasId, toAbsoluteUrl } from "../utils/domain-utils.ts";
-import { wait, randomNumber } from "../utils/extra-utils.ts";
-import { EXCLUDED_JOBS_KEYWORDS } from "./jobs-keywords.ts";
-import { buildSelector, hasSoftwareKeyword, optimizeContentForAI } from "./jobs-utils.ts";
+import { scraperApi } from "../apis/scraper-api";
+import type {
+  ScrapedSoftwareJobInfo,
+  ScrapedSoftwareJobsInfoWithListJobsUrl,
+} from "../model/jobs-model";
+import { hasId, toAbsoluteUrl } from "../utils/domain-utils";
+import { wait, randomNumber } from "../utils/extra-utils";
+import { EXCLUDED_JOBS_KEYWORDS } from "./jobs-keywords";
+import {
+  buildSelector,
+  hasSoftwareKeyword,
+  optimizeContentForAI,
+} from "./jobs-utils";
 import type { CheerioAPI } from "cheerio";
-import { mapToPublicAtsDomain, PUBLIC_ATS_DOMAINS_SCRAPERS, scrapePublicAtsDomains } from "./scrape-ats-domains.ts";
+import {
+  mapToPublicAtsDomain,
+  PUBLIC_ATS_DOMAINS_SCRAPERS,
+  scrapePublicAtsDomains,
+} from "./scrape-ats-domains";
 
-export const scrapeSoftwareJobUrlsFromDom = ({ $, listJobsUrl }: { $: CheerioAPI; listJobsUrl: string }): string[] => {
+export const scrapeSoftwareJobUrlsFromDom = ({
+  $,
+  listJobsUrl,
+}: {
+  $: CheerioAPI;
+  listJobsUrl: string;
+}): string[] => {
   const selector = buildSelector({
     tags: ["a"],
     attr: "href",
@@ -30,7 +47,9 @@ export const scrapeSoftwareJobUrlsFromDom = ({ $, listJobsUrl }: { $: CheerioAPI
     .map(({ href = "" }) => toAbsoluteUrl({ url: listJobsUrl, href }));
 };
 
-export const scrapeSoftwareJobsInfoFromUrls = async (softwareJobUrls: string[]): Promise<ScrapedSoftwareJobInfo[]> => {
+export const scrapeSoftwareJobsInfoFromUrls = async (
+  softwareJobUrls: string[],
+): Promise<ScrapedSoftwareJobInfo[]> => {
   const softwareJobsInfo: ScrapedSoftwareJobInfo[] = [];
   for (const softwareJobUrl of softwareJobUrls) {
     const scraperApiResponse = await scraperApi({ url: softwareJobUrl });
@@ -59,14 +78,22 @@ export const scrapeSoftwareJobsInfoFromListJobsUrl = async (
 
   const jobsScraperApiResponse = await scraperApi({ url: listJobsUrl });
   if (!jobsScraperApiResponse) {
-    throw Error(`[${scrapeSoftwareJobsInfoFromListJobsUrl.name}]: Scraper api null response for ${listJobsUrl}`);
+    throw Error(
+      `[${scrapeSoftwareJobsInfoFromListJobsUrl.name}]: Scraper api null response for ${listJobsUrl}`,
+    );
   }
-  let scrapedSoftwareJobsInfoWithListJobsUrl = await scrapePublicAtsDomains({ $: jobsScraperApiResponse.$ });
+  let scrapedSoftwareJobsInfoWithListJobsUrl = await scrapePublicAtsDomains({
+    $: jobsScraperApiResponse.$,
+  });
   if (scrapedSoftwareJobsInfoWithListJobsUrl) {
     return scrapedSoftwareJobsInfoWithListJobsUrl;
   }
-  const softwareJobUrls = scrapeSoftwareJobUrlsFromDom({ $: jobsScraperApiResponse.$, listJobsUrl });
-  const scrapedSoftwareJobsInfo = await scrapeSoftwareJobsInfoFromUrls(softwareJobUrls);
+  const softwareJobUrls = scrapeSoftwareJobUrlsFromDom({
+    $: jobsScraperApiResponse.$,
+    listJobsUrl,
+  });
+  const scrapedSoftwareJobsInfo =
+    await scrapeSoftwareJobsInfoFromUrls(softwareJobUrls);
   return {
     scrapedSoftwareJobsInfo,
     listJobsUrl,

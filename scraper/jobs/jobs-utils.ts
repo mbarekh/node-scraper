@@ -1,14 +1,30 @@
 import type { Cheerio, CheerioAPI } from "cheerio";
 import type { Locator, Page } from "playwright";
-import { ACCEPT_COOKIES_KEYWORDS, EXCLUDE_SOFTWARE_KEYWORDS, SOFTWARE_KEYWORDS } from "./jobs-keywords.ts";
-import type { DomSearchParams, HandlerParams, HtmlTag } from "../model/jobs-model.ts";
+import {
+  ACCEPT_COOKIES_KEYWORDS,
+  EXCLUDE_SOFTWARE_KEYWORDS,
+  SOFTWARE_KEYWORDS,
+} from "./jobs-keywords";
+import type {
+  DomSearchParams,
+  HandlerParams,
+  HtmlTag,
+} from "../model/jobs-model";
 import path from "path";
 import type { AnyNode, Element } from "domhandler";
-import { trim } from "../utils/extra-utils.ts";
+import { trim } from "../utils/extra-utils";
 import { htmlToText } from "html-to-text";
 
-export const buildContainsSelector = ({ keywords, tags }: { keywords: string[]; tags: HtmlTag[] }): string => {
-  return tags.map((tag) => keywords.map((kw) => `${tag}:contains("${kw}")`).join(", ")).join(", ");
+export const buildContainsSelector = ({
+  keywords,
+  tags,
+}: {
+  keywords: string[];
+  tags: HtmlTag[];
+}): string => {
+  return tags
+    .map((tag) => keywords.map((kw) => `${tag}:contains("${kw}")`).join(", "))
+    .join(", ");
 };
 
 export const buildSelector = ({
@@ -27,8 +43,12 @@ export const buildSelector = ({
   const flag = caseSensitive ? "" : "i";
   return tags
     .map((tag) => {
-      const base = keyword ? `${tag}[${attr}*="${keyword}" ${flag}]` : `${tag}[${attr}]`;
-      const exclusions = excludedKeywords.map((exclude) => `:not([${attr}*="${exclude}"${flag}])`).join("");
+      const base = keyword
+        ? `${tag}[${attr}*="${keyword}" ${flag}]`
+        : `${tag}[${attr}]`;
+      const exclusions = excludedKeywords
+        .map((exclude) => `:not([${attr}*="${exclude}"${flag}])`)
+        .join("");
       return base + exclusions;
     })
     .join(", ");
@@ -43,9 +63,22 @@ export const findAndHandle = async <T>({
   domSearchParams: DomSearchParams[];
   handler: (handleParams: HandlerParams) => Promise<T | null>;
 }): Promise<T | null> => {
-  for (const { keywords, attr, tags, excludedKeywords, caseSensitive, predicate = () => true } of domSearchParams) {
+  for (const {
+    keywords,
+    attr,
+    tags,
+    excludedKeywords,
+    caseSensitive,
+    predicate = () => true,
+  } of domSearchParams) {
     for (const keyword of keywords) {
-      const selector = buildSelector({ tags, attr, keyword, excludedKeywords, caseSensitive });
+      const selector = buildSelector({
+        tags,
+        attr,
+        keyword,
+        excludedKeywords,
+        caseSensitive,
+      });
       const elements = $(selector);
       const attrValue = elements.first().attr(attr)!;
       if (elements.length > 0 && predicate({ keyword, attrValue })) {
@@ -57,18 +90,35 @@ export const findAndHandle = async <T>({
   return null;
 };
 
-export const waitForDomContentLoaded = async ({ page, timeout }: { page: Page; timeout: number }) => {
+export const waitForDomContentLoaded = async ({
+  page,
+  timeout,
+}: {
+  page: Page;
+  timeout: number;
+}) => {
   await page.waitForLoadState("domcontentloaded").catch(() => null);
   await page.waitForTimeout(timeout);
 };
 
-export const clickAndGetPage = async ({ element, page }: { element: Locator; page: Page }): Promise<Page> => {
+export const clickAndGetPage = async ({
+  element,
+  page,
+}: {
+  element: Locator;
+  page: Page;
+}): Promise<Page> => {
   const context = page.context();
   const initialUrl = page.url();
   const newPagePromise = context.waitForEvent("page");
-  const urlChangePromise = page.waitForURL((url) => url.toString() !== initialUrl).then(() => page);
+  const urlChangePromise = page
+    .waitForURL((url) => url.toString() !== initialUrl)
+    .then(() => page);
   await element.evaluate((el: HTMLElement) => el.click());
-  const resultPage = await Promise.race([newPagePromise, urlChangePromise]).catch(() => page);
+  const resultPage = await Promise.race([
+    newPagePromise,
+    urlChangePromise,
+  ]).catch(() => page);
   await waitForDomContentLoaded({ page: resultPage, timeout: 2000 });
   return resultPage;
 };
@@ -82,7 +132,13 @@ export const acceptCookies = async ({ page }: { page: Page }) => {
   }, ACCEPT_COOKIES_KEYWORDS);
 };
 
-export const selectFromPage = async ({ page, selector }: { page: Page; selector: string }): Promise<Locator | null> => {
+export const selectFromPage = async ({
+  page,
+  selector,
+}: {
+  page: Page;
+  selector: string;
+}): Promise<Locator | null> => {
   const locator = page.locator(selector).first();
   const count = await locator.count();
   return count > 0 ? locator : null;
@@ -106,8 +162,9 @@ export const selectElementByText = async ({
 export const hasSoftwareKeyword = (description: string): boolean => {
   const lowerDescription = description.toLowerCase();
   return (
-    EXCLUDE_SOFTWARE_KEYWORDS.every((excludeKeyword) => !lowerDescription.includes(excludeKeyword)) &&
-    SOFTWARE_KEYWORDS.some((keyword) => lowerDescription.includes(keyword))
+    EXCLUDE_SOFTWARE_KEYWORDS.every(
+      (excludeKeyword) => !lowerDescription.includes(excludeKeyword),
+    ) && SOFTWARE_KEYWORDS.some((keyword) => lowerDescription.includes(keyword))
   );
 };
 

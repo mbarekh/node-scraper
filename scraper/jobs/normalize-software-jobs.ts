@@ -1,4 +1,4 @@
-import { openaiApi } from "../apis/openai-api.ts";
+import { openaiApi } from "../apis/openai-api";
 import type {
   ScrapedSoftwareJobInfo,
   NormalizedSoftwareJobInfo,
@@ -10,11 +10,16 @@ import type {
   BusinessRegion as BusinessRegion,
   Location,
   State,
-} from "../model/jobs-model.ts";
-import { lowerCaseTrim, compact, uniq } from "../utils/extra-utils.ts";
-import { readJSONFile, writeJSONFile } from "../utils/file-utils.ts";
-import { JOBS_DATA_FILES } from "./jobs-utils.ts";
-import { CITIES_MAP, CONTINENTS_MAP, COUNTRIES_MAP, STATES_MAP } from "./map/job-info-map.ts";
+} from "../model/jobs-model";
+import { lowerCaseTrim, compact, uniq } from "../utils/extra-utils";
+import { readJSONFile, writeJSONFile } from "../utils/file-utils";
+import { JOBS_DATA_FILES } from "./jobs-utils";
+import {
+  CITIES_MAP,
+  CONTINENTS_MAP,
+  COUNTRIES_MAP,
+  STATES_MAP,
+} from "./map/job-info-map";
 import {
   OPTIMIZED_SKILLS_MAP,
   OPTIMIZED_CONTINENTS_MAP,
@@ -22,10 +27,10 @@ import {
   OPTIMIZED_CITIES_MAP,
   OPTIMIZED_BUSINESS_REGION,
   OPTIMIZED_STATES_MAP,
-} from "./map/optimized-job-info-map.ts";
-import { jobInfoPromptPartGeneral } from "./prompts/job-info-prompt-general.ts";
-import { jobInfoPromptPartDescriptions } from "./prompts/job-info-prompt-descriptions.ts";
-import { jobInfoPromptPartLocations } from "./prompts/job-info-prompt-locations.ts";
+} from "./map/optimized-job-info-map";
+import { jobInfoPromptPartGeneral } from "./prompts/job-info-prompt-general";
+import { jobInfoPromptPartDescriptions } from "./prompts/job-info-prompt-descriptions";
+import { jobInfoPromptPartLocations } from "./prompts/job-info-prompt-locations";
 
 export const normalizeSoftwareJobsInfo = async ({
   scrapedSoftwareJobsInfo,
@@ -39,39 +44,70 @@ export const normalizeSoftwareJobsInfo = async ({
   for (const softwareJobInfo of scrapedSoftwareJobsInfo) {
     try {
       const [general, descriptions, locations] = await Promise.all([
-        openaiApi({ format: "json", model: "gpt-5-mini", prompt: jobInfoPromptPartGeneral(softwareJobInfo) }),
-        openaiApi({ format: "json", model: "gpt-5-mini", prompt: jobInfoPromptPartDescriptions(softwareJobInfo) }),
-        openaiApi({ format: "json", model: "gpt-5-mini", prompt: jobInfoPromptPartLocations(softwareJobInfo) }),
+        openaiApi({
+          format: "json",
+          model: "gpt-5-mini",
+          prompt: jobInfoPromptPartGeneral(softwareJobInfo),
+        }),
+        openaiApi({
+          format: "json",
+          model: "gpt-5-mini",
+          prompt: jobInfoPromptPartDescriptions(softwareJobInfo),
+        }),
+        openaiApi({
+          format: "json",
+          model: "gpt-5-mini",
+          prompt: jobInfoPromptPartLocations(softwareJobInfo),
+        }),
       ]);
       normalizedSoftwareJobInfo = {
         ...general,
         ...descriptions,
         ...locations,
       } as NormalizedSoftwareJobInfo;
-      if (!normalizedSoftwareJobInfo.skills || !normalizedSoftwareJobInfo.locations) {
-        throw new Error(`[${normalizeSoftwareJobsInfo.name}]: Normalization failed for ${softwareJobInfo.url}`);
+      if (
+        !normalizedSoftwareJobInfo.skills ||
+        !normalizedSoftwareJobInfo.locations
+      ) {
+        throw new Error(
+          `[${normalizeSoftwareJobsInfo.name}]: Normalization failed for ${softwareJobInfo.url}`,
+        );
       }
       normalizedSoftwareJobInfo.companyId = companyId;
       normalizedSoftwareJobInfo.workplaceTypes = uniq(
-        normalizedSoftwareJobInfo.locations.map(({ workplaceType }) => workplaceType),
+        normalizedSoftwareJobInfo.locations.map(
+          ({ workplaceType }) => workplaceType,
+        ),
       );
-      normalizedSoftwareJobInfo.skills = compact(normalizedSoftwareJobInfo.skills.map(normalizeSkill));
-      normalizedSoftwareJobInfo.locations = normalizedSoftwareJobInfo.locations.map(normalizeLocation);
+      normalizedSoftwareJobInfo.skills = compact(
+        normalizedSoftwareJobInfo.skills.map(normalizeSkill),
+      );
+      normalizedSoftwareJobInfo.locations =
+        normalizedSoftwareJobInfo.locations.map(normalizeLocation);
       normalizedSoftwareJobInfo.remoteLocationTokens = uniq(
         normalizedSoftwareJobInfo.locations
           .filter(({ workplaceType }) => workplaceType === "remote")
-          .reduce((acc, location) => [...acc, ...mapLocationToToken(location)], [] as string[]),
+          .reduce(
+            (acc, location) => [...acc, ...mapLocationToToken(location)],
+            [] as string[],
+          ),
       );
       normalizedSoftwareJobInfo.onsiteOrHybrifLocationTokens = uniq(
         normalizedSoftwareJobInfo.locations
           .filter(({ workplaceType }) => workplaceType !== "remote")
-          .reduce((acc, location) => [...acc, ...mapLocationToToken(location)], [] as string[]),
+          .reduce(
+            (acc, location) => [...acc, ...mapLocationToToken(location)],
+            [] as string[],
+          ),
       );
       normalizedSoftwareJobsInfo.push(normalizedSoftwareJobInfo);
-      console.log(`[${normalizeSoftwareJobsInfo.name}]: Normalization done for ${normalizedSoftwareJobInfo.url}`);
+      console.log(
+        `[${normalizeSoftwareJobsInfo.name}]: Normalization done for ${normalizedSoftwareJobInfo.url}`,
+      );
     } catch (error) {
       console.error(error);
-      const jobsErrorsData = readJSONFile<JobNormalizationError[]>(JOBS_DATA_FILES.jobsErrors) ?? [];
+      const jobsErrorsData =
+        readJSONFile<JobNormalizationError[]>(JOBS_DATA_FILES.jobsErrors) ?? [];
       jobsErrorsData.push({
         url: softwareJobInfo.url,
         error: error?.toString() ?? "",
@@ -143,7 +179,9 @@ const normalizeLocation = (location: Location): Location => {
 const mapLocationToToken = (location: Location): string[] => {
   return Object.entries(location)
     .map(([key, value]) => [key, value] as [keyof Location, string])
-    .filter(([key, value]) => key !== "workplaceType" && key !== "scope" && value)
+    .filter(
+      ([key, value]) => key !== "workplaceType" && key !== "scope" && value,
+    )
     .map(([key, value]) => `${key}:${value}`.toLowerCase());
 };
 
@@ -168,7 +206,9 @@ const normalizeValue = <T extends string>({
   errors.push(value);
   writeJSONFile(errorFile, errors);
   if (verbose) {
-    console.error(`[${normalizeValue.name}]: Normalizated value not found for ${value} - Check ${errorFile}`);
+    console.error(
+      `[${normalizeValue.name}]: Normalizated value not found for ${value} - Check ${errorFile}`,
+    );
   }
   return ignoreNotFound ? null : ((value ?? "LOCATION_ERROR") as T);
 };
