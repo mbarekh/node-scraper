@@ -77,7 +77,8 @@
         "country": "france",
         "city": "paris"
       }
-    ]
+    ],
+    "companyId": "blablacar"
   },
   {
     "url": "https://jobs.lever.co/blablacar/80099b9d-1cca-4c55-af23-b81ba074b7a3",
@@ -149,7 +150,8 @@
         "country": "france",
         "city": "paris"
       }
-    ]
+    ],
+    "companyId": "blablacar"
   },
   {
     "url": "https://www.pandadoc.com/careers/middle-devops-engineer-eu/",
