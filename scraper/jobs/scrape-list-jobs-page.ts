@@ -82,7 +82,7 @@ export const scrapeSoftwareJobsInfoFromListJobsUrl = async (
       `[${scrapeSoftwareJobsInfoFromListJobsUrl.name}]: Scraper api null response for ${listJobsUrl}`,
     );
   }
-  let scrapedSoftwareJobsInfoWithListJobsUrl = await scrapePublicAtsDomains({
+  const scrapedSoftwareJobsInfoWithListJobsUrl = await scrapePublicAtsDomains({
     $: jobsScraperApiResponse.$,
   });
   if (scrapedSoftwareJobsInfoWithListJobsUrl) {

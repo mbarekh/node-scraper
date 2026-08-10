@@ -1,5 +1,157 @@
 [
   {
+    "url": "https://jobs.lever.co/blablacar/ee9ab7f1-f2b0-4e90-a747-e61004bb59e6",
+    "title": "Confirmed Front-End Engineer - Door to Door",
+    "employmentType": "fulltime",
+    "publishedAt": "2026-08-10",
+    "salaryRange": null,
+    "skills": [
+      "typescript",
+      "html5",
+      "css3",
+      "react",
+      "git",
+      "docker",
+      "node.js",
+      "observability",
+      "kubernetes",
+      "seo",
+      "web performance",
+      "ai-assisted coding",
+      "agentic workflows"
+    ],
+    "description": [
+      "Join the Door to Door team as a Front-End Web Engineer and contribute directly to one of BlaBlaCar's key strategic initiatives.",
+      "Develop a new door-to-door experience within the BlaBlaCar product, aiming to provide the convenience of car ownership without the burden.",
+      "Rapidly iterate on product features while considering future system scalability.",
+      "Work in a highly autonomous environment with proactive involvement across different product and architecture scopes.",
+      "Act as the sole web engineer on the team while supporting, coaching, and mentoring another engineer as they develop their web expertise.",
+      "Contribute to passenger and driver experiences while maintaining strong ownership of the team's core domain.",
+      "Participate in BlaBlaCar's Front-End Web Engineering Chapter and contribute to the foundational architecture of the web platform.",
+      "Collaborate closely with product managers, product designers, and engineers to ensure products meet business and user requirements.",
+      "Design, develop, and maintain high-performance and scalable features within the BlaBlaCar product.",
+      "Follow coding standards, best practices, and BlaBlaCar architecture principles.",
+      "Work with other teams to integrate new features with existing systems and leverage existing capabilities.",
+      "Participate in design reviews, code reviews, and cross-functional technical discussions.",
+      "Share technical expertise with technical, product, and business stakeholders.",
+      "Proactively contribute to the Front-End Web Engineering Chapter.",
+      "Leverage state-of-the-art AI tooling, broadly adopted across BlaBlaCar engineering teams, to improve development efficiency.",
+      "Contribute to BlaBlaCar's goal of reaching 1 million passengers using the new feature by 2028 and generating an additional €5 million in GMV."
+    ],
+    "requirements": [
+      "Proficiency in TypeScript, HTML5, CSS3, and React.",
+      "First experience with Git, Docker, Node.js, and observability solutions.",
+      "Full working proficiency in English.",
+      "Alignment with BlaBlaCar's BlaBlaPrinciples.",
+      "Ability to thrive in a collaborative, fast-growing, and innovative environment.",
+      "Ability to take ownership while remaining aligned with business priorities.",
+      "Strong appetite for AI-assisted coding and agentic workflows.",
+      "A 'share more, learn more' mindset aligned with the company culture.",
+      "Nice to have: hands-on experience with Kubernetes.",
+      "Nice to have: experience with SEO and web performance optimization.",
+      "Nice to have: previous experience with mobile and backend development."
+    ],
+    "benefits": [
+      "Hybrid position with 2 days at the office per week.",
+      "50% healthcare coverage through Alan.",
+      "4 additional weeks on top of legal maternity/paternity leave.",
+      "Financial support for home office equipment.",
+      "Minimum 25 days of holiday per year.",
+      "Local meal plan through a Swile card.",
+      "50% transportation paid through the Forfait Mobilité Durable.",
+      "Free unlimited carpooling and bus rides.",
+      "Personal growth through training, mentorship, and internal mobility programs.",
+      "Employee Stock Ownership Plan.",
+      "Regular team-building events.",
+      "1 day off per year to test the BlaBlaCar product."
+    ],
+    "overview": "Front-End Web Engineer responsible for building BlaBlaCar's new Door to Door experience. The role combines hands-on React and TypeScript development with high ownership, product collaboration, web architecture contributions, mentoring, and participation in the Front-End Web Engineering Chapter. The position also emphasizes AI-assisted development and agentic workflows.",
+    "seniority": "senior",
+    "category": "frontend",
+    "locations": [
+      {
+        "scope": "city",
+        "workplaceType": "hybrid",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "france",
+        "city": "paris"
+      }
+    ]
+  },
+  {
+    "url": "https://jobs.lever.co/blablacar/80099b9d-1cca-4c55-af23-b81ba074b7a3",
+    "title": "Junior Backend Engineer - Care",
+    "employmentType": "fulltime",
+    "publishedAt": "2026-08-10",
+    "salaryRange": null,
+    "skills": [
+      "java",
+      "spring",
+      "spring boot",
+      "junit",
+      "mockito",
+      "microservices",
+      "service-oriented architecture",
+      "react",
+      "typescript",
+      "docker",
+      "kubernetes",
+      "datadog"
+    ],
+    "description": [
+      "Join BlaBlaCar's Corporate Services pillar and empower the Community Relations Team with tools providing a 360-degree view of the user journey across the platform.",
+      "Contribute to the development of Phoenix, BlaBlaCar's new comprehensive back-office system, which aggregates data from teams and supply lines including train, carpool, and bus.",
+      "Build critical user-management capabilities such as account blocking and content moderation while ensuring customer relation agents can operate seamlessly.",
+      "Collaborate with a full-stack team of 3 backend engineers and 1 frontend engineer, working closely with the Community Relations Team and Product Managers across the company.",
+      "Contribute to the design and delivery of the product from early-stage conception through final rollout.",
+      "Participate in the technical design, development, and maintenance of Java microservices supporting Care flows across the BlaBlaCar platform.",
+      "Participate in the full application lifecycle, including design, development, testing, deployment, monitoring, alerting, and support.",
+      "Collaborate with engineering peers and non-technical stakeholders to shape features that reach production.",
+      "Share knowledge within the team through documentation, good practices, processes, communication about changes, and code reviews.",
+      "Work in a fast-paced, product-focused environment while balancing technical quality and time-to-market."
+    ],
+    "requirements": [
+      "Experience with Java and frameworks and tools such as Spring, Spring Boot, JUnit, and Mockito.",
+      "Understanding of service-oriented architecture and the ability to determine when to apply appropriate architectural patterns.",
+      "Openness to modern development tools. Experience with AI coding assistants is a plus, as well as an open-minded approach to using AI to improve daily workflows.",
+      "Curiosity and willingness to learn beyond backend development, including exploring frontend projects using React and TypeScript.",
+      "Knowledge or prior experience with Docker, Kubernetes, and Datadog is a plus.",
+      "Comfort working in a fast-paced environment with a strong product focus and the ability to balance technical quality with time-to-market.",
+      "Good communication skills, with the ability to share knowledge and adapt communication to non-technical stakeholders.",
+      "Team-oriented mindset and willingness to improve team ways of working through communication and shared agreements.",
+      "Ability to embrace change, step back when necessary, and focus on high-value tasks.",
+      "Fluency in English."
+    ],
+    "benefits": [
+      "Hybrid position with 2 days per week at the office.",
+      "50% healthcare coverage through Alan.",
+      "4 additional weeks on top of legal maternity/paternity leave.",
+      "Financial support for home office equipment.",
+      "Minimum 25 days of holiday per year.",
+      "Local meal plan through a Swile card.",
+      "50% transportation paid through the Forfait Mobilité Durable.",
+      "Free unlimited carpooling and bus rides.",
+      "Personal growth opportunities through training, mentorship, and internal mobility programs.",
+      "Employee stock ownership plan.",
+      "Regular team-building events.",
+      "1 day off per year to test the BlaBlaCar product."
+    ],
+    "overview": "Junior Backend Engineer responsible for contributing to BlaBlaCar's Care back-office platform, Phoenix, by developing and maintaining Java microservices. Works within a full-stack team and collaborates closely with Community Relations and Product teams throughout the application lifecycle.",
+    "seniority": "junior",
+    "category": "backend",
+    "locations": [
+      {
+        "scope": "city",
+        "workplaceType": "hybrid",
+        "businessRegion": "emea",
+        "continent": "europe",
+        "country": "france",
+        "city": "paris"
+      }
+    ]
+  },
+  {
     "url": "https://www.pandadoc.com/careers/middle-devops-engineer-eu/",
     "title": "Middle DevOps Engineer",
     "employmentType": "fulltime",
@@ -12,7 +164,17 @@
       "bonus": true,
       "equity": true
     },
-    "skills": ["kubernetes", "terraform", "jenkins", "bash", "python", "go", "aws", "postgresql", "kafka"],
+    "skills": [
+      "kubernetes",
+      "terraform",
+      "jenkins",
+      "bash",
+      "python",
+      "go",
+      "aws",
+      "postgresql",
+      "kafka"
+    ],
     "description": [
       "We are seeking a proactive and self-sufficient DevOps Engineer to join our team.",
       "You will be instrumental in the design, construction, and maintenance of our core infrastructure.",
@@ -223,7 +385,15 @@
     "employmentType": "fulltime",
     "publishedAt": null,
     "salaryRange": null,
-    "skills": ["react-native", "react", "typescript", "javascript", "ios", "android", "ci_cd"],
+    "skills": [
+      "react-native",
+      "react",
+      "typescript",
+      "javascript",
+      "ios",
+      "android",
+      "ci_cd"
+    ],
     "description": [
       "Own and evolve the architecture of PandaDoc’s mobile applications across different platforms (iOS, Android) on React Native",
       "Drive technical decisions and set standards for code quality, testing, performance, and cross-team integrations.",
@@ -487,7 +657,11 @@
     ],
     "companyId": "pandadoc",
     "workplaceTypes": ["remote"],
-    "remoteLocationTokens": ["businessregion:amer", "continent:northamerica", "country:unitedstates"],
+    "remoteLocationTokens": [
+      "businessregion:amer",
+      "continent:northamerica",
+      "country:unitedstates"
+    ],
     "onsiteOrHybrifLocationTokens": []
   },
   {
@@ -496,7 +670,16 @@
     "employmentType": "fulltime",
     "publishedAt": "2026-02-25",
     "salaryRange": null,
-    "skills": ["javascript", "typescript", "react", "react-native", "nextjs", "websocket", "ios", "android"],
+    "skills": [
+      "javascript",
+      "typescript",
+      "react",
+      "react-native",
+      "nextjs",
+      "websocket",
+      "ios",
+      "android"
+    ],
     "description": [
       "The Payments & Blockchain team is responsible for the first and last mile of every dollar (digital or fiat) that goes in our out of Kraken.",
       "As a member of this team, your focus is on protecting client funds.",
@@ -900,7 +1083,17 @@
     "employmentType": "fulltime",
     "publishedAt": "2026-04-02",
     "salaryRange": null,
-    "skills": ["rust", "typescript", "graphql", "grpc", "kafka", "docker", "kubernetes", "ci_cd", "distributedsystem"],
+    "skills": [
+      "rust",
+      "typescript",
+      "graphql",
+      "grpc",
+      "kafka",
+      "docker",
+      "kubernetes",
+      "ci_cd",
+      "distributedsystem"
+    ],
     "description": [
       "The Blockchain Platform team is the connective tissue of Kraken's engineering organization.",
       "We own the systems that handle node interactions, block ingestion & parsing, balance tracking, and on-chain data at scale.",
@@ -1248,7 +1441,11 @@
     ],
     "companyId": "krakenfx",
     "workplaceTypes": ["remote"],
-    "remoteLocationTokens": ["businessregion:amer", "continent:northamerica", "country:unitedstates"],
+    "remoteLocationTokens": [
+      "businessregion:amer",
+      "continent:northamerica",
+      "country:unitedstates"
+    ],
     "onsiteOrHybrifLocationTokens": []
   },
   {
@@ -1257,7 +1454,17 @@
     "employmentType": "internship",
     "publishedAt": "2026-02-23",
     "salaryRange": null,
-    "skills": ["java", "go", "typescript", "python", "aws", "azure", "gcp", "distributedsystem", "cloud"],
+    "skills": [
+      "java",
+      "go",
+      "typescript",
+      "python",
+      "aws",
+      "azure",
+      "gcp",
+      "distributedsystem",
+      "cloud"
+    ],
     "description": [
       "Develop new 3rd party integrations that contribute to expanding the functionality of the Snowflake application and deliver an awesome, consistent user experience.",
       "Collaborate with product management, and other software engineers to deliver new customer-facing features.",
@@ -1298,7 +1505,12 @@
     "companyId": "snowflake-computing",
     "workplaceTypes": ["onsite"],
     "remoteLocationTokens": [],
-    "onsiteOrHybrifLocationTokens": ["businessregion:emea", "continent:europe", "country:poland", "city:warsaw"]
+    "onsiteOrHybrifLocationTokens": [
+      "businessregion:emea",
+      "continent:europe",
+      "country:poland",
+      "city:warsaw"
+    ]
   },
   {
     "url": "https://jobs.ashbyhq.com/snowflake/41e65c6c-a01e-4f40-af14-ae75d3b95e27",
@@ -1306,7 +1518,17 @@
     "employmentType": "internship",
     "publishedAt": "2025-09-26",
     "salaryRange": null,
-    "skills": ["cpp", "java", "sql", "spark", "hadoop", "aws", "azure", "gcp", "distributedsystem"],
+    "skills": [
+      "cpp",
+      "java",
+      "sql",
+      "spark",
+      "hadoop",
+      "aws",
+      "azure",
+      "gcp",
+      "distributedsystem"
+    ],
     "description": [
       "Opportunity to provide meaningful contributions to a real system used by customers",
       "Implementation, testing of features in query compilation, compiler design, query execution",
@@ -1358,7 +1580,12 @@
     "companyId": "snowflake-computing",
     "workplaceTypes": ["onsite"],
     "remoteLocationTokens": [],
-    "onsiteOrHybrifLocationTokens": ["businessregion:emea", "continent:europe", "country:germany", "city:berlin"]
+    "onsiteOrHybrifLocationTokens": [
+      "businessregion:emea",
+      "continent:europe",
+      "country:germany",
+      "city:berlin"
+    ]
   },
   {
     "url": "https://jobs.ashbyhq.com/snowflake/0bd2f4bd-d46a-43cf-b923-74e56b17cb85",
@@ -1406,7 +1633,12 @@
     "companyId": "snowflake-computing",
     "workplaceTypes": ["onsite"],
     "remoteLocationTokens": [],
-    "onsiteOrHybrifLocationTokens": ["businessregion:emea", "continent:europe", "country:poland", "city:warsaw"]
+    "onsiteOrHybrifLocationTokens": [
+      "businessregion:emea",
+      "continent:europe",
+      "country:poland",
+      "city:warsaw"
+    ]
   },
   {
     "url": "https://jobs.ashbyhq.com/snowflake/cac27b18-bd24-4722-8bb7-0b5ce7b18eaf",
@@ -1448,7 +1680,12 @@
     "companyId": "snowflake-computing",
     "workplaceTypes": ["onsite"],
     "remoteLocationTokens": [],
-    "onsiteOrHybrifLocationTokens": ["businessregion:emea", "continent:europe", "country:poland", "city:warsaw"]
+    "onsiteOrHybrifLocationTokens": [
+      "businessregion:emea",
+      "continent:europe",
+      "country:poland",
+      "city:warsaw"
+    ]
   },
   {
     "url": "https://jobs.ashbyhq.com/snowflake/897e1850-c590-4462-b187-0516b65b2034",
@@ -1456,7 +1693,16 @@
     "employmentType": "internship",
     "publishedAt": "2025-11-26",
     "salaryRange": null,
-    "skills": ["python", "go", "java", "pytorch", "tensorflow", "spark", "distributedsystem", "ci_cd"],
+    "skills": [
+      "python",
+      "go",
+      "java",
+      "pytorch",
+      "tensorflow",
+      "spark",
+      "distributedsystem",
+      "ci_cd"
+    ],
     "description": [
       "In this role, you will contribute to cutting-edge AI-powered products, such as Snowflake Intelligence, which helps business users extract insights from large-scale data.",
       "Your work will be directly integrated into the Snowflake platform, driving AI innovation in data applications.",
@@ -1507,8 +1753,17 @@
     ],
     "companyId": "snowflake-computing",
     "workplaceTypes": ["onsite", "remote"],
-    "remoteLocationTokens": ["businessregion:amer", "continent:northamerica", "country:unitedstates"],
-    "onsiteOrHybrifLocationTokens": ["businessregion:emea", "continent:europe", "country:poland", "city:warsaw"]
+    "remoteLocationTokens": [
+      "businessregion:amer",
+      "continent:northamerica",
+      "country:unitedstates"
+    ],
+    "onsiteOrHybrifLocationTokens": [
+      "businessregion:emea",
+      "continent:europe",
+      "country:poland",
+      "city:warsaw"
+    ]
   },
   {
     "url": "https://jobs.ashbyhq.com/snowflake/02aa1900-b08d-44e4-8724-9eba8b090fb1",
@@ -1636,7 +1891,12 @@
     "companyId": "snowflake-computing",
     "workplaceTypes": ["hybrid"],
     "remoteLocationTokens": [],
-    "onsiteOrHybrifLocationTokens": ["businessregion:emea", "continent:europe", "country:poland", "city:warsaw"]
+    "onsiteOrHybrifLocationTokens": [
+      "businessregion:emea",
+      "continent:europe",
+      "country:poland",
+      "city:warsaw"
+    ]
   },
   {
     "url": "https://jobs.ashbyhq.com/snowflake/e5e412cd-b5ec-4937-a25b-d01839a09007",
@@ -1693,8 +1953,17 @@
     ],
     "companyId": "snowflake-computing",
     "workplaceTypes": ["hybrid", "remote"],
-    "remoteLocationTokens": ["businessregion:amer", "continent:northamerica", "country:unitedstates"],
-    "onsiteOrHybrifLocationTokens": ["businessregion:emea", "continent:europe", "country:poland", "city:warsaw"]
+    "remoteLocationTokens": [
+      "businessregion:amer",
+      "continent:northamerica",
+      "country:unitedstates"
+    ],
+    "onsiteOrHybrifLocationTokens": [
+      "businessregion:emea",
+      "continent:europe",
+      "country:poland",
+      "city:warsaw"
+    ]
   },
   {
     "url": "https://jobs.ashbyhq.com/snowflake/10495197-9600-4590-9863-83f31f93a200",
@@ -1752,7 +2021,12 @@
     "companyId": "snowflake-computing",
     "workplaceTypes": ["hybrid"],
     "remoteLocationTokens": [],
-    "onsiteOrHybrifLocationTokens": ["businessregion:emea", "continent:europe", "country:poland", "city:warsaw"]
+    "onsiteOrHybrifLocationTokens": [
+      "businessregion:emea",
+      "continent:europe",
+      "country:poland",
+      "city:warsaw"
+    ]
   },
   {
     "url": "https://jobs.ashbyhq.com/snowflake/5e571ebe-6cae-4384-a6e2-c151f72ccd41",
@@ -1796,7 +2070,12 @@
     "companyId": "snowflake-computing",
     "workplaceTypes": ["onsite"],
     "remoteLocationTokens": [],
-    "onsiteOrHybrifLocationTokens": ["businessregion:emea", "continent:europe", "country:switzerland", "city:zurich"]
+    "onsiteOrHybrifLocationTokens": [
+      "businessregion:emea",
+      "continent:europe",
+      "country:switzerland",
+      "city:zurich"
+    ]
   },
   {
     "url": "https://jobs.ashbyhq.com/snowflake/b6e0f4a7-7e69-4c92-b3cc-13d018bbabe9",
@@ -1849,8 +2128,17 @@
     ],
     "companyId": "snowflake-computing",
     "workplaceTypes": ["hybrid", "remote"],
-    "remoteLocationTokens": ["businessregion:amer", "continent:northamerica", "country:unitedstates"],
-    "onsiteOrHybrifLocationTokens": ["businessregion:emea", "continent:europe", "country:poland", "city:warsaw"]
+    "remoteLocationTokens": [
+      "businessregion:amer",
+      "continent:northamerica",
+      "country:unitedstates"
+    ],
+    "onsiteOrHybrifLocationTokens": [
+      "businessregion:emea",
+      "continent:europe",
+      "country:poland",
+      "city:warsaw"
+    ]
   },
   {
     "url": "https://jobs.ashbyhq.com/snowflake/26a0ae52-97a6-4a46-9216-3c382570d89b",
@@ -1858,7 +2146,17 @@
     "employmentType": "internship",
     "publishedAt": "2026-05-12",
     "salaryRange": null,
-    "skills": ["cpp", "go", "sql", "spark", "hadoop", "aws", "azure", "gcp", "distributedsystem"],
+    "skills": [
+      "cpp",
+      "go",
+      "sql",
+      "spark",
+      "hadoop",
+      "aws",
+      "azure",
+      "gcp",
+      "distributedsystem"
+    ],
     "description": [
       "Building, scaling, and operating the development and production environments that power our observability platform.",
       "Delivering reliable infrastructure while continuously improving the systems that support our engineers and customers.",
@@ -1911,7 +2209,12 @@
     "companyId": "snowflake-computing",
     "workplaceTypes": ["onsite"],
     "remoteLocationTokens": [],
-    "onsiteOrHybrifLocationTokens": ["businessregion:emea", "continent:europe", "country:switzerland", "city:zurich"]
+    "onsiteOrHybrifLocationTokens": [
+      "businessregion:emea",
+      "continent:europe",
+      "country:switzerland",
+      "city:zurich"
+    ]
   },
   {
     "url": "https://jobs.ashbyhq.com/snowflake/66fa23b2-0dcf-4c47-8127-9bdbcfc2ac62",
@@ -1937,7 +2240,9 @@
       "Great communication skills, both verbal and written and an interest in working with a diverse set of peers and external developers",
       "Genuine enjoyment of the art of building great software, and a love of learning new things"
     ],
-    "benefits": ["Salary and benefits information available on the Snowflake Careers site for US-based jobs."],
+    "benefits": [
+      "Salary and benefits information available on the Snowflake Careers site for US-based jobs."
+    ],
     "overview": "Software Engineer building ML and LLM-based solutions using Java, Python, Kubernetes, and Snowflake. Join the Customer Experience Engineering team to automate and scale tools that empower global support and sales organizations.",
     "seniority": "mid",
     "category": "backend",
@@ -1954,7 +2259,12 @@
     "companyId": "snowflake-computing",
     "workplaceTypes": ["onsite"],
     "remoteLocationTokens": [],
-    "onsiteOrHybrifLocationTokens": ["businessregion:emea", "continent:europe", "country:poland", "city:warsaw"]
+    "onsiteOrHybrifLocationTokens": [
+      "businessregion:emea",
+      "continent:europe",
+      "country:poland",
+      "city:warsaw"
+    ]
   },
   {
     "url": "https://jobs.ashbyhq.com/snowflake/3b15e969-42d4-48c0-8e01-a95985aec533",
@@ -2003,7 +2313,12 @@
     "companyId": "snowflake-computing",
     "workplaceTypes": ["onsite"],
     "remoteLocationTokens": [],
-    "onsiteOrHybrifLocationTokens": ["businessregion:emea", "continent:europe", "country:poland", "city:warsaw"]
+    "onsiteOrHybrifLocationTokens": [
+      "businessregion:emea",
+      "continent:europe",
+      "country:poland",
+      "city:warsaw"
+    ]
   },
   {
     "url": "https://jobs.ashbyhq.com/snowflake/227b8c06-b6de-4f3a-ae37-7e0c015e5b7a",
@@ -2054,7 +2369,12 @@
     "companyId": "snowflake-computing",
     "workplaceTypes": ["onsite"],
     "remoteLocationTokens": [],
-    "onsiteOrHybrifLocationTokens": ["businessregion:emea", "continent:europe", "country:poland", "city:warsaw"]
+    "onsiteOrHybrifLocationTokens": [
+      "businessregion:emea",
+      "continent:europe",
+      "country:poland",
+      "city:warsaw"
+    ]
   },
   {
     "url": "https://jobs.ashbyhq.com/snowflake/21137a73-0d22-43cc-b72c-b7ef30037bc0",
@@ -2100,7 +2420,12 @@
     "companyId": "snowflake-computing",
     "workplaceTypes": ["onsite"],
     "remoteLocationTokens": [],
-    "onsiteOrHybrifLocationTokens": ["businessregion:emea", "continent:europe", "country:poland", "city:warsaw"]
+    "onsiteOrHybrifLocationTokens": [
+      "businessregion:emea",
+      "continent:europe",
+      "country:poland",
+      "city:warsaw"
+    ]
   },
   {
     "url": "https://jobs.ashbyhq.com/snowflake/f5c5cb72-ffe8-452d-b3cb-e8e8209de108",
