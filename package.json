@@ -2,11 +2,14 @@
   "name": "fullstack-jobs",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test": "tsx --test scraper/tests/*.spec.ts",
+    "scrape:companies": "tsx scraper/companies/companies-main-script.ts"
   },
   "dependencies": {
     "next": "16.2.9",

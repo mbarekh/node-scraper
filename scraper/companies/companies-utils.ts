@@ -1,6 +1,6 @@
 import path from "path";
 
-const companiesDataFolderPath = path.join("src", "companies", "data");
+const companiesDataFolderPath = path.join("scraper", "companies", "data");
 
 export const COMPANIES_DATA_FILES = {
   companiesInfo: path.join(companiesDataFolderPath, "companies-info.json"),

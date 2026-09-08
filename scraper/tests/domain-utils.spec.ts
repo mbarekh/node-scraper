@@ -1,6 +1,25 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { getCompanyName, hasId, toAbsoluteUrl } from "../utils/domain-utils";
+import {
+  getCompanyName,
+  hasId,
+  isValidWebsite,
+  toAbsoluteUrl,
+} from "../utils/domain-utils";
+
+test("isValidWebsite", () => {
+  assert.strictEqual(isValidWebsite("https://kraken.com"), true);
+  assert.strictEqual(isValidWebsite("https://google.fr"), true);
+  assert.strictEqual(isValidWebsite("https://google.io"), true);
+  assert.strictEqual(isValidWebsite("https://google.ai"), true);
+  assert.strictEqual(isValidWebsite("https://google.org"), true);
+  assert.strictEqual(isValidWebsite("https://fullstackjobs.dev"), true);
+  assert.strictEqual(isValidWebsite("https://example.co.uk"), true);
+
+  assert.strictEqual(isValidWebsite("kraken.com"), false);
+  assert.strictEqual(isValidWebsite("https://"), false);
+  assert.strictEqual(isValidWebsite(""), false);
+});
 
 test("hasId - numeric IDs", () => {
   assert.strictEqual(

@@ -34,7 +34,6 @@ export function CompanyCard({ companyInfo }: { companyInfo: CompanyInfo }) {
   const followersLabel = formatFollowers(companyInfo.followers);
   const websiteLabel = getWebsiteLabel(companyInfo.website);
 
-  console.log(`${process.cwd()}/scraper/companies/logos/${companyInfo.id}.png`);
   return (
     <article className="group relative overflow-hidden rounded-3xl border border-white/10 bg-white/[0.04] p-5 shadow-[0_28px_80px_-52px_rgba(2,6,23,0.95)] backdrop-blur-xl transition duration-300 hover:border-cyan-200/25 hover:bg-white/[0.06] sm:p-6">
       <div className="pointer-events-none absolute -right-12 -top-20 h-44 w-44 rounded-full bg-cyan-300/20 blur-3xl transition duration-500 group-hover:bg-cyan-300/30" />

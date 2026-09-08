@@ -1,4 +1,13 @@
-export const sizes = ["1-10", "11-50", "51-200", "201-500", "501-1000", "1001-5000", "5001-10000", "10001+"] as const;
+export const sizes = [
+  "1-10",
+  "11-50",
+  "51-200",
+  "201-500",
+  "501-1000",
+  "1001-5000",
+  "5001-10000",
+  "10001+",
+] as const;
 
 export type Size = (typeof sizes)[number];
 
@@ -42,7 +51,10 @@ export const authorizedIndustries = [
   "Travel",
 ] as const;
 
-export const industries = [...authorizedIndustries, ...forbiddenIndustries].sort();
+export const industries = [
+  ...authorizedIndustries,
+  ...forbiddenIndustries,
+].sort();
 
 export type Industry = (typeof industries)[number];
 
@@ -84,7 +96,14 @@ export const businessTypes = [
 
 export type BusinessType = (typeof businessTypes)[number];
 
-export const customerTypes = ["B2B", "B2C", "B2G", "C2C", "B2B2C", "D2C"] as const;
+export const customerTypes = [
+  "B2B",
+  "B2C",
+  "B2G",
+  "C2C",
+  "B2B2C",
+  "D2C",
+] as const;
 
 export type CustomerType = (typeof customerTypes)[number];
 
@@ -97,7 +116,7 @@ export type CompanyInfo = {
   companySize: Size;
   foundedYear: number;
   description: string[];
-  id: string; // equal to linkedinId
+  id: string;
   lastScrapedAt: string;
   linkedinUrl: string;
   overview?: string;

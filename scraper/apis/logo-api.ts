@@ -33,7 +33,7 @@ export const downloadLogoApi = async ({
     if (!domain) throw Error("Domain not found error");
     const logoAbsolutePath = path.join(
       process.cwd(),
-      "src",
+      "scraper",
       "companies",
       "logos",
       logoFileName,

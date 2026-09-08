@@ -2,7 +2,7 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import {
   getLinkedinUrl,
-  extractLinkedinId,
+  extractCompanyId,
   parseFollowersCount,
 } from "../utils/linkedin-utils";
 
@@ -34,56 +34,56 @@ test("getLinkedinUrl", () => {
 });
 
 test("extractLinkedinId", () => {
-  assert.strictEqual(extractLinkedinId(""), null);
-  assert.strictEqual(extractLinkedinId("https://www.linkedin.com"), null);
+  assert.strictEqual(extractCompanyId(""), null);
+  assert.strictEqual(extractCompanyId("https://www.linkedin.com"), null);
   assert.strictEqual(
-    extractLinkedinId("https://www.linkedin.com/company/"),
+    extractCompanyId("https://www.linkedin.com/company/"),
     null,
   );
   assert.strictEqual(
-    extractLinkedinId("https://www.linkedin.com/profile/hazem"),
+    extractCompanyId("https://www.linkedin.com/profile/hazem"),
     null,
   );
   assert.strictEqual(
-    extractLinkedinId("https://www.linkedin.com/company/google"),
+    extractCompanyId("https://www.linkedin.com/company/google"),
     "google",
   );
   assert.strictEqual(
-    extractLinkedinId("https://au.linkedin.com/company/intuit"),
+    extractCompanyId("https://au.linkedin.com/company/intuit"),
     "intuit",
   );
   assert.strictEqual(
-    extractLinkedinId("https://uk.linkedin.com/company/intuit"),
+    extractCompanyId("https://uk.linkedin.com/company/intuit"),
     "intuit",
   );
   assert.strictEqual(
-    extractLinkedinId("https://linkedin.com/company/microsoft/"),
+    extractCompanyId("https://linkedin.com/company/microsoft/"),
     "microsoft",
   );
   assert.strictEqual(
-    extractLinkedinId(
+    extractCompanyId(
       "https://www.linkedin.com/company/apple?trk=public_profile",
     ),
     "apple",
   );
   assert.strictEqual(
-    extractLinkedinId("https://www.linkedin.com/company/amazon#about"),
+    extractCompanyId("https://www.linkedin.com/company/amazon#about"),
     "amazon",
   );
   assert.strictEqual(
-    extractLinkedinId("https://www.linkedin.com/company/facebook/"),
+    extractCompanyId("https://www.linkedin.com/company/facebook/"),
     "facebook",
   );
   assert.strictEqual(
-    extractLinkedinId("https://linkedin.com/company/apple?trk=public_profile"),
+    extractCompanyId("https://linkedin.com/company/apple?trk=public_profile"),
     "apple",
   );
   assert.strictEqual(
-    extractLinkedinId("https://linkedin.com/company/amazon#about"),
+    extractCompanyId("https://linkedin.com/company/amazon#about"),
     "amazon",
   );
   assert.strictEqual(
-    extractLinkedinId("https://linkedin.com/company/facebook/"),
+    extractCompanyId("https://linkedin.com/company/facebook/"),
     "facebook",
   );
 });

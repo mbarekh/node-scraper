@@ -2,7 +2,7 @@ import { aiSearchCompanyInfo } from "./ai-search-company-info";
 import { compact } from "../utils/extra-utils";
 import { readJSONFile, writeJSONFile } from "../utils/file-utils";
 import {
-  extractLinkedinId,
+  extractCompanyId,
   getLinkedinUrl,
   parseFollowersCount,
   MIN_FOLLOWERS_COUNT,
@@ -14,6 +14,7 @@ import {
   type CompanyInfo,
 } from "../model/companies-model";
 import { COMPANIES_DATA_FILES } from "./companies-utils";
+import { isValidWebsite, normalizeWebsite } from "../utils/domain-utils";
 
 export const scrapeCompaniesInfo = async ({
   updatedCompaniesCount,
@@ -69,27 +70,28 @@ export const scrapeCompaniesInfo = async ({
       displayed_link,
       sitelinks,
     } = googleSearchLinkedins.organic_results[0];
-    const linkedinId = extractLinkedinId(link);
-    if (!linkedinId || linkedinIds.has(linkedinId)) {
+    const companyId = extractCompanyId(link);
+    if (!companyId || linkedinIds.has(companyId)) {
       continue;
     }
     let followersInfo = displayed_link || "";
-    const linkedinUrl = getLinkedinUrl(linkedinId);
-    linkedinIds.add(linkedinId);
+    const linkedinUrl = getLinkedinUrl(companyId);
+    linkedinIds.add(companyId);
     let followers = parseFollowersCount(followersInfo);
     if (followers === -1) {
       const expandedItem = sitelinks?.expanded?.find(
         ({ link, snippet }) =>
-          extractLinkedinId(link) === linkedinId &&
+          extractCompanyId(link) === companyId &&
           parseFollowersCount(snippet) !== -1,
       );
       followers = parseFollowersCount(expandedItem?.snippet || "");
       followersInfo = expandedItem?.snippet || followersInfo;
     }
     if (0 <= followers && followers < MIN_FOLLOWERS_COUNT) {
+      console.log("Adding to small companies file", companyId, followers);
       smallCompaniesInfo.push({
         ...companyInfo,
-        id: linkedinId,
+        id: companyId,
         linkedinUrl,
         followers,
         overview,
@@ -101,18 +103,24 @@ export const scrapeCompaniesInfo = async ({
     let companyInfoAi = {} as CompanyInfo;
     try {
       companyInfoAi = await aiSearchCompanyInfo({
-        linkedinId,
+        companyId,
         overview,
         followers,
       });
     } catch (error) {
-      console.log(error);
+      console.error(
+        `Error while searching company info for ${companyId}:`,
+        (error as Error).message,
+      );
     }
-    const companyInfoFinal = { ...companyInfo, ...companyInfoAi };
-    if (companyInfoAi.followers < MIN_FOLLOWERS_COUNT) {
+    const companyInfoFinal: CompanyInfo = {
+      ...companyInfo,
+      ...companyInfoAi,
+    };
+    if ((companyInfoAi.followers ?? 0) < MIN_FOLLOWERS_COUNT) {
       smallCompaniesInfo.push({
         ...companyInfo,
-        id: linkedinId,
+        id: companyId,
         linkedinUrl,
         followers,
         overview,
@@ -129,7 +137,7 @@ export const scrapeCompaniesInfo = async ({
       forbiddenCompaniesInfo.push({
         ...companyInfo,
         ...companyInfoAi,
-        id: linkedinId,
+        id: companyId,
         linkedinUrl,
         followers,
         overview,
@@ -137,7 +145,10 @@ export const scrapeCompaniesInfo = async ({
       addedToForbiddenCompaniesFile++;
       continue;
     }
-    if (!companyInfoFinal.website || websites.has(companyInfoFinal.website)) {
+    if (
+      !isValidWebsite(companyInfoFinal.website) ||
+      websites.has(companyInfoFinal.website)
+    ) {
       errorCompaniesInfo.push(companyInfoFinal);
       addedToErrorCompaniesFile++;
       continue;
@@ -145,7 +156,7 @@ export const scrapeCompaniesInfo = async ({
     websites.add(companyInfoFinal.website);
     await downloadLogoApi({
       website: companyInfoFinal.website,
-      logoFileName: `${linkedinId}.png`,
+      logoFileName: `${companyId}.png`,
     });
     companiesInfoUpdated.push(companyInfoFinal);
     addedToCompaniesFile++;

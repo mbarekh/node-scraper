@@ -8,15 +8,15 @@ import { getLinkedinUrl, MIN_FOLLOWERS_COUNT } from "../utils/linkedin-utils";
 import type { CompanyInfo } from "../model/companies-model";
 
 export const aiSearchCompanyInfo = async ({
-  linkedinId,
+  companyId,
   overview,
   followers,
 }: {
-  linkedinId: string;
+  companyId: string;
   overview: string;
   followers: number;
 }) => {
-  const linkedinUrl = getLinkedinUrl(linkedinId);
+  const linkedinUrl = getLinkedinUrl(companyId);
 
   const requestedInfo = [
     "website",
@@ -56,7 +56,8 @@ export const aiSearchCompanyInfo = async ({
       model: "gpt-5-nano",
     });
     companyInfo.website = normalizeWebsite(companyInfo.website) ?? "";
+    companyInfo.id = companyId;
   }
 
-  return { ...companyInfo, linkedinId, linkedinUrl, followers };
+  return { ...companyInfo, linkedinUrl, followers };
 };

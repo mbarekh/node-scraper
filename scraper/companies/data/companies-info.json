@@ -1,7 +1,7 @@
 [
   {
     "name": "BlaBlaCar",
-    "website": "https://www.blablacar.com",
+    "website": "https://blablacar.com",
     "companySize": "501-1000",
     "foundedYear": 2006,
     "industry": "Transport",
@@ -6056,9 +6056,6 @@
     "followers": 7800
   },
   {
-    "name": "Alpha Omni Tutelage"
-  },
-  {
     "name": "Pattern",
     "website": "https://pattern.com",
     "companySize": "1001-5000",
@@ -6580,31 +6577,73 @@
     "followers": 7700
   },
   {
-    "name": "Q-Centrix"
+    "name": "Canonical",
+    "website": "https://canonical.com",
+    "companySize": "1,001–5,000",
+    "foundedYear": 2004,
+    "industry": "Software",
+    "technology": "Cloud Systems",
+    "customerTypes": ["B2B"],
+    "description": [
+      "Canonical aims to advance open source at scale by sustaining Ubuntu across devices, clouds, and on-premises deployments. Its core offering centers on Ubuntu with long-term support, security updates, and certified images for servers, desktops, and edge devices. Primary customers are enterprises, cloud providers, and device manufacturers seeking stable, auditable foundations. A differentiating factor is official, end-to-end support and a broad ecosystem of certified partners."
+    ],
+    "id": "canonical",
+    "linkedinUrl": "https://linkedin.com/company/canonical",
+    "followers": 785800
   },
   {
-    "name": "Canonical"
+    "name": "Ethyca",
+    "website": "https://ethyca.com",
+    "companySize": "11-50",
+    "foundedYear": 2019,
+    "industry": "Software",
+    "technology": "Privacy",
+    "customerTypes": ["B2B"],
+    "description": [
+      "Ethyca's mission is to enable developers and privacy teams to ship products that respect user data by providing automated privacy infrastructure. Positioning: a code-embedded platform that integrates with CI/CD and data workflows to enforce GDPR and CCPA requirements. Core product includes automated data discovery, policy enforcement, and consent management that monitor data flows and prevent non-compliant deployments. Primary customers are product and privacy teams building consumer software. A differentiator is real-time policy checks that adapt to evolving regulations."
+    ],
+    "id": "ethyca",
+    "linkedinUrl": "https://linkedin.com/company/ethyca",
+    "followers": 5300
   },
   {
-    "name": "Turnberry Solutions"
+    "name": "Kraken Technologies",
+    "website": "https://kraken.tech",
+    "companySize": "1001-5000",
+    "foundedYear": 2017,
+    "industry": "Energy",
+    "technology": "Automation",
+    "customerTypes": ["B2B"],
+    "description": [
+      "Utilities face mounting pressures from decarbonization, grid modernization, and rising customer expectations, demanding platforms that unify data, operations across silos.",
+      "Kraken Technologies offers an advanced operating system for utilities that integrates with every facet of the energy value chain, from renewable generation to customer delivery and billing. The platform orchestrates data, devices, and workflows, breaking silos and accelerating decarbonization with visibility and control across operations.",
+      "On the technical level, the solution uses automation to coordinate generation, grid assets, and customer services, supported by scalable APIs and secure data sharing to reduce outages and manual effort.",
+      "Across a growing roster of utility partners and energy providers, the platform delivers reliability, faster decision cycles, and measurable decarbonization impact. Customers benefit from unified operations, improved asset utilization, and enhanced customer experiences, unlocking new revenue models and resilience in a dynamic energy market."
+    ],
+    "id": "krakentech",
+    "linkedinUrl": "https://linkedin.com/company/krakentech",
+    "followers": 164300
   },
   {
-    "name": "Kraken Tech"
-  },
-  {
-    "name": "Insight Global"
-  },
-  {
-    "name": "TalentoHC"
+    "name": "Insight Global",
+    "website": "https://insightglobal.com",
+    "companySize": "1001-5000",
+    "foundedYear": 2001,
+    "industry": "Recruitment",
+    "technology": "CRM",
+    "customerTypes": ["B2B"],
+    "description": [
+      "Insight Global operates as an international talent and consulting firm focused on delivering measurable business outcomes in dynamic markets. Its core offering combines staffing and advisory services to place skilled professionals with client teams while providing workforce guidance. Primary customers are B2B organizations seeking to augment IT, engineering, and business capabilities. A differentiator is its global talent network and data-driven matching that enables rapid, scalable deployments."
+    ],
+    "id": "insight-global",
+    "linkedinUrl": "https://linkedin.com/company/insight-global",
+    "followers": 5500000
   },
   {
     "name": "Primary Talent Partners"
   },
   {
     "name": "BAE Systems, Inc."
-  },
-  {
-    "name": "Ethyca"
   },
   {
     "name": "Flagship Pioneering"

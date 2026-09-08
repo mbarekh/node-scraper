@@ -1,14 +1,14 @@
 export const MIN_FOLLOWERS_COUNT = 5_000;
 
-export const extractLinkedinId = (url: string): string | null => {
+export const extractCompanyId = (url: string): string | null => {
   if (!url) return null;
 
   const match = url.match(/linkedin\.com\/company\/([^\/?#]+)/i);
   return match?.[1]?.toLowerCase() ?? null;
 };
 
-export const getLinkedinUrl = (linkedinId: string): string => {
-  return `https://linkedin.com/company/${linkedinId}`;
+export const getLinkedinUrl = (companyId: string): string => {
+  return `https://linkedin.com/company/${companyId}`;
 };
 
 export const parseFollowersCount = (text: string) => {

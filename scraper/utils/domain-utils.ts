@@ -1,5 +1,5 @@
 export const getDomain = (url: string): string | null => {
-  if (!url) {
+  if (!url || !isValidWebsite(url)) {
     return null;
   }
   const normalized = url.startsWith("https") ? url : `https://${url}`;
@@ -7,11 +7,17 @@ export const getDomain = (url: string): string | null => {
 };
 
 export const normalizeWebsite = (url: string): string | null => {
-  if (!url) {
+  if (!url || !isValidWebsite(url)) {
     return null;
   }
   const domain = getDomain(url);
   return `https://${domain}`;
+};
+
+export const isValidWebsite = (website: string): boolean => {
+  return /^https?:\/\/[a-zA-Z0-9-]+(?:\.(?:com|fr|dev|co\.uk|io|ai|org|tech))$/.test(
+    website,
+  );
 };
 
 export const getPathName = (url: string): string => {
