@@ -4,7 +4,7 @@
     "website": "https://www.blablacar.com",
     "companySize": "501-1000",
     "foundedYear": 2006,
-    "industry": "Technology, Information and Internet",
+    "industry": "Transport",
     "technology": "Mobility Technology",
     "customerTypes": ["B2C", "B2B2C"],
     "description": [
@@ -6580,9 +6580,6 @@
     "followers": 7700
   },
   {
-    "name": "Kraken Tech"
-  },
-  {
     "name": "Q-Centrix"
   },
   {
@@ -6590,6 +6587,9 @@
   },
   {
     "name": "Turnberry Solutions"
+  },
+  {
+    "name": "Kraken Tech"
   },
   {
     "name": "Insight Global"

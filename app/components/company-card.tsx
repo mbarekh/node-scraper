@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { CompanyInfo } from "@/scraper/model/companies-model";
 import { ArrowIcon } from "./icons/arrow-icon";
 import { BriefcaseIcon } from "./icons/briefcase-icon";
@@ -33,33 +34,44 @@ export function CompanyCard({ companyInfo }: { companyInfo: CompanyInfo }) {
   const followersLabel = formatFollowers(companyInfo.followers);
   const websiteLabel = getWebsiteLabel(companyInfo.website);
 
+  console.log(`${process.cwd()}/scraper/companies/logos/${companyInfo.id}.png`);
   return (
     <article className="group relative overflow-hidden rounded-3xl border border-white/10 bg-white/[0.04] p-5 shadow-[0_28px_80px_-52px_rgba(2,6,23,0.95)] backdrop-blur-xl transition duration-300 hover:border-cyan-200/25 hover:bg-white/[0.06] sm:p-6">
       <div className="pointer-events-none absolute -right-12 -top-20 h-44 w-44 rounded-full bg-cyan-300/20 blur-3xl transition duration-500 group-hover:bg-cyan-300/30" />
       <div className="pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-cyan-100/70 to-transparent" />
 
       <div className="relative flex flex-wrap items-start justify-between gap-4">
-        <div className="space-y-2">
-          <p className="inline-flex items-center gap-1.5 rounded-full border border-white/10 bg-slate-900/60 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.16em] text-slate-300">
-            <BuildingIcon className="h-3.5 w-3.5" />
-            {companyInfo.industry}
-          </p>
-          <h2 className="text-2xl font-semibold leading-tight tracking-tight text-slate-100 sm:text-[1.85rem]">
-            {companyInfo.name}
-          </h2>
-          <p className="inline-flex flex-wrap items-center gap-2 text-xs font-semibold uppercase tracking-[0.14em] text-slate-400">
-            <span className="inline-flex items-center gap-1 rounded-full border border-emerald-200/20 bg-emerald-300/15 px-2.5 py-1 text-emerald-100">
-              <CodeIcon className="h-3.5 w-3.5" />
-              {companyInfo.technology}
-            </span>
-            <span className="inline-flex items-center gap-1 rounded-full border border-cyan-200/20 bg-cyan-300/15 px-2.5 py-1 text-cyan-100">
-              <BriefcaseIcon className="h-3.5 w-3.5" />
-              {companyInfo.companySize}
-            </span>
-            <span className="rounded-full border border-amber-200/20 bg-amber-300/15 px-2.5 py-1 text-amber-100">
-              Founded {companyInfo.foundedYear}
-            </span>
-          </p>
+        <div className="flex min-w-0 items-start gap-4">
+          <div className="relative flex h-16 w-16 shrink-0 items-center justify-center overflow-hidden rounded-2xl border border-white/10 bg-white p-2 shadow-lg shadow-slate-950/20">
+            <Image
+              src={`/api/company-logo/${encodeURIComponent(`${companyInfo.id}.png`)}`}
+              alt={`${companyInfo.name} logo`}
+              fill
+              sizes="64px"
+            />
+          </div>
+          <div className="min-w-0 space-y-2">
+            <h2 className="text-2xl font-semibold leading-tight tracking-tight text-slate-100 sm:text-[1.85rem]">
+              {companyInfo.name}
+            </h2>
+            <p className="inline-flex flex-wrap items-center gap-2 text-xs font-semibold uppercase tracking-[0.14em] text-slate-400">
+              <span className="inline-flex items-center gap-1 rounded-full border border-emerald-300/20 bg-emerald-400/15 px-2.5 py-1 text-emerald-100">
+                <BuildingIcon className="h-3.5 w-3.5" />
+                {companyInfo.industry}
+              </span>
+              <span className="inline-flex items-center gap-1 rounded-full border border-emerald-200/20 bg-emerald-300/15 px-2.5 py-1 text-emerald-100">
+                <CodeIcon className="h-3.5 w-3.5" />
+                {companyInfo.technology}
+              </span>
+              <span className="inline-flex items-center gap-1 rounded-full border border-cyan-200/20 bg-cyan-300/15 px-2.5 py-1 text-cyan-100">
+                <BriefcaseIcon className="h-3.5 w-3.5" />
+                {companyInfo.companySize}
+              </span>
+              <span className="rounded-full border border-amber-200/20 bg-amber-300/15 px-2.5 py-1 text-amber-100">
+                Founded {companyInfo.foundedYear}
+              </span>
+            </p>
+          </div>
         </div>
 
         <a
