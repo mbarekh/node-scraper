@@ -14,7 +14,7 @@ import {
   type CompanyInfo,
 } from "../model/companies-model";
 import { COMPANIES_DATA_FILES } from "./companies-utils";
-import { isValidWebsite, normalizeWebsite } from "../utils/domain-utils";
+import { isValidWebsite } from "../utils/domain-utils";
 
 export const scrapeCompaniesInfo = async ({
   updatedCompaniesCount,

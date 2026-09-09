@@ -1,22 +1,22 @@
 export const getDomain = (url: string): string | null => {
-  if (!url || !isValidWebsite(url)) {
+  if (!isValidWebsite(url)) {
     return null;
   }
-  const normalized = url.startsWith("https") ? url : `https://${url}`;
-  return new URL(normalized).hostname.replace(/^www\./, "");
+  return new URL(normalizeWebsite(url)!).hostname;
 };
 
 export const normalizeWebsite = (url: string): string | null => {
-  if (!url || !isValidWebsite(url)) {
+  if (!isValidWebsite(url)) {
     return null;
   }
-  const domain = getDomain(url);
-  return `https://${domain}`;
+  url = url.replace(/^(https?:\/\/)?(www\.)?/, "");
+  const normalizedUrl = `https://${url}`;
+  return normalizedUrl;
 };
 
-export const isValidWebsite = (website: string): boolean => {
-  return /^https?:\/\/[a-zA-Z0-9-]+(?:\.(?:com|fr|dev|co\.uk|io|ai|org|tech))$/.test(
-    website,
+export const isValidWebsite = (url: string): boolean => {
+  return /^(https?:\/\/)?(www\.)?([a-zA-Z0-9:#-]+\.)+[a-zA-Z]{2,6}(\/[a-zA-Z0-9._~:/?#\[\]@!$&'()*+,;=-]*)?$/i.test(
+    url,
   );
 };
 
@@ -36,7 +36,7 @@ export const hasId = (url: string = ""): boolean => {
 };
 
 export const getCompanyName = (url: string): string => {
-  const hostname = new URL(url).hostname.replace(/^www\./, "");
+  const hostname = new URL(normalizeWebsite(url)!).hostname;
   return hostname.split(".")?.[0] ?? "";
 };
 

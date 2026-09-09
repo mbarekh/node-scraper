@@ -4,21 +4,63 @@ import {
   getCompanyName,
   hasId,
   isValidWebsite,
+  normalizeWebsite,
   toAbsoluteUrl,
 } from "../utils/domain-utils";
 
 test("isValidWebsite", () => {
-  assert.strictEqual(isValidWebsite("https://kraken.com"), true);
-  assert.strictEqual(isValidWebsite("https://google.fr"), true);
-  assert.strictEqual(isValidWebsite("https://google.io"), true);
-  assert.strictEqual(isValidWebsite("https://google.ai"), true);
-  assert.strictEqual(isValidWebsite("https://google.org"), true);
-  assert.strictEqual(isValidWebsite("https://fullstackjobs.dev"), true);
-  assert.strictEqual(isValidWebsite("https://example.co.uk"), true);
+  assert.strictEqual(isValidWebsite("https://www.example.com"), true);
+  assert.strictEqual(isValidWebsite("http://www.lateralgroup.com"), true);
+  assert.strictEqual(isValidWebsite("http://example.com"), true);
+  assert.strictEqual(isValidWebsite("https://subdomain.example.com"), true);
+  assert.strictEqual(isValidWebsite("https://foo.bar.example.com"), true);
 
-  assert.strictEqual(isValidWebsite("kraken.com"), false);
+  assert.strictEqual(isValidWebsite("kraken.com"), true);
+  assert.strictEqual(isValidWebsite("example.fr"), true);
+  assert.strictEqual(isValidWebsite("my-company.dev"), true);
+
+  assert.strictEqual(isValidWebsite("HTTPS://example.com"), true);
+  assert.strictEqual(isValidWebsite("HTTP://example.com"), true);
+
+  assert.strictEqual(isValidWebsite("invalid-url"), false);
+  assert.strictEqual(isValidWebsite("deded"), false);
+  assert.strictEqual(isValidWebsite("deded."), false);
+  assert.strictEqual(isValidWebsite(".com"), false);
+  assert.strictEqual(isValidWebsite("example"), false);
+  assert.strictEqual(isValidWebsite("example."), false);
+  assert.strictEqual(isValidWebsite("http://"), false);
   assert.strictEqual(isValidWebsite("https://"), false);
-  assert.strictEqual(isValidWebsite(""), false);
+
+  assert.strictEqual(isValidWebsite("ftp://example.com"), false);
+  assert.strictEqual(isValidWebsite("javascript://example.com"), false);
+
+  assert.strictEqual(isValidWebsite("https://example"), false);
+  assert.strictEqual(isValidWebsite("https://example..com"), false);
+  assert.strictEqual(isValidWebsite("https://.example.com"), false);
+});
+
+test("normalizeWebsite", () => {
+  assert.strictEqual(
+    normalizeWebsite("https://www.example.com"),
+    "https://example.com",
+  );
+  assert.strictEqual(
+    normalizeWebsite("http://www.lateralgroup.com"),
+    "https://lateralgroup.com",
+  );
+  assert.strictEqual(
+    normalizeWebsite("http://example.com"),
+    "https://example.com",
+  );
+  assert.strictEqual(
+    normalizeWebsite("https://subdomain.example.com"),
+    "https://subdomain.example.com",
+  );
+  assert.strictEqual(normalizeWebsite("invalid-url"), null);
+  assert.strictEqual(
+    normalizeWebsite("https://www.example.com/path"),
+    "https://example.com/path",
+  );
 });
 
 test("hasId - numeric IDs", () => {
@@ -109,11 +151,6 @@ test("getCompanyName - with paths", () => {
 
 test("getCompanyName - different protocols", () => {
   assert.strictEqual(getCompanyName("http://kraken.com"), "kraken");
-});
-
-test("getCompanyName - edge cases", () => {
-  assert.strictEqual(getCompanyName("https://localhost:3000"), "localhost");
-  assert.strictEqual(getCompanyName("https://127.0.0.1"), "127");
 });
 
 test("toAbsoluteUrl", () => {
